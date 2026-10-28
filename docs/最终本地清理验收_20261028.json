@@ -1,0 +1,131 @@
+{
+  "cleanup": {
+    "status": "PASS",
+    "deleted_files": 4587,
+    "deleted_temporary_files": 4584,
+    "deleted_sqlite_files": 3,
+    "deleted_logical_bytes": 77096696832,
+    "removed_empty_temporary_directories": 1316,
+    "free_before_deletion": {
+      "D": 840097792,
+      "E": 27409481728,
+      "F": 12698578944,
+      "C": 2181226496
+    },
+    "free_after_deletion": {
+      "D": 18668118016,
+      "E": 59651895296,
+      "F": 19060510720,
+      "C": 8113139712
+    },
+    "gross_measured_release_bytes": 62364278784,
+    "net_free_increase_since_turn_start_bytes": 60302970880,
+    "original_zip_retained": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\delivery\\final_bundle_v1\\完整实验与新增补充_含原始记录_中文图表_drawio_复现环境_20261021.zip",
+    "archive_key_retained_separately": true,
+    "combined_recovery_rows": 8309,
+    "shared_docker_wsl_conda_deleted": false,
+    "manifest_sha256": "41b25ab5787dc82e3adb764a2ff217bd613ca8927cfd09deaa287d9bbf08a45f",
+    "completed_local": "2026-10-28T15:15:13.2907224+08:00"
+  },
+  "verification": {
+    "status": "PASS",
+    "all_deletion_targets_absent": true,
+    "retained_E_unique_files_sha256_verified": 708,
+    "retained_original_zip_sha256": "d56088ac170471b1b82e7284fd117fc197ce72d8a171dfa549b01edc35f2cee5",
+    "separate_key_still_present": true,
+    "index_payload_decoded_after_deletion": {
+      "bytes": 2025136128,
+      "sha256": "d5ce514184069b583d7a54f5bdea4ee83307b557345cdbad023a05e900d1835e"
+    },
+    "combined_recovery_rows": 8309,
+    "retained_sources_outside_cumulative_deletion_set": true,
+    "post_cleanup_restore_samples": {
+      "status": "PASS",
+      "restored_files": 4,
+      "restored_bytes": 376,
+      "original_paths_overwritten": false,
+      "files": [
+        {
+          "original_path": "E:\\codex_rebuilds\\dependency_stage_v3\\runtime_source\\src\\agent_runtime.egg-info\\dependency_links.txt",
+          "restored_path": "F:\\codex\\多agent系统架构-软件学报\\.local\\final_cleanup_20261028_v1\\post_cleanup_restore_probe\\E\\codex_rebuilds\\dependency_stage_v3\\runtime_source\\src\\agent_runtime.egg-info\\dependency_links.txt",
+          "bytes": 1,
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "decision": "B_E_duplicate_of_retained_F"
+        },
+        {
+          "original_path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\delivery\\final_bundle_v1\\完整实验与新增补充_含原始记录_中文图表_drawio_复现环境_20261021\\original_corrected_study\\calibration\\controller_lifecycle_v1\\controller_interrupted\\manifests\\formal-freeze.json",
+          "restored_path": "F:\\codex\\多agent系统架构-软件学报\\.local\\final_cleanup_20261028_v1\\post_cleanup_restore_probe\\F\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\delivery\\final_bundle_v1\\完整实验与新增补充_含原始记录_中文图表_drawio_复现环境_20261021\\original_corrected_study\\calibration\\controller_lifecycle_v1\\controller_interrupted\\manifests\\formal-freeze.json",
+          "bytes": 2,
+          "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "decision": "A_archive_backed_expanded_copy"
+        },
+        {
+          "original_path": "E:\\codex_rebuilds\\corrected_postrun_v2\\reference\\virtual\\evidence\\protocol_repair_20261020_v1\\report_adapter_v1\\appendix\\external_equivalence_findings.json",
+          "restored_path": "F:\\codex\\多agent系统架构-软件学报\\.local\\final_cleanup_20261028_v1\\post_cleanup_restore_probe\\E\\codex_rebuilds\\corrected_postrun_v2\\reference\\virtual\\evidence\\protocol_repair_20261020_v1\\report_adapter_v1\\appendix\\external_equivalence_findings.json",
+          "bytes": 3,
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+          "decision": "C_E_duplicate_of_retained_E"
+        },
+        {
+          "original_path": "E:\\codex_rebuilds\\completion_20261021_v1\\stress_ci\\host_prelaunch_correction_v1\\failure_receipt.json",
+          "restored_path": "F:\\codex\\多agent系统架构-软件学报\\.local\\final_cleanup_20261028_v1\\post_cleanup_restore_probe\\E\\codex_rebuilds\\completion_20261021_v1\\stress_ci\\host_prelaunch_correction_v1\\failure_receipt.json",
+          "bytes": 370,
+          "sha256": "fe699b50ad93f5ec4aba9596454ea43ffdc2389bfae6f201d2d0edb75c83513d",
+          "decision": "B_E_duplicate_in_retained_zip"
+        }
+      ]
+    },
+    "post_cleanup_core_tests": {
+      "exit_code": 0,
+      "summary": "........................................................................ [ 90%]\r\n........                                                                 [100%]\r\n80 passed in 1.43s\r\n",
+      "imported_module": "F:\\codex\\多agent系统架构-软件学报\\final-submit\\src\\src\\agent_runtime\\__init__.py"
+    },
+    "protected_shared_disks": [
+      {
+        "path": "F:\\DockerData\\wsl-resources\\swap.vhdx",
+        "still_present": true,
+        "bytes": 5242880
+      },
+      {
+        "path": "F:\\DockerData\\main\\ext4.vhdx",
+        "still_present": true,
+        "bytes": 100663296
+      },
+      {
+        "path": "F:\\DockerData\\disk\\docker_data.vhdx",
+        "still_present": true,
+        "bytes": 11555307520
+      },
+      {
+        "path": "E:\\WSLDistros\\Ubuntu\\ext4.vhdx",
+        "still_present": true,
+        "bytes": 8817475584
+      }
+    ],
+    "paid_model_calls": 0,
+    "completed_local": "2026-10-28T15:15:33+0800"
+  },
+  "cloud_evidence": [
+    {
+      "recordId": "f7c08605-7b2d-4941-aca5-123c48664481",
+      "fileId": "152b4dd64d1541829207c6a6fb6ffff1",
+      "fileName": "最终本地清理说明_20261028.txt",
+      "fileSize": 922,
+      "instantUpload": false
+    },
+    {
+      "recordId": "14e64c30-c7ae-4db2-bfe4-e3072eeb5f6c",
+      "fileId": "9297d6e5b892476cb4f6114b00080aa6",
+      "fileName": "最终本地清理记录_SHA256.txt",
+      "fileSize": 120,
+      "instantUpload": false
+    },
+    {
+      "recordId": "1e99031d-47ae-4ce2-b916-9660007c79eb",
+      "fileId": "084582bfe58445dfa5260a2c07800d76",
+      "fileName": "最终本地清理与累计恢复记录_20261028.zip",
+      "fileSize": 1048310,
+      "instantUpload": false
+    }
+  ]
+}
