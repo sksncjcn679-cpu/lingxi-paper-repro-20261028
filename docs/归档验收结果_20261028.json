@@ -1,0 +1,197 @@
+{
+  "status": "PASS",
+  "completed_local": "2026-10-28T14:39:03+0800",
+  "github": {
+    "status": "PASS",
+    "url": "https://github.com/sksncjcn679-cpu/lingxi-paper-repro-20261028",
+    "private": true,
+    "branch": "main",
+    "commit": "c8af75f06ef491c6dfa0b240cf3a1ae41b2f8636",
+    "tag": "paper-archive-20261028-v2",
+    "verified_git_blobs": 2753,
+    "bytes": 62790955,
+    "secret_scan_pass": true,
+    "security_excluded_files": [],
+    "original_worktree_modified": false,
+    "uploaded_at": "2026-10-28T11:10:09+0800"
+  },
+  "github_recovery_docs": {
+    "status": "PASS",
+    "commit": "c2752a9ad6f63702bd77d29eedfbd14d0ed3df41",
+    "tag": "backup-recovery-format-20261028-v3",
+    "url": "https://github.com/sksncjcn679-cpu/lingxi-paper-repro-20261028",
+    "scientific_source_tag_unchanged": "paper-archive-20261028-v2",
+    "restore_tool_sha256": "3d55aced4206db4d9572ca4092a62eec721084c7d1d1b278b46558d1bbcadfeb"
+  },
+  "snapshot": {
+    "snapshot_id": "lingxi_paper_20261028_v1",
+    "created_local": "2026-10-28T11:02:27+0800",
+    "files": 69180,
+    "directories": 6801,
+    "logical_bytes": 89126894702,
+    "unique_blobs": 48005,
+    "unique_bytes": 37619360525,
+    "fresh_hashes": 27251,
+    "cached_hashes": 41929,
+    "errors": 0,
+    "missing_optional_sources": [
+      {
+        "root_id": "REFERENCE_STYLE",
+        "path": "E:\\xwechat_files\\wxid_isc4w98f5mlm22_5004\\temp\\RWTemp\\2026-10\\b973444089e7db86f7fc818dca94ad03\\d113ebb878368a781a4cd84e807eed15.jpg"
+      },
+      {
+        "root_id": "REFERENCE_FIGURE5",
+        "path": "E:\\xwechat_files\\wxid_isc4w98f5mlm22_5004\\temp\\RWTemp\\2026-10\\b973444089e7db86f7fc818dca94ad03\\eeb4900380a622be60ae8cb94090e9f4.jpg"
+      }
+    ],
+    "no_local_deletion": true,
+    "shared_disks_included": true
+  },
+  "root_coverage": {
+    "F_PROJECT": {
+      "files": 35685,
+      "bytes": 35891945564
+    },
+    "E_REBUILDS": {
+      "files": 6255,
+      "bytes": 31733116045
+    },
+    "F_DOCKER_DATA": {
+      "files": 3,
+      "bytes": 11661213696
+    },
+    "E_WSL_DISTROS": {
+      "files": 1,
+      "bytes": 8817475584
+    },
+    "E_CONDA_ENV": {
+      "files": 27232,
+      "bytes": 1016025666
+    },
+    "C_GENERATED_IMAGES": {
+      "files": 1,
+      "bytes": 1447908
+    },
+    "ORIGINAL_MANUSCRIPT": {
+      "files": 1,
+      "bytes": 5436623
+    },
+    "REFERENCE_COMMENTS": {
+      "files": 1,
+      "bytes": 222202
+    },
+    "PASTED_PROVIDER_DOC": {
+      "files": 1,
+      "bytes": 11414
+    }
+  },
+  "upload": {
+    "status": "PASS",
+    "files": 285,
+    "bytes": 13309564220,
+    "cloud_paths": [
+      "夸克网盘/来自：Codex/灵犀栈_论文复现完整归档_20261028_v3_48MiB"
+    ],
+    "method": "Official CLI, maximum two processes, one object per process, at most 64 MiB per object",
+    "all_cloud_object_byte_counts_match": true,
+    "no_original_file_deleted": true
+  },
+  "cloud_roundtrip": {
+    "status": "PASS",
+    "verified_files": 285,
+    "verified_bytes": 13309564220
+  },
+  "full_cloud_decode": {
+    "status": "PASS",
+    "snapshot_id": "lingxi_paper_20261028_v1",
+    "encrypted_parts": 19,
+    "verified_unique_blobs": 48005,
+    "covered_files": 69180,
+    "covered_logical_bytes": 89126894702,
+    "decoded_unique_bytes": 37619360525,
+    "all_original_paths_covered": true,
+    "all_encrypted_parts_sha256_pass": true,
+    "all_decoded_blob_sha256_pass": true,
+    "source_files_deleted": false
+  },
+  "actual_restoration_samples": [
+    {
+      "status": "PASS",
+      "restored_files": 313,
+      "destination": "E:\\codex_uploads\\lingxi_paper_20261028_v1\\cloud_actual_restore_source",
+      "scope": "F_PROJECT/final-submit/src"
+    },
+    {
+      "status": "PASS",
+      "restored_files": 3,
+      "destination": "E:\\codex_uploads\\lingxi_paper_20261028_v1\\cloud_actual_restore_image",
+      "scope": "F_PROJECT/paper_experiments_20261021_completion_v1/delivery/runtime_v1"
+    },
+    {
+      "status": "PASS",
+      "restored_files": 8,
+      "destination": "E:\\codex_uploads\\lingxi_paper_20261028_v1\\cloud_actual_restore_main_analysis",
+      "scope": "F_PROJECT/paper_experiments_20261021_completion_v1/main_batch/analysis/main_postrun_v1/outputs/analysis"
+    },
+    {
+      "status": "PASS",
+      "restored_files": 8,
+      "destination": "E:\\codex_uploads\\lingxi_paper_20261028_v1\\cloud_actual_restore_replay_analysis",
+      "scope": "F_PROJECT/paper_experiments_20261021_completion_v1/analysis/reproduction_check_v1/outputs/analysis"
+    }
+  ],
+  "fixed_image_sha256": "086c5b13fa7735a2546fedcae540e97b3f05af10a234b30c8047455f015b0198",
+  "verified_fixed_OCI_blobs": 12,
+  "restored_core_tests": {
+    "exit_code": 0,
+    "summary": "........................................................................ [ 90%]\r\n........                                                                 [100%]\r\n80 passed in 2.21s\r\n",
+    "imported_module_path": "E:\\codex_uploads\\lingxi_paper_20261028_v1\\cloud_actual_restore_source\\F_PROJECT\\final-submit\\src\\src\\agent_runtime\\__init__.py",
+    "environment": "Original Windows .venv; actual cloud-restored source"
+  },
+  "saved_prior_reproduction_six_outputs": [
+    {
+      "file": "normalized_task_runs.jsonl",
+      "sha256": "15832d8a89bc475e2b5c3a17c5b0c0bb1a5106d947ed1058ad3ffacacea32e70",
+      "byte_identical": true
+    },
+    {
+      "file": "attempt_acceptance.jsonl",
+      "sha256": "135d38db95f3e08401a5cab0ed458dcd5987c4c10e06281310f96f318f382f36",
+      "byte_identical": true
+    },
+    {
+      "file": "derived_aggregation_changes.json",
+      "sha256": "48393ca6c485f48c2ad4146372da05ab7ccae68740485fee7849c013ca888b97",
+      "byte_identical": true
+    },
+    {
+      "file": "formal_primary_v3.json",
+      "sha256": "0d2a464abf7c756160550255add1dc79c3c5971aa266f36f20f7efddd5d4bac0",
+      "byte_identical": true
+    },
+    {
+      "file": "figure_04.csv",
+      "sha256": "5c9721ffdf1d94b578c663be090b4b91e68584abbbda5474c2479dbb3ae56993",
+      "byte_identical": true
+    },
+    {
+      "file": "observed_by_arm.csv",
+      "sha256": "b96118df6021adf03bdb4e806d38484fd213137f73688e7cf2267bf645898ef3",
+      "byte_identical": true
+    }
+  ],
+  "scope": "Complete backup content recovery verified. Original paper experiments and paid model calls were not rerun.",
+  "paid_model_calls": 0,
+  "original_files_deleted": false,
+  "missing_preexisting_optional_files": [
+    {
+      "root_id": "REFERENCE_STYLE",
+      "path": "E:\\xwechat_files\\wxid_isc4w98f5mlm22_5004\\temp\\RWTemp\\2026-10\\b973444089e7db86f7fc818dca94ad03\\d113ebb878368a781a4cd84e807eed15.jpg"
+    },
+    {
+      "root_id": "REFERENCE_FIGURE5",
+      "path": "E:\\xwechat_files\\wxid_isc4w98f5mlm22_5004\\temp\\RWTemp\\2026-10\\b973444089e7db86f7fc818dca94ad03\\eeb4900380a622be60ae8cb94090e9f4.jpg"
+    }
+  ],
+  "archive_key_uploaded": false
+}
