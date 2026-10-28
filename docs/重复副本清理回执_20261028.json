@@ -1,0 +1,82 @@
+{
+  "cleanup": {
+    "status": "PASS",
+    "deleted_files": 8306,
+    "deleted_logical_bytes": 40280039027,
+    "estimated_released_allocated_bytes": 40290875448,
+    "free_before": {
+      "E": 463175680,
+      "F": 3746496512
+    },
+    "free_after": {
+      "E": 29439180800,
+      "F": 15058485248
+    },
+    "measured_free_increase_bytes": 40287993856,
+    "manifest_sha256": "644c017094759b3ed199e6fe3e5fba964976ca3898b647b0e124616175123013",
+    "cloud_full_recovery_passed_before_deletion": true,
+    "retained_sources_verified": 1010,
+    "optional_sqlite_deleted": false,
+    "shared_virtual_disks_deleted": false,
+    "transfer_temporary_files_deleted": false,
+    "completed_local": "2026-10-28T14:41:47.9840049+08:00"
+  },
+  "post_cleanup_recovery": {
+    "status": "PASS",
+    "all_8306_deleted_paths_absent": true,
+    "retained_unique_E_files_sha256_verified": 708,
+    "actual_post_deletion_restoration": {
+      "status": "PASS",
+      "restored_files": 4,
+      "original_paths_overwritten": false,
+      "files": [
+        {
+          "original_path": "E:\\codex_rebuilds\\dependency_stage_v3\\runtime_source\\src\\agent_runtime.egg-info\\dependency_links.txt",
+          "restored_path": "E:\\codex_uploads\\lingxi_paper_20261028_v1\\cleanup_restore_probe_after_deletion_v1\\E\\codex_rebuilds\\dependency_stage_v3\\runtime_source\\src\\agent_runtime.egg-info\\dependency_links.txt",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+          "bytes": 1,
+          "decision": "B_E_duplicate_of_retained_F"
+        },
+        {
+          "original_path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\delivery\\final_bundle_v1\\完整实验与新增补充_含原始记录_中文图表_drawio_复现环境_20261021\\original_corrected_study\\calibration\\controller_lifecycle_v1\\controller_interrupted\\manifests\\formal-freeze.json",
+          "restored_path": "E:\\codex_uploads\\lingxi_paper_20261028_v1\\cleanup_restore_probe_after_deletion_v1\\F\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\delivery\\final_bundle_v1\\完整实验与新增补充_含原始记录_中文图表_drawio_复现环境_20261021\\original_corrected_study\\calibration\\controller_lifecycle_v1\\controller_interrupted\\manifests\\formal-freeze.json",
+          "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "bytes": 2,
+          "decision": "A_archive_backed_expanded_copy"
+        },
+        {
+          "original_path": "E:\\codex_rebuilds\\corrected_postrun_v2\\reference\\virtual\\evidence\\protocol_repair_20261020_v1\\report_adapter_v1\\appendix\\external_equivalence_findings.json",
+          "restored_path": "E:\\codex_uploads\\lingxi_paper_20261028_v1\\cleanup_restore_probe_after_deletion_v1\\E\\codex_rebuilds\\corrected_postrun_v2\\reference\\virtual\\evidence\\protocol_repair_20261020_v1\\report_adapter_v1\\appendix\\external_equivalence_findings.json",
+          "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+          "bytes": 3,
+          "decision": "C_E_duplicate_of_retained_E"
+        },
+        {
+          "original_path": "E:\\codex_rebuilds\\completion_20261021_v1\\stress_ci\\host_prelaunch_correction_v1\\failure_receipt.json",
+          "restored_path": "E:\\codex_uploads\\lingxi_paper_20261028_v1\\cleanup_restore_probe_after_deletion_v1\\E\\codex_rebuilds\\completion_20261021_v1\\stress_ci\\host_prelaunch_correction_v1\\failure_receipt.json",
+          "sha256": "fe699b50ad93f5ec4aba9596454ea43ffdc2389bfae6f201d2d0edb75c83513d",
+          "bytes": 370,
+          "decision": "B_E_duplicate_in_retained_zip"
+        }
+      ]
+    },
+    "completed_local": "2026-10-28T14:42:33+0800"
+  },
+  "cloud_files": [
+    {
+      "recordId": "8073878f-3e67-49ac-b169-18769a5bcb6a",
+      "fileId": "70ee91b816674896924efc3b6bfb98bc",
+      "fileName": "重复副本清理记录_SHA256.txt",
+      "fileSize": 114,
+      "instantUpload": false
+    },
+    {
+      "recordId": "2d587ae4-a3d2-40b4-a6f0-f452b3730575",
+      "fileId": "e75957a445404e6d95f9e789c1818619",
+      "fileName": "重复副本清理与恢复记录_20261028.zip",
+      "fileSize": 1167435,
+      "instantUpload": false
+    }
+  ],
+  "recovery_mapping_package_sha256": "60d8c339c86bdef3a8fecae3ca8f4fb18fc9dfd91392192161f60bdcffe34c1f"
+}

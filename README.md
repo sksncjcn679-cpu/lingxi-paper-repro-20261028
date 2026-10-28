@@ -25,3 +25,5 @@ GitHub 不是完整数据备份。大型数据、审计原文、模型响应、�
 完整网盘归档采用 v3 的 48 MiB 小分片。恢复时须取得全部 `.qkseg` 与清单，详细步骤见 [完整归档恢复说明](docs/完整归档恢复说明_20261028.md)。仓库内也提供 `backup_tools/restore_backup.py`。
 
 完整归档的云端回读与恢复验收已完成，见 [上传与恢复验收](docs/上传与恢复验收_20261028.md)。
+
+2026-10-28 经用户确认，仅清理 8,306 个重复副本，约 40.29 GB；完整云端恢复验收先于删除。清理回执见 docs/重复副本清理回执_20261028.json。恢复映射和工具见 backup_tools/重复副本清理与恢复记录_20261028.zip；解压后运行 `python restore_cleaned_duplicates.py --manifest approved_manifest.json --destination 全新恢复目录`，按 restored_paths.json 映射还原历史路径。
