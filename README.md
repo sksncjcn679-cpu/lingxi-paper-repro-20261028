@@ -29,3 +29,5 @@ GitHub 不是完整数据备份。大型数据、审计原文、模型响应、�
 2026-10-28 经用户确认，仅清理 8,306 个重复副本，约 40.29 GB；完整云端恢复验收先于删除。清理回执见 docs/重复副本清理回执_20261028.json。恢复映射和工具见 backup_tools/重复副本清理与恢复记录_20261028.zip；解压后运行 `python restore_cleaned_duplicates.py --manifest approved_manifest.json --destination 全新恢复目录`，按 restored_paths.json 映射还原历史路径。
 
 最终本地清理已完成：上传/回读临时副本及三个可恢复索引已移除。详见 docs/最终本地清理说明_20261028.txt。累计 8,309 个历史路径请使用 backup_tools/最终本地清理与累计恢复记录_20261028.zip 内的新合并清单和 restore_cleanup_history.py；原有记录保留。
+
+现存本地项目文件和共享环境已完成云端覆盖核对，补充工具与清理后新增记录已加密追加到夸克。详见 docs/本地保留内容云端覆盖说明_20261028.txt；本地原件保留。

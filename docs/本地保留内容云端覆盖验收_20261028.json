@@ -1,0 +1,111 @@
+{
+  "status": "PASS",
+  "snapshot_cutoff_local": "2026-10-28T15:23:35+0800",
+  "existing_files_covered_by_original_archive": 60871,
+  "additional_files": 6181,
+  "additional_logical_bytes": 376197511,
+  "current_total_files": 67052,
+  "encrypted_addendum_bytes": 188863312,
+  "uploaded_objects": 8,
+  "cloud_objects": [
+    {
+      "recordId": "43b878de-33c3-4508-aa07-bd3cdeefefd7",
+      "fileId": "eedb08fb48b549aaa4567290f8ff1793",
+      "fileName": "local-retained-addendum-20261028-v1.segment-0002.qkseg",
+      "fileSize": 50331648,
+      "instantUpload": false,
+      "sha256": "b8305c554728a7b55c0818074903574afcf4dfcde0ca170c4a0b35e17bef6cfd",
+      "cloud_readback_sha256_pass": true,
+      "cloud_full_path": "夸克网盘/来自：Codex/灵犀栈_论文复现完整归档_20261028_v3_48MiB"
+    },
+    {
+      "recordId": "1beb4f0b-ded1-4629-be2b-bc6340b493f5",
+      "fileId": "b12b981a385644e3a6f45584ada9fdbe",
+      "fileName": "local-retained-addendum-20261028-v1.segment-0001.qkseg",
+      "fileSize": 50331648,
+      "instantUpload": false,
+      "sha256": "ca420131e43b3272b4e96c89c3fa9f9043c7064bafc952d9faa644b6902519a1",
+      "cloud_readback_sha256_pass": true,
+      "cloud_full_path": "夸克网盘/来自：Codex/灵犀栈_论文复现完整归档_20261028_v3_48MiB"
+    },
+    {
+      "recordId": "97f9d718-77c0-435f-9ae6-3dd16dbfe3e2",
+      "fileId": "82eb2f0f709b4812aaab37fcb8ab9a18",
+      "fileName": "local-retained-addendum-20261028-v1.segment-0004.qkseg",
+      "fileSize": 37868368,
+      "instantUpload": false,
+      "sha256": "7d2a3003fdbdfbcb9553457e3c44e8be12d6fad58641debbcc184956bbc549a2",
+      "cloud_readback_sha256_pass": true,
+      "cloud_full_path": "夸克网盘/来自：Codex/灵犀栈_论文复现完整归档_20261028_v3_48MiB"
+    },
+    {
+      "recordId": "4c3bec29-4be4-44f4-b156-533350935c64",
+      "fileId": "fd6084ec23704df098080c62c2154ca6",
+      "fileName": "local-retained-addendum-20261028-v1.segment-0003.qkseg",
+      "fileSize": 50331648,
+      "instantUpload": false,
+      "sha256": "517837af3a1f649e371555a674c8814f5d480d1e5185399163b059138c7439a6",
+      "cloud_readback_sha256_pass": true,
+      "cloud_full_path": "夸克网盘/来自：Codex/灵犀栈_论文复现完整归档_20261028_v3_48MiB"
+    },
+    {
+      "recordId": "cd773459-86fc-451a-bd3d-76339abc4ef0",
+      "fileId": "abdf4cfc27b0439b952d013d991df35a",
+      "fileName": "LOCAL_RETAINED_ADDENDUM_SHA256_20261028.txt",
+      "fileSize": 803,
+      "instantUpload": false,
+      "sha256": "560d61c83cfdd04c8f0673d9b1da7f93b4d29374457e488d3d7f216b632e91ee",
+      "cloud_readback_sha256_pass": true,
+      "cloud_full_path": "夸克网盘/来自：Codex/灵犀栈_论文复现完整归档_20261028_v3_48MiB"
+    },
+    {
+      "recordId": "d1065811-c5e9-44fc-b98f-f4ab1b50d6ea",
+      "fileId": "ba75e793a1fc405490d7d6d1059e00d7",
+      "fileName": "LOCAL_RETAINED_ADDENDUM_20261028.json",
+      "fileSize": 1216,
+      "instantUpload": false,
+      "sha256": "1c8eeba45e28d7ff17565c5660301348c20c6d3f36cdb189535f3ce28947072c",
+      "cloud_readback_sha256_pass": true,
+      "cloud_full_path": "夸克网盘/来自：Codex/灵犀栈_论文复现完整归档_20261028_v3_48MiB"
+    },
+    {
+      "recordId": "b5ad9a5b-4ac4-44b7-b67b-df336baeac5a",
+      "fileId": "97f5afcf24af4dd8876cd7c43c3dd36e",
+      "fileName": "restore_local_addendum.py",
+      "fileSize": 4586,
+      "instantUpload": false,
+      "sha256": "40a2e25f8178d64fa8958e58c05533b5871bc49c4b88d80ba12467f4cfffcfe9",
+      "cloud_readback_sha256_pass": true,
+      "cloud_full_path": "夸克网盘/来自：Codex/灵犀栈_论文复现完整归档_20261028_v3_48MiB"
+    },
+    {
+      "recordId": "f21de747-4198-401b-a91e-bc8bf826960a",
+      "fileId": "fc73af7afa84410cba3e2e2fa4c0d05b",
+      "fileName": "本地保留内容补充归档说明_20261028.txt",
+      "fileSize": 725,
+      "instantUpload": false,
+      "sha256": "c928df793831a6120991346ab18b8cf30b2378e4c4a7ef53477b291c8610bc74",
+      "cloud_readback_sha256_pass": true,
+      "cloud_full_path": "夸克网盘/来自：Codex/灵犀栈_论文复现完整归档_20261028_v3_48MiB"
+    }
+  ],
+  "full_cloud_AES_verification": {
+    "status": "PASS",
+    "verified_files": 6181,
+    "verified_bytes": 376197511,
+    "all_segment_sha256_pass": true,
+    "all_AES_plaintext_sha256_pass": true,
+    "destination": null
+  },
+  "actual_cloud_restoration": {
+    "status": "PASS",
+    "verified_files": 6181,
+    "verified_bytes": 376197511,
+    "all_segment_sha256_pass": true,
+    "all_AES_plaintext_sha256_pass": true,
+    "destination": "E:\\codex_upload_additions\\lingxi_retained_20261028_v1\\actual_cloud_restoration"
+  },
+  "original_files_deleted_this_turn": false,
+  "archive_key_uploaded": false,
+  "completed_local": "2026-10-28T15:29:40+0800"
+}

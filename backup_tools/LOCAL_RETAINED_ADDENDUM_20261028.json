@@ -1,0 +1,32 @@
+{
+  "base_snapshot_id": "lingxi_paper_20261028_v1",
+  "format": "AES256_ZIP_48MiB_SEGMENTS_V1",
+  "payload_files": 6181,
+  "payload_bytes": 376197511,
+  "current_existing_files": 67052,
+  "current_files_covered_by_original_archive": 60871,
+  "segments": [
+    {
+      "name": "local-retained-addendum-20261028-v1.segment-0001.qkseg",
+      "bytes": 50331648,
+      "sha256": "ca420131e43b3272b4e96c89c3fa9f9043c7064bafc952d9faa644b6902519a1"
+    },
+    {
+      "name": "local-retained-addendum-20261028-v1.segment-0002.qkseg",
+      "bytes": 50331648,
+      "sha256": "b8305c554728a7b55c0818074903574afcf4dfcde0ca170c4a0b35e17bef6cfd"
+    },
+    {
+      "name": "local-retained-addendum-20261028-v1.segment-0003.qkseg",
+      "bytes": 50331648,
+      "sha256": "517837af3a1f649e371555a674c8814f5d480d1e5185399163b059138c7439a6"
+    },
+    {
+      "name": "local-retained-addendum-20261028-v1.segment-0004.qkseg",
+      "bytes": 37868368,
+      "sha256": "7d2a3003fdbdfbcb9553457e3c44e8be12d6fad58641debbcc184956bbc549a2"
+    }
+  ],
+  "encrypted_archive_sha256": "e5ccd25531b0401d740e182952f29f4349c4b71860dca51d0568c68fb639a8ba",
+  "snapshot_cutoff_local": "2026-10-28T15:23:35+0800"
+}
