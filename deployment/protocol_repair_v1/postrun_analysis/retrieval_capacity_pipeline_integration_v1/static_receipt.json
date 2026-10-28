@@ -1,0 +1,140 @@
+{
+  "schema_version": "retrieval-capacity-pipeline-integration-static-v1",
+  "status": "SOURCE_PREPARED_NOT_EXECUTED",
+  "created_utc": "2026-10-20T11:28:30.037166+00:00",
+  "parent_controller_sha256": "90b5d5312e695ed11e19b39d6031669aac068fa271526a6af63e1e70756762dc",
+  "files": {
+    "postrun_rebuild.py": {
+      "sha256": "0da959404ce9eff3c114fe06dfc4cbfae40e7a4db1248bfbf3d7b402b3dccadc",
+      "bytes": 61836,
+      "AST_syntax": "PASS",
+      "example_approval_matches": true
+    },
+    "offline_analysis_runner.py": {
+      "sha256": "05ff9afb5326a36a5535bc2927ce6a350dd8a332357597c135766d33923a7076",
+      "bytes": 8261,
+      "AST_syntax": "PASS",
+      "example_approval_matches": true
+    },
+    "full_metric_audit.py": {
+      "sha256": "0d9a564522c8e61bf9ed19c143ad7a452415ae721d349fc62aaef79edfbc34cf",
+      "bytes": 72541,
+      "AST_syntax": "PASS",
+      "example_approval_matches": true
+    },
+    "secondary_heterogeneity.py": {
+      "sha256": "0b3c25faba54d566c105e7faba227f0f1c25807852ea3c550068d023545844e8",
+      "bytes": 32200,
+      "AST_syntax": "PASS",
+      "example_approval_matches": true
+    },
+    "retrieval_postrun_analysis_v1.py": {
+      "sha256": "e73e5633cac1ba3428e0d2b3d145fcff4f94417ea0eb00fb72a29d4a06103524",
+      "bytes": 37400,
+      "AST_syntax": "PASS",
+      "example_approval_matches": true
+    },
+    "original_reference_descriptives.py": {
+      "sha256": "553a25fb1f0599960967e0153fde87ca8bad332c2d6cb9f4a0577cb1e584d79f",
+      "bytes": 26903,
+      "AST_syntax": "PASS",
+      "example_approval_matches": true
+    },
+    "external_reference_equivalence.py": {
+      "sha256": "9f73ccbccebacb16230d350ad9c987ad4f1e943ff139e03a17c9b1873afaaf0a",
+      "bytes": 29799,
+      "AST_syntax": "PASS",
+      "example_approval_matches": true
+    },
+    "saved_report_adapter.py": {
+      "sha256": "33b6e50abf5044c78f963ef71d9c304dfc0362cd2715438f3fd8f7ba2692f851",
+      "bytes": 92974,
+      "AST_syntax": "PASS",
+      "example_approval_matches": true
+    },
+    "pure_report_plots.py": {
+      "sha256": "0ba398731fcebb0f05938891d4b13e502ade68b3608e29208e4b891b42885038",
+      "bytes": 10209,
+      "AST_syntax": "PASS",
+      "example_approval_matches": true
+    },
+    "protocol_format_export.py": {
+      "sha256": "9d6ccc5ae632bc5a803d18e4a21c6671b7c41bdc754c52882c219f82701ba229",
+      "bytes": 19883,
+      "AST_syntax": "PASS",
+      "example_approval_matches": true
+    },
+    "retrieval_capacity_analysis_v1.py": {
+      "sha256": "e7acca9bd698b55215690e13f5dcf3fcf04777d513397ea090422e94e37299a8",
+      "bytes": 44219,
+      "AST_syntax": "PASS",
+      "example_approval_matches": true
+    },
+    "postrun_rebuild_job.example.json": {
+      "sha256": "40e2ca816c3c0aa05e1987149e579b31a33966a18120331943085694d335d339",
+      "bytes": 3421
+    },
+    "POSTRUN_REBUILD_USAGE.txt": {
+      "sha256": "556a6e3d139be37a97e1481ada83bf33c80f05fba0cc702aa6b4175f489096f8",
+      "bytes": 13324
+    }
+  },
+  "diffs": {
+    "postrun_rebuild.py": {
+      "file": "postrun_rebuild.py.diff",
+      "sha256": "74b38443e1086f42ec92648a0c208e09f59498fea64daae57ab339da886e2a41",
+      "bytes": 28318
+    },
+    "postrun_rebuild_job.example.json": {
+      "file": "postrun_rebuild_job.example.json.diff",
+      "sha256": "b3ca3adabe3b26d2293bfa3912c1c3df70bcf57b8bcecb01323eea2ba9322477",
+      "bytes": 2729
+    },
+    "POSTRUN_REBUILD_USAGE.txt": {
+      "file": "POSTRUN_REBUILD_USAGE.txt.diff",
+      "sha256": "1fc294d76b4d62262b809ab2e51e177d74e9b93a88feed06535a40549c26e117",
+      "bytes": 7227
+    }
+  },
+  "checks": {
+    "eleven_source_AST_syntax_and_approval_hashes": "PASS",
+    "original_seven_nonreport_stage_AST_unchanged": "PASS",
+    "report_original_arguments_AST_unchanged_except_explicit_capacity_directory": "PASS",
+    "original_eight_semantic_branches_AST_unchanged": "PASS",
+    "controller_SHA_mount_path_format_and_interruption_guards_retained": "PASS",
+    "provisional_eleven_structural_codes_exactly_match_helper_issue_codes": "PASS",
+    "stage_count_reference_and_rebuild": "9/18",
+    "future_source_report_and_capacity_bindings": "PASS"
+  },
+  "retained_P2_review": {
+    "issue": "initial temporary capacity entry omitted helper-supported prebuild/feedback/query/pool absences and forced build receipt",
+    "resolution": "only actually terminated1200sec timeout may retain5 exact worker artifact absences and11 finite structural candidate codes; process receipts remain required; exact prefix/content/hash/finding-multiset reconciliation must succeed in immediate next stage before any report",
+    "scientific_rules_or_deadline_changed": false
+  },
+  "retained_scientific_scope": [
+    "original e73/ef70 bytes unchanged; original FAIL and actual4 outputs compared",
+    "missing remains NOT_RECORDED/null; fixed14400/60/20 planned denominators",
+    "capacity success is not original audit PASS or complete acquisition",
+    "only generated UTC/derived original-audit receipt SHA edges projected for comparison; actual hashes retained",
+    "actual host sleep/clock/quota-prefix/index-stop metadata explicitly archived; no latency correction or exclusions"
+  ],
+  "future_execution_gates": [
+    "actual real terminal and full post-retrieval root process enumeration",
+    "controller82436 observed terminal integer exit0",
+    "all12 aggregate/perprocess identities and content exact",
+    "each actual timeout processSHA and empty native-worker enumeration with exact observation provenance",
+    "capacity exit0 plus helper/e73/binding/input/output and exact original finding multiset",
+    "independent reconstruction retains capacity execution-incomplete state and original FAIL"
+  ],
+  "work_performed": {
+    "helper_imports_or_runs": 0,
+    "tests": 0,
+    "docker_changes": 0,
+    "model_or_query_calls": 0,
+    "current_formal_or_retrieval_raw_reads": 0,
+    "large_hash_or_copy": 0,
+    "statistics_or_rendering": 0,
+    "source_AST_and_small_source_hash_only": true
+  },
+  "actual_numeric_visual_and_runtime_QA": "NOT_PERFORMED"
+}

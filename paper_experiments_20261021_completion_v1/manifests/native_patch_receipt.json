@@ -1,0 +1,61 @@
+{
+  "status": "NEW_COPY_PATCHED_ONLY",
+  "historical_driver_sha256": "d63b08e0120513944d0f0c40a4bdd221cf910518d01c446a0acc0ab1afc6c93b",
+  "new_driver_sha256": "d4dae337eaab547dfa9b74176f5bb4ba0715bfc6c2566107cc1381eb9ee552d1",
+  "changes": [
+    {
+      "old": "OUT = Path('/evidence/protocol_repair_20261020_v1')",
+      "new": "OUT = Path('/output/main_batch')"
+    },
+    {
+      "old": "CORPUS = OUT / 'corpus/candidate_v2/tasks.jsonl'",
+      "new": "CORPUS = OUT / 'corpus/tasks.jsonl'"
+    },
+    {
+      "old": "data_dir='/opt/lingxi/protocol-repair-data/'",
+      "new": "data_dir='/output/main_batch/runtime_data/'"
+    },
+    {
+      "old": "Path('/opt/lingxi/protocol-repair-memory')",
+      "new": "Path('/output/main_batch/memory')"
+    },
+    {
+      "old": "key=('protocol_repair_20261020_v1',unit['phase']",
+      "new": "key=('completion_main_20261021_v1',unit['phase']"
+    },
+    {
+      "old": "class BudgetStop(RuntimeError):",
+      "new": "from provider_accounting import ProviderAccounting, AccountingStop\n\nclass BudgetStop(RuntimeError):"
+    },
+    {
+      "old": "        self.attempts=len(read_rows('provider_attempt_starts.jsonl'))",
+      "new": "        self.accounting=ProviderAccounting()\n        self.attempts=len(read_rows('provider_attempt_starts.jsonl'))"
+    },
+    {
+      "old": "    def check(self):\n        if self.attempts",
+      "new": "    def check(self):\n        if self.accounting.halted or any(not r.get('usage_complete') for r in read_rows('provider_accounting.jsonl')):\n            raise BudgetStop('ACCOUNTING_HALTED_NO_NEW_PROVIDER_CALLS')\n        if self.attempts"
+    },
+    {
+      "old": "                create=ctx.llm._client.chat.completions.create",
+      "new": "                create=ctx.llm._client.chat.completions.create\n                accounting=budget_ledger().accounting\n                ctx.llm._client._client.event_hooks.setdefault('request',[]).append(accounting.request_hook)\n                ctx.llm._client._client.event_hooks.setdefault('response',[]).append(accounting.response_hook)"
+    },
+    {
+      "old": "                    calls.append(call)\n                    recorder.add('provider_attempt_starts.jsonl'",
+      "new": "                    accounting.begin(request_id,kwargs['model'])\n                    calls.append(call)\n                    recorder.add('provider_attempt_starts.jsonl'"
+    },
+    {
+      "old": "                        usage=response.usage",
+      "new": "                        account=accounting.finish_success(response)\n                        recorder.add('provider_accounting.jsonl',account,durable=True)\n                        call.update(response_id_headers=account['response_ID_headers'],\n                            body_completion_id=account['ChatCompletion_id'],accounting_usage_complete=account['usage_complete'])\n                        if not account['usage_complete']:\n                            raise BudgetStop('PROVIDER_USAGE_UNCONFIRMED')\n                        usage=response.usage"
+    },
+    {
+      "old": "                    except Exception as exc:\n                        call.update(status='ERROR',error_type=type(exc).__name__,error=str(exc)[:800])\n                        raise",
+      "new": "                    except Exception as exc:\n                        if accounting._active is not None:\n                            account=accounting.finish_error(exc)\n                            recorder.add('provider_accounting.jsonl',account,durable=True)\n                            call.update(response_id_headers=account['response_ID_headers'],\n                                api_status_error_request_id=account.get('APIStatusError_request_id'),\n                                usage_raw=account.get('usage_raw'),accounting_usage_complete=account['usage_complete'])\n                        call.update(status='ERROR',error_type=type(exc).__name__,error=str(exc)[:800])\n                        raise BudgetStop('PROVIDER_ERROR_RECORDED_NO_AUTOMATIC_RETRY') from exc"
+    },
+    {
+      "old": "            result=execute(unit,row,memory,dry=dry)",
+      "new": "            result=execute(unit,row,memory,dry=dry)\n            if not dry and budget_ledger().accounting.halted:\n                raise BudgetStop('ACCOUNTING_HALTED_AFTER_RECORDED_TERMINAL_TASK')"
+    }
+  ],
+  "business_logic_unchanged": "Task/prompt/roles/validators/representation/memory logic retained; instrumentation and output isolation only",
+  "policy": "Unknown/error attempt durable recorded before hard stop; no new calls after latch; no zero fill"
+}

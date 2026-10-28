@@ -1,0 +1,47 @@
+{
+  "created_utc": "2026-10-20T17:38:31.098727+00:00",
+  "status": "PASS",
+  "tests_run": 9,
+  "fixture_cases": 23,
+  "failures": 0,
+  "errors": 0,
+  "integrated_auditor_sha256": "7c4cc24bb84274bf96a4c05a00d489491798a84455bd596702db762c4977295f",
+  "preimage_sha256": "0d9a564522c8e61bf9ed19c143ad7a452415ae721d349fc62aaef79edfbc34cf",
+  "reviewed_proposal_sha256": "a3771a3c964c4d94abb953391fa203ff85ac9f0cf57b92aa024654bd0be64c62",
+  "new_six_definitions_AST_same_as_proposal": {
+    "interval": true,
+    "_other_state_rules": true,
+    "_components": true,
+    "_live": true,
+    "_consumer_hash": true,
+    "audit_state_lifecycles": true
+  },
+  "legacy_nine_definitions_AST_unchanged": {
+    "digest": true,
+    "integer": true,
+    "number": true,
+    "sha256_string": true,
+    "Audit": true,
+    "groups": true,
+    "audit_usage": true,
+    "audit_spans": true,
+    "audit_state": true
+  },
+  "PURE_REUSED_assignment_AST_unchanged": true,
+  "changed_old_definitions": [
+    "audit_native",
+    "main"
+  ],
+  "active_state_callsite": "audit_native calls audit_state_lifecycles exactly once",
+  "legacy_state_ast_retained_but_not_active": true,
+  "default_version": "full_metric_audit_v3",
+  "external_proposal_imports": 0,
+  "current_source_unchanged_during_fixtures": true,
+  "scope": "integrated source AST/wiring and reused23 in-memory fixtures only; no real raw, model, runtime, Docker, full audit, statistics or downstream binding change",
+  "validation_source_sha256": "e8383385366c4bcfa77c1891ef7f8b4af454ae43599d1a0195af0629546d0332",
+  "reused_fixture_source_sha256": "b442fb9ae0918a3c12a1155acf5be94ea8198cf5dc7f0ae93bd2e544efbd1da5",
+  "files": {
+    "fixture_cases.json": "4d37d6e08b00b707b05a5e84103df01d7b932cbb84dbd97824c34e24db01dc92",
+    "unittest_transcript.txt": "a0c22ed2380a29a29d0ea5acdde52adc2c8815a6ff634d6577841617be8c4425"
+  }
+}

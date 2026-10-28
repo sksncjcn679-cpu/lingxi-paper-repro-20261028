@@ -1,0 +1,52 @@
+{
+  "schema_version": "corrected-postrun-rebuild-job-v1",
+  "study_out": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/protocol_repair_20261020_v1",
+  "path_mappings": [
+    {
+      "virtual_prefix": "/evidence",
+      "host_prefix": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot"
+    },
+    {
+      "virtual_prefix": "/drivers",
+      "host_prefix": "F:/codex/多agent系统架构-软件学报/deployment"
+    },
+    {
+      "virtual_prefix": "/opt/lingxi/formal-checkout",
+      "host_prefix": "<HOST_FROZEN_RUNTIME_SOURCE_ROOT>"
+    }
+  ],
+  "runtime_virtual_root": "/opt/lingxi/formal-checkout",
+  "quiescence_relative": "analysis/<ACTUAL_QUIET>.json",
+  "offline_manifest": "F:/codex/多agent系统架构-软件学报/deployment/protocol_repair_v1/postrun_analysis/offline_manifest_verification_v2/approved_offline_manifest.json",
+  "offline_path_map": "F:/codex/多agent系统架构-软件学报/deployment/protocol_repair_v1/postrun_analysis/offline_path_map.example.json",
+  "dependency": {
+    "image_id": "sha256:<ACTUAL_APPROVED_LOCAL_IMAGE_ID>",
+    "python": "/opt/lingxi/formal-venv/bin/python",
+    "attestation": "<ACTUAL_ROOT_REVIEWED_DEPENDENCY_ATTESTATION_JSON>"
+  },
+  "approved_offline_source_sha256": {
+    "/drivers/protocol_repair_v1/postrun_analysis/postrun_rebuild.py": "9350647fd0014662af7518b16561f723b2cbe28021f57ea5da32faed927747bd",
+    "/drivers/protocol_repair_v1/postrun_analysis/offline_analysis_runner.py": "05ff9afb5326a36a5535bc2927ce6a350dd8a332357597c135766d33923a7076",
+    "/drivers/protocol_repair_v1/postrun_analysis/full_metric_audit.py": "7c4cc24bb84274bf96a4c05a00d489491798a84455bd596702db762c4977295f",
+    "/drivers/protocol_repair_v1/postrun_analysis/secondary_heterogeneity.py": "0b3c25faba54d566c105e7faba227f0f1c25807852ea3c550068d023545844e8",
+    "/drivers/protocol_repair_v1/postrun_analysis/retrieval_postrun_analysis_v1.py": "e73e5633cac1ba3428e0d2b3d145fcff4f94417ea0eb00fb72a29d4a06103524",
+    "/drivers/protocol_repair_v1/postrun_analysis/original_reference_descriptives.py": "69e46482c02d14cd7a1d3040ea717b012db00ed26d0d65dbde044303bf903e28",
+    "/drivers/protocol_repair_v1/postrun_analysis/external_reference_equivalence.py": "9b5d189579401519d41c4cd5d94a5b0ea29b0d25c79710bbe607ea2acf5f49db",
+    "/drivers/protocol_repair_v1/postrun_analysis/saved_report_adapter.py": "aba4348e1b87f7a3120cbe0edba1efe6bc8ce23059a180d2168f39525e1b3378",
+    "/drivers/protocol_repair_v1/postrun_analysis/pure_report_plots.py": "0ba398731fcebb0f05938891d4b13e502ade68b3608e29208e4b891b42885038",
+    "/drivers/protocol_repair_v1/postrun_analysis/protocol_format_export.py": "9d6ccc5ae632bc5a803d18e4a21c6671b7c41bdc754c52882c219f82701ba229",
+    "/drivers/protocol_repair_v1/postrun_analysis/retrieval_capacity_analysis_v1.py": "e7acca9bd698b55215690e13f5dcf3fcf04777d513397ea090422e94e37299a8"
+  },
+  "versions": {
+    "primary": "formal_primary_v1",
+    "metric": "full_metric_audit_v3",
+    "secondary": "secondary_heterogeneity_v1",
+    "retrieval": "retrieval_postrun_analysis_v1",
+    "reference": "original_reference_descriptives_v1",
+    "equivalence": "external_reference_equivalence_v1",
+    "report": "report_adapter_v1",
+    "format": "protocol_format_v1",
+    "capacity": "retrieval_capacity_analysis_v1"
+  },
+  "step_timeout_seconds": 21600
+}

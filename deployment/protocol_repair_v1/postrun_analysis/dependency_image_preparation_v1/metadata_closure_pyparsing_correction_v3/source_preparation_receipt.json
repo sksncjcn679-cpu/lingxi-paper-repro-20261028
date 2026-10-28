@@ -1,0 +1,12 @@
+{
+  "status": "SOURCE_PREPARATION_ONLY_NO_BUILD_NO_COLLECT",
+  "closure_review_sha256": "0b272ab20fb32b0885b25a839ed780928f03845da5eeb205978126c21427797c",
+  "old14_exact_bytes_preserved_as_prefix": true,
+  "additional_spec_only": "python3-pyparsing-0:3.1.1-1.oe2403sp3.noarch",
+  "new_specs_sha256": "c3eeca1bb30e3ef201e5e52e2f4270d5ed80e91711e579219892e921aa58471e",
+  "new_host_v3_source_sha256": "a1013fd2afb05da253108a4f84ad697b6feec74a25ba681a1841a73c324cfc43",
+  "host_AST_identical_except_PINNED_rpm_specs_hash": true,
+  "Dockerfile_unchanged_sha256": "603d6aef98a8228ad05e60247cfc7e1a325573935aea82387cd5afe8560d1ae9",
+  "usage": "v3 host build only after root review; never invoke collect",
+  "secret_free_attestation": "NOT_WRITTEN"
+}

@@ -1,0 +1,17 @@
+{
+  "endpoint": "https://www.dmxapi.cn/v1/chat/completions",
+  "models": {
+    "M1": "doubao-seed-2-0-mini-260215",
+    "M2": "qwen3.7-flash"
+  },
+  "M1_extra_body": {
+    "thinking": {
+      "type": "disabled"
+    }
+  },
+  "M2_extra_body": {
+    "enable_thinking": false
+  },
+  "prices": "UNKNOWN",
+  "server_side_idempotency_guarantee": "UNKNOWN"
+}

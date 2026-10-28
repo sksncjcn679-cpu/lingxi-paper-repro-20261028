@@ -1,0 +1,6 @@
+{
+  "status": "EXACT_PREIMAGE_RETAINED_BEFORE_UNEXECUTED_ANALYSIS_HELPER_CORRECTION",
+  "source_sha256": "ceb2d11803272e2c02a651fe3f8d752a74281ec4ce90fd00fe087902ea9bc99a",
+  "analysis_or_queries_executed": false,
+  "scope": "feedback and aggregate process receipt audit only"
+}

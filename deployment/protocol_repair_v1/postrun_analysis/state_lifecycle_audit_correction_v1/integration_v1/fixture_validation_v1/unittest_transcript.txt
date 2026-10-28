@@ -1,0 +1,14 @@
+test_component_liveness_not_any_same_uri_release (__main__.main.<locals>.IntegratedFixtures) ... ok
+test_dedup_cannot_create_origin_or_change_hash (__main__.main.<locals>.IntegratedFixtures) ... ok
+test_existing_normal_path_and_late_dedup_alias (__main__.main.<locals>.IntegratedFixtures) ... ok
+test_failed_producer_is_not_a_real_generation_and_failure_unknown_preserved (__main__.main.<locals>.IntegratedFixtures) ... ok
+test_first_consume_before_producer_and_after_release_rejected (__main__.main.<locals>.IntegratedFixtures) ... ok
+test_hash_change_must_bind_to_correct_generation (__main__.main.<locals>.IntegratedFixtures) ... ok
+test_non_temporal_mapping_fused_and_rpc_rules_remain_active (__main__.main.<locals>.IntegratedFixtures) ... ok
+test_real_rematerialization_creates_a_new_generation (__main__.main.<locals>.IntegratedFixtures) ... ok
+test_shared_group_and_individual_component_cleanup_rules (__main__.main.<locals>.IntegratedFixtures) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.009s
+
+OK

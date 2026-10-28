@@ -1,0 +1,53 @@
+[
+  {
+    "Id": "sha256:03b3f365bbba13e9f90c70b08bd9aa0002bc69db858c2808cfab8a55d6e184e3",
+    "RepoTags": [
+      "openeuler/openeuler:24.03-lts-sp3"
+    ],
+    "RepoDigests": [
+      "openeuler/openeuler@sha256:03b3f365bbba13e9f90c70b08bd9aa0002bc69db858c2808cfab8a55d6e184e3"
+    ],
+    "Parent": "",
+    "Comment": "buildkit.dockerfile.v0",
+    "Created": "2026-06-25T00:10:54.403988423Z",
+    "DockerVersion": "",
+    "Author": "",
+    "Architecture": "amd64",
+    "Os": "linux",
+    "Size": 64969442,
+    "GraphDriver": {
+      "Data": null,
+      "Name": "overlayfs"
+    },
+    "RootFS": {
+      "Type": "layers",
+      "Layers": [
+        "sha256:7c8b0249b26602f80cb7446c2e192aca60c41680369723b449186ef80898a505",
+        "sha256:12440582a5ade20ec3fb29b856035679dc9877af6fa18c5c90d6e9f8ad0ae364"
+      ]
+    },
+    "Metadata": {
+      "LastTagTime": "2026-10-19T12:36:12.246353954Z"
+    },
+    "Descriptor": {
+      "mediaType": "application/vnd.oci.image.index.v1+json",
+      "digest": "sha256:03b3f365bbba13e9f90c70b08bd9aa0002bc69db858c2808cfab8a55d6e184e3",
+      "size": 2361
+    },
+    "Config": {
+      "ArgsEscaped": true,
+      "Cmd": [
+        "bash"
+      ],
+      "Entrypoint": null,
+      "Env": [
+        "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+      ],
+      "Labels": null,
+      "OnBuild": null,
+      "User": "",
+      "Volumes": null,
+      "WorkingDir": "/"
+    }
+  }
+]

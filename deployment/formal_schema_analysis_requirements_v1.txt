@@ -1,0 +1,11 @@
+# Install only in a new postrun analysis venv; do not install into formal-venv.
+# Exact version pins; wheel hashes and platform must be captured at installation.
+# This authoring-time file is not a claim that wheels were installed or verified.
+jsonschema==4.23.0
+referencing==0.35.1
+jsonschema-specifications==2024.10.1
+rpds-py==0.20.1
+attrs==24.2.0
+rfc3339-validator==0.1.4
+six==1.16.0
+pyarrow==26.0.0

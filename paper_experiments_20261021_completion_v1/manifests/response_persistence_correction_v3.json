@@ -1,0 +1,7 @@
+{
+  "reason": "Source peer found missing-usage response would be halted before full response persistence. Move same single durable response write ahead of gate. No task/prompt/usage policy changed.",
+  "old_driver_sha256": "d2e90ff92513d2b43cd228edab834a4f67fe24145b3fb193deb0896fc95fecdd",
+  "new_driver_sha256": "d5e01ba3287690e8699c949f7cf0708edac9de6f7685c4ea332016732ef325e7",
+  "historical_or_real_records_changed": false,
+  "old_successful_public6_not_replayed": true
+}

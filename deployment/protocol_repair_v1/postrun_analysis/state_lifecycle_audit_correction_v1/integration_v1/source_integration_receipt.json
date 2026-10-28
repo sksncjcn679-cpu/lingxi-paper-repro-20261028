@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-10-20T17:37:14.259209+00:00",
+  "status": "INTEGRATED_SOURCE_AST_CHECKED_NOT_FULL_AUDIT_RUN",
+  "old_sha256": "0d9a564522c8e61bf9ed19c143ad7a452415ae721d349fc62aaef79edfbc34cf",
+  "new_sha256": "7c4cc24bb84274bf96a4c05a00d489491798a84455bd596702db762c4977295f",
+  "proposal_sha256": "a3771a3c964c4d94abb953391fa203ff85ac9f0cf57b92aa024654bd0be64c62",
+  "old_nine_AST_equal": {
+    "digest": true,
+    "integer": true,
+    "number": true,
+    "sha256_string": true,
+    "Audit": true,
+    "groups": true,
+    "audit_usage": true,
+    "audit_spans": true,
+    "audit_state": true
+  },
+  "new_six_AST_equal": {
+    "interval": true,
+    "_other_state_rules": true,
+    "_components": true,
+    "_live": true,
+    "_consumer_hash": true,
+    "audit_state_lifecycles": true
+  },
+  "default_version": "full_metric_audit_v3",
+  "external_proposal_import_added": false,
+  "downstream_bindings_changed": false,
+  "real_raw_or_model_access": false,
+  "full_audit_run": false
+}

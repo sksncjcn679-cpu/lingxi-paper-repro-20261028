@@ -1,0 +1,41 @@
+{
+  "status": "INCOMPLETE_TEMPLATE_NOT_APPROVED",
+  "purpose": "Bind dedicated existing offline assets by exact bytes after quiet-window review; no old real or retrieval selection.",
+  "batches": [
+    {
+      "batch_id": "formal_20261019_offline_mechanisms",
+      "evidence_class": "OFFLINE_MECHANISM_BATCH",
+      "source_root": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019",
+      "measurement_scope": "historical dedicated offline mechanisms with source a040080a8c1011bc1281439b6398d177b7517a2b6a65c7bcfda9e90a1937b562; not measured new real-study performance",
+      "limitations": [
+        "Historical synthetic/local workloads are separate batches; no pooling with corrected real/retrieval outcomes.",
+        "State RTT includes nested receiver work; logical/materialized/socket bytes remain separate; no inferred model latency.",
+        "Quantization is actual native8-candidate ranking preservation, not model accuracy; Wilson CI covers ranking only.",
+        "Stress uses fixed SS1 four-role fixtures,30 batch/cell; handshake exclusion differs from new real IPC boundary; proxy tokens are not provider usage.",
+        "Fault semantic limits for corrupt_state/wrong_memory must remain attached; fixture success is not model robustness.",
+        "Old C004/unknown provider usage remain historical limitations, never repaired by this reuse."
+      ],
+      "assets": [
+        {"topic": "state", "relative_path": "analysis/postrun_verification_v1/report_v3/figures/figure_05.csv", "sha256": "267c39db3c5c0e7d3c64eb9b64b5d841c35a8f13094dac4e93439f9dd304a754", "target_figure": 5, "role": "original_figure_data"},
+        {"topic": "quantization", "relative_path": "analysis/postrun_verification_v1/report_v3/figures/figure_06.csv", "sha256": "4103a500901c2c349500203feb7b9dcb9afa0af9c94d022ace3ac8ff9444f2b4", "target_figure": 6, "role": "original_figure_data"},
+        {"topic": "stress", "relative_path": "analysis/postrun_verification_v1/report_v3/figures/figure_08.csv", "sha256": "a3915835f371750c9d32665f2f209099448e0838e2b8edbbf5aa86a2caf15c4c", "target_figure": 8, "role": "original_figure_data"},
+        {"topic": "state", "relative_path": "analysis/postrun_verification_v1/report_v3/tables/table_04.csv", "sha256": "602de129332c0ea5327b7dc81b3c3bdc9e1b43dad3eb7cfeb3ab3fa39db65fc9", "target_table": 4, "role": "original_dedicated_offline_table"},
+        {"topic": "fault", "relative_path": "tables/stress_fault_recovery.csv", "sha256": "a350e0552d90d5b700fd14e6e46c59f6397c4c48d6b1637c93cc035f463c79f4", "target_table": 6, "role": "original_dedicated_offline_fault_table"}
+      ],
+      "pending_asset_expansion": "Add all18 exact figure05/06/08 single/double PDF/SVG/600dpi PNG exports with verified original hashes, plus dedicated audit/plan/source references. Artifact existence is not proof of QA.",
+      "raw_hash_references": [
+        {"topic": "state", "path_template": "raw/state_paths_batch_{1,2,3}.jsonl", "hash_authority": "report_v3/analysis/report_availability.json.source_sha256 and original_raw_inventory.json", "bodies_read_by_report_adapter": false},
+        {"topic": "quantization", "path_template": "raw/quantization.jsonl", "hash_authority": "report_v3/analysis/report_availability.json.source_sha256 and original_raw_inventory.json", "bodies_read_by_report_adapter": false},
+        {"topic": "stress", "path_template": "raw/stress_v3_L{1,2,4,8,16,32}_K{1,2,4,8,16}_batches.jsonl", "hash_authority": "source_package_formal_20261019_v2/bundle/metadata/original_raw_inventory.json.files; stress audit.sources omits these batch streams", "bodies_read_by_report_adapter": false}
+      ]
+    }
+  ],
+  "do_not_copy": [
+    "report_v3/tables/table_06.csv contains old real external rows",
+    "any old raw/task_runs or provider_calls",
+    "any old retrieval results or figure07",
+    "old figures02/03/04/09 or statistics/abstract values",
+    "mixed report_availability is hash-reference metadata only, not a numerical source"
+  ],
+  "approval_rule": "This template cannot run through offline_assets until an explicit reviewed version supplies complete exact assets/provenance hashes and status APPROVED_OFFLINE_BYTE_ASSET_MANIFEST. Do not silently mutate a bound manifest."
+}

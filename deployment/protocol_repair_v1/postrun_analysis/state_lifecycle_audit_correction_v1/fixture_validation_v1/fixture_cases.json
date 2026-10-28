@@ -1,0 +1,1234 @@
+[
+  {
+    "fixture": "emb_released_but_vec_still_live",
+    "expected_fail_code": "PLAN_RELEASE_OR_REPLACEMENT_PRECEDES_CONSUMPTION_END",
+    "findings": [
+      {
+        "level": "FAIL",
+        "code": "PLAN_RELEASE_OR_REPLACEMENT_PRECEDES_CONSUMPTION_END",
+        "run_id": "emb_released_but_vec_still_live",
+        "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "consume_start_ns": 43,
+        "consume_end_ns": 46
+      },
+      {
+        "level": "FAIL",
+        "code": "SUCCESSFUL_STATE_PLAN_NOT_CONSUMED",
+        "run_id": "emb_released_but_vec_still_live",
+        "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    ],
+    "summary": {
+      "produced_plan_uris": 1,
+      "consumed_plan_uris": 1,
+      "native_mapping_events": 0,
+      "state_rpc_handoffs": 1,
+      "active_state_entry": "audit_state_lifecycles_proposal_v1",
+      "legacy_state_entry_retained_unchanged": true,
+      "materialized_generations": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "ready_ns": 20,
+          "components": {
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#emb": {
+              "materialize_end_ns": 13,
+              "live_until_ns": 40
+            },
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec": {
+              "materialize_end_ns": 16,
+              "live_until_ns": 50
+            }
+          }
+        }
+      ],
+      "dedup_aliases": [],
+      "consumption_generation_matches": [],
+      "hash_observation_limit": "compute events record URI, not a new payload hash; reference hash is joined from successful resolve when present, otherwise only a unique observed producer hash may identify the generation"
+    },
+    "legacy_false_pairing_demonstrated": null
+  },
+  {
+    "fixture": "optional_absent_scale_noop",
+    "expected_fail_code": null,
+    "findings": [],
+    "summary": {
+      "produced_plan_uris": 1,
+      "consumed_plan_uris": 1,
+      "native_mapping_events": 0,
+      "state_rpc_handoffs": 1,
+      "active_state_entry": "audit_state_lifecycles_proposal_v1",
+      "legacy_state_entry_retained_unchanged": true,
+      "materialized_generations": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "ready_ns": 20,
+          "components": {
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#emb": {
+              "materialize_end_ns": 13,
+              "live_until_ns": 40
+            },
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec": {
+              "materialize_end_ns": 16,
+              "live_until_ns": 43
+            }
+          }
+        }
+      ],
+      "dedup_aliases": [],
+      "consumption_generation_matches": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "consume_start_ns": 30,
+          "consume_end_ns": 33,
+          "hash_basis": "latest_successful_resolve_reference"
+        }
+      ],
+      "hash_observation_limit": "compute events record URI, not a new payload hash; reference hash is joined from successful resolve when present, otherwise only a unique observed producer hash may identify the generation"
+    },
+    "legacy_false_pairing_demonstrated": null
+  },
+  {
+    "fixture": "dedup_without_real_origin",
+    "expected_fail_code": "DEDUP_WITHOUT_LIVE_MATERIALIZED_GENERATION",
+    "findings": [
+      {
+        "level": "FAIL",
+        "code": "DEDUP_WITHOUT_LIVE_MATERIALIZED_GENERATION",
+        "run_id": "dedup_without_real_origin",
+        "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      {
+        "level": "FAIL",
+        "code": "CONSUME_PRECEDES_PRODUCE",
+        "run_id": "dedup_without_real_origin",
+        "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "consume_start_ns": 30,
+        "consume_end_ns": 33
+      },
+      {
+        "level": "FAIL",
+        "code": "SUCCESSFUL_STATE_PLAN_NOT_CONSUMED",
+        "run_id": "dedup_without_real_origin",
+        "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    ],
+    "summary": {
+      "produced_plan_uris": 1,
+      "consumed_plan_uris": 1,
+      "native_mapping_events": 0,
+      "state_rpc_handoffs": 1,
+      "active_state_entry": "audit_state_lifecycles_proposal_v1",
+      "legacy_state_entry_retained_unchanged": true,
+      "materialized_generations": [],
+      "dedup_aliases": [],
+      "consumption_generation_matches": [],
+      "hash_observation_limit": "compute events record URI, not a new payload hash; reference hash is joined from successful resolve when present, otherwise only a unique observed producer hash may identify the generation"
+    },
+    "legacy_false_pairing_demonstrated": null
+  },
+  {
+    "fixture": "dedup_wrong_full_hash",
+    "expected_fail_code": "DEDUP_REFERENCE_HASH_MISMATCH",
+    "findings": [
+      {
+        "level": "FAIL",
+        "code": "DEDUP_REFERENCE_HASH_MISMATCH",
+        "run_id": "dedup_wrong_full_hash",
+        "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    ],
+    "summary": {
+      "produced_plan_uris": 1,
+      "consumed_plan_uris": 1,
+      "native_mapping_events": 0,
+      "state_rpc_handoffs": 1,
+      "active_state_entry": "audit_state_lifecycles_proposal_v1",
+      "legacy_state_entry_retained_unchanged": true,
+      "materialized_generations": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "ready_ns": 20,
+          "components": {
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#emb": {
+              "materialize_end_ns": 13,
+              "live_until_ns": 40
+            },
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec": {
+              "materialize_end_ns": 16,
+              "live_until_ns": 43
+            }
+          }
+        }
+      ],
+      "dedup_aliases": [],
+      "consumption_generation_matches": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "consume_start_ns": 30,
+          "consume_end_ns": 33,
+          "hash_basis": "latest_successful_resolve_reference"
+        }
+      ],
+      "hash_observation_limit": "compute events record URI, not a new payload hash; reference hash is joined from successful resolve when present, otherwise only a unique observed producer hash may identify the generation"
+    },
+    "legacy_false_pairing_demonstrated": null
+  },
+  {
+    "fixture": "dedup_after_release",
+    "expected_fail_code": "DEDUP_WITHOUT_LIVE_MATERIALIZED_GENERATION",
+    "findings": [
+      {
+        "level": "FAIL",
+        "code": "DEDUP_WITHOUT_LIVE_MATERIALIZED_GENERATION",
+        "run_id": "dedup_after_release",
+        "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    ],
+    "summary": {
+      "produced_plan_uris": 1,
+      "consumed_plan_uris": 1,
+      "native_mapping_events": 0,
+      "state_rpc_handoffs": 1,
+      "active_state_entry": "audit_state_lifecycles_proposal_v1",
+      "legacy_state_entry_retained_unchanged": true,
+      "materialized_generations": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "ready_ns": 20,
+          "components": {
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#emb": {
+              "materialize_end_ns": 13,
+              "live_until_ns": 40
+            },
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec": {
+              "materialize_end_ns": 16,
+              "live_until_ns": 43
+            }
+          }
+        }
+      ],
+      "dedup_aliases": [],
+      "consumption_generation_matches": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "consume_start_ns": 30,
+          "consume_end_ns": 33,
+          "hash_basis": "latest_successful_resolve_reference"
+        }
+      ],
+      "hash_observation_limit": "compute events record URI, not a new payload hash; reference hash is joined from successful resolve when present, otherwise only a unique observed producer hash may identify the generation"
+    },
+    "legacy_false_pairing_demonstrated": null
+  },
+  {
+    "fixture": "ordinary_normal",
+    "expected_fail_code": null,
+    "findings": [],
+    "summary": {
+      "produced_plan_uris": 1,
+      "consumed_plan_uris": 1,
+      "native_mapping_events": 0,
+      "state_rpc_handoffs": 1,
+      "active_state_entry": "audit_state_lifecycles_proposal_v1",
+      "legacy_state_entry_retained_unchanged": true,
+      "materialized_generations": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "ready_ns": 20,
+          "components": {
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#emb": {
+              "materialize_end_ns": 13,
+              "live_until_ns": 40
+            },
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec": {
+              "materialize_end_ns": 16,
+              "live_until_ns": 43
+            }
+          }
+        }
+      ],
+      "dedup_aliases": [],
+      "consumption_generation_matches": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "consume_start_ns": 30,
+          "consume_end_ns": 33,
+          "hash_basis": "latest_successful_resolve_reference"
+        }
+      ],
+      "hash_observation_limit": "compute events record URI, not a new payload hash; reference hash is joined from successful resolve when present, otherwise only a unique observed producer hash may identify the generation"
+    },
+    "legacy_false_pairing_demonstrated": null
+  },
+  {
+    "fixture": "valid_later_dedup",
+    "expected_fail_code": null,
+    "findings": [],
+    "summary": {
+      "produced_plan_uris": 1,
+      "consumed_plan_uris": 1,
+      "native_mapping_events": 0,
+      "state_rpc_handoffs": 1,
+      "active_state_entry": "audit_state_lifecycles_proposal_v1",
+      "legacy_state_entry_retained_unchanged": true,
+      "materialized_generations": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "ready_ns": 20,
+          "components": {
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#emb": {
+              "materialize_end_ns": 13,
+              "live_until_ns": 40
+            },
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec": {
+              "materialize_end_ns": 16,
+              "live_until_ns": 43
+            }
+          }
+        }
+      ],
+      "dedup_aliases": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "producer_end_ns": 38,
+          "generation": 1
+        }
+      ],
+      "consumption_generation_matches": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "consume_start_ns": 30,
+          "consume_end_ns": 33,
+          "hash_basis": "latest_successful_resolve_reference"
+        }
+      ],
+      "hash_observation_limit": "compute events record URI, not a new payload hash; reference hash is joined from successful resolve when present, otherwise only a unique observed producer hash may identify the generation"
+    },
+    "legacy_false_pairing_demonstrated": "CONSUME_PRECEDES_PRODUCE"
+  },
+  {
+    "fixture": "failed_origin_not_repaired_by_dedup",
+    "expected_fail_code": "DEDUP_WITHOUT_LIVE_MATERIALIZED_GENERATION",
+    "findings": [
+      {
+        "level": "FAIL",
+        "code": "DEDUP_WITHOUT_LIVE_MATERIALIZED_GENERATION",
+        "run_id": "failed_origin_not_repaired_by_dedup",
+        "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      {
+        "level": "FAIL",
+        "code": "CONSUME_PRECEDES_PRODUCE",
+        "run_id": "failed_origin_not_repaired_by_dedup",
+        "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "consume_start_ns": 30,
+        "consume_end_ns": 33
+      },
+      {
+        "level": "UNKNOWN",
+        "code": "FAILED_UNIT_PLAN_CONSUMPTION_NOT_OBSERVED",
+        "run_id": "failed_origin_not_repaired_by_dedup",
+        "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    ],
+    "summary": {
+      "produced_plan_uris": 1,
+      "consumed_plan_uris": 1,
+      "native_mapping_events": 0,
+      "state_rpc_handoffs": 1,
+      "active_state_entry": "audit_state_lifecycles_proposal_v1",
+      "legacy_state_entry_retained_unchanged": true,
+      "materialized_generations": [],
+      "dedup_aliases": [],
+      "consumption_generation_matches": [],
+      "hash_observation_limit": "compute events record URI, not a new payload hash; reference hash is joined from successful resolve when present, otherwise only a unique observed producer hash may identify the generation"
+    },
+    "legacy_false_pairing_demonstrated": null
+  },
+  {
+    "fixture": "failed_task_missing_consumption_remains_unknown",
+    "expected_fail_code": null,
+    "findings": [
+      {
+        "level": "UNKNOWN",
+        "code": "FAILED_UNIT_PLAN_CONSUMPTION_NOT_OBSERVED",
+        "run_id": "failed_task_missing_consumption_remains_unknown",
+        "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    ],
+    "summary": {
+      "produced_plan_uris": 1,
+      "consumed_plan_uris": 0,
+      "native_mapping_events": 0,
+      "state_rpc_handoffs": 1,
+      "active_state_entry": "audit_state_lifecycles_proposal_v1",
+      "legacy_state_entry_retained_unchanged": true,
+      "materialized_generations": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "ready_ns": 20,
+          "components": {
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#emb": {
+              "materialize_end_ns": 13,
+              "live_until_ns": 40
+            },
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec": {
+              "materialize_end_ns": 16,
+              "live_until_ns": 43
+            }
+          }
+        }
+      ],
+      "dedup_aliases": [],
+      "consumption_generation_matches": [],
+      "hash_observation_limit": "compute events record URI, not a new payload hash; reference hash is joined from successful resolve when present, otherwise only a unique observed producer hash may identify the generation"
+    },
+    "legacy_false_pairing_demonstrated": null
+  },
+  {
+    "fixture": "before_first_real_producer",
+    "expected_fail_code": "CONSUME_PRECEDES_PRODUCE",
+    "findings": [
+      {
+        "level": "FAIL",
+        "code": "CONSUMER_HASH_AMBIGUOUS_ACROSS_GENERATIONS",
+        "run_id": "before_first_real_producer",
+        "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      {
+        "level": "FAIL",
+        "code": "CONSUME_PRECEDES_PRODUCE",
+        "run_id": "before_first_real_producer",
+        "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "consume_start_ns": 1,
+        "consume_end_ns": 4
+      },
+      {
+        "level": "FAIL",
+        "code": "SUCCESSFUL_STATE_PLAN_NOT_CONSUMED",
+        "run_id": "before_first_real_producer",
+        "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    ],
+    "summary": {
+      "produced_plan_uris": 1,
+      "consumed_plan_uris": 1,
+      "native_mapping_events": 0,
+      "state_rpc_handoffs": 1,
+      "active_state_entry": "audit_state_lifecycles_proposal_v1",
+      "legacy_state_entry_retained_unchanged": true,
+      "materialized_generations": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "ready_ns": 20,
+          "components": {
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#emb": {
+              "materialize_end_ns": 13,
+              "live_until_ns": 40
+            },
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec": {
+              "materialize_end_ns": 16,
+              "live_until_ns": 43
+            }
+          }
+        }
+      ],
+      "dedup_aliases": [],
+      "consumption_generation_matches": [],
+      "hash_observation_limit": "compute events record URI, not a new payload hash; reference hash is joined from successful resolve when present, otherwise only a unique observed producer hash may identify the generation"
+    },
+    "legacy_false_pairing_demonstrated": null
+  },
+  {
+    "fixture": "after_all_components_released",
+    "expected_fail_code": "PLAN_RELEASE_OR_REPLACEMENT_PRECEDES_CONSUMPTION_END",
+    "findings": [
+      {
+        "level": "FAIL",
+        "code": "PLAN_RELEASE_OR_REPLACEMENT_PRECEDES_CONSUMPTION_END",
+        "run_id": "after_all_components_released",
+        "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "consume_start_ns": 46,
+        "consume_end_ns": 49
+      },
+      {
+        "level": "FAIL",
+        "code": "SUCCESSFUL_STATE_PLAN_NOT_CONSUMED",
+        "run_id": "after_all_components_released",
+        "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    ],
+    "summary": {
+      "produced_plan_uris": 1,
+      "consumed_plan_uris": 1,
+      "native_mapping_events": 0,
+      "state_rpc_handoffs": 1,
+      "active_state_entry": "audit_state_lifecycles_proposal_v1",
+      "legacy_state_entry_retained_unchanged": true,
+      "materialized_generations": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "ready_ns": 20,
+          "components": {
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#emb": {
+              "materialize_end_ns": 13,
+              "live_until_ns": 40
+            },
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec": {
+              "materialize_end_ns": 16,
+              "live_until_ns": 43
+            }
+          }
+        }
+      ],
+      "dedup_aliases": [],
+      "consumption_generation_matches": [],
+      "hash_observation_limit": "compute events record URI, not a new payload hash; reference hash is joined from successful resolve when present, otherwise only a unique observed producer hash may identify the generation"
+    },
+    "legacy_false_pairing_demonstrated": null
+  },
+  {
+    "fixture": "new_hash_real_generation",
+    "expected_fail_code": null,
+    "findings": [],
+    "summary": {
+      "produced_plan_uris": 1,
+      "consumed_plan_uris": 1,
+      "native_mapping_events": 0,
+      "state_rpc_handoffs": 1,
+      "active_state_entry": "audit_state_lifecycles_proposal_v1",
+      "legacy_state_entry_retained_unchanged": true,
+      "materialized_generations": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "ready_ns": 20,
+          "components": {
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#emb": {
+              "materialize_end_ns": 13,
+              "live_until_ns": 40
+            },
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec": {
+              "materialize_end_ns": 16,
+              "live_until_ns": 43
+            }
+          }
+        },
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "generation": 2,
+          "ready_ns": 60,
+          "components": {
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#emb": {
+              "materialize_end_ns": 53,
+              "live_until_ns": 80
+            },
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec": {
+              "materialize_end_ns": 56,
+              "live_until_ns": 83
+            }
+          }
+        }
+      ],
+      "dedup_aliases": [],
+      "consumption_generation_matches": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "consume_start_ns": 30,
+          "consume_end_ns": 33,
+          "hash_basis": "latest_successful_resolve_reference"
+        },
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "generation": 2,
+          "consume_start_ns": 70,
+          "consume_end_ns": 73,
+          "hash_basis": "latest_successful_resolve_reference"
+        }
+      ],
+      "hash_observation_limit": "compute events record URI, not a new payload hash; reference hash is joined from successful resolve when present, otherwise only a unique observed producer hash may identify the generation"
+    },
+    "legacy_false_pairing_demonstrated": null
+  },
+  {
+    "fixture": "stale_resolve_hash_after_rematerialization",
+    "expected_fail_code": "CONSUMER_REFERENCE_HASH_MISMATCH",
+    "findings": [
+      {
+        "level": "FAIL",
+        "code": "CONSUMER_REFERENCE_HASH_MISMATCH",
+        "run_id": "stale_resolve_hash_after_rematerialization",
+        "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "consume_start_ns": 70,
+        "consume_end_ns": 73
+      }
+    ],
+    "summary": {
+      "produced_plan_uris": 1,
+      "consumed_plan_uris": 1,
+      "native_mapping_events": 0,
+      "state_rpc_handoffs": 1,
+      "active_state_entry": "audit_state_lifecycles_proposal_v1",
+      "legacy_state_entry_retained_unchanged": true,
+      "materialized_generations": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "ready_ns": 20,
+          "components": {
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#emb": {
+              "materialize_end_ns": 13,
+              "live_until_ns": 40
+            },
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec": {
+              "materialize_end_ns": 16,
+              "live_until_ns": 43
+            }
+          }
+        },
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+          "generation": 2,
+          "ready_ns": 60,
+          "components": {
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#emb": {
+              "materialize_end_ns": 53,
+              "live_until_ns": 80
+            },
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec": {
+              "materialize_end_ns": 56,
+              "live_until_ns": 83
+            }
+          }
+        }
+      ],
+      "dedup_aliases": [],
+      "consumption_generation_matches": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "consume_start_ns": 30,
+          "consume_end_ns": 33,
+          "hash_basis": "latest_successful_resolve_reference"
+        }
+      ],
+      "hash_observation_limit": "compute events record URI, not a new payload hash; reference hash is joined from successful resolve when present, otherwise only a unique observed producer hash may identify the generation"
+    },
+    "legacy_false_pairing_demonstrated": null
+  },
+  {
+    "fixture": "mapping_count_still_checked",
+    "expected_fail_code": "MAPPING_EVENT_COUNT_MISMATCH",
+    "findings": [
+      {
+        "level": "FAIL",
+        "code": "MAPPING_EVENT_COUNT_MISMATCH",
+        "run_id": "mapping_count_still_checked"
+      }
+    ],
+    "summary": {
+      "produced_plan_uris": 1,
+      "consumed_plan_uris": 1,
+      "native_mapping_events": 0,
+      "state_rpc_handoffs": 1,
+      "active_state_entry": "audit_state_lifecycles_proposal_v1",
+      "legacy_state_entry_retained_unchanged": true,
+      "materialized_generations": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "ready_ns": 20,
+          "components": {
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#emb": {
+              "materialize_end_ns": 13,
+              "live_until_ns": 40
+            },
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec": {
+              "materialize_end_ns": 16,
+              "live_until_ns": 43
+            }
+          }
+        }
+      ],
+      "dedup_aliases": [],
+      "consumption_generation_matches": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "consume_start_ns": 30,
+          "consume_end_ns": 33,
+          "hash_basis": "latest_successful_resolve_reference"
+        }
+      ],
+      "hash_observation_limit": "compute events record URI, not a new payload hash; reference hash is joined from successful resolve when present, otherwise only a unique observed producer hash may identify the generation"
+    },
+    "legacy_false_pairing_demonstrated": null
+  },
+  {
+    "fixture": "fused_flag_still_checked",
+    "expected_fail_code": "NATIVE_FUSED_READ_COMPUTE_SEMANTICS_LOST",
+    "findings": [
+      {
+        "level": "FAIL",
+        "code": "NATIVE_FUSED_READ_COMPUTE_SEMANTICS_LOST",
+        "run_id": "fused_flag_still_checked"
+      }
+    ],
+    "summary": {
+      "produced_plan_uris": 1,
+      "consumed_plan_uris": 1,
+      "native_mapping_events": 0,
+      "state_rpc_handoffs": 1,
+      "active_state_entry": "audit_state_lifecycles_proposal_v1",
+      "legacy_state_entry_retained_unchanged": true,
+      "materialized_generations": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "ready_ns": 20,
+          "components": {
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#emb": {
+              "materialize_end_ns": 13,
+              "live_until_ns": 40
+            },
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec": {
+              "materialize_end_ns": 16,
+              "live_until_ns": 43
+            }
+          }
+        }
+      ],
+      "dedup_aliases": [],
+      "consumption_generation_matches": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "consume_start_ns": 30,
+          "consume_end_ns": 33,
+          "hash_basis": "latest_successful_resolve_reference"
+        }
+      ],
+      "hash_observation_limit": "compute events record URI, not a new payload hash; reference hash is joined from successful resolve when present, otherwise only a unique observed producer hash may identify the generation"
+    },
+    "legacy_false_pairing_demonstrated": null
+  },
+  {
+    "fixture": "partition_still_checked",
+    "expected_fail_code": "CONSUMER_COMPUTE_PARTITION_MISMATCH",
+    "findings": [
+      {
+        "level": "FAIL",
+        "code": "CONSUMER_COMPUTE_PARTITION_MISMATCH",
+        "run_id": "partition_still_checked"
+      }
+    ],
+    "summary": {
+      "produced_plan_uris": 1,
+      "consumed_plan_uris": 1,
+      "native_mapping_events": 0,
+      "state_rpc_handoffs": 1,
+      "active_state_entry": "audit_state_lifecycles_proposal_v1",
+      "legacy_state_entry_retained_unchanged": true,
+      "materialized_generations": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "ready_ns": 20,
+          "components": {
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#emb": {
+              "materialize_end_ns": 13,
+              "live_until_ns": 40
+            },
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec": {
+              "materialize_end_ns": 16,
+              "live_until_ns": 43
+            }
+          }
+        }
+      ],
+      "dedup_aliases": [],
+      "consumption_generation_matches": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "consume_start_ns": 30,
+          "consume_end_ns": 33,
+          "hash_basis": "latest_successful_resolve_reference"
+        }
+      ],
+      "hash_observation_limit": "compute events record URI, not a new payload hash; reference hash is joined from successful resolve when present, otherwise only a unique observed producer hash may identify the generation"
+    },
+    "legacy_false_pairing_demonstrated": null
+  },
+  {
+    "fixture": "RPC_framing_still_checked",
+    "expected_fail_code": "STATE_RPC_FRAMING_MISMATCH",
+    "findings": [
+      {
+        "level": "FAIL",
+        "code": "STATE_RPC_FRAMING_MISMATCH",
+        "run_id": "RPC_framing_still_checked"
+      }
+    ],
+    "summary": {
+      "produced_plan_uris": 1,
+      "consumed_plan_uris": 1,
+      "native_mapping_events": 0,
+      "state_rpc_handoffs": 1,
+      "active_state_entry": "audit_state_lifecycles_proposal_v1",
+      "legacy_state_entry_retained_unchanged": true,
+      "materialized_generations": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "ready_ns": 20,
+          "components": {
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#emb": {
+              "materialize_end_ns": 13,
+              "live_until_ns": 40
+            },
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec": {
+              "materialize_end_ns": 16,
+              "live_until_ns": 43
+            }
+          }
+        }
+      ],
+      "dedup_aliases": [],
+      "consumption_generation_matches": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "consume_start_ns": 30,
+          "consume_end_ns": 33,
+          "hash_basis": "latest_successful_resolve_reference"
+        }
+      ],
+      "hash_observation_limit": "compute events record URI, not a new payload hash; reference hash is joined from successful resolve when present, otherwise only a unique observed producer hash may identify the generation"
+    },
+    "legacy_false_pairing_demonstrated": null
+  },
+  {
+    "fixture": "legal_same_hash_rematerialization",
+    "expected_fail_code": null,
+    "findings": [],
+    "summary": {
+      "produced_plan_uris": 1,
+      "consumed_plan_uris": 1,
+      "native_mapping_events": 0,
+      "state_rpc_handoffs": 1,
+      "active_state_entry": "audit_state_lifecycles_proposal_v1",
+      "legacy_state_entry_retained_unchanged": true,
+      "materialized_generations": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "ready_ns": 20,
+          "components": {
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#emb": {
+              "materialize_end_ns": 13,
+              "live_until_ns": 40
+            },
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec": {
+              "materialize_end_ns": 16,
+              "live_until_ns": 43
+            }
+          }
+        },
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 2,
+          "ready_ns": 60,
+          "components": {
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#emb": {
+              "materialize_end_ns": 53,
+              "live_until_ns": 80
+            },
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec": {
+              "materialize_end_ns": 56,
+              "live_until_ns": 83
+            }
+          }
+        }
+      ],
+      "dedup_aliases": [],
+      "consumption_generation_matches": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "consume_start_ns": 30,
+          "consume_end_ns": 33,
+          "hash_basis": "latest_successful_resolve_reference"
+        },
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 2,
+          "consume_start_ns": 70,
+          "consume_end_ns": 73,
+          "hash_basis": "latest_successful_resolve_reference"
+        }
+      ],
+      "hash_observation_limit": "compute events record URI, not a new payload hash; reference hash is joined from successful resolve when present, otherwise only a unique observed producer hash may identify the generation"
+    },
+    "legacy_false_pairing_demonstrated": "CONSUME_PRECEDES_PRODUCE"
+  },
+  {
+    "fixture": "consume_in_released_rematerialization_gap",
+    "expected_fail_code": "PLAN_RELEASE_OR_REPLACEMENT_PRECEDES_CONSUMPTION_END",
+    "findings": [
+      {
+        "level": "FAIL",
+        "code": "PLAN_RELEASE_OR_REPLACEMENT_PRECEDES_CONSUMPTION_END",
+        "run_id": "consume_in_released_rematerialization_gap",
+        "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "consume_start_ns": 46,
+        "consume_end_ns": 49
+      }
+    ],
+    "summary": {
+      "produced_plan_uris": 1,
+      "consumed_plan_uris": 1,
+      "native_mapping_events": 0,
+      "state_rpc_handoffs": 1,
+      "active_state_entry": "audit_state_lifecycles_proposal_v1",
+      "legacy_state_entry_retained_unchanged": true,
+      "materialized_generations": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "ready_ns": 20,
+          "components": {
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#emb": {
+              "materialize_end_ns": 13,
+              "live_until_ns": 40
+            },
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec": {
+              "materialize_end_ns": 16,
+              "live_until_ns": 43
+            }
+          }
+        },
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 2,
+          "ready_ns": 60,
+          "components": {
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#emb": {
+              "materialize_end_ns": 53,
+              "live_until_ns": 80
+            },
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec": {
+              "materialize_end_ns": 56,
+              "live_until_ns": 83
+            }
+          }
+        }
+      ],
+      "dedup_aliases": [],
+      "consumption_generation_matches": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "consume_start_ns": 30,
+          "consume_end_ns": 33,
+          "hash_basis": "latest_successful_resolve_reference"
+        },
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 2,
+          "consume_start_ns": 70,
+          "consume_end_ns": 73,
+          "hash_basis": "latest_successful_resolve_reference"
+        }
+      ],
+      "hash_observation_limit": "compute events record URI, not a new payload hash; reference hash is joined from successful resolve when present, otherwise only a unique observed producer hash may identify the generation"
+    },
+    "legacy_false_pairing_demonstrated": null
+  },
+  {
+    "fixture": "overwrite_without_releasing_old_components",
+    "expected_fail_code": "REMATERIALIZATION_WITHOUT_PRIOR_COMPONENT_RELEASE",
+    "findings": [
+      {
+        "level": "FAIL",
+        "code": "REMATERIALIZATION_WITHOUT_PRIOR_COMPONENT_RELEASE",
+        "run_id": "overwrite_without_releasing_old_components",
+        "buffer_key": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#emb"
+      },
+      {
+        "level": "FAIL",
+        "code": "REMATERIALIZATION_WITHOUT_PRIOR_COMPONENT_RELEASE",
+        "run_id": "overwrite_without_releasing_old_components",
+        "buffer_key": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec"
+      }
+    ],
+    "summary": {
+      "produced_plan_uris": 1,
+      "consumed_plan_uris": 1,
+      "native_mapping_events": 0,
+      "state_rpc_handoffs": 1,
+      "active_state_entry": "audit_state_lifecycles_proposal_v1",
+      "legacy_state_entry_retained_unchanged": true,
+      "materialized_generations": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "ready_ns": 20,
+          "components": {
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#emb": {
+              "materialize_end_ns": 13,
+              "live_until_ns": 51
+            },
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec": {
+              "materialize_end_ns": 16,
+              "live_until_ns": 54
+            }
+          }
+        },
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 2,
+          "ready_ns": 60,
+          "components": {
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#emb": {
+              "materialize_end_ns": 53,
+              "live_until_ns": 80
+            },
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec": {
+              "materialize_end_ns": 56,
+              "live_until_ns": 83
+            }
+          }
+        }
+      ],
+      "dedup_aliases": [],
+      "consumption_generation_matches": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "consume_start_ns": 30,
+          "consume_end_ns": 33,
+          "hash_basis": "latest_successful_resolve_reference"
+        },
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 2,
+          "consume_start_ns": 70,
+          "consume_end_ns": 73,
+          "hash_basis": "latest_successful_resolve_reference"
+        }
+      ],
+      "hash_observation_limit": "compute events record URI, not a new payload hash; reference hash is joined from successful resolve when present, otherwise only a unique observed producer hash may identify the generation"
+    },
+    "legacy_false_pairing_demonstrated": null
+  },
+  {
+    "fixture": "one_shared_close_two_components",
+    "expected_fail_code": null,
+    "findings": [],
+    "summary": {
+      "produced_plan_uris": 1,
+      "consumed_plan_uris": 1,
+      "native_mapping_events": 0,
+      "state_rpc_handoffs": 1,
+      "active_state_entry": "audit_state_lifecycles_proposal_v1",
+      "legacy_state_entry_retained_unchanged": true,
+      "materialized_generations": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "ready_ns": 20,
+          "components": {
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#emb": {
+              "materialize_end_ns": 13,
+              "live_until_ns": 40
+            },
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec": {
+              "materialize_end_ns": 16,
+              "live_until_ns": 40
+            }
+          }
+        }
+      ],
+      "dedup_aliases": [],
+      "consumption_generation_matches": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "consume_start_ns": 30,
+          "consume_end_ns": 33,
+          "hash_basis": "latest_successful_resolve_reference"
+        }
+      ],
+      "hash_observation_limit": "compute events record URI, not a new payload hash; reference hash is joined from successful resolve when present, otherwise only a unique observed producer hash may identify the generation"
+    },
+    "legacy_false_pairing_demonstrated": null
+  },
+  {
+    "fixture": "shared_close_not_a_per_uri_duration",
+    "expected_fail_code": "SHARED_RELEASE_TIMING_DUPLICATED_PER_URI",
+    "findings": [
+      {
+        "level": "FAIL",
+        "code": "SHARED_RELEASE_TIMING_DUPLICATED_PER_URI",
+        "run_id": "shared_close_not_a_per_uri_duration"
+      }
+    ],
+    "summary": {
+      "produced_plan_uris": 1,
+      "consumed_plan_uris": 1,
+      "native_mapping_events": 0,
+      "state_rpc_handoffs": 1,
+      "active_state_entry": "audit_state_lifecycles_proposal_v1",
+      "legacy_state_entry_retained_unchanged": true,
+      "materialized_generations": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "ready_ns": 20,
+          "components": {
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#emb": {
+              "materialize_end_ns": 13,
+              "live_until_ns": 40
+            },
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec": {
+              "materialize_end_ns": 16,
+              "live_until_ns": 40
+            }
+          }
+        }
+      ],
+      "dedup_aliases": [],
+      "consumption_generation_matches": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "consume_start_ns": 30,
+          "consume_end_ns": 33,
+          "hash_basis": "latest_successful_resolve_reference"
+        }
+      ],
+      "hash_observation_limit": "compute events record URI, not a new payload hash; reference hash is joined from successful resolve when present, otherwise only a unique observed producer hash may identify the generation"
+    },
+    "legacy_false_pairing_demonstrated": null
+  },
+  {
+    "fixture": "one_component_never_released",
+    "expected_fail_code": "MATERIALIZED_COMPONENT_NOT_RELEASED",
+    "findings": [
+      {
+        "level": "FAIL",
+        "code": "MATERIALIZED_COMPONENT_NOT_RELEASED",
+        "run_id": "one_component_never_released",
+        "buffer_key": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec"
+      },
+      {
+        "level": "FAIL",
+        "code": "MATERIALIZATION_GENERATION_NOT_RELEASED",
+        "run_id": "one_component_never_released",
+        "buffer_key": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec",
+        "materialize_end_ns": 16
+      }
+    ],
+    "summary": {
+      "produced_plan_uris": 1,
+      "consumed_plan_uris": 1,
+      "native_mapping_events": 0,
+      "state_rpc_handoffs": 1,
+      "active_state_entry": "audit_state_lifecycles_proposal_v1",
+      "legacy_state_entry_retained_unchanged": true,
+      "materialized_generations": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "ready_ns": 20,
+          "components": {
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#emb": {
+              "materialize_end_ns": 13,
+              "live_until_ns": 40
+            },
+            "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa#vec": {
+              "materialize_end_ns": 16,
+              "live_until_ns": null
+            }
+          }
+        }
+      ],
+      "dedup_aliases": [],
+      "consumption_generation_matches": [
+        {
+          "uri": "state://pure-fixture/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "generation": 1,
+          "consume_start_ns": 30,
+          "consume_end_ns": 33,
+          "hash_basis": "latest_successful_resolve_reference"
+        }
+      ],
+      "hash_observation_limit": "compute events record URI, not a new payload hash; reference hash is joined from successful resolve when present, otherwise only a unique observed producer hash may identify the generation"
+    },
+    "legacy_false_pairing_demonstrated": null
+  }
+]

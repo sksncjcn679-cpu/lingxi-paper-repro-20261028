@@ -1,0 +1,68 @@
+{
+  "schema_version": "completion-main-postrun-preparation-v2",
+  "status": "PREPARED_ONLY_AWAIT_ACTUAL_MAIN_TERMINAL",
+  "created_utc": "2026-10-21T07:34:51.266421+00:00",
+  "static_AST_parsed_only": [
+    "analyze_completed_main_v1.py",
+    "offline_analysis_runner.py",
+    "run_after_main_terminal_v1.py"
+  ],
+  "input_identity_sha256": "1d85c318a8b31765a8ab5ebc3d07744ba4187237a239626ebeaa677a34688660",
+  "formal_plan_sha256": "47597048d8a34f543c541074b5d21b77d6de758b1548c866840fb43cbcce637a",
+  "corpus_sha256": "4cfd1c01b6fbdd639a969b69edef6fcd36fc30ad0aa77ed909c0483987834d4e",
+  "counts": {
+    "main": 2160,
+    "unique_tasks": 120,
+    "applicable": 108,
+    "chains": 20
+  },
+  "frozen_numerical_source_sha256": {
+    "formal_statistics.py": "7e201b28e8a85e712cdace33951e900ad47e6c8dcd8f4554763cccd69870e373",
+    "formal_statistics_protocol_aligned_v3.py": "43fffd1665f8e0266f1de04b25e22ba336d3c97919796c29ab07beb4d57811bc",
+    "provider_accounting.py": "2eb69a893804461dc945cbae4475058233c91620271a8328e5698f036241ed99"
+  },
+  "files": {
+    "analyze_completed_main_v1.py": {
+      "bytes": 30888,
+      "sha256": "45338e2535194be592a85f62b5edcd7937f2f20fdc80c6f93c386ef7d15ee185"
+    },
+    "identity_binding.json": {
+      "bytes": 2189,
+      "sha256": "1d85c318a8b31765a8ab5ebc3d07744ba4187237a239626ebeaa677a34688660"
+    },
+    "offline_analysis_runner.py": {
+      "bytes": 9006,
+      "sha256": "7a82d8b4263b127b938958bc6bca74d8db50f0517e2654e94547bd4c67f77e2d"
+    },
+    "preparation_receipt.json": {
+      "bytes": 2306,
+      "sha256": "e6c42e4dc9b0d0402d88319c2e2f875f73ded74e8b7920c16c1a1070b06591f9"
+    },
+    "README.md": {
+      "bytes": 4157,
+      "sha256": "e32ff4c9f92be6b4c22d7fffb16fde8db1eff87402c60ba95eba2f54b2baff88"
+    },
+    "run_after_main_terminal_v1.py": {
+      "bytes": 8737,
+      "sha256": "008c49789fc1177f9faae2eb82da291a333b7afa07f207e13832fdc7fc880b54"
+    },
+    "static_peer_review_v1.json": {
+      "bytes": 1855,
+      "sha256": "1aaf7e2294640536daa87995f9db2146db92574151de20d440898bcb2108d4b6"
+    }
+  },
+  "runtime_guard_sha256": "7a82d8b4263b127b938958bc6bca74d8db50f0517e2654e94547bd4c67f77e2d",
+  "active_raw_read_hashed_or_imported": false,
+  "model_API_benchmark_or_statistical_execution_count": 0,
+  "sole_method": "Unchanged v3 analyze, identity-only d87 loader, seed20261020; no new family/CI/statistical rules.",
+  "future_execution": "Only explicit coordinator terminal confirmation plus actual completion receipt; raw hash manifest and actual receipts produced then.",
+  "previous_preparation_receipt": {
+    "path": "preparation_receipt.json",
+    "sha256": "e6c42e4dc9b0d0402d88319c2e2f875f73ded74e8b7920c16c1a1070b06591f9",
+    "scope": "Immutable earlier prepared snapshot before two bounded static compatibility fixes."
+  },
+  "bounded_static_fixes": [
+    "All observed recorded-partition categories emitted for all six arms; zero remains assigned recorded mass only, never imputed operation latency.",
+    "Require actual_terminal true and at least one int0 actual exit field in coordinator terminal receipt, before any raw read/hash."
+  ]
+}

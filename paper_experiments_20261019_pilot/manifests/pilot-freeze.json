@@ -1,0 +1,12 @@
+{
+  "source_sha256": "a040080a8c1011bc1281439b6398d177b7517a2b6a65c7bcfda9e90a1937b562",
+  "corpus_sha256": "e1b326badcff22dc10c84329cd2ea9a45fc610d1564ed289e344e0eadda76bec",
+  "plan_sha256": "f6f4119f186db1780616c31416c8cf2b5e750ad9871086dfda310175e9091039",
+  "protocol_sha256": "642e389d09d4e5d969d40be9a4fd1bddb6ae4056f54d67b349980e1cd010c791",
+  "drivers": {
+    "pilot_openeuler.py": "ce18af5849d95171a918ed275ede23b7d59afb4165532dc82e41d0d96e45d3d8",
+    "pilot_corpus.py": "46b8b6366ea41cd72527c7f7c7121417029dc985139e380a4fb174d242e3fa5d"
+  },
+  "frozen_at_utc": "2026-10-19T12:45:40.474369+00:00",
+  "scope": "pilot only"
+}

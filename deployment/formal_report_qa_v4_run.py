@@ -1,0 +1,226 @@
+"""QA version4 for existing report_v3, preserving its exact-byte guard FAIL.
+
+This entry point never generates reports, calls a model, reads raw, or runs a
+state/retrieval experiment. Original QA exit3/UNKNOWN/missing usage stay intact.
+"""
+from __future__ import annotations
+
+import argparse
+from datetime import datetime, timezone
+import hashlib
+import importlib.metadata
+import json
+import os
+from pathlib import Path
+import subprocess
+import sys
+import time
+
+OVERLAY_SHA = '8bc0747441900db0372f1a1cd81521073fcb4e3de1faf986e6d61046c20818be'
+HELPER_SHA = 'e40699c6c29735f42317aefae8151ed195a41d10dfc0a965d8e13d41d63c0fd1'
+REPORT_SHA = 'fed72d9777f6eaf8c630e19eb33f182e3f8acd01423d48dc20a39c9c4c460dc3'
+DATA_SELECTION_SHA = 'fc8dcde3bded0cdeb4b77c93adde80eb21b954d632a9e4459b0e90bfaf357a00'
+SERIAL_AUDIT_SHA = '21043e993c4f35c0db7d0b68077fcc7cc75711a5ce0ed64f5a7b59f98bc8941b'
+SERIAL_SOURCE_SHA = '0c2bce87b9ef94340f11ba8088064154df2e2f80904719d85c42e4d34bb7660c'
+STRICT_RUNNER_SHA = 'fd7d263906ff58813931cb06b675dc7d33f3c57f068f8506b545395ffb187538'
+STRICT_CONTRACT_SHA = '92e2f4a0016001abd98a5a9cf95e45b0bd6672913d8655e395588bc831b69786'
+
+
+def utc(): return datetime.now(timezone.utc).isoformat()
+
+
+def sha(path):
+    digest = hashlib.sha256()
+    with path.open('rb') as stream:
+        while chunk := stream.read(1024 * 1024): digest.update(chunk)
+    return digest.hexdigest()
+
+
+def read(path): return json.loads(path.read_text(encoding='utf-8'))
+
+
+def selected(root, relative):
+    path = (root / relative).resolve()
+    if not path.is_relative_to(root) or path == root: raise ValueError('selection path outside evidence root')
+    return path
+
+
+def numeric_inventory(report):
+    return {path.relative_to(report).as_posix(): sha(path) for path in sorted(report.rglob('*'))
+            if path.is_file() and (path.suffix == '.csv' or path.name.startswith('statistics_') and
+                                  path.suffix == '.json' or path.name == 'abstract_metrics.json')}
+
+
+def inventory(report):
+    return {path.relative_to(report).as_posix(): sha(path) for path in sorted(report.rglob('*')) if path.is_file()}
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--out', type=Path, required=True)
+    args = parser.parse_args(); root = args.out.resolve()
+    overlay_path = root / 'analysis/final_render_selection_v3.json'
+    if sha(overlay_path) != OVERLAY_SHA: raise RuntimeError('prepared layout overlay identity changed')
+    overlay = read(overlay_path)
+    out = selected(root, 'analysis/report_qa_v4')
+    if out.exists(): raise RuntimeError('QA destination must be new; never overwrite prior evidence')
+    out.mkdir(parents=True)
+    report = selected(root, overlay['report_root'])
+    original = selected(root, overlay['original_data_report_root'])
+    recovery = selected(root, overlay['report_recovery_root'])
+    helper = Path(__file__).resolve().with_name('formal_report_qa.py')
+    contract_path = root / 'analysis/report_qa_contract_v4.json'
+    receipt = dict(status='CHECKING_ACTUAL_RECOVERY', started_utc=utc(), pid=os.getpid(),
+        source_sha256=sha(Path(__file__)), report=str(report), old_report=str(original),
+        overlay_sha256=OVERLAY_SHA, steps=[], rendered=[], paid_api_calls=0,
+        raw_opened=False, formal_venv_modified=False, visual_qa='PENDING_ACTUAL_RENDER_AND_VIEW')
+
+    def persist():
+        (out/'execution_receipt.json').write_text(json.dumps(receipt, ensure_ascii=False, indent=2, allow_nan=False), encoding='utf-8')
+
+    env = {k: v for k, v in os.environ.items() if not any(token in k.upper() for token in
+           ('API_KEY', 'API_TOKEN', 'ACCESS_TOKEN', 'AUTH_TOKEN', 'PASSWORD', 'SECRET'))}
+    env.update(PYTHONUTF8='1', PYTHONDONTWRITEBYTECODE='1')
+
+    def run(name, command, timeout):
+        step = dict(name=name, command=[str(value) for value in command], started_utc=utc(), timeout_sec=timeout)
+        receipt['steps'].append(step); persist(); tick=time.perf_counter()
+        stdout, stderr = out/(name+'.stdout.log'), out/(name+'.stderr.log')
+        process = None
+        try:
+            with stdout.open('xb') as first, stderr.open('xb') as second:
+                process=subprocess.Popen(step['command'], stdout=first, stderr=second, env=env)
+                step['pid']=process.pid; persist()
+                try: step['exit_code']=process.wait(timeout=timeout)
+                except subprocess.TimeoutExpired:
+                    process.kill(); process.wait(); step.update(timed_out=True, exit_code=process.returncode)
+            step['status']='PASS_EXIT0' if step.get('exit_code')==0 else 'NONZERO_RETAINED'
+        except BaseException:
+            if process is not None and process.poll() is None:
+                process.kill(); process.wait()
+                step.update(cleanup='OWNED_DIRECT_CHILD_KILLED_AND_WAITED', exit_code=process.returncode)
+            raise
+        finally:
+            step.update(finished_utc=utc(), wall_sec=time.perf_counter()-tick,
+                        stdout_sha256=sha(stdout) if stdout.is_file() else None,
+                        stderr_sha256=sha(stderr) if stderr.is_file() else None)
+            persist()
+        return step
+
+    fatal = None
+    persist()
+    try:
+        controller_path=recovery/'manifest.json'; controller=read(controller_path)
+        identity_path=recovery/'numerical_identity.json'; identity=read(identity_path)
+        expected=overlay['numeric_reference_sha256']
+        audit_path=root/'analysis/report_numeric_serialization_audit_v1/audit.json'
+        if sha(audit_path)!=SERIAL_AUDIT_SHA: raise RuntimeError('exact independent serialization disposition changed')
+        audit=read(audit_path)
+        steps=controller.get('steps', [])
+        if controller.get('status')!='ERROR_RETAINED_FOR_DIAGNOSIS' or len(steps)!=1 or any(
+            step.get('status')!='PASS' or step.get('exit_code')!=0 or step.get('timed_out') for step in steps):
+            raise RuntimeError('retained controller FAIL or actual report-child exit0 proof differs')
+        if controller.get('final_render_selection_sha256')!=OVERLAY_SHA or controller.get('report_source_sha256')!=REPORT_SHA:
+            raise RuntimeError('actual recovery source/overlay identity differs')
+        if controller.get('numerical_identity_sha256')!=sha(identity_path) or controller.get('numerical_identity')!=identity:
+            raise RuntimeError('controller numerical identity receipt differs')
+        if identity.get('status')!='FAIL_EXACT_BYTES' or identity.get('numeric_files')!=42 or len(expected)!=42 or \
+            identity.get('expected_sha256')!=expected:
+            raise RuntimeError('original strict byte-guard failure was not retained')
+        if audit.get('status')!='PASS_NUMERICAL_IDENTITY_WITH_RETAINED_BYTE_GUARD_FAILURE' or \
+            audit.get('source_sha256')!=SERIAL_SOURCE_SHA or audit.get('final_render_selection_sha256')!=OVERLAY_SHA or \
+            audit.get('report_recovery_manifest_sha256')!=sha(controller_path) or \
+            audit.get('retained_exact_byte_failure_sha256')!=sha(identity_path) or \
+            audit.get('retained_controller_status')!=controller['status'] or audit.get('actual_report_child_exit_code')!=0:
+            raise RuntimeError('actual independent typed/canonical audit provenance differs')
+        comparison=audit.get('abstract_comparison',{})
+        if audit.get('numeric_file_count')!=42 or audit.get('exact_byte_identical_files')!=41 or \
+            audit.get('sole_serialization_difference')!='analysis/abstract_metrics.json' or \
+            comparison!={'visited_nodes':57798,'typed_value_differences':0,'object_member_order_differences':1}:
+            raise RuntimeError('disposition is not the exact approved sole member-order difference')
+        actual=numeric_inventory(report)
+        if numeric_inventory(original)!=expected or audit.get('original_numeric_sha256')!=expected or \
+            audit.get('publication_numeric_sha256')!=actual or identity.get('actual_sha256')!=actual or \
+            set(actual)!=set(expected) or [name for name in expected if actual[name]!=expected[name]]!=['analysis/abstract_metrics.json']:
+            raise RuntimeError('actual41 exact files or sole approved abstract serialization bytes differ')
+        canonical=[]
+        for folder in (original,report):
+            canonical.append(json.dumps(read(folder/'analysis/abstract_metrics.json'),sort_keys=True,ensure_ascii=False,
+                allow_nan=False,separators=(',',':')).encode('utf-8'))
+        if canonical[0]!=canonical[1] or hashlib.sha256(canonical[0]).hexdigest()!=audit.get('abstract_canonical_sha256'):
+            raise RuntimeError('actual abstract canonical bytes differ from independent disposition')
+        for relative,expected_sha in audit['evidence_sha256'].items():
+            if sha(selected(root,relative))!=expected_sha: raise RuntimeError('independent audit evidence changed')
+        if sha(Path(__file__).with_name('formal_report_qa_v3_run.py'))!=STRICT_RUNNER_SHA or \
+            sha(root/'analysis/report_qa_contract_v3.json')!=STRICT_CONTRACT_SHA:
+            raise RuntimeError('strict prepared QA-v3 bytes were not preserved')
+        if sha(selected(root, overlay['data_selection']))!=DATA_SELECTION_SHA or sha(helper)!=HELPER_SHA:
+            raise RuntimeError('original data selection or QA helper changed')
+        if sha(selected(root, overlay['original_visual_qa']))!=overlay['original_visual_qa_sha256'] or \
+            sha(selected(root, overlay['original_qa_execution_receipt']))!=overlay['original_qa_execution_receipt_sha256']:
+            raise RuntimeError('prior actual visual failure/QA evidence changed')
+        contract=read(contract_path)
+        if contract['entrypoint']['sha256']!=sha(Path(__file__)) or contract['static_basis']['reviewed_sha256']!=REPORT_SHA or \
+            contract['layout_overlay_sha256']!=OVERLAY_SHA: raise RuntimeError('prepared QA-v3 contract identity differs')
+        receipt.update(status='RUNNING_ACTUAL_QA', controller_sha256=sha(controller_path),
+            retained_controller_status=controller['status'],numerical_identity_sha256=sha(identity_path),
+            serialization_audit_sha256=SERIAL_AUDIT_SHA,
+            numerical_gate='PASS41_EXACT_PLUS_TYPED_CANONICAL_ABSTRACT_ONLY_STRICT_FAILURE_RETAINED',
+            contract_sha256=sha(contract_path), helper_sha256=HELPER_SHA,
+            python_executable=sys.executable, python_version=sys.version,
+            dependencies={name:importlib.metadata.version(name) for name in ('pypdf','Pillow')},
+            report_inputs_before=inventory(report), original_report_inputs_before=inventory(original))
+        persist()
+        qa=run('original_qa_helper',[sys.executable,helper,'--report-dir',report,'--output',out/'automated_qa.json'],300)
+        receipt['automated_exit_code']=qa.get('exit_code')
+        from PIL import Image, ImageDraw, ImageOps
+        renderer=Path(os.environ['USERPROFILE'])/'.cache/codex-runtimes/codex-primary-runtime/dependencies/native/poppler/Library/bin/pdftoppm.exe'
+        if not renderer.is_file(): raise RuntimeError('existing Poppler unavailable; no automatic installation')
+        receipt['renderer']={'path':str(renderer),'sha256':sha(renderer),'dpi':300,'source':'actual PDF bytes'}
+        rendered=out/'rendered'; rendered.mkdir()
+        pdfs=sorted((report/'figures').glob('figure_*_*.pdf'))
+        if len(pdfs)!=18: raise RuntimeError('exactly18 actual PDF files required')
+        for pdf in pdfs:
+            prefix=rendered/pdf.stem
+            step=run('render_'+pdf.stem,[renderer,'-r','300','-png','-singlefile','-f','1','-l','1',pdf,prefix],90)
+            png=prefix.with_suffix('.png')
+            record={'pdf':str(pdf),'pdf_sha256':sha(pdf),'status':'FAILED_RENDER_RETAINED'}
+            if step.get('exit_code')==0 and png.is_file():
+                with Image.open(png) as page: dimensions=list(page.size)
+                record.update(status='RENDERED_REQUIRES_VIEW',output=str(png),png_sha256=sha(png),dimensions=dimensions)
+            receipt['rendered'].append(record); persist()
+        for column in ('single','double'):
+            paths=sorted(rendered.glob('figure_*_'+column+'.png'))
+            tile_w,tile_h=(500,1050) if column=='single' else (700,700)
+            for grey in (False,True):
+                sheet=Image.new('RGB',(tile_w*3,tile_h*3),'#ececec'); draw=ImageDraw.Draw(sheet)
+                for index,path in enumerate(paths):
+                    with Image.open(path) as original_page:
+                        page=original_page.convert('RGB')
+                        if grey: page=ImageOps.grayscale(page).convert('RGB')
+                        page.thumbnail((tile_w-16,tile_h-36),Image.Resampling.LANCZOS)
+                    x=(index%3)*tile_w+8; y=(index//3)*tile_h
+                    draw.text((x,y+4),path.stem,fill='black'); sheet.paste(page,(x,y+26))
+                sheet.save(out/('contact_'+column+('_greyscale' if grey else '')+'.png'))
+        receipt['all18_pdf_rendered']=len(receipt['rendered'])==18 and all(
+            record['status']=='RENDERED_REQUIRES_VIEW' for record in receipt['rendered'])
+        receipt['status']='ACTUAL_QA_RENDER_COMPLETE_REQUIRES_ORIGINAL_DETAIL_VIEW'
+    except BaseException as error:
+        fatal=error
+        receipt.update(status='ERROR_RETAINED_FOR_DIAGNOSIS',error_type=type(error).__name__,
+                       error_text_sha256=hashlib.sha256(str(error).encode()).hexdigest())
+    finally:
+        if 'report_inputs_before' in receipt:
+            receipt['report_inputs_after']=inventory(report)
+            receipt['original_report_inputs_after']=inventory(original)
+            receipt['report_inputs_unchanged']=receipt['report_inputs_before']==receipt['report_inputs_after']
+            receipt['original_report_inputs_unchanged']=receipt['original_report_inputs_before']==receipt['original_report_inputs_after']
+        receipt['finished_utc']=utc(); persist()
+    print(json.dumps({'status':receipt['status'],'output':str(out),'automated_exit_code':receipt.get('automated_exit_code'),
+        'all18_pdf_rendered':receipt.get('all18_pdf_rendered'),'visual_qa':receipt['visual_qa']}))
+    if fatal is not None: raise fatal
+    raise SystemExit(0 if receipt.get('all18_pdf_rendered') and receipt.get('report_inputs_unchanged') and
+                     receipt.get('original_report_inputs_unchanged') else 2)
+
+
+if __name__=='__main__': main()

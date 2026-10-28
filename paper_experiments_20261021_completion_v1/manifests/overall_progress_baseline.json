@@ -1,0 +1,27 @@
+{
+  "recorded_utc": "2026-10-21T07:10:59.593213+00:00",
+  "scope": "Original goal: experiments, statistics, manuscript, Chinese figures and evidence/reproduction delivery",
+  "progress_basis": "Conservative evidence-item closure from immutable original155 index; all scoped limitations,unknown,incomplete,not-applicable excluded from numerator. Not workload/time fraction or scientific hypothesis PASS rate.",
+  "original_index_status_counts": {
+    "COMPLETE_SCOPED": 109,
+    "SCOPED_LIMITATION": 40,
+    "UNVERIFIED": 2,
+    "NOT_APPLICABLE_NO_CLAIM": 1,
+    "INCOMPLETE": 3
+  },
+  "closed_scoped_items": 109,
+  "registered_items": 155,
+  "conservative_evidence_fraction": 0.7032258064516129,
+  "new_completed_supplements_not_yet_promoted_to_original_index": [
+    "30-cell pressure postcollection CI",
+    "720 real local initialization write measurements"
+  ],
+  "main_replication": "Running after actual preflight;2160planned",
+  "pending_deliverables": [
+    "New batch terminal records and frozen-statistics analysis",
+    "Updated manuscript saved as newDOCX with renderingQA",
+    "Chinese updated figures and provenance",
+    "Final whole-goal evidence reconciliation"
+  ],
+  "old_index_modified": false
+}

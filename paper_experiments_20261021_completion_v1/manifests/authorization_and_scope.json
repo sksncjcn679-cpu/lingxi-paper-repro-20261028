@@ -1,0 +1,59 @@
+{
+  "study_id": "paper_completion_20261021_v1",
+  "authorized_utc": "2026-10-21T06:47:19.854592+00:00",
+  "authority": "User:先通过usage记账预检，再把这三项补齐，完整记录，原有结果不要覆盖，最后更新论文和中文图表，注意控制额度。",
+  "preflight": {
+    "real_model_requests": 1,
+    "model": "qwen3.7-plus",
+    "temperature": 0,
+    "max_tokens": 1500,
+    "timeout_seconds": 60,
+    "max_attempts_including_first": 1,
+    "separate_from_formal_population": true,
+    "requirements": [
+      "actual serialized request and safe response ID headers captured",
+      "provider usage explicit nonnegative integer fields",
+      "exact original billing ID bridge verified; no time/fuzzy matching",
+      "failed request recording fixture preserves unknown and halts progression"
+    ],
+    "no_induced_provider_failures": true
+  },
+  "new_main_batch_candidate": {
+    "task_units": 2160,
+    "tasks": 120,
+    "chains": 20,
+    "arms": 6,
+    "repeats": 3,
+    "max_attempts": 6480,
+    "launch_requires_usage_preflight_pass": true,
+    "unknown_usage_policy": "retain null, stop subsequent paid units; never replace old or silently retry unresolved attempt"
+  },
+  "additional_model_matrices": [],
+  "parallel_offline_tasks": [
+    "actual seed-write timing, no model API",
+    "postcollection pressure p95/communication CI"
+  ],
+  "timing_isolation": "No heavy offline work concurrent with real main batch",
+  "original_file_bindings": [
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\论文实验设计方案.md",
+      "sha256": "ca5602a6f8fcb852f5824bf6c4fd7e71074b280c35ba5705676806d17d593843"
+    },
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261019_pilot\\protocol_repair_20261020_v1\\raw\\provider_calls.jsonl",
+      "sha256": "9b4c0d60aadb040097a3f60ce7256b6c7f7b39c7c8d8d767f6d2a194bfc3e14b"
+    },
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261019_pilot\\protocol_repair_20261020_v1\\raw\\model_io.jsonl",
+      "sha256": "91c5cb0a29c91c43616717618e7497c1a5d3bb8139cdfe71048545cc089e45a7"
+    },
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261019_pilot\\protocol_repair_20261020_v1\\analysis\\stats\\formal_primary_v1.json",
+      "sha256": "5a05487490072f1989a02b2bd99f39c1bfa07acba0f31af96a8579e73ddfaa2a"
+    },
+    {
+      "path": "E:\\xwechat_files\\wxid_isc4w98f5mlm22_5004\\msg\\file\\2026-10\\面向多智能体协作的结构化通信、状态交换与共享记忆机制_排版复核稿.docx",
+      "sha256": "18ca54fe5a69f8abeb3c20644bcad55cf6a19798afd0059d88c0fd1000d30289"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+python3-0:3.11.6-43.oe2403sp3.x86_64
+python3-pip-0:23.3.1-14.oe2403sp3.noarch
+python3-setuptools-0:68.0.0-2.oe2403sp3.noarch
+libstdc++-0:12.3.1-105.oe2403sp3.x86_64
+libgcc-0:12.3.1-105.oe2403sp3.x86_64
+libgomp-0:12.3.1-105.oe2403sp3.x86_64
+openssl-libs-1:3.0.12-50.oe2403sp3.x86_64
+libffi-0:3.4.4-7.oe2403sp3.x86_64
+zlib-0:1.2.13-5.oe2403sp3.x86_64
+bzip2-0:1.0.8-8.oe2403sp3.x86_64
+xz-libs-0:5.4.7-8.oe2403sp3.x86_64
+readline-0:8.2-5.oe2403sp3.x86_64
+ncurses-libs-0:6.4-12.oe2403sp3.x86_64
+sqlite-0:3.42.0-5.oe2403sp3.x86_64
+python3-pyparsing-0:3.1.1-1.oe2403sp3.noarch

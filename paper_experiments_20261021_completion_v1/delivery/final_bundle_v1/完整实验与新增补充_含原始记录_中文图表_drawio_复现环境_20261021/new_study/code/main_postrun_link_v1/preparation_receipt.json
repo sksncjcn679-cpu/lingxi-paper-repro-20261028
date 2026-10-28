@@ -1,0 +1,11 @@
+{
+  "status": "SOURCE_PREPARED_FOR_SINGLE_ACTUAL_HOST_LAUNCH",
+  "created_utc": "2026-10-21T07:47:44.009956+00:00",
+  "source_sha256": "301afbbc8d08f9dc7244bb71e69756134de97355d7e97402c4d74e9985622042",
+  "configuration_sha256": "49d4bc44a0b08ee8ff1ef974dcc8ba87d7555e0503517389ff25f4af709cdd3d",
+  "source_AST_parse_only": true,
+  "pinned_file_count": 16,
+  "running_raw_read_or_hashed": false,
+  "model_API_benchmark_or_second_main_launches": 0,
+  "reuse_check": "No existing handoff source, exclusive logs, witness, or analysis output found; exclusive log creation prevents second launch."
+}

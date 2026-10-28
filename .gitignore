@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+.venv/
+.local/
+__pycache__/
+*.pyc
+*.zip
+*.tar
+*.vhdx
+raw/
+private_billing/

@@ -1,0 +1,29 @@
+{
+  "status": "SOURCE_PREPARED_NOT_EXECUTED_OR_TESTED",
+  "created_utc": "2026-10-20T11:25:58+00:00",
+  "source": "deployment/protocol_repair_v1/postrun_analysis/saved_report_adapter.py",
+  "preimage": "saved_report_adapter_bb15f52_preimage.py",
+  "preimage_sha256": "bb15f52fc2f727b72e46e4e2a01c19a2fdac4864f80a4ff95f4f7e41a6a05d21",
+  "new_adapter_sha256": "33b6e50abf5044c78f963ef71d9c304dfc0362cd2715438f3fd8f7ba2692f851",
+  "diff": "capacity_report.patch",
+  "diff_sha256": "bffecbcd23d767a4169cbd03b3cfe521ef414f82e95acec8208385a533f74171",
+  "bound_capacity_helper_sha256": "e7acca9bd698b55215690e13f5dcf3fcf04777d513397ea090422e94e37299a8",
+  "original_frozen_analyzer_sha256": "e73e5633cac1ba3428e0d2b3d145fcff4f94417ea0eb00fb72a29d4a06103524",
+  "original_prospective_binding_sha256": "ef70689318eeaecd7beed4bf6c5c84dc18df206e243fc430f461f07c48c102d3",
+  "review": "manual source inspection only; no AST parser, imports, analyzer, report, renderer, fixture, or test executed",
+  "formal_or_retrieval_raw_read": false,
+  "large_artifact_hashing": false,
+  "provider_or_model_calls": 0,
+  "docker_operations": 0,
+  "statistics_recomputed": false,
+  "frozen_sources_or_binding_modified": false,
+  "changes": [
+    "Explicit optional --retrieval-capacity-dir; original --retrieval-dir and exact audit/findings bytes retained separately",
+    "Future report execution rejects capacity source SHA, original e73 SHA/binding, saved output, quiet/process/coverage/projection count or exact original statistical AST mismatches",
+    "All20 pooled and60 by-build planned cells retained; saved values copied, missing subgroup points/CIs remain None, report_cell_status exposes incompleteness; no p/Holm family added",
+    "Availability and Figure7 disclose actual observed/planned/missing totals, 20000-record/total timeout counts, original audit status/findings, post-timeout supplement implementation, unchanged seed261019/10000draw method",
+    "Real and retrieval duration captions and overall limits disclose guest clocks, recorded host sleep/clock recovery, no pause-free user-wall or isolated provider-inference claim; no duration edits or row exclusions"
+  ],
+  "main_family_external_references_offline_mapping_and_format_authorities": "unchanged",
+  "next_step": "Root may execute and independently review only after actual final controller and full-process quiet gates; preparation is not a PASS or execution result"
+}

@@ -1,0 +1,3633 @@
+{
+  "status": "VERIFIED",
+  "created_utc": "2026-10-20T10:15:04.803762+00:00",
+  "helper_sha256": "23acc866bdf6bf26b121b9037ea0907d16e662653b716258dcb4c5226ad890f6",
+  "prepared_manifest_sha256": "280aa195e90e267648829586037c6b7eefa1b4db4b47c2e600f96a3482446b09",
+  "quiescence_receipt_sha256": "dea595402f2fad93929c04e47a29bc2645f0f16e1c32ae7a6d6e133b940bfbb8",
+  "scope": "HISTORICAL_OFFLINE_BYTE_ASSETS_AND_OPAQUE_HASH_LINEAGE_ONLY",
+  "files_checked": 401,
+  "failures": [],
+  "file_checks": [
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/source_package_formal_20261019_v2/bundle/metadata/source_input_inventory.json",
+      "expected_sha256": "65e74591a6415c4a06ec2d9335e2ce52f671b7de4d62a61afdf7924af73499ed",
+      "actual_sha256": "65e74591a6415c4a06ec2d9335e2ce52f671b7de4d62a61afdf7924af73499ed",
+      "expected_bytes": 393589,
+      "actual_bytes": 393589,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/source_package_formal_20261019_v2/bundle/metadata/original_raw_inventory.json",
+      "expected_sha256": "1fc48c1924d288af4146296bcda0ecc2c097d9a9939144fe98109c4a973fd803",
+      "actual_sha256": "1fc48c1924d288af4146296bcda0ecc2c097d9a9939144fe98109c4a973fd803",
+      "expected_bytes": 98128,
+      "actual_bytes": 98128,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/postrun_verification_v1/report_v3/checksums.sha256",
+      "expected_sha256": "949281ff75b50b5175782d85e7fd2fcb85597829d700b253d2e725bd855ee7a6",
+      "actual_sha256": "949281ff75b50b5175782d85e7fd2fcb85597829d700b253d2e725bd855ee7a6",
+      "expected_bytes": 10837,
+      "actual_bytes": 10837,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/report/checksums.sha256",
+      "expected_sha256": "f5f8e90ff4adc423542e917766a20cb484066602fb278b62e86a459a47268b3f",
+      "actual_sha256": "f5f8e90ff4adc423542e917766a20cb484066602fb278b62e86a459a47268b3f",
+      "expected_bytes": 10837,
+      "actual_bytes": 10837,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/postrun_verification_v1/report_v3/analysis/report_availability.json",
+      "expected_sha256": "f3f723c3dc59d0ffff79eaff97adc44f1bd70b506f16250236775d0c01bca344",
+      "actual_sha256": "f3f723c3dc59d0ffff79eaff97adc44f1bd70b506f16250236775d0c01bca344",
+      "expected_bytes": 30164,
+      "actual_bytes": 30164,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/manifests/source_identity.json",
+      "expected_sha256": "7f38e62046c0ee60a0bd9606328264e64143c8f88130eec9b4ebfc235ba28f0c",
+      "actual_sha256": "7f38e62046c0ee60a0bd9606328264e64143c8f88130eec9b4ebfc235ba28f0c",
+      "expected_bytes": 197,
+      "actual_bytes": 197,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/source_package_formal_20261019_v2/bundle/metadata/source_identity_verification.json",
+      "expected_sha256": "dc92d68c821ab83d6afa22975aa077c1384b254b8dd6b66d1a4c1edee9cb4e58",
+      "actual_sha256": "dc92d68c821ab83d6afa22975aa077c1384b254b8dd6b66d1a4c1edee9cb4e58",
+      "expected_bytes": 493,
+      "actual_bytes": 493,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/report_qa_v4/visual_and_numeric_findings.json",
+      "expected_sha256": "2130572309282beabc955be5c63c9fc819471b7a81bfbd097f381f1da7ea1b7c",
+      "actual_sha256": "2130572309282beabc955be5c63c9fc819471b7a81bfbd097f381f1da7ea1b7c",
+      "expected_bytes": 26609,
+      "actual_bytes": 26609,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/report_qa_v4/execution_receipt.json",
+      "expected_sha256": "22730fdb6a0362514e92e4d077d735e1d212116fb05dec619c86794dd47668d1",
+      "actual_sha256": "22730fdb6a0362514e92e4d077d735e1d212116fb05dec619c86794dd47668d1",
+      "expected_bytes": 83961,
+      "actual_bytes": 83961,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/final_render_selection_v3.json",
+      "expected_sha256": "8bc0747441900db0372f1a1cd81521073fcb4e3de1faf986e6d61046c20818be",
+      "actual_sha256": "8bc0747441900db0372f1a1cd81521073fcb4e3de1faf986e6d61046c20818be",
+      "expected_bytes": 7215,
+      "actual_bytes": 7215,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/report_qa_v2/visual_and_numeric_findings.json",
+      "expected_sha256": "fe99b24585f2ccdd4fd9c61c7fb9e66a4fb2f62a2e7b74b87ad7f8f8c65f1fbf",
+      "actual_sha256": "fe99b24585f2ccdd4fd9c61c7fb9e66a4fb2f62a2e7b74b87ad7f8f8c65f1fbf",
+      "expected_bytes": 18694,
+      "actual_bytes": 18694,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/rebuild_manifest.json",
+      "expected_sha256": "6faa05df1ae8f30425a28f61c5d83681fe0504302cbdd191a9f806b1e35bc0a6",
+      "actual_sha256": "6faa05df1ae8f30425a28f61c5d83681fe0504302cbdd191a9f806b1e35bc0a6",
+      "expected_bytes": 56167,
+      "actual_bytes": 56167,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/pdf_pixel_qa_v1/audit.json",
+      "expected_sha256": "67d62825d8d94e9db02a975d458c3971554162561594e6b42c994adfb553d796",
+      "actual_sha256": "67d62825d8d94e9db02a975d458c3971554162561594e6b42c994adfb553d796",
+      "expected_bytes": 30400,
+      "actual_bytes": 30400,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/logs/input_copy_inventory.json",
+      "expected_sha256": "65c789e47d43ec4fc265eb134849700d62c98c7c0b8ba9b41627f936e4bbd292",
+      "actual_sha256": "65c789e47d43ec4fc265eb134849700d62c98c7c0b8ba9b41627f936e4bbd292",
+      "expected_bytes": 112299,
+      "actual_bytes": 112299,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/deployment/protocol_repair_v1/postrun_analysis/report_table_coverage_preexecution_correction_v2/saved_report_adapter_cbd12_preimage.py",
+      "expected_sha256": "cbd12f31afe4360e2427136ee07a35e73579ffec5ef6b90c4395f971ee30fbf0",
+      "actual_sha256": "cbd12f31afe4360e2427136ee07a35e73579ffec5ef6b90c4395f971ee30fbf0",
+      "expected_bytes": 53413,
+      "actual_bytes": 53413,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/state_batch_1.json",
+      "expected_sha256": "6be644d24a0b5a29962a7644af97d25506fdb2ea5bc5d92ac360ff00ff768631",
+      "actual_sha256": "6be644d24a0b5a29962a7644af97d25506fdb2ea5bc5d92ac360ff00ff768631",
+      "expected_bytes": 275,
+      "actual_bytes": 275,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/state_batch_2.json",
+      "expected_sha256": "8da25a66dfd48fa764c721dd1dfdba30ee022e0b163d16e95f87be93d9c2e56a",
+      "actual_sha256": "8da25a66dfd48fa764c721dd1dfdba30ee022e0b163d16e95f87be93d9c2e56a",
+      "expected_bytes": 275,
+      "actual_bytes": 275,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/state_batch_3.json",
+      "expected_sha256": "e68cae4918677e141209749200c34612886e63fde853759a8d366a70d39d2088",
+      "actual_sha256": "e68cae4918677e141209749200c34612886e63fde853759a8d366a70d39d2088",
+      "expected_bytes": 275,
+      "actual_bytes": 275,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_matrix_plan.json",
+      "expected_sha256": "0fe24acebb445026affdb7f3f554647a1a6242cf291de7d8cfc1197bbef9f806",
+      "actual_sha256": "0fe24acebb445026affdb7f3f554647a1a6242cf291de7d8cfc1197bbef9f806",
+      "expected_bytes": 574,
+      "actual_bytes": 574,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L1_K1_status.json",
+      "expected_sha256": "c747597ccbcc3ea4daca67407e7d90dce28f05398d37b0fb35d60e76fa518986",
+      "actual_sha256": "c747597ccbcc3ea4daca67407e7d90dce28f05398d37b0fb35d60e76fa518986",
+      "expected_bytes": 458,
+      "actual_bytes": 458,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L1_K1_process.json",
+      "expected_sha256": "e0c89158e254bc7012463bb54fc8c3ce7f5aa23af19ac61dc607928aea72c238",
+      "actual_sha256": "e0c89158e254bc7012463bb54fc8c3ce7f5aa23af19ac61dc607928aea72c238",
+      "expected_bytes": 77,
+      "actual_bytes": 77,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L1_K2_status.json",
+      "expected_sha256": "34c4084ec2b1b4b677b8d5ae6b30965cecf5e649c910808ebf9f51b3903ae5b2",
+      "actual_sha256": "34c4084ec2b1b4b677b8d5ae6b30965cecf5e649c910808ebf9f51b3903ae5b2",
+      "expected_bytes": 458,
+      "actual_bytes": 458,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L1_K2_process.json",
+      "expected_sha256": "d0acceef65ea22081227f947441ceccd0d2ad5b677404d3a418afb7742b1b4ba",
+      "actual_sha256": "d0acceef65ea22081227f947441ceccd0d2ad5b677404d3a418afb7742b1b4ba",
+      "expected_bytes": 77,
+      "actual_bytes": 77,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L1_K4_status.json",
+      "expected_sha256": "a809c95b36e169b9d6033ee52bf75a0b7f8401bdaafb3880bd568bf47d7633bc",
+      "actual_sha256": "a809c95b36e169b9d6033ee52bf75a0b7f8401bdaafb3880bd568bf47d7633bc",
+      "expected_bytes": 459,
+      "actual_bytes": 459,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L1_K4_process.json",
+      "expected_sha256": "b40e23cb2b845990a80546ac76ce03ed926ac65833eb6e23285916bdd47eaa9a",
+      "actual_sha256": "b40e23cb2b845990a80546ac76ce03ed926ac65833eb6e23285916bdd47eaa9a",
+      "expected_bytes": 77,
+      "actual_bytes": 77,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L1_K8_status.json",
+      "expected_sha256": "463ac84c5c90050924454fb9a3fa06e2327e47e59c04b02c44fd66053a5a4490",
+      "actual_sha256": "463ac84c5c90050924454fb9a3fa06e2327e47e59c04b02c44fd66053a5a4490",
+      "expected_bytes": 461,
+      "actual_bytes": 461,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L1_K8_process.json",
+      "expected_sha256": "efdb0b93acaa3ed7780b3ebc55c18049d3c8ccab14ffb8c5a797a75c7c8cd5f5",
+      "actual_sha256": "efdb0b93acaa3ed7780b3ebc55c18049d3c8ccab14ffb8c5a797a75c7c8cd5f5",
+      "expected_bytes": 77,
+      "actual_bytes": 77,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L1_K16_status.json",
+      "expected_sha256": "178d9cfdf629805161b20cd600e5e59db4e891557e537b2ae94a8d844cf379cd",
+      "actual_sha256": "178d9cfdf629805161b20cd600e5e59db4e891557e537b2ae94a8d844cf379cd",
+      "expected_bytes": 468,
+      "actual_bytes": 468,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L1_K16_process.json",
+      "expected_sha256": "11f8f54fc1289f0d4d3007a081eb6cf3e3c36e6c55f5b34ffbc9a656b357df03",
+      "actual_sha256": "11f8f54fc1289f0d4d3007a081eb6cf3e3c36e6c55f5b34ffbc9a656b357df03",
+      "expected_bytes": 77,
+      "actual_bytes": 77,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L2_K1_status.json",
+      "expected_sha256": "672a981ecd4315078706ab52d6112ceff9bc8b5f6c0219310b2ccbda2de348b8",
+      "actual_sha256": "672a981ecd4315078706ab52d6112ceff9bc8b5f6c0219310b2ccbda2de348b8",
+      "expected_bytes": 458,
+      "actual_bytes": 458,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L2_K1_process.json",
+      "expected_sha256": "440910e23c39e31fc9031f92aa916de3cc566139576c82d6ce06c4da90d0a22c",
+      "actual_sha256": "440910e23c39e31fc9031f92aa916de3cc566139576c82d6ce06c4da90d0a22c",
+      "expected_bytes": 77,
+      "actual_bytes": 77,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L2_K2_status.json",
+      "expected_sha256": "f70515ceef718cd3cc0e339655093539f0557a0ffc9eec9dec4ba0675e1d8018",
+      "actual_sha256": "f70515ceef718cd3cc0e339655093539f0557a0ffc9eec9dec4ba0675e1d8018",
+      "expected_bytes": 458,
+      "actual_bytes": 458,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L2_K2_process.json",
+      "expected_sha256": "6f95d8cb4daa49be193dfa3258e752e39fe82aeabb21abbb2859998b3aefefac",
+      "actual_sha256": "6f95d8cb4daa49be193dfa3258e752e39fe82aeabb21abbb2859998b3aefefac",
+      "expected_bytes": 77,
+      "actual_bytes": 77,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L2_K4_status.json",
+      "expected_sha256": "2662b70ba435bc48e98e75aacdaedc2988a3455b2b4682a5a707345583b861d4",
+      "actual_sha256": "2662b70ba435bc48e98e75aacdaedc2988a3455b2b4682a5a707345583b861d4",
+      "expected_bytes": 460,
+      "actual_bytes": 460,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L2_K4_process.json",
+      "expected_sha256": "6e2f7ecf9ceb731192413785eac1d57a7b5e35c712d007d3b24e54e257b88dd5",
+      "actual_sha256": "6e2f7ecf9ceb731192413785eac1d57a7b5e35c712d007d3b24e54e257b88dd5",
+      "expected_bytes": 77,
+      "actual_bytes": 77,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L2_K8_status.json",
+      "expected_sha256": "afcb7afd82de287b52df09c45f04d9e91fd84a6f606fa928de64fc4fdedd35f8",
+      "actual_sha256": "afcb7afd82de287b52df09c45f04d9e91fd84a6f606fa928de64fc4fdedd35f8",
+      "expected_bytes": 468,
+      "actual_bytes": 468,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L2_K8_process.json",
+      "expected_sha256": "985cfd692fe519210841644a529d72f8ff37e58972aecb897924495245043711",
+      "actual_sha256": "985cfd692fe519210841644a529d72f8ff37e58972aecb897924495245043711",
+      "expected_bytes": 77,
+      "actual_bytes": 77,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L2_K16_status.json",
+      "expected_sha256": "d07a39a59119af9fb9d695e87c83e38c63ebc08414d2e84c208c0e2de09990e2",
+      "actual_sha256": "d07a39a59119af9fb9d695e87c83e38c63ebc08414d2e84c208c0e2de09990e2",
+      "expected_bytes": 469,
+      "actual_bytes": 469,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L2_K16_process.json",
+      "expected_sha256": "eedf8ed209ed87fb717eb0602a5fb5ead3519dbce2700789d2caf5a8fafbcce8",
+      "actual_sha256": "eedf8ed209ed87fb717eb0602a5fb5ead3519dbce2700789d2caf5a8fafbcce8",
+      "expected_bytes": 77,
+      "actual_bytes": 77,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L4_K1_status.json",
+      "expected_sha256": "a6eb4b3db8e14afec0938548391a6d4ad12d03304955dd842325679f0bda77fd",
+      "actual_sha256": "a6eb4b3db8e14afec0938548391a6d4ad12d03304955dd842325679f0bda77fd",
+      "expected_bytes": 460,
+      "actual_bytes": 460,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L4_K1_process.json",
+      "expected_sha256": "dee0d803476a082c88637c8973fd1e1db609b6039fa1db796bfb8e567a58665d",
+      "actual_sha256": "dee0d803476a082c88637c8973fd1e1db609b6039fa1db796bfb8e567a58665d",
+      "expected_bytes": 77,
+      "actual_bytes": 77,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L4_K2_status.json",
+      "expected_sha256": "c5d35d51af582e305010d9e4f96414076c17cbbcd578a514959324460773f78e",
+      "actual_sha256": "c5d35d51af582e305010d9e4f96414076c17cbbcd578a514959324460773f78e",
+      "expected_bytes": 459,
+      "actual_bytes": 459,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L4_K2_process.json",
+      "expected_sha256": "b01b99e96b8460192d93962e6f7a7718ddfde7045afb60050d70106808355cc3",
+      "actual_sha256": "b01b99e96b8460192d93962e6f7a7718ddfde7045afb60050d70106808355cc3",
+      "expected_bytes": 77,
+      "actual_bytes": 77,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L4_K4_status.json",
+      "expected_sha256": "1ba6ebd4884a760f7ec53fd4bd981a22b11e32b3dfcaa7e1a3ef9f587d950940",
+      "actual_sha256": "1ba6ebd4884a760f7ec53fd4bd981a22b11e32b3dfcaa7e1a3ef9f587d950940",
+      "expected_bytes": 469,
+      "actual_bytes": 469,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L4_K4_process.json",
+      "expected_sha256": "a646d540ca521ecd987a1fcb1a83ea7d701c2f43c2a0e123343ac35a6abefc14",
+      "actual_sha256": "a646d540ca521ecd987a1fcb1a83ea7d701c2f43c2a0e123343ac35a6abefc14",
+      "expected_bytes": 76,
+      "actual_bytes": 76,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L4_K8_status.json",
+      "expected_sha256": "552c84eca047878d6ad2d841532d1f4cd872bd822d799a1ece5957879d02c845",
+      "actual_sha256": "552c84eca047878d6ad2d841532d1f4cd872bd822d799a1ece5957879d02c845",
+      "expected_bytes": 461,
+      "actual_bytes": 461,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L4_K8_process.json",
+      "expected_sha256": "9e30a69297d5807f5fd0d6ca1ea7a9dfe074b670d3e5b70582e30396a2249cbf",
+      "actual_sha256": "9e30a69297d5807f5fd0d6ca1ea7a9dfe074b670d3e5b70582e30396a2249cbf",
+      "expected_bytes": 77,
+      "actual_bytes": 77,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L4_K16_status.json",
+      "expected_sha256": "57cd7a61a7c354dceffc9d1df559f1b7fadccf3a2b77880f51a64964aa8d18a6",
+      "actual_sha256": "57cd7a61a7c354dceffc9d1df559f1b7fadccf3a2b77880f51a64964aa8d18a6",
+      "expected_bytes": 463,
+      "actual_bytes": 463,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L4_K16_process.json",
+      "expected_sha256": "0f8f88141659bd6f44ea07908427bcfa2962fff3c61f2014de8834f2003232dd",
+      "actual_sha256": "0f8f88141659bd6f44ea07908427bcfa2962fff3c61f2014de8834f2003232dd",
+      "expected_bytes": 76,
+      "actual_bytes": 76,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L8_K1_status.json",
+      "expected_sha256": "565864e2bf6c424eb8203a5152c2fa1831720ecc5264f3e875d4124985339b6c",
+      "actual_sha256": "565864e2bf6c424eb8203a5152c2fa1831720ecc5264f3e875d4124985339b6c",
+      "expected_bytes": 460,
+      "actual_bytes": 460,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L8_K1_process.json",
+      "expected_sha256": "39fb8965087a8f8937f9a6cd83cc6508b62a693b27bbdac1508182851d780038",
+      "actual_sha256": "39fb8965087a8f8937f9a6cd83cc6508b62a693b27bbdac1508182851d780038",
+      "expected_bytes": 77,
+      "actual_bytes": 77,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L8_K2_status.json",
+      "expected_sha256": "66dbf799a7cb0960fe63853ff7cddb4c5fe7c4abfa7e8fd240bb3b6e97e4c015",
+      "actual_sha256": "66dbf799a7cb0960fe63853ff7cddb4c5fe7c4abfa7e8fd240bb3b6e97e4c015",
+      "expected_bytes": 460,
+      "actual_bytes": 460,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L8_K2_process.json",
+      "expected_sha256": "8467aedb14af6841ac067bad43e191e81e324619390ab1cac353a154f70a59dd",
+      "actual_sha256": "8467aedb14af6841ac067bad43e191e81e324619390ab1cac353a154f70a59dd",
+      "expected_bytes": 77,
+      "actual_bytes": 77,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L8_K4_status.json",
+      "expected_sha256": "6af725d67a427c6c4a2cbe9f675394c5526af98c27c624b233fef35c70b8d675",
+      "actual_sha256": "6af725d67a427c6c4a2cbe9f675394c5526af98c27c624b233fef35c70b8d675",
+      "expected_bytes": 461,
+      "actual_bytes": 461,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L8_K4_process.json",
+      "expected_sha256": "0829df72321f80aa295a6ac2641e2d944de0b3fb045c110c8b235b53544ea346",
+      "actual_sha256": "0829df72321f80aa295a6ac2641e2d944de0b3fb045c110c8b235b53544ea346",
+      "expected_bytes": 77,
+      "actual_bytes": 77,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L8_K8_status.json",
+      "expected_sha256": "e6e39dc4e7ddd6bf712de52f2a245a8b0691ec6e9d075913468705e4595b9928",
+      "actual_sha256": "e6e39dc4e7ddd6bf712de52f2a245a8b0691ec6e9d075913468705e4595b9928",
+      "expected_bytes": 463,
+      "actual_bytes": 463,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L8_K8_process.json",
+      "expected_sha256": "c46038e576c27004e6502fed473fbfec53cc5a95efe43b638248c542f356408c",
+      "actual_sha256": "c46038e576c27004e6502fed473fbfec53cc5a95efe43b638248c542f356408c",
+      "expected_bytes": 77,
+      "actual_bytes": 77,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L8_K16_status.json",
+      "expected_sha256": "22cacbeaf9f80d1a8d98d81b07a214d626d55225ac0f8cbbb1e0a846e2040d2b",
+      "actual_sha256": "22cacbeaf9f80d1a8d98d81b07a214d626d55225ac0f8cbbb1e0a846e2040d2b",
+      "expected_bytes": 462,
+      "actual_bytes": 462,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L8_K16_process.json",
+      "expected_sha256": "70e30aa6ad6d47776edb9e42c204fca82f24abd5abd4d8a2b5abd69e245f9401",
+      "actual_sha256": "70e30aa6ad6d47776edb9e42c204fca82f24abd5abd4d8a2b5abd69e245f9401",
+      "expected_bytes": 76,
+      "actual_bytes": 76,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L16_K1_status.json",
+      "expected_sha256": "04f2b6d69886f236f88879daeb5cf40b860cc1a821cd5c233541c45de2b6733d",
+      "actual_sha256": "04f2b6d69886f236f88879daeb5cf40b860cc1a821cd5c233541c45de2b6733d",
+      "expected_bytes": 468,
+      "actual_bytes": 468,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L16_K1_process.json",
+      "expected_sha256": "b5a55b22ed3376a2710c4a912308f0898885c2b56c5e487d7a0af56bb370d3b9",
+      "actual_sha256": "b5a55b22ed3376a2710c4a912308f0898885c2b56c5e487d7a0af56bb370d3b9",
+      "expected_bytes": 76,
+      "actual_bytes": 76,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L16_K2_status.json",
+      "expected_sha256": "03618546163ad0b7214b7e79beea1745bcd86c22b2750e9fae10f5e8d26c6136",
+      "actual_sha256": "03618546163ad0b7214b7e79beea1745bcd86c22b2750e9fae10f5e8d26c6136",
+      "expected_bytes": 461,
+      "actual_bytes": 461,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L16_K2_process.json",
+      "expected_sha256": "1210a8f34a09bf61787cbc4ac323a974a6286be27cd28fc12e746ce82f7ddd27",
+      "actual_sha256": "1210a8f34a09bf61787cbc4ac323a974a6286be27cd28fc12e746ce82f7ddd27",
+      "expected_bytes": 77,
+      "actual_bytes": 77,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L16_K4_status.json",
+      "expected_sha256": "b4498fadc516ab022b74a62da9a5e33f2187ea0b62dfaafdefcfd658b87f5ade",
+      "actual_sha256": "b4498fadc516ab022b74a62da9a5e33f2187ea0b62dfaafdefcfd658b87f5ade",
+      "expected_bytes": 462,
+      "actual_bytes": 462,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L16_K4_process.json",
+      "expected_sha256": "5937518e41a15633730243940f54584e5668c0a13d0679c2ea25f4ecc658906b",
+      "actual_sha256": "5937518e41a15633730243940f54584e5668c0a13d0679c2ea25f4ecc658906b",
+      "expected_bytes": 77,
+      "actual_bytes": 77,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L16_K8_status.json",
+      "expected_sha256": "d1d6b955e17ec495247302cd29689e744a5447bc255fcc14fb499f85fdab41c2",
+      "actual_sha256": "d1d6b955e17ec495247302cd29689e744a5447bc255fcc14fb499f85fdab41c2",
+      "expected_bytes": 462,
+      "actual_bytes": 462,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L16_K8_process.json",
+      "expected_sha256": "a0059876cd33c2e2fc471f0befb1c543db6afd662cd17f9dfb7e7e192daca8d0",
+      "actual_sha256": "a0059876cd33c2e2fc471f0befb1c543db6afd662cd17f9dfb7e7e192daca8d0",
+      "expected_bytes": 76,
+      "actual_bytes": 76,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L16_K16_status.json",
+      "expected_sha256": "d801d479a6ba38eba658c883f575df5fb425ee6e9ba5c564904d94717acfaf56",
+      "actual_sha256": "d801d479a6ba38eba658c883f575df5fb425ee6e9ba5c564904d94717acfaf56",
+      "expected_bytes": 464,
+      "actual_bytes": 464,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L16_K16_process.json",
+      "expected_sha256": "daa9e9a4f1a5e6091b3da1b64a0b753d3927d828d1c666d49ebaa42414582fac",
+      "actual_sha256": "daa9e9a4f1a5e6091b3da1b64a0b753d3927d828d1c666d49ebaa42414582fac",
+      "expected_bytes": 77,
+      "actual_bytes": 77,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L32_K1_status.json",
+      "expected_sha256": "9abdcde10ca0a6dbe775fa4342e213fc9261bf05adac45a1e4563d490cda3a26",
+      "actual_sha256": "9abdcde10ca0a6dbe775fa4342e213fc9261bf05adac45a1e4563d490cda3a26",
+      "expected_bytes": 460,
+      "actual_bytes": 460,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L32_K1_process.json",
+      "expected_sha256": "e8838077295355e460eb4f5f5579ffe192eb4f4cc9e5b374101c8d78852709dc",
+      "actual_sha256": "e8838077295355e460eb4f5f5579ffe192eb4f4cc9e5b374101c8d78852709dc",
+      "expected_bytes": 76,
+      "actual_bytes": 76,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L32_K2_status.json",
+      "expected_sha256": "bba037601bba1fc5f1abab33d529c974012efd4dc0f1650b259fed1a7385074d",
+      "actual_sha256": "bba037601bba1fc5f1abab33d529c974012efd4dc0f1650b259fed1a7385074d",
+      "expected_bytes": 463,
+      "actual_bytes": 463,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L32_K2_process.json",
+      "expected_sha256": "1c7ac0d73049d724ad9af682995b3b6f5fd4f5b4be16a1c1fcb34a5c54ff0c53",
+      "actual_sha256": "1c7ac0d73049d724ad9af682995b3b6f5fd4f5b4be16a1c1fcb34a5c54ff0c53",
+      "expected_bytes": 77,
+      "actual_bytes": 77,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L32_K4_status.json",
+      "expected_sha256": "e43685fdb7d8d04aba88760246f0528387d4367554d26c0803f976c008b3345b",
+      "actual_sha256": "e43685fdb7d8d04aba88760246f0528387d4367554d26c0803f976c008b3345b",
+      "expected_bytes": 471,
+      "actual_bytes": 471,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L32_K4_process.json",
+      "expected_sha256": "dae528c4a2a5e629b076b114aafed5710e353d7be11d6dc6e9a747ca4bd8e292",
+      "actual_sha256": "dae528c4a2a5e629b076b114aafed5710e353d7be11d6dc6e9a747ca4bd8e292",
+      "expected_bytes": 77,
+      "actual_bytes": 77,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L32_K8_status.json",
+      "expected_sha256": "14368d0f18cbb6c251f0222f2ee4a588f0d4fb348190ffb942e3a01881245aca",
+      "actual_sha256": "14368d0f18cbb6c251f0222f2ee4a588f0d4fb348190ffb942e3a01881245aca",
+      "expected_bytes": 470,
+      "actual_bytes": 470,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L32_K8_process.json",
+      "expected_sha256": "8168849f691f156130dbf9c2620f970c6b45e30c837fc4c4337e7b3b5292baab",
+      "actual_sha256": "8168849f691f156130dbf9c2620f970c6b45e30c837fc4c4337e7b3b5292baab",
+      "expected_bytes": 77,
+      "actual_bytes": 77,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L32_K16_status.json",
+      "expected_sha256": "3832440f5fb23baab32e98ce9cc81eae2c01f84a385ad0889c757df51dbf68a2",
+      "actual_sha256": "3832440f5fb23baab32e98ce9cc81eae2c01f84a385ad0889c757df51dbf68a2",
+      "expected_bytes": 464,
+      "actual_bytes": 464,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_v3_L32_K16_process.json",
+      "expected_sha256": "0143080183cb6180b0e5cca87beb8bc61692e6946d62faff2b300112d20bed50",
+      "actual_sha256": "0143080183cb6180b0e5cca87beb8bc61692e6946d62faff2b300112d20bed50",
+      "expected_bytes": 77,
+      "actual_bytes": 77,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_fault_plan.json",
+      "expected_sha256": "bdcf634354312910dc5a619bcf3270a8b480cd2835fa8ced8204e69db92ba400",
+      "actual_sha256": "bdcf634354312910dc5a619bcf3270a8b480cd2835fa8ced8204e69db92ba400",
+      "expected_bytes": 724,
+      "actual_bytes": 724,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_fault_corrupt_state_status.json",
+      "expected_sha256": "785be759292be8e22e2aa16c3ab66ba09f6e3e2155819b7a1d849456312561cf",
+      "actual_sha256": "785be759292be8e22e2aa16c3ab66ba09f6e3e2155819b7a1d849456312561cf",
+      "expected_bytes": 304,
+      "actual_bytes": 304,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_fault_corrupt_state_process.json",
+      "expected_sha256": "33d0b7feed89e627017277b0fd546f05cb35d0e7c69f067dfcc521f20188e676",
+      "actual_sha256": "33d0b7feed89e627017277b0fd546f05cb35d0e7c69f067dfcc521f20188e676",
+      "expected_bytes": 77,
+      "actual_bytes": 77,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_fault_drop_ack_status.json",
+      "expected_sha256": "3d7dca28c93802120705c7d56a8786c60d9db9f848384486e8c439d15f20be41",
+      "actual_sha256": "3d7dca28c93802120705c7d56a8786c60d9db9f848384486e8c439d15f20be41",
+      "expected_bytes": 303,
+      "actual_bytes": 303,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_fault_drop_ack_process.json",
+      "expected_sha256": "c3737644abfe02c15d1e2d70a4d633cde620a5aab7562a40dd3b9f96f7394ba2",
+      "actual_sha256": "c3737644abfe02c15d1e2d70a4d633cde620a5aab7562a40dd3b9f96f7394ba2",
+      "expected_bytes": 75,
+      "actual_bytes": 75,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_fault_duplicate_message_status.json",
+      "expected_sha256": "57e8c1dce9496362cf6e8a35bcb4c682fa60b2260c1080cd0061f8babc52009e",
+      "actual_sha256": "57e8c1dce9496362cf6e8a35bcb4c682fa60b2260c1080cd0061f8babc52009e",
+      "expected_bytes": 303,
+      "actual_bytes": 303,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_fault_duplicate_message_process.json",
+      "expected_sha256": "e7ae1e288e39499a025c6115f92a2e6d155d50c80ff89d052259060980c0ec33",
+      "actual_sha256": "e7ae1e288e39499a025c6115f92a2e6d155d50c80ff89d052259060980c0ec33",
+      "expected_bytes": 77,
+      "actual_bytes": 77,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_fault_router_crash_status.json",
+      "expected_sha256": "b2134e6542e2fd3d9301e2c17215f1f73697bc892243fa8f3898015226e4135e",
+      "actual_sha256": "b2134e6542e2fd3d9301e2c17215f1f73697bc892243fa8f3898015226e4135e",
+      "expected_bytes": 303,
+      "actual_bytes": 303,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_fault_router_crash_process.json",
+      "expected_sha256": "235c4275714ba58c15addb80c5439fed02cc304dffd4d5c6d28838c0fab964d0",
+      "actual_sha256": "235c4275714ba58c15addb80c5439fed02cc304dffd4d5c6d28838c0fab964d0",
+      "expected_bytes": 76,
+      "actual_bytes": 76,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_fault_timeout_status.json",
+      "expected_sha256": "9e5eea1a5a68ea2074f7700a35b4ba1d38e1b83627298757586626288c601ed1",
+      "actual_sha256": "9e5eea1a5a68ea2074f7700a35b4ba1d38e1b83627298757586626288c601ed1",
+      "expected_bytes": 303,
+      "actual_bytes": 303,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_fault_timeout_process.json",
+      "expected_sha256": "959836810c6dd467c9023148ac4aa496fed028e5c965edde9daace510145d09a",
+      "actual_sha256": "959836810c6dd467c9023148ac4aa496fed028e5c965edde9daace510145d09a",
+      "expected_bytes": 77,
+      "actual_bytes": 77,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_fault_wrong_memory_status.json",
+      "expected_sha256": "582535f22ec6e054a1cc424e85a728b5fb4fa5e24c0a42da361f834994b2bf0a",
+      "actual_sha256": "582535f22ec6e054a1cc424e85a728b5fb4fa5e24c0a42da361f834994b2bf0a",
+      "expected_bytes": 303,
+      "actual_bytes": 303,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_fault_wrong_memory_process.json",
+      "expected_sha256": "0218f19af83f89466d97f408b6157eaa9ae3220bbec99e00ea8506f55c1f6176",
+      "actual_sha256": "0218f19af83f89466d97f408b6157eaa9ae3220bbec99e00ea8506f55c1f6176",
+      "expected_bytes": 77,
+      "actual_bytes": 77,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/protocol_v3_audit.json",
+      "expected_sha256": "6702dc33abd0ed0a225fddff74daa1710f6cea6318410bd750dc6aee1912e00f",
+      "actual_sha256": "6702dc33abd0ed0a225fddff74daa1710f6cea6318410bd750dc6aee1912e00f",
+      "expected_bytes": 1423,
+      "actual_bytes": 1423,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/protocol_v3_plan.json",
+      "expected_sha256": "5513c9da15756d6487960d367ff9a9b8f1241014b396a01cd808d1ae4ab27aee",
+      "actual_sha256": "5513c9da15756d6487960d367ff9a9b8f1241014b396a01cd808d1ae4ab27aee",
+      "expected_bytes": 888,
+      "actual_bytes": 888,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/protocol_v3_status.json",
+      "expected_sha256": "b1950f66be13e33cf716cd8a38012213532c2fc4800bbc49fee9a0692ff958fb",
+      "actual_sha256": "b1950f66be13e33cf716cd8a38012213532c2fc4800bbc49fee9a0692ff958fb",
+      "expected_bytes": 602,
+      "actual_bytes": 602,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/protocol_v3_batch_1.json",
+      "expected_sha256": "4919bea343a0df2b675194077f3fe3bb0cd09ab71a8ce106b9a38defae8a3e1f",
+      "actual_sha256": "4919bea343a0df2b675194077f3fe3bb0cd09ab71a8ce106b9a38defae8a3e1f",
+      "expected_bytes": 116,
+      "actual_bytes": 116,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/protocol_v3_batch_2.json",
+      "expected_sha256": "a21f04acf54288e321779d82ccfe91a5abd6bffc26208452c7c9d3eba5e099bc",
+      "actual_sha256": "a21f04acf54288e321779d82ccfe91a5abd6bffc26208452c7c9d3eba5e099bc",
+      "expected_bytes": 116,
+      "actual_bytes": 116,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/protocol_v3_batch_3.json",
+      "expected_sha256": "0d4b8b533321903e8dd573a5cccb5c8453b7fd06832c777326b41768bbf9aa06",
+      "actual_sha256": "0d4b8b533321903e8dd573a5cccb5c8453b7fd06832c777326b41768bbf9aa06",
+      "expected_bytes": 116,
+      "actual_bytes": 116,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/state_reuse_status.json",
+      "expected_sha256": "5d65fc0dd60b3da1975b6dbd839c981b20d29f8b2c2e9dd295589e9e3f76a89f",
+      "actual_sha256": "5d65fc0dd60b3da1975b6dbd839c981b20d29f8b2c2e9dd295589e9e3f76a89f",
+      "expected_bytes": 115,
+      "actual_bytes": 115,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_continuous_100_status.json",
+      "expected_sha256": "13b55b5f48442c4c6451dc072abe03415ea9fbb1d51a31fe1026cae9648c0e0d",
+      "actual_sha256": "13b55b5f48442c4c6451dc072abe03415ea9fbb1d51a31fe1026cae9648c0e0d",
+      "expected_bytes": 275,
+      "actual_bytes": 275,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/state_measurement_correction_v3/analysis/recomputed_v2/matrix_audit.json",
+      "expected_sha256": "f7b8702e07c7d43091a0cd868f3a7d3960c02cd97f71c63988795d0985b7bb52",
+      "actual_sha256": "f7b8702e07c7d43091a0cd868f3a7d3960c02cd97f71c63988795d0985b7bb52",
+      "expected_bytes": 11127,
+      "actual_bytes": 11127,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/state_measurement_correction_v3_analyzer_correction_v1.json",
+      "expected_sha256": "c1ded86b7d5927ab2883b282dcb99fc98e3b149ffa787d978c7aa7a1d7e95d52",
+      "actual_sha256": "c1ded86b7d5927ab2883b282dcb99fc98e3b149ffa787d978c7aa7a1d7e95d52",
+      "expected_bytes": 4731,
+      "actual_bytes": 4731,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/state_measurement_correction_v2/manifest.json",
+      "expected_sha256": "d9105d501c3b5ff5467c6ab3cbecda17e325a9cbcf7c881ebf7364eeb0e87617",
+      "actual_sha256": "d9105d501c3b5ff5467c6ab3cbecda17e325a9cbcf7c881ebf7364eeb0e87617",
+      "expected_bytes": 2910,
+      "actual_bytes": 2910,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/state_measurement_correction_v2/analysis/execution.json",
+      "expected_sha256": "41b7ed268122c833260501ad3c5a1c9e7ed4d3e86c923760d9ff7e15dc90617b",
+      "actual_sha256": "41b7ed268122c833260501ad3c5a1c9e7ed4d3e86c923760d9ff7e15dc90617b",
+      "expected_bytes": 4433,
+      "actual_bytes": 4433,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/state_measurement_correction_v3/analysis/recomputed_v1/execution_failure.json",
+      "expected_sha256": "18adaaa3719d883d045c55028641e176fc3bea51d4bfb4b6358070bba907e7a2",
+      "actual_sha256": "18adaaa3719d883d045c55028641e176fc3bea51d4bfb4b6358070bba907e7a2",
+      "expected_bytes": 1699,
+      "actual_bytes": 1699,
+      "scope": "historical bounded metadata/proof/source identity",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/postrun_verification_v1/report_v3/figures/figure_05.csv",
+      "expected_sha256": "267c39db3c5c0e7d3c64eb9b64b5d841c35a8f13094dac4e93439f9dd304a754",
+      "actual_sha256": "267c39db3c5c0e7d3c64eb9b64b5d841c35a8f13094dac4e93439f9dd304a754",
+      "expected_bytes": 9377,
+      "actual_bytes": 9377,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/postrun_verification_v1/report_v3/figures/figure_05_single.pdf",
+      "expected_sha256": "bf5ce90305708620c261543ecfc5fbe42b025309877dbb8d7028ffe9b298921b",
+      "actual_sha256": "bf5ce90305708620c261543ecfc5fbe42b025309877dbb8d7028ffe9b298921b",
+      "expected_bytes": 18137,
+      "actual_bytes": 18137,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/postrun_verification_v1/report_v3/figures/figure_05_single.svg",
+      "expected_sha256": "bd2a9cebfbfc4ef4ce436db83f2ad2f5399042e07080d30d6e75c43e63cc847f",
+      "actual_sha256": "bd2a9cebfbfc4ef4ce436db83f2ad2f5399042e07080d30d6e75c43e63cc847f",
+      "expected_bytes": 51730,
+      "actual_bytes": 51730,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/postrun_verification_v1/report_v3/figures/figure_05_single.png",
+      "expected_sha256": "a948ff2a0915344338abadf2d8e34376fc4ac6ff4b9f874a080be3b1780c3d3b",
+      "actual_sha256": "a948ff2a0915344338abadf2d8e34376fc4ac6ff4b9f874a080be3b1780c3d3b",
+      "expected_bytes": 352676,
+      "actual_bytes": 352676,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/postrun_verification_v1/report_v3/figures/figure_05_double.pdf",
+      "expected_sha256": "2f94313628c43a781e2b84236d3807004955e6533c7407fd14ebb6413f3ab5c9",
+      "actual_sha256": "2f94313628c43a781e2b84236d3807004955e6533c7407fd14ebb6413f3ab5c9",
+      "expected_bytes": 17872,
+      "actual_bytes": 17872,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/postrun_verification_v1/report_v3/figures/figure_05_double.svg",
+      "expected_sha256": "7e9d7c7af52f8d78f523595bcd5f9ac2c572f31cddd1f5bbb71ab6f9b0888de8",
+      "actual_sha256": "7e9d7c7af52f8d78f523595bcd5f9ac2c572f31cddd1f5bbb71ab6f9b0888de8",
+      "expected_bytes": 48688,
+      "actual_bytes": 48688,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/postrun_verification_v1/report_v3/figures/figure_05_double.png",
+      "expected_sha256": "a873d620d7d56cf7b69be09f0f08454c1bbc02673696f67c3f818d6d59bad914",
+      "actual_sha256": "a873d620d7d56cf7b69be09f0f08454c1bbc02673696f67c3f818d6d59bad914",
+      "expected_bytes": 460380,
+      "actual_bytes": 460380,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/postrun_verification_v1/report_v3/tables/table_04.csv",
+      "expected_sha256": "602de129332c0ea5327b7dc81b3c3bdc9e1b43dad3eb7cfeb3ab3fa39db65fc9",
+      "actual_sha256": "602de129332c0ea5327b7dc81b3c3bdc9e1b43dad3eb7cfeb3ab3fa39db65fc9",
+      "expected_bytes": 43129,
+      "actual_bytes": 43129,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/tables/state_paths.csv",
+      "expected_sha256": "267c39db3c5c0e7d3c64eb9b64b5d841c35a8f13094dac4e93439f9dd304a754",
+      "actual_sha256": "267c39db3c5c0e7d3c64eb9b64b5d841c35a8f13094dac4e93439f9dd304a754",
+      "expected_bytes": 9377,
+      "actual_bytes": 9377,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/manifests/state_matrix_plan.json",
+      "expected_sha256": "a26aab023c0a5406ab9977e085321e83c7b5742ba5d511aec541cc14cd38ea6f",
+      "actual_sha256": "a26aab023c0a5406ab9977e085321e83c7b5742ba5d511aec541cc14cd38ea6f",
+      "expected_bytes": 448,
+      "actual_bytes": 448,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/state_matrix_status.json",
+      "expected_sha256": "6a3f5b12ee92885fa128e8d32449627d9fe4f6e022058098577cc993f20562f4",
+      "actual_sha256": "6a3f5b12ee92885fa128e8d32449627d9fe4f6e022058098577cc993f20562f4",
+      "expected_bytes": 69,
+      "actual_bytes": 69,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/state_paths_batch_1.jsonl",
+      "expected_sha256": "344263b9b8be5e7ddc3513dd4d65bf81c8324ecb078799542a5090789f51b35b",
+      "actual_sha256": "344263b9b8be5e7ddc3513dd4d65bf81c8324ecb078799542a5090789f51b35b",
+      "expected_bytes": 7887694,
+      "actual_bytes": 7887694,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/state_paths_batch_1.jsonl",
+      "expected_sha256": "344263b9b8be5e7ddc3513dd4d65bf81c8324ecb078799542a5090789f51b35b",
+      "actual_sha256": "344263b9b8be5e7ddc3513dd4d65bf81c8324ecb078799542a5090789f51b35b",
+      "expected_bytes": 7887694,
+      "actual_bytes": 7887694,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/state_paths_batch_2.jsonl",
+      "expected_sha256": "7e7118b69cf8e971f65228df35639f29ea05ac355cfbc9da602c889746334b42",
+      "actual_sha256": "7e7118b69cf8e971f65228df35639f29ea05ac355cfbc9da602c889746334b42",
+      "expected_bytes": 7887175,
+      "actual_bytes": 7887175,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/state_paths_batch_2.jsonl",
+      "expected_sha256": "7e7118b69cf8e971f65228df35639f29ea05ac355cfbc9da602c889746334b42",
+      "actual_sha256": "7e7118b69cf8e971f65228df35639f29ea05ac355cfbc9da602c889746334b42",
+      "expected_bytes": 7887175,
+      "actual_bytes": 7887175,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/state_paths_batch_3.jsonl",
+      "expected_sha256": "e41cf7843c18a0b7e6e80416ae455908e14ff51525ebab8800737699b46b11ef",
+      "actual_sha256": "e41cf7843c18a0b7e6e80416ae455908e14ff51525ebab8800737699b46b11ef",
+      "expected_bytes": 7887105,
+      "actual_bytes": 7887105,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/state_paths_batch_3.jsonl",
+      "expected_sha256": "e41cf7843c18a0b7e6e80416ae455908e14ff51525ebab8800737699b46b11ef",
+      "actual_sha256": "e41cf7843c18a0b7e6e80416ae455908e14ff51525ebab8800737699b46b11ef",
+      "expected_bytes": 7887105,
+      "actual_bytes": 7887105,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/quantization.jsonl",
+      "expected_sha256": "7db2dbc3ff726452fd36960d66c3e92bf35a860277c6ae06d7dbfd1a1ce143dd",
+      "actual_sha256": "7db2dbc3ff726452fd36960d66c3e92bf35a860277c6ae06d7dbfd1a1ce143dd",
+      "expected_bytes": 11031994,
+      "actual_bytes": 11031994,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/quantization.jsonl",
+      "expected_sha256": "7db2dbc3ff726452fd36960d66c3e92bf35a860277c6ae06d7dbfd1a1ce143dd",
+      "actual_sha256": "7db2dbc3ff726452fd36960d66c3e92bf35a860277c6ae06d7dbfd1a1ce143dd",
+      "expected_bytes": 11031994,
+      "actual_bytes": 11031994,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/postrun_verification_v1/report_v3/figures/figure_06.csv",
+      "expected_sha256": "4103a500901c2c349500203feb7b9dcb9afa0af9c94d022ace3ac8ff9444f2b4",
+      "actual_sha256": "4103a500901c2c349500203feb7b9dcb9afa0af9c94d022ace3ac8ff9444f2b4",
+      "expected_bytes": 6305,
+      "actual_bytes": 6305,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/postrun_verification_v1/report_v3/figures/figure_06_single.pdf",
+      "expected_sha256": "9df79400a2da0569e07604e8f5508a4c2d5af91e625d33f6f410474b283c95b8",
+      "actual_sha256": "9df79400a2da0569e07604e8f5508a4c2d5af91e625d33f6f410474b283c95b8",
+      "expected_bytes": 24926,
+      "actual_bytes": 24926,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/postrun_verification_v1/report_v3/figures/figure_06_single.svg",
+      "expected_sha256": "e4e4bf409f9ec1df72da6e2dfad44110d7bfd465e76c8c6e0b825c1867d3be9c",
+      "actual_sha256": "e4e4bf409f9ec1df72da6e2dfad44110d7bfd465e76c8c6e0b825c1867d3be9c",
+      "expected_bytes": 98833,
+      "actual_bytes": 98833,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/postrun_verification_v1/report_v3/figures/figure_06_single.png",
+      "expected_sha256": "de997ede8e5ec82db48f0e19b6f57117b46d047b5330e6470620015b55cfff9d",
+      "actual_sha256": "de997ede8e5ec82db48f0e19b6f57117b46d047b5330e6470620015b55cfff9d",
+      "expected_bytes": 332150,
+      "actual_bytes": 332150,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/postrun_verification_v1/report_v3/figures/figure_06_double.pdf",
+      "expected_sha256": "af1f2a6dd5df25c4ffc3cc7033ca5cddd8461db9f19455dc18db2ee59accf676",
+      "actual_sha256": "af1f2a6dd5df25c4ffc3cc7033ca5cddd8461db9f19455dc18db2ee59accf676",
+      "expected_bytes": 25023,
+      "actual_bytes": 25023,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/postrun_verification_v1/report_v3/figures/figure_06_double.svg",
+      "expected_sha256": "b8348ea5b8779ac61599e3b66346598e125376141e66b7aec1db67ad415f0e9b",
+      "actual_sha256": "b8348ea5b8779ac61599e3b66346598e125376141e66b7aec1db67ad415f0e9b",
+      "expected_bytes": 98085,
+      "actual_bytes": 98085,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/postrun_verification_v1/report_v3/figures/figure_06_double.png",
+      "expected_sha256": "d3ceda21f64e5b160e1d10a56e8b2a108eeef1ca78d7c64570639aa972c361a8",
+      "actual_sha256": "d3ceda21f64e5b160e1d10a56e8b2a108eeef1ca78d7c64570639aa972c361a8",
+      "expected_bytes": 362262,
+      "actual_bytes": 362262,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/tables/quantization.csv",
+      "expected_sha256": "4103a500901c2c349500203feb7b9dcb9afa0af9c94d022ace3ac8ff9444f2b4",
+      "actual_sha256": "4103a500901c2c349500203feb7b9dcb9afa0af9c94d022ace3ac8ff9444f2b4",
+      "expected_bytes": 6305,
+      "actual_bytes": 6305,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/manifests/quantization_plan.json",
+      "expected_sha256": "78336dad9e243a61e3e7094d7b7631a66ccbd4ff42c4f4a14bf235d585fe6f8c",
+      "actual_sha256": "78336dad9e243a61e3e7094d7b7631a66ccbd4ff42c4f4a14bf235d585fe6f8c",
+      "expected_bytes": 731,
+      "actual_bytes": 731,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/quantization_status.json",
+      "expected_sha256": "7b9cfd8c076df16d135a183a71305722c624d57cb59d99bb3c4a180a8627a484",
+      "actual_sha256": "7b9cfd8c076df16d135a183a71305722c624d57cb59d99bb3c4a180a8627a484",
+      "expected_bytes": 137,
+      "actual_bytes": 137,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/postrun_verification_v1/report_v3/figures/figure_08.csv",
+      "expected_sha256": "a3915835f371750c9d32665f2f209099448e0838e2b8edbbf5aa86a2caf15c4c",
+      "actual_sha256": "a3915835f371750c9d32665f2f209099448e0838e2b8edbbf5aa86a2caf15c4c",
+      "expected_bytes": 7895,
+      "actual_bytes": 7895,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/postrun_verification_v1/report_v3/figures/figure_08_single.pdf",
+      "expected_sha256": "f808c793dae491fcf49d5559cd5f62ed3c2f47a468aa790128c31e9eebffb071",
+      "actual_sha256": "f808c793dae491fcf49d5559cd5f62ed3c2f47a468aa790128c31e9eebffb071",
+      "expected_bytes": 21326,
+      "actual_bytes": 21326,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/postrun_verification_v1/report_v3/figures/figure_08_single.svg",
+      "expected_sha256": "955453a6d12ff3cd76fcb8fe33e6033d261d674368b71c62e6d8032f6d9bc227",
+      "actual_sha256": "955453a6d12ff3cd76fcb8fe33e6033d261d674368b71c62e6d8032f6d9bc227",
+      "expected_bytes": 70971,
+      "actual_bytes": 70971,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/postrun_verification_v1/report_v3/figures/figure_08_single.png",
+      "expected_sha256": "54e8527c1435ecd7343cdda3e3c432a60c7f35d35fb257d0525357507599f8b9",
+      "actual_sha256": "54e8527c1435ecd7343cdda3e3c432a60c7f35d35fb257d0525357507599f8b9",
+      "expected_bytes": 473586,
+      "actual_bytes": 473586,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/postrun_verification_v1/report_v3/figures/figure_08_double.pdf",
+      "expected_sha256": "abff9c3d264a41b24e010e68407db8faeafa3a5697211038da2dddc2e09205f5",
+      "actual_sha256": "abff9c3d264a41b24e010e68407db8faeafa3a5697211038da2dddc2e09205f5",
+      "expected_bytes": 21176,
+      "actual_bytes": 21176,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/postrun_verification_v1/report_v3/figures/figure_08_double.svg",
+      "expected_sha256": "5f303dfd49efe0d9a6fbe1cd6fb20325692f66a553aad0ae27724f278c150771",
+      "actual_sha256": "5f303dfd49efe0d9a6fbe1cd6fb20325692f66a553aad0ae27724f278c150771",
+      "expected_bytes": 67805,
+      "actual_bytes": 67805,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/postrun_verification_v1/report_v3/figures/figure_08_double.png",
+      "expected_sha256": "2810004695232a7e981fca9ba567d20a4e38f0b5a6478f6b9da90502ca7672aa",
+      "actual_sha256": "2810004695232a7e981fca9ba567d20a4e38f0b5a6478f6b9da90502ca7672aa",
+      "expected_bytes": 587312,
+      "actual_bytes": 587312,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/tables/stress_chain_concurrency.csv",
+      "expected_sha256": "a3915835f371750c9d32665f2f209099448e0838e2b8edbbf5aa86a2caf15c4c",
+      "actual_sha256": "a3915835f371750c9d32665f2f209099448e0838e2b8edbbf5aa86a2caf15c4c",
+      "expected_bytes": 7895,
+      "actual_bytes": 7895,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/tables/stress_growth_slopes.csv",
+      "expected_sha256": "932f0ae0ca2c274a56368f71ce5e69dc4dd63614d175e3cbae9e75064939b37f",
+      "actual_sha256": "932f0ae0ca2c274a56368f71ce5e69dc4dd63614d175e3cbae9e75064939b37f",
+      "expected_bytes": 690,
+      "actual_bytes": 690,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_matrix_audit.json",
+      "expected_sha256": "0411b7b15c872c29e8f079e31775e3600a1f5748d8d708291b37655b208366dc",
+      "actual_sha256": "0411b7b15c872c29e8f079e31775e3600a1f5748d8d708291b37655b208366dc",
+      "expected_bytes": 6292,
+      "actual_bytes": 6292,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/resources_stress_matrix_v3.jsonl",
+      "expected_sha256": "42a1fbfa919d74aae52a9c9be1b2d8c05c265c8ee99c46546b55ba278d5bff4a",
+      "actual_sha256": "42a1fbfa919d74aae52a9c9be1b2d8c05c265c8ee99c46546b55ba278d5bff4a",
+      "expected_bytes": 2802155,
+      "actual_bytes": 2802155,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/resources_stress_matrix_v3.jsonl",
+      "expected_sha256": "42a1fbfa919d74aae52a9c9be1b2d8c05c265c8ee99c46546b55ba278d5bff4a",
+      "actual_sha256": "42a1fbfa919d74aae52a9c9be1b2d8c05c265c8ee99c46546b55ba278d5bff4a",
+      "expected_bytes": 2802155,
+      "actual_bytes": 2802155,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L16_K1.jsonl",
+      "expected_sha256": "61959a07a0f534cf26725487e2396410a45524007f5f974360e71d21c5a792fc",
+      "actual_sha256": "61959a07a0f534cf26725487e2396410a45524007f5f974360e71d21c5a792fc",
+      "expected_bytes": 7339801,
+      "actual_bytes": 7339801,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L16_K1.jsonl",
+      "expected_sha256": "61959a07a0f534cf26725487e2396410a45524007f5f974360e71d21c5a792fc",
+      "actual_sha256": "61959a07a0f534cf26725487e2396410a45524007f5f974360e71d21c5a792fc",
+      "expected_bytes": 7339801,
+      "actual_bytes": 7339801,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L16_K16.jsonl",
+      "expected_sha256": "fafccd54ecb7837b301c21ba405b114f1bc699a7b07d7c50e77e945615ea8e29",
+      "actual_sha256": "fafccd54ecb7837b301c21ba405b114f1bc699a7b07d7c50e77e945615ea8e29",
+      "expected_bytes": 117807638,
+      "actual_bytes": 117807638,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L16_K16.jsonl",
+      "expected_sha256": "fafccd54ecb7837b301c21ba405b114f1bc699a7b07d7c50e77e945615ea8e29",
+      "actual_sha256": "fafccd54ecb7837b301c21ba405b114f1bc699a7b07d7c50e77e945615ea8e29",
+      "expected_bytes": 117807638,
+      "actual_bytes": 117807638,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L16_K16_batches.jsonl",
+      "expected_sha256": "f0d7af96721290cfc64b18826face0924b8fdde643164d3296c3d27c2ac1fbce",
+      "actual_sha256": "f0d7af96721290cfc64b18826face0924b8fdde643164d3296c3d27c2ac1fbce",
+      "expected_bytes": 15084,
+      "actual_bytes": 15084,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L16_K16_batches.jsonl",
+      "expected_sha256": "f0d7af96721290cfc64b18826face0924b8fdde643164d3296c3d27c2ac1fbce",
+      "actual_sha256": "f0d7af96721290cfc64b18826face0924b8fdde643164d3296c3d27c2ac1fbce",
+      "expected_bytes": 15084,
+      "actual_bytes": 15084,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L16_K16_warmup.json",
+      "expected_sha256": "9041e66ec078e7f6be49b70cb9b27096a8a64a0e277c84484b31992cd25ee547",
+      "actual_sha256": "9041e66ec078e7f6be49b70cb9b27096a8a64a0e277c84484b31992cd25ee547",
+      "expected_bytes": 346714,
+      "actual_bytes": 346714,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L16_K16_warmup.json",
+      "expected_sha256": "9041e66ec078e7f6be49b70cb9b27096a8a64a0e277c84484b31992cd25ee547",
+      "actual_sha256": "9041e66ec078e7f6be49b70cb9b27096a8a64a0e277c84484b31992cd25ee547",
+      "expected_bytes": 346714,
+      "actual_bytes": 346714,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L16_K1_batches.jsonl",
+      "expected_sha256": "5bede04a9f606f02e0ea545f9a541edb83e33120c7d27a43c7985086102c8c83",
+      "actual_sha256": "5bede04a9f606f02e0ea545f9a541edb83e33120c7d27a43c7985086102c8c83",
+      "expected_bytes": 9436,
+      "actual_bytes": 9436,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L16_K1_batches.jsonl",
+      "expected_sha256": "5bede04a9f606f02e0ea545f9a541edb83e33120c7d27a43c7985086102c8c83",
+      "actual_sha256": "5bede04a9f606f02e0ea545f9a541edb83e33120c7d27a43c7985086102c8c83",
+      "expected_bytes": 9436,
+      "actual_bytes": 9436,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L16_K1_warmup.json",
+      "expected_sha256": "5b73faecc0a041917e890c3fcd481f8ca56566de92a791a67702cfb4f0f8910f",
+      "actual_sha256": "5b73faecc0a041917e890c3fcd481f8ca56566de92a791a67702cfb4f0f8910f",
+      "expected_bytes": 21639,
+      "actual_bytes": 21639,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L16_K1_warmup.json",
+      "expected_sha256": "5b73faecc0a041917e890c3fcd481f8ca56566de92a791a67702cfb4f0f8910f",
+      "actual_sha256": "5b73faecc0a041917e890c3fcd481f8ca56566de92a791a67702cfb4f0f8910f",
+      "expected_bytes": 21639,
+      "actual_bytes": 21639,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L16_K2.jsonl",
+      "expected_sha256": "95c07687075b491da30496eb01b626da5ff7b09b8a9672372e95e99ceb02e14d",
+      "actual_sha256": "95c07687075b491da30496eb01b626da5ff7b09b8a9672372e95e99ceb02e14d",
+      "expected_bytes": 14673081,
+      "actual_bytes": 14673081,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L16_K2.jsonl",
+      "expected_sha256": "95c07687075b491da30496eb01b626da5ff7b09b8a9672372e95e99ceb02e14d",
+      "actual_sha256": "95c07687075b491da30496eb01b626da5ff7b09b8a9672372e95e99ceb02e14d",
+      "expected_bytes": 14673081,
+      "actual_bytes": 14673081,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L16_K2_batches.jsonl",
+      "expected_sha256": "20a09dd8d300ee07488a3383a656a82b13e272b2e1639b24f6ed065f96a2c19b",
+      "actual_sha256": "20a09dd8d300ee07488a3383a656a82b13e272b2e1639b24f6ed065f96a2c19b",
+      "expected_bytes": 9760,
+      "actual_bytes": 9760,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L16_K2_batches.jsonl",
+      "expected_sha256": "20a09dd8d300ee07488a3383a656a82b13e272b2e1639b24f6ed065f96a2c19b",
+      "actual_sha256": "20a09dd8d300ee07488a3383a656a82b13e272b2e1639b24f6ed065f96a2c19b",
+      "expected_bytes": 9760,
+      "actual_bytes": 9760,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L16_K2_warmup.json",
+      "expected_sha256": "e3ce84c9c0a4c1f31aba111450fbddcd66392019a046755b241778a506be743e",
+      "actual_sha256": "e3ce84c9c0a4c1f31aba111450fbddcd66392019a046755b241778a506be743e",
+      "expected_bytes": 43329,
+      "actual_bytes": 43329,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L16_K2_warmup.json",
+      "expected_sha256": "e3ce84c9c0a4c1f31aba111450fbddcd66392019a046755b241778a506be743e",
+      "actual_sha256": "e3ce84c9c0a4c1f31aba111450fbddcd66392019a046755b241778a506be743e",
+      "expected_bytes": 43329,
+      "actual_bytes": 43329,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L16_K4.jsonl",
+      "expected_sha256": "bc69e6cec04b947f909603334262ab996d2292dd74bd6dbbfab04950d5153790",
+      "actual_sha256": "bc69e6cec04b947f909603334262ab996d2292dd74bd6dbbfab04950d5153790",
+      "expected_bytes": 29343824,
+      "actual_bytes": 29343824,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L16_K4.jsonl",
+      "expected_sha256": "bc69e6cec04b947f909603334262ab996d2292dd74bd6dbbfab04950d5153790",
+      "actual_sha256": "bc69e6cec04b947f909603334262ab996d2292dd74bd6dbbfab04950d5153790",
+      "expected_bytes": 29343824,
+      "actual_bytes": 29343824,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L16_K4_batches.jsonl",
+      "expected_sha256": "79a162e79333182831396b923a0d772dbcbf612c23badf7959dc94e952dc79f8",
+      "actual_sha256": "79a162e79333182831396b923a0d772dbcbf612c23badf7959dc94e952dc79f8",
+      "expected_bytes": 10427,
+      "actual_bytes": 10427,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L16_K4_batches.jsonl",
+      "expected_sha256": "79a162e79333182831396b923a0d772dbcbf612c23badf7959dc94e952dc79f8",
+      "actual_sha256": "79a162e79333182831396b923a0d772dbcbf612c23badf7959dc94e952dc79f8",
+      "expected_bytes": 10427,
+      "actual_bytes": 10427,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L16_K4_warmup.json",
+      "expected_sha256": "db317348e2581661a5bcaa13f3ae7ac453cd776c5336934e52c1a5741c11c12a",
+      "actual_sha256": "db317348e2581661a5bcaa13f3ae7ac453cd776c5336934e52c1a5741c11c12a",
+      "expected_bytes": 86582,
+      "actual_bytes": 86582,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L16_K4_warmup.json",
+      "expected_sha256": "db317348e2581661a5bcaa13f3ae7ac453cd776c5336934e52c1a5741c11c12a",
+      "actual_sha256": "db317348e2581661a5bcaa13f3ae7ac453cd776c5336934e52c1a5741c11c12a",
+      "expected_bytes": 86582,
+      "actual_bytes": 86582,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L16_K8.jsonl",
+      "expected_sha256": "3b61d06ab76a784b958d4fd7199dac5edb5815d76881bf8437c4753a99aff13a",
+      "actual_sha256": "3b61d06ab76a784b958d4fd7199dac5edb5815d76881bf8437c4753a99aff13a",
+      "expected_bytes": 58695555,
+      "actual_bytes": 58695555,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L16_K8.jsonl",
+      "expected_sha256": "3b61d06ab76a784b958d4fd7199dac5edb5815d76881bf8437c4753a99aff13a",
+      "actual_sha256": "3b61d06ab76a784b958d4fd7199dac5edb5815d76881bf8437c4753a99aff13a",
+      "expected_bytes": 58695555,
+      "actual_bytes": 58695555,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L16_K8_batches.jsonl",
+      "expected_sha256": "b1e08b1cd92e74dca640f718353b853291933cefea44902156428dc94402cc58",
+      "actual_sha256": "b1e08b1cd92e74dca640f718353b853291933cefea44902156428dc94402cc58",
+      "expected_bytes": 12139,
+      "actual_bytes": 12139,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L16_K8_batches.jsonl",
+      "expected_sha256": "b1e08b1cd92e74dca640f718353b853291933cefea44902156428dc94402cc58",
+      "actual_sha256": "b1e08b1cd92e74dca640f718353b853291933cefea44902156428dc94402cc58",
+      "expected_bytes": 12139,
+      "actual_bytes": 12139,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L16_K8_warmup.json",
+      "expected_sha256": "5da7c19d932a07f87cbf2f91179ac5b624e857368fa07812d3ca3668d03d29fe",
+      "actual_sha256": "5da7c19d932a07f87cbf2f91179ac5b624e857368fa07812d3ca3668d03d29fe",
+      "expected_bytes": 173029,
+      "actual_bytes": 173029,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L16_K8_warmup.json",
+      "expected_sha256": "5da7c19d932a07f87cbf2f91179ac5b624e857368fa07812d3ca3668d03d29fe",
+      "actual_sha256": "5da7c19d932a07f87cbf2f91179ac5b624e857368fa07812d3ca3668d03d29fe",
+      "expected_bytes": 173029,
+      "actual_bytes": 173029,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L1_K1.jsonl",
+      "expected_sha256": "c86899ba5d32182b5f007d03834875a01cae75fc9d5d146501925e0f55a0f64e",
+      "actual_sha256": "c86899ba5d32182b5f007d03834875a01cae75fc9d5d146501925e0f55a0f64e",
+      "expected_bytes": 455454,
+      "actual_bytes": 455454,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L1_K1.jsonl",
+      "expected_sha256": "c86899ba5d32182b5f007d03834875a01cae75fc9d5d146501925e0f55a0f64e",
+      "actual_sha256": "c86899ba5d32182b5f007d03834875a01cae75fc9d5d146501925e0f55a0f64e",
+      "expected_bytes": 455454,
+      "actual_bytes": 455454,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L1_K16.jsonl",
+      "expected_sha256": "bb41bd6c529281e819568889da52ea8b96da520d418c8db2ea60943f94082898",
+      "actual_sha256": "bb41bd6c529281e819568889da52ea8b96da520d418c8db2ea60943f94082898",
+      "expected_bytes": 7308628,
+      "actual_bytes": 7308628,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L1_K16.jsonl",
+      "expected_sha256": "bb41bd6c529281e819568889da52ea8b96da520d418c8db2ea60943f94082898",
+      "actual_sha256": "bb41bd6c529281e819568889da52ea8b96da520d418c8db2ea60943f94082898",
+      "expected_bytes": 7308628,
+      "actual_bytes": 7308628,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L1_K16_batches.jsonl",
+      "expected_sha256": "ad6a7fcde6787f4fc7724b488b505c471fec5648a4da0fd3ae19b28a37b2998a",
+      "actual_sha256": "ad6a7fcde6787f4fc7724b488b505c471fec5648a4da0fd3ae19b28a37b2998a",
+      "expected_bytes": 14058,
+      "actual_bytes": 14058,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L1_K16_batches.jsonl",
+      "expected_sha256": "ad6a7fcde6787f4fc7724b488b505c471fec5648a4da0fd3ae19b28a37b2998a",
+      "actual_sha256": "ad6a7fcde6787f4fc7724b488b505c471fec5648a4da0fd3ae19b28a37b2998a",
+      "expected_bytes": 14058,
+      "actual_bytes": 14058,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L1_K16_warmup.json",
+      "expected_sha256": "7b84a307bfc3a9e36b169ce9068a4a6d3c4f20728092e388b4f87f8ccacaac6c",
+      "actual_sha256": "7b84a307bfc3a9e36b169ce9068a4a6d3c4f20728092e388b4f87f8ccacaac6c",
+      "expected_bytes": 345972,
+      "actual_bytes": 345972,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L1_K16_warmup.json",
+      "expected_sha256": "7b84a307bfc3a9e36b169ce9068a4a6d3c4f20728092e388b4f87f8ccacaac6c",
+      "actual_sha256": "7b84a307bfc3a9e36b169ce9068a4a6d3c4f20728092e388b4f87f8ccacaac6c",
+      "expected_bytes": 345972,
+      "actual_bytes": 345972,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L1_K1_batches.jsonl",
+      "expected_sha256": "ed12b3babdfefcf1e57ee6ef3f3f8201730f4f54121fc3daef71a0123bffeb69",
+      "actual_sha256": "ed12b3babdfefcf1e57ee6ef3f3f8201730f4f54121fc3daef71a0123bffeb69",
+      "expected_bytes": 9099,
+      "actual_bytes": 9099,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L1_K1_batches.jsonl",
+      "expected_sha256": "ed12b3babdfefcf1e57ee6ef3f3f8201730f4f54121fc3daef71a0123bffeb69",
+      "actual_sha256": "ed12b3babdfefcf1e57ee6ef3f3f8201730f4f54121fc3daef71a0123bffeb69",
+      "expected_bytes": 9099,
+      "actual_bytes": 9099,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L1_K1_warmup.json",
+      "expected_sha256": "5d046d88f33a1fef2fd97dd2668ac8e5c1220eefe19ed50a6890eb811df7b54a",
+      "actual_sha256": "5d046d88f33a1fef2fd97dd2668ac8e5c1220eefe19ed50a6890eb811df7b54a",
+      "expected_bytes": 21580,
+      "actual_bytes": 21580,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L1_K1_warmup.json",
+      "expected_sha256": "5d046d88f33a1fef2fd97dd2668ac8e5c1220eefe19ed50a6890eb811df7b54a",
+      "actual_sha256": "5d046d88f33a1fef2fd97dd2668ac8e5c1220eefe19ed50a6890eb811df7b54a",
+      "expected_bytes": 21580,
+      "actual_bytes": 21580,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L1_K2.jsonl",
+      "expected_sha256": "a3a9564cabcff3d8e059f9d5f8ac05443cf0ad2580020c2f66a9f5801a52fe49",
+      "actual_sha256": "a3a9564cabcff3d8e059f9d5f8ac05443cf0ad2580020c2f66a9f5801a52fe49",
+      "expected_bytes": 912803,
+      "actual_bytes": 912803,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L1_K2.jsonl",
+      "expected_sha256": "a3a9564cabcff3d8e059f9d5f8ac05443cf0ad2580020c2f66a9f5801a52fe49",
+      "actual_sha256": "a3a9564cabcff3d8e059f9d5f8ac05443cf0ad2580020c2f66a9f5801a52fe49",
+      "expected_bytes": 912803,
+      "actual_bytes": 912803,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L1_K2_batches.jsonl",
+      "expected_sha256": "d790677ee37d1568f64cf9768b804b0365ae2c3a9c0ba5459679b6d94e72a868",
+      "actual_sha256": "d790677ee37d1568f64cf9768b804b0365ae2c3a9c0ba5459679b6d94e72a868",
+      "expected_bytes": 9491,
+      "actual_bytes": 9491,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L1_K2_batches.jsonl",
+      "expected_sha256": "d790677ee37d1568f64cf9768b804b0365ae2c3a9c0ba5459679b6d94e72a868",
+      "actual_sha256": "d790677ee37d1568f64cf9768b804b0365ae2c3a9c0ba5459679b6d94e72a868",
+      "expected_bytes": 9491,
+      "actual_bytes": 9491,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L1_K2_warmup.json",
+      "expected_sha256": "341fbb1c2ebbe1186faea6f39c0813a7069221fd90fe392eaf592252dc97038a",
+      "actual_sha256": "341fbb1c2ebbe1186faea6f39c0813a7069221fd90fe392eaf592252dc97038a",
+      "expected_bytes": 43215,
+      "actual_bytes": 43215,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L1_K2_warmup.json",
+      "expected_sha256": "341fbb1c2ebbe1186faea6f39c0813a7069221fd90fe392eaf592252dc97038a",
+      "actual_sha256": "341fbb1c2ebbe1186faea6f39c0813a7069221fd90fe392eaf592252dc97038a",
+      "expected_bytes": 43215,
+      "actual_bytes": 43215,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L1_K4.jsonl",
+      "expected_sha256": "27334df707e6b09e17cd12fb96127c738fa4c6ae3a49cdf591506c059710ab98",
+      "actual_sha256": "27334df707e6b09e17cd12fb96127c738fa4c6ae3a49cdf591506c059710ab98",
+      "expected_bytes": 1823835,
+      "actual_bytes": 1823835,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L1_K4.jsonl",
+      "expected_sha256": "27334df707e6b09e17cd12fb96127c738fa4c6ae3a49cdf591506c059710ab98",
+      "actual_sha256": "27334df707e6b09e17cd12fb96127c738fa4c6ae3a49cdf591506c059710ab98",
+      "expected_bytes": 1823835,
+      "actual_bytes": 1823835,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L1_K4_batches.jsonl",
+      "expected_sha256": "d6535d576738f7db24690a7e39e3fd345bc0f9358e408bd2b2307f0aee17687d",
+      "actual_sha256": "d6535d576738f7db24690a7e39e3fd345bc0f9358e408bd2b2307f0aee17687d",
+      "expected_bytes": 10095,
+      "actual_bytes": 10095,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L1_K4_batches.jsonl",
+      "expected_sha256": "d6535d576738f7db24690a7e39e3fd345bc0f9358e408bd2b2307f0aee17687d",
+      "actual_sha256": "d6535d576738f7db24690a7e39e3fd345bc0f9358e408bd2b2307f0aee17687d",
+      "expected_bytes": 10095,
+      "actual_bytes": 10095,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L1_K4_warmup.json",
+      "expected_sha256": "19e4a35ea15bcf17258206da2fc46721485acd5473a42ab89262e2e41be90596",
+      "actual_sha256": "19e4a35ea15bcf17258206da2fc46721485acd5473a42ab89262e2e41be90596",
+      "expected_bytes": 86395,
+      "actual_bytes": 86395,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L1_K4_warmup.json",
+      "expected_sha256": "19e4a35ea15bcf17258206da2fc46721485acd5473a42ab89262e2e41be90596",
+      "actual_sha256": "19e4a35ea15bcf17258206da2fc46721485acd5473a42ab89262e2e41be90596",
+      "expected_bytes": 86395,
+      "actual_bytes": 86395,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L1_K8.jsonl",
+      "expected_sha256": "452283a819c93362e4676af9849316a633e2a758d854f7dc337d7fd7806dc117",
+      "actual_sha256": "452283a819c93362e4676af9849316a633e2a758d854f7dc337d7fd7806dc117",
+      "expected_bytes": 3643767,
+      "actual_bytes": 3643767,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L1_K8.jsonl",
+      "expected_sha256": "452283a819c93362e4676af9849316a633e2a758d854f7dc337d7fd7806dc117",
+      "actual_sha256": "452283a819c93362e4676af9849316a633e2a758d854f7dc337d7fd7806dc117",
+      "expected_bytes": 3643767,
+      "actual_bytes": 3643767,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L1_K8_batches.jsonl",
+      "expected_sha256": "9f8588ba5853dfc51fa9899817f8d71d0f5fa3b8df8a28dbc2014ca97a797a96",
+      "actual_sha256": "9f8588ba5853dfc51fa9899817f8d71d0f5fa3b8df8a28dbc2014ca97a797a96",
+      "expected_bytes": 11298,
+      "actual_bytes": 11298,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L1_K8_batches.jsonl",
+      "expected_sha256": "9f8588ba5853dfc51fa9899817f8d71d0f5fa3b8df8a28dbc2014ca97a797a96",
+      "actual_sha256": "9f8588ba5853dfc51fa9899817f8d71d0f5fa3b8df8a28dbc2014ca97a797a96",
+      "expected_bytes": 11298,
+      "actual_bytes": 11298,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L1_K8_warmup.json",
+      "expected_sha256": "b06388527ef476eb0680b167bac3217db961d40b5a0649c8087415c5c3af685b",
+      "actual_sha256": "b06388527ef476eb0680b167bac3217db961d40b5a0649c8087415c5c3af685b",
+      "expected_bytes": 172662,
+      "actual_bytes": 172662,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L1_K8_warmup.json",
+      "expected_sha256": "b06388527ef476eb0680b167bac3217db961d40b5a0649c8087415c5c3af685b",
+      "actual_sha256": "b06388527ef476eb0680b167bac3217db961d40b5a0649c8087415c5c3af685b",
+      "expected_bytes": 172662,
+      "actual_bytes": 172662,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L2_K1.jsonl",
+      "expected_sha256": "624e7de9daa9368223abbe44d741f5974d283915d80add0777f53159fad6dc67",
+      "actual_sha256": "624e7de9daa9368223abbe44d741f5974d283915d80add0777f53159fad6dc67",
+      "expected_bytes": 913357,
+      "actual_bytes": 913357,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L2_K1.jsonl",
+      "expected_sha256": "624e7de9daa9368223abbe44d741f5974d283915d80add0777f53159fad6dc67",
+      "actual_sha256": "624e7de9daa9368223abbe44d741f5974d283915d80add0777f53159fad6dc67",
+      "expected_bytes": 913357,
+      "actual_bytes": 913357,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L2_K16.jsonl",
+      "expected_sha256": "b478fbd2b667979eec790363c7d03caa1007749cdbdf36ce8a3181e4c5725357",
+      "actual_sha256": "b478fbd2b667979eec790363c7d03caa1007749cdbdf36ce8a3181e4c5725357",
+      "expected_bytes": 14627601,
+      "actual_bytes": 14627601,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L2_K16.jsonl",
+      "expected_sha256": "b478fbd2b667979eec790363c7d03caa1007749cdbdf36ce8a3181e4c5725357",
+      "actual_sha256": "b478fbd2b667979eec790363c7d03caa1007749cdbdf36ce8a3181e4c5725357",
+      "expected_bytes": 14627601,
+      "actual_bytes": 14627601,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L2_K16_batches.jsonl",
+      "expected_sha256": "9819f4f8f974874cac8652778d260b87cde8ca432ec2d1e602f39fa11a115b05",
+      "actual_sha256": "9819f4f8f974874cac8652778d260b87cde8ca432ec2d1e602f39fa11a115b05",
+      "expected_bytes": 14386,
+      "actual_bytes": 14386,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L2_K16_batches.jsonl",
+      "expected_sha256": "9819f4f8f974874cac8652778d260b87cde8ca432ec2d1e602f39fa11a115b05",
+      "actual_sha256": "9819f4f8f974874cac8652778d260b87cde8ca432ec2d1e602f39fa11a115b05",
+      "expected_bytes": 14386,
+      "actual_bytes": 14386,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L2_K16_warmup.json",
+      "expected_sha256": "58c3fdfb9930c404e73ca5c3e1f1c404f4bfcb00c585bab013780e7362985dde",
+      "actual_sha256": "58c3fdfb9930c404e73ca5c3e1f1c404f4bfcb00c585bab013780e7362985dde",
+      "expected_bytes": 345950,
+      "actual_bytes": 345950,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L2_K16_warmup.json",
+      "expected_sha256": "58c3fdfb9930c404e73ca5c3e1f1c404f4bfcb00c585bab013780e7362985dde",
+      "actual_sha256": "58c3fdfb9930c404e73ca5c3e1f1c404f4bfcb00c585bab013780e7362985dde",
+      "expected_bytes": 345950,
+      "actual_bytes": 345950,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L2_K1_batches.jsonl",
+      "expected_sha256": "82539180191ac740524c2f3774de4f63682f7fa8be0745ece04378d3a1d4a8a5",
+      "actual_sha256": "82539180191ac740524c2f3774de4f63682f7fa8be0745ece04378d3a1d4a8a5",
+      "expected_bytes": 9188,
+      "actual_bytes": 9188,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L2_K1_batches.jsonl",
+      "expected_sha256": "82539180191ac740524c2f3774de4f63682f7fa8be0745ece04378d3a1d4a8a5",
+      "actual_sha256": "82539180191ac740524c2f3774de4f63682f7fa8be0745ece04378d3a1d4a8a5",
+      "expected_bytes": 9188,
+      "actual_bytes": 9188,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L2_K1_warmup.json",
+      "expected_sha256": "8a882985868962f3150c5bbc9ec231f7ceddfa8095152979ab9eb7b8bb99a346",
+      "actual_sha256": "8a882985868962f3150c5bbc9ec231f7ceddfa8095152979ab9eb7b8bb99a346",
+      "expected_bytes": 21596,
+      "actual_bytes": 21596,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L2_K1_warmup.json",
+      "expected_sha256": "8a882985868962f3150c5bbc9ec231f7ceddfa8095152979ab9eb7b8bb99a346",
+      "actual_sha256": "8a882985868962f3150c5bbc9ec231f7ceddfa8095152979ab9eb7b8bb99a346",
+      "expected_bytes": 21596,
+      "actual_bytes": 21596,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L2_K2.jsonl",
+      "expected_sha256": "e6945fc1592ff8a6045a93265be9693e9b541b44bbbe20727175c64eecc03c9c",
+      "actual_sha256": "e6945fc1592ff8a6045a93265be9693e9b541b44bbbe20727175c64eecc03c9c",
+      "expected_bytes": 1823822,
+      "actual_bytes": 1823822,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L2_K2.jsonl",
+      "expected_sha256": "e6945fc1592ff8a6045a93265be9693e9b541b44bbbe20727175c64eecc03c9c",
+      "actual_sha256": "e6945fc1592ff8a6045a93265be9693e9b541b44bbbe20727175c64eecc03c9c",
+      "expected_bytes": 1823822,
+      "actual_bytes": 1823822,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L2_K2_batches.jsonl",
+      "expected_sha256": "4c72749d9b176fdb8f803deb660a4564c2958f25b52128a7d6d7fd53d1048fd3",
+      "actual_sha256": "4c72749d9b176fdb8f803deb660a4564c2958f25b52128a7d6d7fd53d1048fd3",
+      "expected_bytes": 9495,
+      "actual_bytes": 9495,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L2_K2_batches.jsonl",
+      "expected_sha256": "4c72749d9b176fdb8f803deb660a4564c2958f25b52128a7d6d7fd53d1048fd3",
+      "actual_sha256": "4c72749d9b176fdb8f803deb660a4564c2958f25b52128a7d6d7fd53d1048fd3",
+      "expected_bytes": 9495,
+      "actual_bytes": 9495,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L2_K2_warmup.json",
+      "expected_sha256": "6afa50770da6be0ee6cc2a1c7dad1bce205182469ab7d078503528c588b52860",
+      "actual_sha256": "6afa50770da6be0ee6cc2a1c7dad1bce205182469ab7d078503528c588b52860",
+      "expected_bytes": 43226,
+      "actual_bytes": 43226,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L2_K2_warmup.json",
+      "expected_sha256": "6afa50770da6be0ee6cc2a1c7dad1bce205182469ab7d078503528c588b52860",
+      "actual_sha256": "6afa50770da6be0ee6cc2a1c7dad1bce205182469ab7d078503528c588b52860",
+      "expected_bytes": 43226,
+      "actual_bytes": 43226,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L2_K4.jsonl",
+      "expected_sha256": "86323ada5292a0011b20841db14bdc83caddbc22825bf7184bfd858968c205be",
+      "actual_sha256": "86323ada5292a0011b20841db14bdc83caddbc22825bf7184bfd858968c205be",
+      "expected_bytes": 3648054,
+      "actual_bytes": 3648054,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L2_K4.jsonl",
+      "expected_sha256": "86323ada5292a0011b20841db14bdc83caddbc22825bf7184bfd858968c205be",
+      "actual_sha256": "86323ada5292a0011b20841db14bdc83caddbc22825bf7184bfd858968c205be",
+      "expected_bytes": 3648054,
+      "actual_bytes": 3648054,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L2_K4_batches.jsonl",
+      "expected_sha256": "8f536c943b609fa89e9e743ec3750ee881a31f5f7a9ebc55dedd6b1beb84b6e3",
+      "actual_sha256": "8f536c943b609fa89e9e743ec3750ee881a31f5f7a9ebc55dedd6b1beb84b6e3",
+      "expected_bytes": 10126,
+      "actual_bytes": 10126,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L2_K4_batches.jsonl",
+      "expected_sha256": "8f536c943b609fa89e9e743ec3750ee881a31f5f7a9ebc55dedd6b1beb84b6e3",
+      "actual_sha256": "8f536c943b609fa89e9e743ec3750ee881a31f5f7a9ebc55dedd6b1beb84b6e3",
+      "expected_bytes": 10126,
+      "actual_bytes": 10126,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L2_K4_warmup.json",
+      "expected_sha256": "e6bb816eeff25e3213ba931062e024d82a5f8527ab5d0965e064ccc5f93c80b9",
+      "actual_sha256": "e6bb816eeff25e3213ba931062e024d82a5f8527ab5d0965e064ccc5f93c80b9",
+      "expected_bytes": 86372,
+      "actual_bytes": 86372,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L2_K4_warmup.json",
+      "expected_sha256": "e6bb816eeff25e3213ba931062e024d82a5f8527ab5d0965e064ccc5f93c80b9",
+      "actual_sha256": "e6bb816eeff25e3213ba931062e024d82a5f8527ab5d0965e064ccc5f93c80b9",
+      "expected_bytes": 86372,
+      "actual_bytes": 86372,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L2_K8.jsonl",
+      "expected_sha256": "16aceedbda08b7ca54c8f986bea3d5a36224886b78546749740969c411f724a1",
+      "actual_sha256": "16aceedbda08b7ca54c8f986bea3d5a36224886b78546749740969c411f724a1",
+      "expected_bytes": 7294051,
+      "actual_bytes": 7294051,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L2_K8.jsonl",
+      "expected_sha256": "16aceedbda08b7ca54c8f986bea3d5a36224886b78546749740969c411f724a1",
+      "actual_sha256": "16aceedbda08b7ca54c8f986bea3d5a36224886b78546749740969c411f724a1",
+      "expected_bytes": 7294051,
+      "actual_bytes": 7294051,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L2_K8_batches.jsonl",
+      "expected_sha256": "687f9e4e2f2240a71d1234d3dad9a68288063ba8b962259863e976577d964eff",
+      "actual_sha256": "687f9e4e2f2240a71d1234d3dad9a68288063ba8b962259863e976577d964eff",
+      "expected_bytes": 11666,
+      "actual_bytes": 11666,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L2_K8_batches.jsonl",
+      "expected_sha256": "687f9e4e2f2240a71d1234d3dad9a68288063ba8b962259863e976577d964eff",
+      "actual_sha256": "687f9e4e2f2240a71d1234d3dad9a68288063ba8b962259863e976577d964eff",
+      "expected_bytes": 11666,
+      "actual_bytes": 11666,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L2_K8_warmup.json",
+      "expected_sha256": "24f2ca05c5966596608f2b141b03c543eb5b1b3eaffcab0691f30769fc1f623d",
+      "actual_sha256": "24f2ca05c5966596608f2b141b03c543eb5b1b3eaffcab0691f30769fc1f623d",
+      "expected_bytes": 172632,
+      "actual_bytes": 172632,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L2_K8_warmup.json",
+      "expected_sha256": "24f2ca05c5966596608f2b141b03c543eb5b1b3eaffcab0691f30769fc1f623d",
+      "actual_sha256": "24f2ca05c5966596608f2b141b03c543eb5b1b3eaffcab0691f30769fc1f623d",
+      "expected_bytes": 172632,
+      "actual_bytes": 172632,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L32_K1.jsonl",
+      "expected_sha256": "49f1af2a6212a1ca4073070e46ea79fd62899e527f1ee87f96b671b7ffd25d79",
+      "actual_sha256": "49f1af2a6212a1ca4073070e46ea79fd62899e527f1ee87f96b671b7ffd25d79",
+      "expected_bytes": 14685108,
+      "actual_bytes": 14685108,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L32_K1.jsonl",
+      "expected_sha256": "49f1af2a6212a1ca4073070e46ea79fd62899e527f1ee87f96b671b7ffd25d79",
+      "actual_sha256": "49f1af2a6212a1ca4073070e46ea79fd62899e527f1ee87f96b671b7ffd25d79",
+      "expected_bytes": 14685108,
+      "actual_bytes": 14685108,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L32_K16.jsonl",
+      "expected_sha256": "86fb55dd54824892dd1efb9d734498c60c0d96a1e428f1f18e534271ad06a48e",
+      "actual_sha256": "86fb55dd54824892dd1efb9d734498c60c0d96a1e428f1f18e534271ad06a48e",
+      "expected_bytes": 235931673,
+      "actual_bytes": 235931673,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L32_K16.jsonl",
+      "expected_sha256": "86fb55dd54824892dd1efb9d734498c60c0d96a1e428f1f18e534271ad06a48e",
+      "actual_sha256": "86fb55dd54824892dd1efb9d734498c60c0d96a1e428f1f18e534271ad06a48e",
+      "expected_bytes": 235931673,
+      "actual_bytes": 235931673,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L32_K16_batches.jsonl",
+      "expected_sha256": "170bd2574f585dce08d1fd5ef9153cac30bace8219acf9fd6f199fa428c807be",
+      "actual_sha256": "170bd2574f585dce08d1fd5ef9153cac30bace8219acf9fd6f199fa428c807be",
+      "expected_bytes": 15625,
+      "actual_bytes": 15625,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L32_K16_batches.jsonl",
+      "expected_sha256": "170bd2574f585dce08d1fd5ef9153cac30bace8219acf9fd6f199fa428c807be",
+      "actual_sha256": "170bd2574f585dce08d1fd5ef9153cac30bace8219acf9fd6f199fa428c807be",
+      "expected_bytes": 15625,
+      "actual_bytes": 15625,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L32_K16_warmup.json",
+      "expected_sha256": "0abb8e024ec31f9c801975abe87bd903064882c7950c642e83599a7abe14e3d2",
+      "actual_sha256": "0abb8e024ec31f9c801975abe87bd903064882c7950c642e83599a7abe14e3d2",
+      "expected_bytes": 346683,
+      "actual_bytes": 346683,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L32_K16_warmup.json",
+      "expected_sha256": "0abb8e024ec31f9c801975abe87bd903064882c7950c642e83599a7abe14e3d2",
+      "actual_sha256": "0abb8e024ec31f9c801975abe87bd903064882c7950c642e83599a7abe14e3d2",
+      "expected_bytes": 346683,
+      "actual_bytes": 346683,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L32_K1_batches.jsonl",
+      "expected_sha256": "88e5b7e8d2a080451c2910ea0e0ddd66d3abda68056a5191be205ac968e1c692",
+      "actual_sha256": "88e5b7e8d2a080451c2910ea0e0ddd66d3abda68056a5191be205ac968e1c692",
+      "expected_bytes": 9420,
+      "actual_bytes": 9420,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L32_K1_batches.jsonl",
+      "expected_sha256": "88e5b7e8d2a080451c2910ea0e0ddd66d3abda68056a5191be205ac968e1c692",
+      "actual_sha256": "88e5b7e8d2a080451c2910ea0e0ddd66d3abda68056a5191be205ac968e1c692",
+      "expected_bytes": 9420,
+      "actual_bytes": 9420,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L32_K1_warmup.json",
+      "expected_sha256": "1972e532c8198424e139b8435f319b1c654dfb5c301d3acb15ec6b21f062f817",
+      "actual_sha256": "1972e532c8198424e139b8435f319b1c654dfb5c301d3acb15ec6b21f062f817",
+      "expected_bytes": 21638,
+      "actual_bytes": 21638,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L32_K1_warmup.json",
+      "expected_sha256": "1972e532c8198424e139b8435f319b1c654dfb5c301d3acb15ec6b21f062f817",
+      "actual_sha256": "1972e532c8198424e139b8435f319b1c654dfb5c301d3acb15ec6b21f062f817",
+      "expected_bytes": 21638,
+      "actual_bytes": 21638,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L32_K2.jsonl",
+      "expected_sha256": "3dc59692eebc93e967fff7111cd056c9a5380847745922b4c4ac8a98b077a651",
+      "actual_sha256": "3dc59692eebc93e967fff7111cd056c9a5380847745922b4c4ac8a98b077a651",
+      "expected_bytes": 29359130,
+      "actual_bytes": 29359130,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L32_K2.jsonl",
+      "expected_sha256": "3dc59692eebc93e967fff7111cd056c9a5380847745922b4c4ac8a98b077a651",
+      "actual_sha256": "3dc59692eebc93e967fff7111cd056c9a5380847745922b4c4ac8a98b077a651",
+      "expected_bytes": 29359130,
+      "actual_bytes": 29359130,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L32_K2_batches.jsonl",
+      "expected_sha256": "e600a2f83a94f7edb41eaeed053aa33bfa310abd20ed413866f91eb0f0a6f892",
+      "actual_sha256": "e600a2f83a94f7edb41eaeed053aa33bfa310abd20ed413866f91eb0f0a6f892",
+      "expected_bytes": 9739,
+      "actual_bytes": 9739,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L32_K2_batches.jsonl",
+      "expected_sha256": "e600a2f83a94f7edb41eaeed053aa33bfa310abd20ed413866f91eb0f0a6f892",
+      "actual_sha256": "e600a2f83a94f7edb41eaeed053aa33bfa310abd20ed413866f91eb0f0a6f892",
+      "expected_bytes": 9739,
+      "actual_bytes": 9739,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L32_K2_warmup.json",
+      "expected_sha256": "e0749f621ddd799ca1cd03a0e99d020df0d219682a1c664d5cb3301562345740",
+      "actual_sha256": "e0749f621ddd799ca1cd03a0e99d020df0d219682a1c664d5cb3301562345740",
+      "expected_bytes": 43341,
+      "actual_bytes": 43341,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L32_K2_warmup.json",
+      "expected_sha256": "e0749f621ddd799ca1cd03a0e99d020df0d219682a1c664d5cb3301562345740",
+      "actual_sha256": "e0749f621ddd799ca1cd03a0e99d020df0d219682a1c664d5cb3301562345740",
+      "expected_bytes": 43341,
+      "actual_bytes": 43341,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L32_K4.jsonl",
+      "expected_sha256": "7eaab9bafa01282666afa97826f5df8b2fc573d3f32f91adf86ba3c65302107a",
+      "actual_sha256": "7eaab9bafa01282666afa97826f5df8b2fc573d3f32f91adf86ba3c65302107a",
+      "expected_bytes": 58709879,
+      "actual_bytes": 58709879,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L32_K4.jsonl",
+      "expected_sha256": "7eaab9bafa01282666afa97826f5df8b2fc573d3f32f91adf86ba3c65302107a",
+      "actual_sha256": "7eaab9bafa01282666afa97826f5df8b2fc573d3f32f91adf86ba3c65302107a",
+      "expected_bytes": 58709879,
+      "actual_bytes": 58709879,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L32_K4_batches.jsonl",
+      "expected_sha256": "de9cef38633a27db264e25ea954c989dbd3ab10edac25374f3d70c70c2351e51",
+      "actual_sha256": "de9cef38633a27db264e25ea954c989dbd3ab10edac25374f3d70c70c2351e51",
+      "expected_bytes": 10693,
+      "actual_bytes": 10693,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L32_K4_batches.jsonl",
+      "expected_sha256": "de9cef38633a27db264e25ea954c989dbd3ab10edac25374f3d70c70c2351e51",
+      "actual_sha256": "de9cef38633a27db264e25ea954c989dbd3ab10edac25374f3d70c70c2351e51",
+      "expected_bytes": 10693,
+      "actual_bytes": 10693,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L32_K4_warmup.json",
+      "expected_sha256": "d93a4a0be7fcc89b9c6ce92d2bfdba73873b326b7f20f3de47ce78e0ea54acc5",
+      "actual_sha256": "d93a4a0be7fcc89b9c6ce92d2bfdba73873b326b7f20f3de47ce78e0ea54acc5",
+      "expected_bytes": 86562,
+      "actual_bytes": 86562,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L32_K4_warmup.json",
+      "expected_sha256": "d93a4a0be7fcc89b9c6ce92d2bfdba73873b326b7f20f3de47ce78e0ea54acc5",
+      "actual_sha256": "d93a4a0be7fcc89b9c6ce92d2bfdba73873b326b7f20f3de47ce78e0ea54acc5",
+      "expected_bytes": 86562,
+      "actual_bytes": 86562,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L32_K8.jsonl",
+      "expected_sha256": "3188e8b93a27cb15cd63d480d209a6aa4fbfcc715a2e8e3fb75b6dae842b591d",
+      "actual_sha256": "3188e8b93a27cb15cd63d480d209a6aa4fbfcc715a2e8e3fb75b6dae842b591d",
+      "expected_bytes": 117417847,
+      "actual_bytes": 117417847,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L32_K8.jsonl",
+      "expected_sha256": "3188e8b93a27cb15cd63d480d209a6aa4fbfcc715a2e8e3fb75b6dae842b591d",
+      "actual_sha256": "3188e8b93a27cb15cd63d480d209a6aa4fbfcc715a2e8e3fb75b6dae842b591d",
+      "expected_bytes": 117417847,
+      "actual_bytes": 117417847,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L32_K8_batches.jsonl",
+      "expected_sha256": "087dc4bad883ddddfd308584a452aad7388a08cc6e6ccaee0d58460277946ece",
+      "actual_sha256": "087dc4bad883ddddfd308584a452aad7388a08cc6e6ccaee0d58460277946ece",
+      "expected_bytes": 12144,
+      "actual_bytes": 12144,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L32_K8_batches.jsonl",
+      "expected_sha256": "087dc4bad883ddddfd308584a452aad7388a08cc6e6ccaee0d58460277946ece",
+      "actual_sha256": "087dc4bad883ddddfd308584a452aad7388a08cc6e6ccaee0d58460277946ece",
+      "expected_bytes": 12144,
+      "actual_bytes": 12144,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L32_K8_warmup.json",
+      "expected_sha256": "fd9353b32ebfaf8b51ba9f0d4700ffb3e8a0ca413de2e802fc65e5d3c8a9b5ef",
+      "actual_sha256": "fd9353b32ebfaf8b51ba9f0d4700ffb3e8a0ca413de2e802fc65e5d3c8a9b5ef",
+      "expected_bytes": 173047,
+      "actual_bytes": 173047,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L32_K8_warmup.json",
+      "expected_sha256": "fd9353b32ebfaf8b51ba9f0d4700ffb3e8a0ca413de2e802fc65e5d3c8a9b5ef",
+      "actual_sha256": "fd9353b32ebfaf8b51ba9f0d4700ffb3e8a0ca413de2e802fc65e5d3c8a9b5ef",
+      "expected_bytes": 173047,
+      "actual_bytes": 173047,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L4_K1.jsonl",
+      "expected_sha256": "ecfd5aabf83036028725600128925f28c20787c05ffef18b2fe6fd35a6bfc3e3",
+      "actual_sha256": "ecfd5aabf83036028725600128925f28c20787c05ffef18b2fe6fd35a6bfc3e3",
+      "expected_bytes": 1825087,
+      "actual_bytes": 1825087,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L4_K1.jsonl",
+      "expected_sha256": "ecfd5aabf83036028725600128925f28c20787c05ffef18b2fe6fd35a6bfc3e3",
+      "actual_sha256": "ecfd5aabf83036028725600128925f28c20787c05ffef18b2fe6fd35a6bfc3e3",
+      "expected_bytes": 1825087,
+      "actual_bytes": 1825087,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L4_K16.jsonl",
+      "expected_sha256": "198af7ad92c8217be2b977f32c265b563cedd9171985e23c8ca256297e7f418f",
+      "actual_sha256": "198af7ad92c8217be2b977f32c265b563cedd9171985e23c8ca256297e7f418f",
+      "expected_bytes": 29290436,
+      "actual_bytes": 29290436,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L4_K16.jsonl",
+      "expected_sha256": "198af7ad92c8217be2b977f32c265b563cedd9171985e23c8ca256297e7f418f",
+      "actual_sha256": "198af7ad92c8217be2b977f32c265b563cedd9171985e23c8ca256297e7f418f",
+      "expected_bytes": 29290436,
+      "actual_bytes": 29290436,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L4_K16_batches.jsonl",
+      "expected_sha256": "d7be34f4b6cccc313b59edb811bf834505b7faa851594191dc23eb5e24da726f",
+      "actual_sha256": "d7be34f4b6cccc313b59edb811bf834505b7faa851594191dc23eb5e24da726f",
+      "expected_bytes": 14415,
+      "actual_bytes": 14415,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L4_K16_batches.jsonl",
+      "expected_sha256": "d7be34f4b6cccc313b59edb811bf834505b7faa851594191dc23eb5e24da726f",
+      "actual_sha256": "d7be34f4b6cccc313b59edb811bf834505b7faa851594191dc23eb5e24da726f",
+      "expected_bytes": 14415,
+      "actual_bytes": 14415,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L4_K16_warmup.json",
+      "expected_sha256": "3d746165a1ac9001affa0c9bd5e5d43de0d268e54cbaf5b906536241bd35db99",
+      "actual_sha256": "3d746165a1ac9001affa0c9bd5e5d43de0d268e54cbaf5b906536241bd35db99",
+      "expected_bytes": 345944,
+      "actual_bytes": 345944,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L4_K16_warmup.json",
+      "expected_sha256": "3d746165a1ac9001affa0c9bd5e5d43de0d268e54cbaf5b906536241bd35db99",
+      "actual_sha256": "3d746165a1ac9001affa0c9bd5e5d43de0d268e54cbaf5b906536241bd35db99",
+      "expected_bytes": 345944,
+      "actual_bytes": 345944,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L4_K1_batches.jsonl",
+      "expected_sha256": "9c94d3564756906ce7cbd68aeedccf46564398a9f230f9f0a35e712f6811f7c2",
+      "actual_sha256": "9c94d3564756906ce7cbd68aeedccf46564398a9f230f9f0a35e712f6811f7c2",
+      "expected_bytes": 9196,
+      "actual_bytes": 9196,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L4_K1_batches.jsonl",
+      "expected_sha256": "9c94d3564756906ce7cbd68aeedccf46564398a9f230f9f0a35e712f6811f7c2",
+      "actual_sha256": "9c94d3564756906ce7cbd68aeedccf46564398a9f230f9f0a35e712f6811f7c2",
+      "expected_bytes": 9196,
+      "actual_bytes": 9196,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L4_K1_warmup.json",
+      "expected_sha256": "9d7b6ce1f44b3cd621237b2b7540629003d69794afc15539fc2ffdd27a3ac648",
+      "actual_sha256": "9d7b6ce1f44b3cd621237b2b7540629003d69794afc15539fc2ffdd27a3ac648",
+      "expected_bytes": 21590,
+      "actual_bytes": 21590,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L4_K1_warmup.json",
+      "expected_sha256": "9d7b6ce1f44b3cd621237b2b7540629003d69794afc15539fc2ffdd27a3ac648",
+      "actual_sha256": "9d7b6ce1f44b3cd621237b2b7540629003d69794afc15539fc2ffdd27a3ac648",
+      "expected_bytes": 21590,
+      "actual_bytes": 21590,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L4_K2.jsonl",
+      "expected_sha256": "9320d9fc47995f8e73f9cf7d8e075fe50797d1b258fb9af0f319c15e71370820",
+      "actual_sha256": "9320d9fc47995f8e73f9cf7d8e075fe50797d1b258fb9af0f319c15e71370820",
+      "expected_bytes": 3648625,
+      "actual_bytes": 3648625,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L4_K2.jsonl",
+      "expected_sha256": "9320d9fc47995f8e73f9cf7d8e075fe50797d1b258fb9af0f319c15e71370820",
+      "actual_sha256": "9320d9fc47995f8e73f9cf7d8e075fe50797d1b258fb9af0f319c15e71370820",
+      "expected_bytes": 3648625,
+      "actual_bytes": 3648625,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L4_K2_batches.jsonl",
+      "expected_sha256": "86739b1299e0e2fdf6783f44dd229785e9d5ad88bea3076f7f6a3190e2cd8edc",
+      "actual_sha256": "86739b1299e0e2fdf6783f44dd229785e9d5ad88bea3076f7f6a3190e2cd8edc",
+      "expected_bytes": 9487,
+      "actual_bytes": 9487,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L4_K2_batches.jsonl",
+      "expected_sha256": "86739b1299e0e2fdf6783f44dd229785e9d5ad88bea3076f7f6a3190e2cd8edc",
+      "actual_sha256": "86739b1299e0e2fdf6783f44dd229785e9d5ad88bea3076f7f6a3190e2cd8edc",
+      "expected_bytes": 9487,
+      "actual_bytes": 9487,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L4_K2_warmup.json",
+      "expected_sha256": "7b115323389d6e1f1fe94403238ad01d79faa92f7b23faf150b464e6d30b7c2f",
+      "actual_sha256": "7b115323389d6e1f1fe94403238ad01d79faa92f7b23faf150b464e6d30b7c2f",
+      "expected_bytes": 43224,
+      "actual_bytes": 43224,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L4_K2_warmup.json",
+      "expected_sha256": "7b115323389d6e1f1fe94403238ad01d79faa92f7b23faf150b464e6d30b7c2f",
+      "actual_sha256": "7b115323389d6e1f1fe94403238ad01d79faa92f7b23faf150b464e6d30b7c2f",
+      "expected_bytes": 43224,
+      "actual_bytes": 43224,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L4_K4.jsonl",
+      "expected_sha256": "e9662fe11c4fe1c4df41edfa99a0bac971ce5c6497fec9f32342824f6dfc0997",
+      "actual_sha256": "e9662fe11c4fe1c4df41edfa99a0bac971ce5c6497fec9f32342824f6dfc0997",
+      "expected_bytes": 7299511,
+      "actual_bytes": 7299511,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L4_K4.jsonl",
+      "expected_sha256": "e9662fe11c4fe1c4df41edfa99a0bac971ce5c6497fec9f32342824f6dfc0997",
+      "actual_sha256": "e9662fe11c4fe1c4df41edfa99a0bac971ce5c6497fec9f32342824f6dfc0997",
+      "expected_bytes": 7299511,
+      "actual_bytes": 7299511,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L4_K4_batches.jsonl",
+      "expected_sha256": "a81bce67f42a310d70d05b658a4afd780bbb8db9f8f4e779d59f7ec27ffdb0e0",
+      "actual_sha256": "a81bce67f42a310d70d05b658a4afd780bbb8db9f8f4e779d59f7ec27ffdb0e0",
+      "expected_bytes": 10391,
+      "actual_bytes": 10391,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L4_K4_batches.jsonl",
+      "expected_sha256": "a81bce67f42a310d70d05b658a4afd780bbb8db9f8f4e779d59f7ec27ffdb0e0",
+      "actual_sha256": "a81bce67f42a310d70d05b658a4afd780bbb8db9f8f4e779d59f7ec27ffdb0e0",
+      "expected_bytes": 10391,
+      "actual_bytes": 10391,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L4_K4_warmup.json",
+      "expected_sha256": "bc3036934179161bbdd3bca617e87dacf827c9c63dc86b1ad7a578c3daf712b2",
+      "actual_sha256": "bc3036934179161bbdd3bca617e87dacf827c9c63dc86b1ad7a578c3daf712b2",
+      "expected_bytes": 86373,
+      "actual_bytes": 86373,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L4_K4_warmup.json",
+      "expected_sha256": "bc3036934179161bbdd3bca617e87dacf827c9c63dc86b1ad7a578c3daf712b2",
+      "actual_sha256": "bc3036934179161bbdd3bca617e87dacf827c9c63dc86b1ad7a578c3daf712b2",
+      "expected_bytes": 86373,
+      "actual_bytes": 86373,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L4_K8.jsonl",
+      "expected_sha256": "d39e76941c7bdae0b76e73ea1637a58820f20f224656d62d40b341c483e6b51a",
+      "actual_sha256": "d39e76941c7bdae0b76e73ea1637a58820f20f224656d62d40b341c483e6b51a",
+      "expected_bytes": 14602113,
+      "actual_bytes": 14602113,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L4_K8.jsonl",
+      "expected_sha256": "d39e76941c7bdae0b76e73ea1637a58820f20f224656d62d40b341c483e6b51a",
+      "actual_sha256": "d39e76941c7bdae0b76e73ea1637a58820f20f224656d62d40b341c483e6b51a",
+      "expected_bytes": 14602113,
+      "actual_bytes": 14602113,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L4_K8_batches.jsonl",
+      "expected_sha256": "85993eed1e706bb514d32e35bc773b8c5be43414f26547d6bfb9f634b443fbee",
+      "actual_sha256": "85993eed1e706bb514d32e35bc773b8c5be43414f26547d6bfb9f634b443fbee",
+      "expected_bytes": 11685,
+      "actual_bytes": 11685,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L4_K8_batches.jsonl",
+      "expected_sha256": "85993eed1e706bb514d32e35bc773b8c5be43414f26547d6bfb9f634b443fbee",
+      "actual_sha256": "85993eed1e706bb514d32e35bc773b8c5be43414f26547d6bfb9f634b443fbee",
+      "expected_bytes": 11685,
+      "actual_bytes": 11685,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L4_K8_warmup.json",
+      "expected_sha256": "ab846d2c88e0f1ff05921b5983f2fab2b6d7f69a4ac3e677c7f2fcb0b8ebd89f",
+      "actual_sha256": "ab846d2c88e0f1ff05921b5983f2fab2b6d7f69a4ac3e677c7f2fcb0b8ebd89f",
+      "expected_bytes": 172668,
+      "actual_bytes": 172668,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L4_K8_warmup.json",
+      "expected_sha256": "ab846d2c88e0f1ff05921b5983f2fab2b6d7f69a4ac3e677c7f2fcb0b8ebd89f",
+      "actual_sha256": "ab846d2c88e0f1ff05921b5983f2fab2b6d7f69a4ac3e677c7f2fcb0b8ebd89f",
+      "expected_bytes": 172668,
+      "actual_bytes": 172668,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L8_K1.jsonl",
+      "expected_sha256": "daa398e3f25ef821741f2082d309eaa5f77dd2406613594e5ab714e65bf76598",
+      "actual_sha256": "daa398e3f25ef821741f2082d309eaa5f77dd2406613594e5ab714e65bf76598",
+      "expected_bytes": 3656101,
+      "actual_bytes": 3656101,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L8_K1.jsonl",
+      "expected_sha256": "daa398e3f25ef821741f2082d309eaa5f77dd2406613594e5ab714e65bf76598",
+      "actual_sha256": "daa398e3f25ef821741f2082d309eaa5f77dd2406613594e5ab714e65bf76598",
+      "expected_bytes": 3656101,
+      "actual_bytes": 3656101,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L8_K16.jsonl",
+      "expected_sha256": "01049a63454e2e4ad15ffb40d117ed73c32a29dd49ec5b65e0ca539f77072650",
+      "actual_sha256": "01049a63454e2e4ad15ffb40d117ed73c32a29dd49ec5b65e0ca539f77072650",
+      "expected_bytes": 58684973,
+      "actual_bytes": 58684973,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L8_K16.jsonl",
+      "expected_sha256": "01049a63454e2e4ad15ffb40d117ed73c32a29dd49ec5b65e0ca539f77072650",
+      "actual_sha256": "01049a63454e2e4ad15ffb40d117ed73c32a29dd49ec5b65e0ca539f77072650",
+      "expected_bytes": 58684973,
+      "actual_bytes": 58684973,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L8_K16_batches.jsonl",
+      "expected_sha256": "3f833eef1edc202c5fd563e929d4958fbc0877bd494bd4af62ee796cf301c010",
+      "actual_sha256": "3f833eef1edc202c5fd563e929d4958fbc0877bd494bd4af62ee796cf301c010",
+      "expected_bytes": 15023,
+      "actual_bytes": 15023,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L8_K16_batches.jsonl",
+      "expected_sha256": "3f833eef1edc202c5fd563e929d4958fbc0877bd494bd4af62ee796cf301c010",
+      "actual_sha256": "3f833eef1edc202c5fd563e929d4958fbc0877bd494bd4af62ee796cf301c010",
+      "expected_bytes": 15023,
+      "actual_bytes": 15023,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L8_K16_warmup.json",
+      "expected_sha256": "e5e050e6ccc3fb72e1b5a0685017407a9adb300b610d0ec81b402302e47a8a30",
+      "actual_sha256": "e5e050e6ccc3fb72e1b5a0685017407a9adb300b610d0ec81b402302e47a8a30",
+      "expected_bytes": 345964,
+      "actual_bytes": 345964,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L8_K16_warmup.json",
+      "expected_sha256": "e5e050e6ccc3fb72e1b5a0685017407a9adb300b610d0ec81b402302e47a8a30",
+      "actual_sha256": "e5e050e6ccc3fb72e1b5a0685017407a9adb300b610d0ec81b402302e47a8a30",
+      "expected_bytes": 345964,
+      "actual_bytes": 345964,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L8_K1_batches.jsonl",
+      "expected_sha256": "d6ab7bde860f482403b8d9cba60c8d044baf2b6be89da824691aca30e20f824e",
+      "actual_sha256": "d6ab7bde860f482403b8d9cba60c8d044baf2b6be89da824691aca30e20f824e",
+      "expected_bytes": 9188,
+      "actual_bytes": 9188,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L8_K1_batches.jsonl",
+      "expected_sha256": "d6ab7bde860f482403b8d9cba60c8d044baf2b6be89da824691aca30e20f824e",
+      "actual_sha256": "d6ab7bde860f482403b8d9cba60c8d044baf2b6be89da824691aca30e20f824e",
+      "expected_bytes": 9188,
+      "actual_bytes": 9188,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L8_K1_warmup.json",
+      "expected_sha256": "3336b4d6440c6ecbc52dca42389974a84ee474fbf69b21dbd4dae93eb3339911",
+      "actual_sha256": "3336b4d6440c6ecbc52dca42389974a84ee474fbf69b21dbd4dae93eb3339911",
+      "expected_bytes": 21591,
+      "actual_bytes": 21591,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L8_K1_warmup.json",
+      "expected_sha256": "3336b4d6440c6ecbc52dca42389974a84ee474fbf69b21dbd4dae93eb3339911",
+      "actual_sha256": "3336b4d6440c6ecbc52dca42389974a84ee474fbf69b21dbd4dae93eb3339911",
+      "expected_bytes": 21591,
+      "actual_bytes": 21591,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L8_K2.jsonl",
+      "expected_sha256": "19cd0156d2d0a17f0545d3022dadd9976f5c62bfe95258f89b2230323c97e925",
+      "actual_sha256": "19cd0156d2d0a17f0545d3022dadd9976f5c62bfe95258f89b2230323c97e925",
+      "expected_bytes": 7311087,
+      "actual_bytes": 7311087,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L8_K2.jsonl",
+      "expected_sha256": "19cd0156d2d0a17f0545d3022dadd9976f5c62bfe95258f89b2230323c97e925",
+      "actual_sha256": "19cd0156d2d0a17f0545d3022dadd9976f5c62bfe95258f89b2230323c97e925",
+      "expected_bytes": 7311087,
+      "actual_bytes": 7311087,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L8_K2_batches.jsonl",
+      "expected_sha256": "d6efa0f53117924b66963c49c83b3c14cda3ee423bc8e6282963cf639fee0a57",
+      "actual_sha256": "d6efa0f53117924b66963c49c83b3c14cda3ee423bc8e6282963cf639fee0a57",
+      "expected_bytes": 9706,
+      "actual_bytes": 9706,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L8_K2_batches.jsonl",
+      "expected_sha256": "d6efa0f53117924b66963c49c83b3c14cda3ee423bc8e6282963cf639fee0a57",
+      "actual_sha256": "d6efa0f53117924b66963c49c83b3c14cda3ee423bc8e6282963cf639fee0a57",
+      "expected_bytes": 9706,
+      "actual_bytes": 9706,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L8_K2_warmup.json",
+      "expected_sha256": "e4852cf4122bdd885a94f4f6c01a15bb428ebdc68d2cce07173e253d049d343a",
+      "actual_sha256": "e4852cf4122bdd885a94f4f6c01a15bb428ebdc68d2cce07173e253d049d343a",
+      "expected_bytes": 43221,
+      "actual_bytes": 43221,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L8_K2_warmup.json",
+      "expected_sha256": "e4852cf4122bdd885a94f4f6c01a15bb428ebdc68d2cce07173e253d049d343a",
+      "actual_sha256": "e4852cf4122bdd885a94f4f6c01a15bb428ebdc68d2cce07173e253d049d343a",
+      "expected_bytes": 43221,
+      "actual_bytes": 43221,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L8_K4.jsonl",
+      "expected_sha256": "74c8523575d36668d7d5cab70a127d9997dae08bad30feda0c18852b19308cd2",
+      "actual_sha256": "74c8523575d36668d7d5cab70a127d9997dae08bad30feda0c18852b19308cd2",
+      "expected_bytes": 14623798,
+      "actual_bytes": 14623798,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L8_K4.jsonl",
+      "expected_sha256": "74c8523575d36668d7d5cab70a127d9997dae08bad30feda0c18852b19308cd2",
+      "actual_sha256": "74c8523575d36668d7d5cab70a127d9997dae08bad30feda0c18852b19308cd2",
+      "expected_bytes": 14623798,
+      "actual_bytes": 14623798,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L8_K4_batches.jsonl",
+      "expected_sha256": "b846333fc5f14868c062a2e4372fa319061d2940f27dd8e282f2280d673a7861",
+      "actual_sha256": "b846333fc5f14868c062a2e4372fa319061d2940f27dd8e282f2280d673a7861",
+      "expected_bytes": 10341,
+      "actual_bytes": 10341,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L8_K4_batches.jsonl",
+      "expected_sha256": "b846333fc5f14868c062a2e4372fa319061d2940f27dd8e282f2280d673a7861",
+      "actual_sha256": "b846333fc5f14868c062a2e4372fa319061d2940f27dd8e282f2280d673a7861",
+      "expected_bytes": 10341,
+      "actual_bytes": 10341,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L8_K4_warmup.json",
+      "expected_sha256": "258ec8cbc5e1612d44a33d76d99c1cde97924d5a1b0b6ee74e4756db1a5c743c",
+      "actual_sha256": "258ec8cbc5e1612d44a33d76d99c1cde97924d5a1b0b6ee74e4756db1a5c743c",
+      "expected_bytes": 86398,
+      "actual_bytes": 86398,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L8_K4_warmup.json",
+      "expected_sha256": "258ec8cbc5e1612d44a33d76d99c1cde97924d5a1b0b6ee74e4756db1a5c743c",
+      "actual_sha256": "258ec8cbc5e1612d44a33d76d99c1cde97924d5a1b0b6ee74e4756db1a5c743c",
+      "expected_bytes": 86398,
+      "actual_bytes": 86398,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L8_K8.jsonl",
+      "expected_sha256": "e9df4ba545b42046e7cdbd97d5ec680a9c1eee28ecec48793afaa714ac8d9857",
+      "actual_sha256": "e9df4ba545b42046e7cdbd97d5ec680a9c1eee28ecec48793afaa714ac8d9857",
+      "expected_bytes": 29249217,
+      "actual_bytes": 29249217,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L8_K8.jsonl",
+      "expected_sha256": "e9df4ba545b42046e7cdbd97d5ec680a9c1eee28ecec48793afaa714ac8d9857",
+      "actual_sha256": "e9df4ba545b42046e7cdbd97d5ec680a9c1eee28ecec48793afaa714ac8d9857",
+      "expected_bytes": 29249217,
+      "actual_bytes": 29249217,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L8_K8_batches.jsonl",
+      "expected_sha256": "551204aca7e58e13fa9d6005598d8f6284bbf025048fd9ab3b2e5bf583d1280c",
+      "actual_sha256": "551204aca7e58e13fa9d6005598d8f6284bbf025048fd9ab3b2e5bf583d1280c",
+      "expected_bytes": 11688,
+      "actual_bytes": 11688,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L8_K8_batches.jsonl",
+      "expected_sha256": "551204aca7e58e13fa9d6005598d8f6284bbf025048fd9ab3b2e5bf583d1280c",
+      "actual_sha256": "551204aca7e58e13fa9d6005598d8f6284bbf025048fd9ab3b2e5bf583d1280c",
+      "expected_bytes": 11688,
+      "actual_bytes": 11688,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_v3_L8_K8_warmup.json",
+      "expected_sha256": "3a469dd9c113f1de9041e7bea65001eb6ec6f341ced035dc35f3348ace4cac6f",
+      "actual_sha256": "3a469dd9c113f1de9041e7bea65001eb6ec6f341ced035dc35f3348ace4cac6f",
+      "expected_bytes": 172670,
+      "actual_bytes": 172670,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_v3_L8_K8_warmup.json",
+      "expected_sha256": "3a469dd9c113f1de9041e7bea65001eb6ec6f341ced035dc35f3348ace4cac6f",
+      "actual_sha256": "3a469dd9c113f1de9041e7bea65001eb6ec6f341ced035dc35f3348ace4cac6f",
+      "expected_bytes": 172670,
+      "actual_bytes": 172670,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/tables/stress_fault_recovery.csv",
+      "expected_sha256": "a350e0552d90d5b700fd14e6e46c59f6397c4c48d6b1637c93cc035f463c79f4",
+      "actual_sha256": "a350e0552d90d5b700fd14e6e46c59f6397c4c48d6b1637c93cc035f463c79f4",
+      "expected_bytes": 963,
+      "actual_bytes": 963,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stress_fault_semantic_audit.json",
+      "expected_sha256": "ea8438339d76f5ee5fa251b7330997c11815a6ea0db196a795977e96c2564649",
+      "actual_sha256": "ea8438339d76f5ee5fa251b7330997c11815a6ea0db196a795977e96c2564649",
+      "expected_bytes": 1143,
+      "actual_bytes": 1143,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/resources_stress_faults_v1.jsonl",
+      "expected_sha256": "82f024c2742cad1dfad9ffe6223bf5a861ed5fe2ef96f759edea29e360321956",
+      "actual_sha256": "82f024c2742cad1dfad9ffe6223bf5a861ed5fe2ef96f759edea29e360321956",
+      "expected_bytes": 34922,
+      "actual_bytes": 34922,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/resources_stress_faults_v1.jsonl",
+      "expected_sha256": "82f024c2742cad1dfad9ffe6223bf5a861ed5fe2ef96f759edea29e360321956",
+      "actual_sha256": "82f024c2742cad1dfad9ffe6223bf5a861ed5fe2ef96f759edea29e360321956",
+      "expected_bytes": 34922,
+      "actual_bytes": 34922,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_fault_corrupt_state.jsonl",
+      "expected_sha256": "ac0bdc74e5eb61031853493814b12fa150cc7152dc5b0b5a108b3ba2886b600e",
+      "actual_sha256": "ac0bdc74e5eb61031853493814b12fa150cc7152dc5b0b5a108b3ba2886b600e",
+      "expected_bytes": 937547,
+      "actual_bytes": 937547,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_fault_corrupt_state.jsonl",
+      "expected_sha256": "ac0bdc74e5eb61031853493814b12fa150cc7152dc5b0b5a108b3ba2886b600e",
+      "actual_sha256": "ac0bdc74e5eb61031853493814b12fa150cc7152dc5b0b5a108b3ba2886b600e",
+      "expected_bytes": 937547,
+      "actual_bytes": 937547,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_fault_drop_ack.jsonl",
+      "expected_sha256": "9dc17b4790bc128ff6cbe480a5caedfd545bdbec8a8f48567c28806fd052c700",
+      "actual_sha256": "9dc17b4790bc128ff6cbe480a5caedfd545bdbec8a8f48567c28806fd052c700",
+      "expected_bytes": 915759,
+      "actual_bytes": 915759,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_fault_drop_ack.jsonl",
+      "expected_sha256": "9dc17b4790bc128ff6cbe480a5caedfd545bdbec8a8f48567c28806fd052c700",
+      "actual_sha256": "9dc17b4790bc128ff6cbe480a5caedfd545bdbec8a8f48567c28806fd052c700",
+      "expected_bytes": 915759,
+      "actual_bytes": 915759,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_fault_duplicate_message.jsonl",
+      "expected_sha256": "a1672f3212b5f648f0197417a45f305abd024362fe43f66b83c610f3623af11b",
+      "actual_sha256": "a1672f3212b5f648f0197417a45f305abd024362fe43f66b83c610f3623af11b",
+      "expected_bytes": 997282,
+      "actual_bytes": 997282,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_fault_duplicate_message.jsonl",
+      "expected_sha256": "a1672f3212b5f648f0197417a45f305abd024362fe43f66b83c610f3623af11b",
+      "actual_sha256": "a1672f3212b5f648f0197417a45f305abd024362fe43f66b83c610f3623af11b",
+      "expected_bytes": 997282,
+      "actual_bytes": 997282,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_fault_router_crash.jsonl",
+      "expected_sha256": "035b36a149c50727fc21d2104511a21411a18b31c0a555036b17c68587fc1068",
+      "actual_sha256": "035b36a149c50727fc21d2104511a21411a18b31c0a555036b17c68587fc1068",
+      "expected_bytes": 559145,
+      "actual_bytes": 559145,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_fault_router_crash.jsonl",
+      "expected_sha256": "035b36a149c50727fc21d2104511a21411a18b31c0a555036b17c68587fc1068",
+      "actual_sha256": "035b36a149c50727fc21d2104511a21411a18b31c0a555036b17c68587fc1068",
+      "expected_bytes": 559145,
+      "actual_bytes": 559145,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_fault_timeout.jsonl",
+      "expected_sha256": "69ef299f60b5fd8d8fc7d1008c42510145542bd1ae28c863105c3a6860a2b93b",
+      "actual_sha256": "69ef299f60b5fd8d8fc7d1008c42510145542bd1ae28c863105c3a6860a2b93b",
+      "expected_bytes": 820881,
+      "actual_bytes": 820881,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_fault_timeout.jsonl",
+      "expected_sha256": "69ef299f60b5fd8d8fc7d1008c42510145542bd1ae28c863105c3a6860a2b93b",
+      "actual_sha256": "69ef299f60b5fd8d8fc7d1008c42510145542bd1ae28c863105c3a6860a2b93b",
+      "expected_bytes": 820881,
+      "actual_bytes": 820881,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_fault_wrong_memory.jsonl",
+      "expected_sha256": "aac8d539474ede9a3b4e7cd78300a7ad1d7712fd223a45f09a40a685faf81908",
+      "actual_sha256": "aac8d539474ede9a3b4e7cd78300a7ad1d7712fd223a45f09a40a685faf81908",
+      "expected_bytes": 1390958,
+      "actual_bytes": 1390958,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_fault_wrong_memory.jsonl",
+      "expected_sha256": "aac8d539474ede9a3b4e7cd78300a7ad1d7712fd223a45f09a40a685faf81908",
+      "actual_sha256": "aac8d539474ede9a3b4e7cd78300a7ad1d7712fd223a45f09a40a685faf81908",
+      "expected_bytes": 1390958,
+      "actual_bytes": 1390958,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/analysis/stats/protocol_v3_cells.csv",
+      "expected_sha256": "c152c0abc1c4050453dfed0e59fdfeabcb43e3f693862a528384bb691d34a53e",
+      "actual_sha256": "c152c0abc1c4050453dfed0e59fdfeabcb43e3f693862a528384bb691d34a53e",
+      "expected_bytes": 17545,
+      "actual_bytes": 17545,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/protocol_v3_batch_1.jsonl",
+      "expected_sha256": "1a588fd5009f5bcc3f94604d86cdc6eb68a422944e2270cc6f7f5336c6972f8f",
+      "actual_sha256": "1a588fd5009f5bcc3f94604d86cdc6eb68a422944e2270cc6f7f5336c6972f8f",
+      "expected_bytes": 17001429,
+      "actual_bytes": 17001429,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/protocol_v3_batch_1.jsonl",
+      "expected_sha256": "1a588fd5009f5bcc3f94604d86cdc6eb68a422944e2270cc6f7f5336c6972f8f",
+      "actual_sha256": "1a588fd5009f5bcc3f94604d86cdc6eb68a422944e2270cc6f7f5336c6972f8f",
+      "expected_bytes": 17001429,
+      "actual_bytes": 17001429,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/protocol_v3_batch_2.jsonl",
+      "expected_sha256": "b3c66292a10a68d4144f5bf690bc7f36449bb44adf3a32aa629bb69197b54e8e",
+      "actual_sha256": "b3c66292a10a68d4144f5bf690bc7f36449bb44adf3a32aa629bb69197b54e8e",
+      "expected_bytes": 17000564,
+      "actual_bytes": 17000564,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/protocol_v3_batch_2.jsonl",
+      "expected_sha256": "b3c66292a10a68d4144f5bf690bc7f36449bb44adf3a32aa629bb69197b54e8e",
+      "actual_sha256": "b3c66292a10a68d4144f5bf690bc7f36449bb44adf3a32aa629bb69197b54e8e",
+      "expected_bytes": 17000564,
+      "actual_bytes": 17000564,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/protocol_v3_batch_3.jsonl",
+      "expected_sha256": "a63ef5f5e6bb7cbcb7ac0e00954b1c517d22d6921d8dd18549ad3e8fa0255ad6",
+      "actual_sha256": "a63ef5f5e6bb7cbcb7ac0e00954b1c517d22d6921d8dd18549ad3e8fa0255ad6",
+      "expected_bytes": 17002682,
+      "actual_bytes": 17002682,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/protocol_v3_batch_3.jsonl",
+      "expected_sha256": "a63ef5f5e6bb7cbcb7ac0e00954b1c517d22d6921d8dd18549ad3e8fa0255ad6",
+      "actual_sha256": "a63ef5f5e6bb7cbcb7ac0e00954b1c517d22d6921d8dd18549ad3e8fa0255ad6",
+      "expected_bytes": 17002682,
+      "actual_bytes": 17002682,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/resources_protocol_v3.jsonl",
+      "expected_sha256": "619b5e77353fcbba4d56ba527e5de876ad66de649e91e91778bbe470995a4d06",
+      "actual_sha256": "619b5e77353fcbba4d56ba527e5de876ad66de649e91e91778bbe470995a4d06",
+      "expected_bytes": 128649,
+      "actual_bytes": 128649,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/resources_protocol_v3.jsonl",
+      "expected_sha256": "619b5e77353fcbba4d56ba527e5de876ad66de649e91e91778bbe470995a4d06",
+      "actual_sha256": "619b5e77353fcbba4d56ba527e5de876ad66de649e91e91778bbe470995a4d06",
+      "expected_bytes": 128649,
+      "actual_bytes": 128649,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/manifests/state_reuse_plan.json",
+      "expected_sha256": "d8260ed10fb83c4822906a8e18a736e1240270c11432de8e5c589a74721bbad6",
+      "actual_sha256": "d8260ed10fb83c4822906a8e18a736e1240270c11432de8e5c589a74721bbad6",
+      "expected_bytes": 532,
+      "actual_bytes": 532,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/state_reuse.jsonl",
+      "expected_sha256": "00ce2ebdce4253a71c713900a803ce1761cc8e5cb00ee23b7311393a38091c53",
+      "actual_sha256": "00ce2ebdce4253a71c713900a803ce1761cc8e5cb00ee23b7311393a38091c53",
+      "expected_bytes": 14170990,
+      "actual_bytes": 14170990,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/state_reuse.jsonl",
+      "expected_sha256": "00ce2ebdce4253a71c713900a803ce1761cc8e5cb00ee23b7311393a38091c53",
+      "actual_sha256": "00ce2ebdce4253a71c713900a803ce1761cc8e5cb00ee23b7311393a38091c53",
+      "expected_bytes": 14170990,
+      "actual_bytes": 14170990,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/raw/stress_continuous_100.jsonl",
+      "expected_sha256": "6fb64b256378b720e8f1e3a3c617da94932bba8cf3bb46b2f615627ecd04ab6b",
+      "actual_sha256": "6fb64b256378b720e8f1e3a3c617da94932bba8cf3bb46b2f615627ecd04ab6b",
+      "expected_bytes": 1502980,
+      "actual_bytes": 1502980,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/raw/stress_continuous_100.jsonl",
+      "expected_sha256": "6fb64b256378b720e8f1e3a3c617da94932bba8cf3bb46b2f615627ecd04ab6b",
+      "actual_sha256": "6fb64b256378b720e8f1e3a3c617da94932bba8cf3bb46b2f615627ecd04ab6b",
+      "expected_bytes": 1502980,
+      "actual_bytes": 1502980,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/state_measurement_correction_v3/manifest.json",
+      "expected_sha256": "674c1753f73a2f2fa10a58cee0f54bb3ed84b622f2e36f1c71ac4d37ac12af18",
+      "actual_sha256": "674c1753f73a2f2fa10a58cee0f54bb3ed84b622f2e36f1c71ac4d37ac12af18",
+      "expected_bytes": 2895,
+      "actual_bytes": 2895,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/state_measurement_correction_v3/prospective_registration.json",
+      "expected_sha256": "fe077ee74b936db979afe0a4e9c1212bee845eb8e617a945e278583834082e53",
+      "actual_sha256": "fe077ee74b936db979afe0a4e9c1212bee845eb8e617a945e278583834082e53",
+      "expected_bytes": 24811,
+      "actual_bytes": 24811,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/state_measurement_correction_v3/analysis/execution.json",
+      "expected_sha256": "8daf6fc49c692035513c0c9c39223c65cec6baa2d14c5b76a2abef137936407f",
+      "actual_sha256": "8daf6fc49c692035513c0c9c39223c65cec6baa2d14c5b76a2abef137936407f",
+      "expected_bytes": 5321,
+      "actual_bytes": 5321,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/state_measurement_correction_v3/analysis/recomputed_v2/stage_cells.csv",
+      "expected_sha256": "fc134de39fad73cbb865cbfcd956f278c2a6270a1b3cf7268fd6ce968889c10d",
+      "actual_sha256": "fc134de39fad73cbb865cbfcd956f278c2a6270a1b3cf7268fd6ce968889c10d",
+      "expected_bytes": 274781,
+      "actual_bytes": 274781,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/state_measurement_correction_v3/analysis/recomputed_v2/stage_join_audit.json",
+      "expected_sha256": "2770e3ff749f596e674c33ed91f21d75372e7c07ea293f42772fec4d0d263998",
+      "actual_sha256": "2770e3ff749f596e674c33ed91f21d75372e7c07ea293f42772fec4d0d263998",
+      "expected_bytes": 11220,
+      "actual_bytes": 11220,
+      "scope": "historical dedicated offline asset only",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/state_measurement_correction_v3/raw/child_stage_batch_1.jsonl",
+      "expected_sha256": "284d330cfa142c31489ba0e8319b6e697dfb16a4c1337ae75d49ef512dc6dbbf",
+      "actual_sha256": "284d330cfa142c31489ba0e8319b6e697dfb16a4c1337ae75d49ef512dc6dbbf",
+      "expected_bytes": 14055890,
+      "actual_bytes": 14055890,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/state_measurement_correction_v3/raw/child_stage_batch_1.jsonl",
+      "expected_sha256": "284d330cfa142c31489ba0e8319b6e697dfb16a4c1337ae75d49ef512dc6dbbf",
+      "actual_sha256": "284d330cfa142c31489ba0e8319b6e697dfb16a4c1337ae75d49ef512dc6dbbf",
+      "expected_bytes": 14055890,
+      "actual_bytes": 14055890,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/state_measurement_correction_v3/raw/child_stage_batch_2.jsonl",
+      "expected_sha256": "15ebf9fcda7501e7a4f852c1e9af6080eac56de9260836dbade2aa03c9dcc52a",
+      "actual_sha256": "15ebf9fcda7501e7a4f852c1e9af6080eac56de9260836dbade2aa03c9dcc52a",
+      "expected_bytes": 14055638,
+      "actual_bytes": 14055638,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/state_measurement_correction_v3/raw/child_stage_batch_2.jsonl",
+      "expected_sha256": "15ebf9fcda7501e7a4f852c1e9af6080eac56de9260836dbade2aa03c9dcc52a",
+      "actual_sha256": "15ebf9fcda7501e7a4f852c1e9af6080eac56de9260836dbade2aa03c9dcc52a",
+      "expected_bytes": 14055638,
+      "actual_bytes": 14055638,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/state_measurement_correction_v3/raw/child_stage_batch_3.jsonl",
+      "expected_sha256": "d998c9f1b3fa80db142a6c8f42ae56e86287e883b9084eba08d10a97d6bc93d4",
+      "actual_sha256": "d998c9f1b3fa80db142a6c8f42ae56e86287e883b9084eba08d10a97d6bc93d4",
+      "expected_bytes": 14055865,
+      "actual_bytes": 14055865,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/state_measurement_correction_v3/raw/child_stage_batch_3.jsonl",
+      "expected_sha256": "d998c9f1b3fa80db142a6c8f42ae56e86287e883b9084eba08d10a97d6bc93d4",
+      "actual_sha256": "d998c9f1b3fa80db142a6c8f42ae56e86287e883b9084eba08d10a97d6bc93d4",
+      "expected_bytes": 14055865,
+      "actual_bytes": 14055865,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/state_measurement_correction_v3/raw/producer_batch_1.jsonl",
+      "expected_sha256": "c235cc270086433279fd76256e1ba925eef5d134173335ba1b423f3797cc414e",
+      "actual_sha256": "c235cc270086433279fd76256e1ba925eef5d134173335ba1b423f3797cc414e",
+      "expected_bytes": 10561483,
+      "actual_bytes": 10561483,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/state_measurement_correction_v3/raw/producer_batch_1.jsonl",
+      "expected_sha256": "c235cc270086433279fd76256e1ba925eef5d134173335ba1b423f3797cc414e",
+      "actual_sha256": "c235cc270086433279fd76256e1ba925eef5d134173335ba1b423f3797cc414e",
+      "expected_bytes": 10561483,
+      "actual_bytes": 10561483,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/state_measurement_correction_v3/raw/producer_batch_2.jsonl",
+      "expected_sha256": "a14db921dfefb8fa244f26a32f6a7d79e6fc19c5c20ed2f850ac844becffcaa8",
+      "actual_sha256": "a14db921dfefb8fa244f26a32f6a7d79e6fc19c5c20ed2f850ac844becffcaa8",
+      "expected_bytes": 10561093,
+      "actual_bytes": 10561093,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/state_measurement_correction_v3/raw/producer_batch_2.jsonl",
+      "expected_sha256": "a14db921dfefb8fa244f26a32f6a7d79e6fc19c5c20ed2f850ac844becffcaa8",
+      "actual_sha256": "a14db921dfefb8fa244f26a32f6a7d79e6fc19c5c20ed2f850ac844becffcaa8",
+      "expected_bytes": 10561093,
+      "actual_bytes": 10561093,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/state_measurement_correction_v3/raw/producer_batch_3.jsonl",
+      "expected_sha256": "950594e415eed38689877c62155b3372677d02ef96f4a660bc6956a90c059505",
+      "actual_sha256": "950594e415eed38689877c62155b3372677d02ef96f4a660bc6956a90c059505",
+      "expected_bytes": 10561607,
+      "actual_bytes": 10561607,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/state_measurement_correction_v3/raw/producer_batch_3.jsonl",
+      "expected_sha256": "950594e415eed38689877c62155b3372677d02ef96f4a660bc6956a90c059505",
+      "actual_sha256": "950594e415eed38689877c62155b3372677d02ef96f4a660bc6956a90c059505",
+      "expected_bytes": 10561607,
+      "actual_bytes": 10561607,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/state_measurement_correction_v3/raw/resources_batch_1.jsonl",
+      "expected_sha256": "373527e215df0247020a9d16c818fdd235f6f0f2c4e3a040242b6105a7ccf976",
+      "actual_sha256": "373527e215df0247020a9d16c818fdd235f6f0f2c4e3a040242b6105a7ccf976",
+      "expected_bytes": 19770,
+      "actual_bytes": 19770,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/state_measurement_correction_v3/raw/resources_batch_1.jsonl",
+      "expected_sha256": "373527e215df0247020a9d16c818fdd235f6f0f2c4e3a040242b6105a7ccf976",
+      "actual_sha256": "373527e215df0247020a9d16c818fdd235f6f0f2c4e3a040242b6105a7ccf976",
+      "expected_bytes": 19770,
+      "actual_bytes": 19770,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/state_measurement_correction_v3/raw/resources_batch_2.jsonl",
+      "expected_sha256": "e95548d73b4458c5746cbf51aaa16b9f1c6fc2da8a27fa3d885e8e44bd6ee974",
+      "actual_sha256": "e95548d73b4458c5746cbf51aaa16b9f1c6fc2da8a27fa3d885e8e44bd6ee974",
+      "expected_bytes": 18946,
+      "actual_bytes": 18946,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/state_measurement_correction_v3/raw/resources_batch_2.jsonl",
+      "expected_sha256": "e95548d73b4458c5746cbf51aaa16b9f1c6fc2da8a27fa3d885e8e44bd6ee974",
+      "actual_sha256": "e95548d73b4458c5746cbf51aaa16b9f1c6fc2da8a27fa3d885e8e44bd6ee974",
+      "expected_bytes": 18946,
+      "actual_bytes": 18946,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/formal_20261019/state_measurement_correction_v3/raw/resources_batch_3.jsonl",
+      "expected_sha256": "7d9bab925523c404c5ee4ef15592068e49b8140afb4cfc554608ab65902f7b86",
+      "actual_sha256": "7d9bab925523c404c5ee4ef15592068e49b8140afb4cfc554608ab65902f7b86",
+      "expected_bytes": 19062,
+      "actual_bytes": 19062,
+      "scope": "opaque offline raw; not parsed or copied into report",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/input_view/state_measurement_correction_v3/raw/resources_batch_3.jsonl",
+      "expected_sha256": "7d9bab925523c404c5ee4ef15592068e49b8140afb4cfc554608ab65902f7b86",
+      "actual_sha256": "7d9bab925523c404c5ee4ef15592068e49b8140afb4cfc554608ab65902f7b86",
+      "expected_bytes": 19062,
+      "actual_bytes": 19062,
+      "scope": "opaque existing offline rebuild raw copy",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/report/figures/figure_05.csv",
+      "expected_sha256": "267c39db3c5c0e7d3c64eb9b64b5d841c35a8f13094dac4e93439f9dd304a754",
+      "actual_sha256": "267c39db3c5c0e7d3c64eb9b64b5d841c35a8f13094dac4e93439f9dd304a754",
+      "expected_bytes": 9377,
+      "actual_bytes": 9377,
+      "scope": "existing rebuilt05/06/08/table04 asset",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/report/figures/figure_05_double.pdf",
+      "expected_sha256": "96d29281ce9eaf86071677c9eb807c9481c56092440d3b913a01146f39620642",
+      "actual_sha256": "96d29281ce9eaf86071677c9eb807c9481c56092440d3b913a01146f39620642",
+      "expected_bytes": 17872,
+      "actual_bytes": 17872,
+      "scope": "existing rebuilt05/06/08/table04 asset",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/report/figures/figure_05_double.png",
+      "expected_sha256": "a873d620d7d56cf7b69be09f0f08454c1bbc02673696f67c3f818d6d59bad914",
+      "actual_sha256": "a873d620d7d56cf7b69be09f0f08454c1bbc02673696f67c3f818d6d59bad914",
+      "expected_bytes": 460380,
+      "actual_bytes": 460380,
+      "scope": "existing rebuilt05/06/08/table04 asset",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/report/figures/figure_05_double.svg",
+      "expected_sha256": "4f81f2e45bc312620529de832ffccf9eb1d7f5fec60056f70fa91b6616d2a977",
+      "actual_sha256": "4f81f2e45bc312620529de832ffccf9eb1d7f5fec60056f70fa91b6616d2a977",
+      "expected_bytes": 48688,
+      "actual_bytes": 48688,
+      "scope": "existing rebuilt05/06/08/table04 asset",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/report/figures/figure_05_single.pdf",
+      "expected_sha256": "c2518914bb11b134bf3e7a2ea55af9b7c9fe42a66ab4d9c42025c939314580e4",
+      "actual_sha256": "c2518914bb11b134bf3e7a2ea55af9b7c9fe42a66ab4d9c42025c939314580e4",
+      "expected_bytes": 18137,
+      "actual_bytes": 18137,
+      "scope": "existing rebuilt05/06/08/table04 asset",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/report/figures/figure_05_single.png",
+      "expected_sha256": "a948ff2a0915344338abadf2d8e34376fc4ac6ff4b9f874a080be3b1780c3d3b",
+      "actual_sha256": "a948ff2a0915344338abadf2d8e34376fc4ac6ff4b9f874a080be3b1780c3d3b",
+      "expected_bytes": 352676,
+      "actual_bytes": 352676,
+      "scope": "existing rebuilt05/06/08/table04 asset",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/report/figures/figure_05_single.svg",
+      "expected_sha256": "6bb2f001d69e70413c593d2bc762631824b1dfca31a2ee5a4718ec6b68515ee5",
+      "actual_sha256": "6bb2f001d69e70413c593d2bc762631824b1dfca31a2ee5a4718ec6b68515ee5",
+      "expected_bytes": 51730,
+      "actual_bytes": 51730,
+      "scope": "existing rebuilt05/06/08/table04 asset",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/report/figures/figure_06.csv",
+      "expected_sha256": "4103a500901c2c349500203feb7b9dcb9afa0af9c94d022ace3ac8ff9444f2b4",
+      "actual_sha256": "4103a500901c2c349500203feb7b9dcb9afa0af9c94d022ace3ac8ff9444f2b4",
+      "expected_bytes": 6305,
+      "actual_bytes": 6305,
+      "scope": "existing rebuilt05/06/08/table04 asset",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/report/figures/figure_06_double.pdf",
+      "expected_sha256": "ade014f4f81d4023ac3a3ca915de6361ef8079e1ba83f023dd5d9545858f9b7b",
+      "actual_sha256": "ade014f4f81d4023ac3a3ca915de6361ef8079e1ba83f023dd5d9545858f9b7b",
+      "expected_bytes": 25023,
+      "actual_bytes": 25023,
+      "scope": "existing rebuilt05/06/08/table04 asset",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/report/figures/figure_06_double.png",
+      "expected_sha256": "d3ceda21f64e5b160e1d10a56e8b2a108eeef1ca78d7c64570639aa972c361a8",
+      "actual_sha256": "d3ceda21f64e5b160e1d10a56e8b2a108eeef1ca78d7c64570639aa972c361a8",
+      "expected_bytes": 362262,
+      "actual_bytes": 362262,
+      "scope": "existing rebuilt05/06/08/table04 asset",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/report/figures/figure_06_double.svg",
+      "expected_sha256": "1b9320a08e72f336bb887eb453e1a0f7f6b001b8a8b9317a4ef9e3f631d07887",
+      "actual_sha256": "1b9320a08e72f336bb887eb453e1a0f7f6b001b8a8b9317a4ef9e3f631d07887",
+      "expected_bytes": 98085,
+      "actual_bytes": 98085,
+      "scope": "existing rebuilt05/06/08/table04 asset",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/report/figures/figure_06_single.pdf",
+      "expected_sha256": "607010c05500b45b2e269305ac051c8897071f8e0d135ee247827e9a723d4d11",
+      "actual_sha256": "607010c05500b45b2e269305ac051c8897071f8e0d135ee247827e9a723d4d11",
+      "expected_bytes": 24926,
+      "actual_bytes": 24926,
+      "scope": "existing rebuilt05/06/08/table04 asset",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/report/figures/figure_06_single.png",
+      "expected_sha256": "de997ede8e5ec82db48f0e19b6f57117b46d047b5330e6470620015b55cfff9d",
+      "actual_sha256": "de997ede8e5ec82db48f0e19b6f57117b46d047b5330e6470620015b55cfff9d",
+      "expected_bytes": 332150,
+      "actual_bytes": 332150,
+      "scope": "existing rebuilt05/06/08/table04 asset",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/report/figures/figure_06_single.svg",
+      "expected_sha256": "2a3b631c86cc790eae32c015583088fa4dbe258bf141ad09c735417c9ed57463",
+      "actual_sha256": "2a3b631c86cc790eae32c015583088fa4dbe258bf141ad09c735417c9ed57463",
+      "expected_bytes": 98833,
+      "actual_bytes": 98833,
+      "scope": "existing rebuilt05/06/08/table04 asset",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/report/figures/figure_08.csv",
+      "expected_sha256": "a3915835f371750c9d32665f2f209099448e0838e2b8edbbf5aa86a2caf15c4c",
+      "actual_sha256": "a3915835f371750c9d32665f2f209099448e0838e2b8edbbf5aa86a2caf15c4c",
+      "expected_bytes": 7895,
+      "actual_bytes": 7895,
+      "scope": "existing rebuilt05/06/08/table04 asset",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/report/figures/figure_08_double.pdf",
+      "expected_sha256": "41517a29513cf2598795117b2a0e54e29c2191ce5b3584fc6867f44d781fd39e",
+      "actual_sha256": "41517a29513cf2598795117b2a0e54e29c2191ce5b3584fc6867f44d781fd39e",
+      "expected_bytes": 21176,
+      "actual_bytes": 21176,
+      "scope": "existing rebuilt05/06/08/table04 asset",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/report/figures/figure_08_double.png",
+      "expected_sha256": "2810004695232a7e981fca9ba567d20a4e38f0b5a6478f6b9da90502ca7672aa",
+      "actual_sha256": "2810004695232a7e981fca9ba567d20a4e38f0b5a6478f6b9da90502ca7672aa",
+      "expected_bytes": 587312,
+      "actual_bytes": 587312,
+      "scope": "existing rebuilt05/06/08/table04 asset",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/report/figures/figure_08_double.svg",
+      "expected_sha256": "e26542ec54f0f202fc6bb003761821e1f13d3adc6947a3d921e3153347e22d5b",
+      "actual_sha256": "e26542ec54f0f202fc6bb003761821e1f13d3adc6947a3d921e3153347e22d5b",
+      "expected_bytes": 67805,
+      "actual_bytes": 67805,
+      "scope": "existing rebuilt05/06/08/table04 asset",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/report/figures/figure_08_single.pdf",
+      "expected_sha256": "df5084917615b586869e7125ca58b8da8cd6e3f63bbef7ec09e7c4a03067fd45",
+      "actual_sha256": "df5084917615b586869e7125ca58b8da8cd6e3f63bbef7ec09e7c4a03067fd45",
+      "expected_bytes": 21326,
+      "actual_bytes": 21326,
+      "scope": "existing rebuilt05/06/08/table04 asset",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/report/figures/figure_08_single.png",
+      "expected_sha256": "54e8527c1435ecd7343cdda3e3c432a60c7f35d35fb257d0525357507599f8b9",
+      "actual_sha256": "54e8527c1435ecd7343cdda3e3c432a60c7f35d35fb257d0525357507599f8b9",
+      "expected_bytes": 473586,
+      "actual_bytes": 473586,
+      "scope": "existing rebuilt05/06/08/table04 asset",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/report/figures/figure_08_single.svg",
+      "expected_sha256": "b1dc13052fa39aa60ae6e1aa402b1f33f0c1f371e1ae21cbbf2260be7e515938",
+      "actual_sha256": "b1dc13052fa39aa60ae6e1aa402b1f33f0c1f371e1ae21cbbf2260be7e515938",
+      "expected_bytes": 70971,
+      "actual_bytes": 70971,
+      "scope": "existing rebuilt05/06/08/table04 asset",
+      "status": "VERIFIED"
+    },
+    {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/rebuild_formal_20261019_v2/report/tables/table_04.csv",
+      "expected_sha256": "602de129332c0ea5327b7dc81b3c3bdc9e1b43dad3eb7cfeb3ab3fa39db65fc9",
+      "actual_sha256": "602de129332c0ea5327b7dc81b3c3bdc9e1b43dad3eb7cfeb3ab3fa39db65fc9",
+      "expected_bytes": 43129,
+      "actual_bytes": 43129,
+      "scope": "existing rebuilt05/06/08/table04 asset",
+      "status": "VERIFIED"
+    }
+  ],
+  "raw_json_parsed": false,
+  "new_formal_outcomes_read": false,
+  "model_or_benchmark_or_analysis_runs": 0,
+  "new_rebuild_performed": false,
+  "archive_only_inputs_revalidated": false,
+  "limitations": [
+    "Historical offline fixture batch under source a040; not measured new24-contract/corpus workload or new real/retrieval performance.",
+    "Never pool old real/provider/retrieval values with corrected study metrics. No mechanism attribution from a historical byte copy.",
+    "Original QA/rebuild status and limitations remain attached. PREPARED selection or failed archive evidence is never promoted to an executed PASS.",
+    "Opaque hash verification establishes retained byte identity only; it does not rerun timing, analysis, semantic checks or visual inspection.",
+    "This host-side verifier consumes actual root-observed quiescence; it does not itself inspect live processes or acquire container Linux locks."
+  ]
+}

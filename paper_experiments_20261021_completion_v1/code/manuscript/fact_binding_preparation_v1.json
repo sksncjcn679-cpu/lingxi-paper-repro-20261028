@@ -1,0 +1,466 @@
+{
+  "schema_version": "manuscript-fact-binding-preparation-v1",
+  "status": "PREPARED_FACTS_VERIFIED_FROM_SAVED_ARTIFACTS_NOT_DOCX_AUTHORING",
+  "source_document_sha256": "18ca54fe5a69f8abeb3c20644bcad55cf6a19798afd0059d88c0fd1000d30289",
+  "target_document_blocks": "Original B indices, not contiguous extracted-unit ordinal",
+  "scope": {
+    "running_main_raw_read": false,
+    "new_main_results_read": false,
+    "new_statistics_or_CI_computed": false,
+    "saved_count_columns_summed_only": true,
+    "docx_authoring_marker_run": false,
+    "docx_generated": false,
+    "rendering_run": false,
+    "native_or_frozen_sources_modified": false,
+    "original_docx_modified": false
+  },
+  "sources": {
+    "original_manuscript_extraction": {
+      "path": "F:/codex/多agent系统架构-软件学报/.local/manuscript_gap_review_20261021_v1/manuscript_units.json",
+      "bytes": 59766,
+      "sha256": "82db0ad2636b6da1a7b6bedfc3e4db2bdedb03f56aa307376307fd5eb6993ed6",
+      "read_scope": "saved metadata/results only"
+    },
+    "corrected_primary": {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/protocol_repair_20261020_v1/analysis/stats/formal_primary_v1.json",
+      "bytes": 7269836,
+      "sha256": "5a05487490072f1989a02b2bd99f39c1bfa07acba0f31af96a8579e73ddfaa2a",
+      "read_scope": "saved metadata/results only"
+    },
+    "corrected_full_audit": {
+      "path": "E:/codex_rebuilds/corrected_postrun_v2/reference/virtual/evidence/protocol_repair_20261020_v1/report_adapter_v1/analysis/full_audit_authority.json",
+      "bytes": 14624,
+      "sha256": "b73e8c4a2b962d5af0b7190b4d49ccb983e708f16a787c904b3c8a6bb28a7a1b",
+      "read_scope": "saved metadata/results only"
+    },
+    "corrected_retrieval_capacity": {
+      "path": "E:/codex_rebuilds/corrected_postrun_v2/reference/virtual/evidence/protocol_repair_20261020_v1/report_adapter_v1/analysis/retrieval_capacity_availability.json",
+      "bytes": 2825,
+      "sha256": "2b51c4fe1caad83fdad819b4af4997a1a3d5f9e771d5ce3009f3256757922747",
+      "read_scope": "saved metadata/results only"
+    },
+    "approved_offline_manifest": {
+      "path": "E:/codex_rebuilds/corrected_postrun_v2/reference/virtual/evidence/protocol_repair_20261020_v1/report_adapter_v1/analysis/approved_offline_manifest.json",
+      "bytes": 234686,
+      "sha256": "6702a2d782a0b76dcd91526110389a9869189ee61cfecfa5097fde5fc4807aa0",
+      "read_scope": "saved metadata/results only"
+    },
+    "seed_initialization": {
+      "path": "E:/codex_rebuilds/completion_20261021_v1/seed_write/run_v3/results/result.json",
+      "bytes": 4622,
+      "sha256": "8286516b1e9d87b36012f9b1b29f29ecde3cd5351e723266d50fb9be864fb84e",
+      "read_scope": "saved metadata/results only"
+    },
+    "stress_ci_results": {
+      "path": "E:/codex_rebuilds/completion_20261021_v1/stress_ci/output/analysis/results.json",
+      "bytes": 41048,
+      "sha256": "75d7ccd470fd981aa19274799d171be59953903352d1862f423f1c037f4d9a55",
+      "read_scope": "saved metadata/results only"
+    },
+    "stress_ci_method": {
+      "path": "E:/codex_rebuilds/completion_20261021_v1/stress_ci/output/analysis/method_used.json",
+      "bytes": 2763,
+      "sha256": "8db1599467b92b74fad07356a9c08a5da8c980c6cd8d2f4af4237820b0398f65",
+      "read_scope": "saved metadata/results only"
+    },
+    "independent_replication_design": {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261021_completion_v1/main_batch/manifests/replication_design.json",
+      "bytes": 886,
+      "sha256": "642a6450bc7b1da2506b7ca8821115ffae39fb89e6d2e24f540647297db9e398",
+      "read_scope": "saved metadata/results only"
+    },
+    "independent_replication_freeze": {
+      "path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261021_completion_v1/main_batch/manifests/formal-freeze.json",
+      "bytes": 5390,
+      "sha256": "9916ad2f47dfc1473d001a9acdfbd2ae6260ea3989368aa8a118bf9934df3c54",
+      "read_scope": "saved metadata/results only"
+    },
+    "figure_05": {
+      "archive_path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/protocol_repair_20261020_v1/delivery/论文实验中文图表与绘图数据_20261021.zip",
+      "member": "chinese_figures_v1/data/figure_05.csv",
+      "member_bytes": 9377,
+      "member_sha256": "267c39db3c5c0e7d3c64eb9b64b5d841c35a8f13094dac4e93439f9dd304a754",
+      "archive_whole_sha_recomputed": false
+    },
+    "figure_06": {
+      "archive_path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/protocol_repair_20261020_v1/delivery/论文实验中文图表与绘图数据_20261021.zip",
+      "member": "chinese_figures_v1/data/figure_06.csv",
+      "member_bytes": 6305,
+      "member_sha256": "4103a500901c2c349500203feb7b9dcb9afa0af9c94d022ace3ac8ff9444f2b4",
+      "archive_whole_sha_recomputed": false
+    },
+    "figure_07": {
+      "archive_path": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot/protocol_repair_20261020_v1/delivery/论文实验中文图表与绘图数据_20261021.zip",
+      "member": "chinese_figures_v1/data/figure_07.csv",
+      "member_bytes": 12261,
+      "member_sha256": "4b96dbb0aef03b1aadccb223ae5c321d799413b3edbf9afe37ca3199988f8f8e",
+      "archive_whole_sha_recomputed": false
+    }
+  },
+  "facts": [
+    {
+      "id": "F01_cohort_identity",
+      "targets": [
+        "B0006",
+        "B0012",
+        "B0056",
+        "B0058",
+        "B0069",
+        "B0073",
+        "B0077",
+        "B0101",
+        "B0102",
+        "B0105"
+      ],
+      "source_refs": [
+        "original_manuscript_extraction",
+        "corrected_primary",
+        "corrected_full_audit",
+        "independent_replication_design",
+        "independent_replication_freeze"
+      ],
+      "observed": {
+        "old_history": "formal_20261019",
+        "corrected_original": "protocol_repair_20261020_v1",
+        "corrected_formal_units": 6360,
+        "corrected_public_units": 144,
+        "corrected_terminal_units": 6504,
+        "corrected_main_units": 2160,
+        "replication_study_id": "completion_main_20261021_v1",
+        "replication_planned_main_units": 2160,
+        "replication_public_calibration_units": 6,
+        "replication_formal_tasks": 120,
+        "replication_chains": 20,
+        "replication_repeats": 3,
+        "state_applicable_tasks": 108,
+        "historical_results_pooled": false
+      },
+      "suggested_chinese": "本文分列三批证据：formal_20261019为旧历史批次，其真实模型表移至附录保留；protocol_repair_20261020_v1为纠错后的原正式批次，含6360个正式单元和144个公开试运行单元，主实验为2160个单元；20261021批次是在相同120项任务、20条链、6组与3次重复上开展的独立主实验复现，另有6个公开用量校准单元。三个批次不拼池，重复执行不增加独立任务数。",
+      "publication_boundary": "本记录不包含20261021主实验实际终态、点估计、区间或方向；最终必须从其独立统计实际绑定。旧稿91/360祖先答案重复只按原稿已披露历史问题保留，本次未重新审查祖先原始记录。"
+    },
+    {
+      "id": "F02_corrected_memory",
+      "targets": [
+        "B0092",
+        "B0101",
+        "B0105"
+      ],
+      "source_refs": [
+        "corrected_primary"
+      ],
+      "observed": {
+        "condition_summaries": {
+          "none": {
+            "planned_units": 180,
+            "terminal_units": 180,
+            "successes": 114,
+            "task_units": 180,
+            "primary_json_pointer": "/formal_phase_statistics/memory_condition_none/arm_summaries/SS1",
+            "inference_scope": "exploratory phase; no Holm adjustment/confirmatory family"
+          },
+          "related": {
+            "planned_units": 180,
+            "terminal_units": 180,
+            "successes": 114,
+            "task_units": 180,
+            "primary_json_pointer": "/formal_phase_statistics/memory_condition_related/arm_summaries/SS1",
+            "inference_scope": "exploratory phase; no Holm adjustment/confirmatory family"
+          },
+          "unrelated": {
+            "planned_units": 180,
+            "terminal_units": 180,
+            "successes": 118,
+            "task_units": 180,
+            "primary_json_pointer": "/formal_phase_statistics/memory_condition_unrelated/arm_summaries/SS1",
+            "inference_scope": "exploratory phase; no Holm adjustment/confirmatory family"
+          },
+          "stale": {
+            "planned_units": 180,
+            "terminal_units": 180,
+            "successes": 118,
+            "task_units": 180,
+            "primary_json_pointer": "/formal_phase_statistics/memory_condition_stale/arm_summaries/SS1",
+            "inference_scope": "exploratory phase; no Holm adjustment/confirmatory family"
+          },
+          "wrong": {
+            "planned_units": 180,
+            "terminal_units": 180,
+            "successes": 1,
+            "task_units": 180,
+            "primary_json_pointer": "/formal_phase_statistics/memory_condition_wrong/arm_summaries/SS1",
+            "inference_scope": "exploratory phase; no Holm adjustment/confirmatory family"
+          }
+        },
+        "wrong_minus_none_saved_paired_difference": -0.6277777777777778,
+        "saved_quality_conservative_ci95": [
+          -0.9773006377579474,
+          0.6376101681611525
+        ],
+        "quality_noninferiority": "WITHHELD_PROSPECTIVELY"
+      },
+      "json_pointers": [
+        "/formal_phase_statistics/memory_condition_none/arm_summaries/SS1/successes",
+        "/formal_phase_statistics/memory_condition_wrong/arm_summaries/SS1/successes",
+        "/matched_phase_effects/memory_condition_wrong/quality"
+      ],
+      "suggested_chinese": "纠错后的原正式批次中，SS1空记忆条件成功114/180，错误程序性记忆条件成功1/180；两组均按全部180个计划执行单元计分，属于60项配对任务、每项3次重复的探索性条件比较。错误记忆呈现严重的负面点估计，但保守质量安全界跨0，不能据此宣称质量不劣。相关、无关和过时记忆须分别报告，采用后成功率不等于记忆的因果收益。",
+      "do_not_reuse": "原稿0/180与176/180属于formal_20261019，仅作历史附录；不得作为纠错批次或新复现的结果。figure_07.csv为检索矩阵，不是记忆条件成功率来源。"
+    },
+    {
+      "id": "F03_offline_state",
+      "targets": [
+        "B0080",
+        "B0081",
+        "B0082"
+      ],
+      "source_refs": [
+        "figure_05",
+        "approved_offline_manifest"
+      ],
+      "observed": {
+        "cells": 42,
+        "observations_per_cell": 600,
+        "saved_n_total": 25200,
+        "one_MiB_cells_original_csv_strings": [
+          {
+            "path": "copy",
+            "condition": "cold",
+            "logical_bytes": "1048576",
+            "n": "600",
+            "p50_ms": "1.3174985000000001",
+            "p95_ms": "1.6723819999999991"
+          },
+          {
+            "path": "copy",
+            "condition": "hot",
+            "logical_bytes": "1048576",
+            "n": "600",
+            "p50_ms": "1.211595",
+            "p95_ms": "1.5052859499999998"
+          },
+          {
+            "path": "memfd",
+            "condition": "cold",
+            "logical_bytes": "1048576",
+            "n": "600",
+            "p50_ms": "1.9625214999999998",
+            "p95_ms": "2.3706670499999998"
+          },
+          {
+            "path": "memfd",
+            "condition": "hot",
+            "logical_bytes": "1048576",
+            "n": "600",
+            "p50_ms": "0.7801285",
+            "p95_ms": "0.9461400499999997"
+          },
+          {
+            "path": "shm",
+            "condition": "cold",
+            "logical_bytes": "1048576",
+            "n": "600",
+            "p50_ms": "1.9314205",
+            "p95_ms": "2.3319269"
+          },
+          {
+            "path": "shm",
+            "condition": "hot",
+            "logical_bytes": "1048576",
+            "n": "600",
+            "p50_ms": "0.8060295",
+            "p95_ms": "0.9893750499999998"
+          }
+        ]
+      },
+      "selector": "logical_bytes == 1048576; retain path and condition; p50_ms/p95_ms are saved observed quantiles",
+      "suggested_chinese": "历史独立接收进程的状态路径实验中，每个路径×大小×冷热单元有600次测量，共42个单元。1 MiB逻辑状态的hot路径p50为copy 1.212 ms、memfd 0.780 ms、SHM 0.806 ms，cold路径分别为1.317、1.963、1.931 ms。共享路径收益依赖载荷与复用条件；p50、p95为观测分位数而非置信区间，也不是真实模型端到端时延。",
+      "figure_number_in_new_manuscript": 4
+    },
+    {
+      "id": "F04_offline_quantization",
+      "targets": [
+        "B0083",
+        "B0084",
+        "B0085"
+      ],
+      "source_refs": [
+        "figure_06",
+        "approved_offline_manifest"
+      ],
+      "observed": {
+        "saved_cell_rows": 64,
+        "precision_saved_count_totals": {
+          "adaptive": {
+            "unique_states": 3200,
+            "full_ranking_preserved": 3200
+          },
+          "float16": {
+            "unique_states": 3200,
+            "full_ranking_preserved": 3196
+          },
+          "float32": {
+            "unique_states": 3200,
+            "full_ranking_preserved": 3200
+          },
+          "int8": {
+            "unique_states": 3200,
+            "full_ranking_preserved": 2645
+          }
+        },
+        "unique_source_states": 3200,
+        "precision_observations": 12800
+      },
+      "selector": "sum existing unique_states/full_ranking_preserved count columns within precision; no resampling, estimation or interval recomputation",
+      "suggested_chinese": "历史离线精度实验含3200个唯一源状态和12800次精度观察。float32与adaptive均保持3200/3200次接收方八候选完整排序，float16为3196/3200，int8为2645/3200。不同精度观察共享源状态，不能当作12800个独立样本；排序保真不等于真实任务准确率，编码字节仅含向量与量化scale。",
+      "figure_number_in_new_manuscript": 5
+    },
+    {
+      "id": "F05_corrected_retrieval_incompleteness",
+      "targets": [
+        "B0058",
+        "B0069",
+        "B0089",
+        "B0091",
+        "B0101",
+        "B0105"
+      ],
+      "source_refs": [
+        "corrected_retrieval_capacity"
+      ],
+      "observed": {
+        "status": "INCOMPLETE_CAPACITY_RECONCILED_NOT_ORIGINAL_AUDIT_PASS",
+        "original_audit_status": "FAIL_RETAINED_NO_INFERENTIAL_TABLES",
+        "planned_query_units": 14400,
+        "observed_query_units": 14346,
+        "missing_query_units": 54,
+        "execution_failures": 0,
+        "timeout_worker_count": 2,
+        "timeout_workers": [
+          {
+            "size": 20000,
+            "build": 1,
+            "returncode": null,
+            "timed_out": true,
+            "wall_sec": 1200.0582286749996
+          },
+          {
+            "size": 20000,
+            "build": 2,
+            "returncode": null,
+            "timed_out": true,
+            "wall_sec": 1200.063958521001
+          }
+        ],
+        "original_audit_pass_claimed": false
+      },
+      "suggested_chinese": "纠错批次检索矩阵计划14400次查询，实际记录14346次，仍缺54次。20000候选池的两次建库工作进程在约1200秒容量上限停止；未完成查询保留缺失，不计为成功拒用、零成本或零误检。容量核对未把原审计失败改为通过；受影响子组仍不提供完整推断。宿主睡眠记录亦限制时延外推。",
+      "figure_boundary": "原figure07完整或不完整单元按保存状态分列；不得沿用原稿旧检索数值冒充纠错矩阵。"
+    },
+    {
+      "id": "F06_initialization_720",
+      "targets": [
+        "B0089",
+        "B0092",
+        "B0101",
+        "B0103",
+        "B0105"
+      ],
+      "source_refs": [
+        "seed_initialization"
+      ],
+      "observed": {
+        "status": "COMPLETE_720_REAL_LOCAL_SEED_WRITES_WITH_TIMING",
+        "original_run_coverage": 720,
+        "new_initialization_measurements": 720,
+        "status_counts": {
+          "SUCCESS_LOCAL_SEED_WRITE": 720
+        },
+        "condition_counts": {
+          "memory_related": 180,
+          "memory_unrelated": 180,
+          "memory_stale": 180,
+          "memory_wrong": 180
+        },
+        "unique_task_condition_pairs": 240,
+        "three_original_repeat_records_identical": true,
+        "historical_720_runs_or_1440_unknown_findings_changed_or_backfilled": false,
+        "new_full_agent_or_model_task_runs": 0,
+        "model_API_network_calls": 0
+      },
+      "suggested_chinese": "新增720次本地记忆初始化测量对应原related、unrelated、stale和wrong四条件各180条输入；这是初始化写入补充，不是新增720个独立任务或720次完整模型执行。写入父区间已包含本地embedding、SQLite、索引和缓存操作，不能再叠加其嵌套子区间；记录构造、准备和清理另列，只有互斥分段才可相加。全部测量无LLM调用，不回填历史720次执行的缺失时钟。",
+      "measurement_limits": [
+        "每条输入使用新数据库；单个新进程按原顺序运行，其模型加载和缓存不重现历史缓存状态。",
+        "资源快照为点观测，进程生命周期maxRSS不当作逐写峰值；缺失I/O不补0。",
+        "重复输入不是新的独立任务；本补充不计算CI、p值或质量。"
+      ],
+      "figure_number_in_new_manuscript": 6
+    },
+    {
+      "id": "F07_pressure_postcollection_ci",
+      "targets": [
+        "B0064",
+        "B0097",
+        "B0098",
+        "B0099",
+        "B0103",
+        "B0105"
+      ],
+      "source_refs": [
+        "stress_ci_results",
+        "stress_ci_method"
+      ],
+      "observed": {
+        "status": "COMPLETE_POSTCOLLECTION_CI_ORIGINAL_POINTS_UNCHANGED",
+        "cells": 30,
+        "original_task_rows": 58590,
+        "all_planned_failures_retained": true,
+        "point_identity_gate_passed_before_bootstrap": true,
+        "master_seed": 20261021,
+        "draws_per_cell": 10000,
+        "postcollection_not_initial_frozen_method": true,
+        "slope_coefficient_CIs_added": false,
+        "original_throughput_estimates_or_CIs_modified": false,
+        "no_cross_cell_simultaneous_band": true,
+        "new_model_or_benchmark_calls": 0
+      },
+      "suggested_chinese": "固定SS1四角色的历史离线压力实验包含6档链长×5档并发、每格30个原运行批次，共58590次fixture任务执行。本次采后补充在每格内按完整原批次进行10000次有放回重采样，为原p95时延、每链可观测native frame/ack字节及消息代理token点估计添加逐格95%百分位区间，原点估计和失败记录不变。区间不是原冻结主分析、回归斜率区间或跨格同时置信带；原吞吐估计和区间未改。",
+      "measurement_limits": [
+        "批次保留同批任务/运行链/并发依赖；各格原进程连续执行30批，不等于30次独立OS进程启动。",
+        "批次可交换性是采后补充假设，未消除序列漂移或跨批依赖。",
+        "无真实模型调用，消息代理token不是provider/billing token；不外推真实provider吞吐或Agent数量扩展性。"
+      ],
+      "figure_number_in_new_manuscript": 7
+    },
+    {
+      "id": "F08_write_constraints",
+      "targets": [
+        "B0006",
+        "B0012",
+        "B0059",
+        "B0061",
+        "B0062",
+        "B0064",
+        "B0101",
+        "B0103",
+        "B0105"
+      ],
+      "source_refs": [
+        "independent_replication_design",
+        "independent_replication_freeze",
+        "original_manuscript_extraction"
+      ],
+      "suggested_chinese": "新复现与原正式批次分开报告；全部计划执行单元保留在任务质量分母，未知usage不补零，主要token终点须满足原完整性规则。未预先满足功效条件，不宣称质量不劣。SDK等待包含客户端、传输、服务端等待及编解码等，不能称纯推理时间；不以本地功能fixture开销作墙钟扣除。",
+      "immutable_scope": [
+        "不改原作者、单位、邮箱、中图号或其原占位字段。",
+        "原公式及参考文献保持；历史结果移附录并明确批次身份。",
+        "图号按首次出现递增：方法1、新main2、新timing3、历史状态4、历史量化5、初始化6、压力采后CI7。",
+        "新主实验尚无结果写入本绑定；不承诺token下降、提速或NI。"
+      ]
+    }
+  ],
+  "verification_limits": [
+    "Metadata, saved result fields and saved CSV counts checked; original raw experiments were not rerun.",
+    "Historical old-table values are preserved with their original identity; this preparation does not certify their substantive validity.",
+    "Final authoring still requires actual new-main terminal/analysis/figure bindings and subsequent full-page rendering QA."
+  ]
+}

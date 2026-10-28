@@ -1,0 +1,33 @@
+{
+  "recorded_utc": "2026-10-19T12:52:58.337380+00:00",
+  "files": {
+    "/sys/fs/cgroup/cpu.max": "200000 100000",
+    "/sys/fs/cgroup/memory.max": "2147483648",
+    "/sys/fs/cgroup/memory.swap.max": "1073741824",
+    "/proc/loadavg": "0.00 0.08 0.08 1/242 3098",
+    "/proc/uptime": "1299.31 4970.32",
+    "/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor": "UNAVAILABLE",
+    "/sys/devices/system/clocksource/clocksource0/current_clocksource": "hyperv_clocksource_tsc_page"
+  },
+  "clock_sync": "WSL shared host clock; no independent NTP verification",
+  "frequency_control": "host/WSL controlled; no dedicated frequency policy",
+  "scheduling": "Docker CPU quota enforced by host; host contention and preemption uncontrolled",
+  "native_kernel": "UNSUPPORTED: container shares Microsoft WSL2 kernel",
+  "network_probe": [
+    {
+      "http_status": 401,
+      "wall_sec": 0.14840460000004896,
+      "measurement": "unauthenticated HTTPS connect/TLS/response; not pure RTT and no model invocation"
+    },
+    {
+      "http_status": 401,
+      "wall_sec": 0.061232575000076395,
+      "measurement": "unauthenticated HTTPS connect/TLS/response; not pure RTT and no model invocation"
+    },
+    {
+      "http_status": 401,
+      "wall_sec": 0.058307157999934134,
+      "measurement": "unauthenticated HTTPS connect/TLS/response; not pure RTT and no model invocation"
+    }
+  ]
+}

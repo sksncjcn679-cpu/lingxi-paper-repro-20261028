@@ -1,0 +1,40 @@
+{
+  "schema_version": "completion-main-identity-only-binding-v1",
+  "status": "PREPARED_PREOUTCOME_IDENTITY_ONLY_NOT_EXECUTED",
+  "formal_plan_sha256": "47597048d8a34f543c541074b5d21b77d6de758b1548c866840fb43cbcce637a",
+  "corpus_sha256": "4cfd1c01b6fbdd639a969b69edef6fcd36fc30ad0aa77ed909c0483987834d4e",
+  "formal_task_ids_sha256": "eae883dfebd962b374af66321cac417694d710b3c29574c70a4710e1230f95c9",
+  "applicable_task_ids_sha256": "ceab8e8943f5ceb207a8334f98dce7c311a33af5e6fec3a5855b817d3c7b7d8f",
+  "seed": 20261020,
+  "counts": {
+    "main": 2160,
+    "unique_tasks": 120,
+    "applicable": 108,
+    "chains": 20
+  },
+  "numerical_source_sha256": {
+    "formal_statistics.py": "7e201b28e8a85e712cdace33951e900ad47e6c8dcd8f4554763cccd69870e373",
+    "formal_statistics_protocol_aligned_v3.py": "43fffd1665f8e0266f1de04b25e22ba336d3c97919796c29ab07beb4d57811bc",
+    "provider_accounting.py": "2eb69a893804461dc945cbae4475058233c91620271a8328e5698f036241ed99"
+  },
+  "existing_binding_rule": {
+    "source": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\code\\native\\statistical_gates.py",
+    "source_sha256": "d87bb161630560f4fe7c62e061a167e36ba5d6c93a9c7a5dbd2e4d12c5240251",
+    "function": "load_verified_v3",
+    "start_line": 409,
+    "end_line": 432,
+    "function_AST_sha256": "ae3602931503978e003abcba783830da6bf2f3acc176230ba874c3f89ffc29d2"
+  },
+  "prospective_registration_contract": {
+    "source": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261019_pilot\\protocol_repair_20261020_v1\\analysis\\stats\\preformal_gate_v1\\statistical_contract.json",
+    "sha256": "5ec70ab8b2d87fd248f92a13ff604bb2cd449b4b99e40e38aff6afd3a43bbbe8",
+    "matched_keys": [
+      "formal_task_ids_sha256",
+      "applicable_task_ids_sha256",
+      "seed"
+    ]
+  },
+  "binding_scope": "Only two registered population identity constants in an isolated wrapper namespace. No frozen source/function/statistical kernel changes. Original 43fffd constants are not described as new IDs.",
+  "active_raw_read_or_hashed": false,
+  "statistical_modules_imported_or_analysis_executed": false
+}

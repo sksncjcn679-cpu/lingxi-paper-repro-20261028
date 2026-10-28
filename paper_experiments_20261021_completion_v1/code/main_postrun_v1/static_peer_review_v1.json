@@ -1,0 +1,33 @@
+{
+  "schema_version": "completion-main-static-peer-review-v1",
+  "status": "STATIC_PEER_FINDINGS_RESOLVED_PREPARED_ONLY",
+  "reviewer": "/root/completion_requirements/main_postrun_peer",
+  "reviewed_utc": "2026-10-21T07:34:50.1773852Z",
+  "scope": "Limited source-only review of prepared new-main postrun acceptance/controller and figure04 compatibility",
+  "source_sha256": {
+    "analyze_completed_main_v1.py": "45338e2535194be592a85f62b5edcd7937f2f20fdc80c6f93c386ef7d15ee185",
+    "run_after_main_terminal_v1.py": "008c49789fc1177f9faae2eb82da291a333b7afa07f207e13832fdc7fc880b54",
+    "identity_binding.json": "1d85c318a8b31765a8ab5ebc3d07744ba4187237a239626ebeaa677a34688660"
+  },
+  "findings": [
+    {
+      "id": "FIGURE04_CATEGORY_ARM_COMPLETENESS",
+      "status": "RESOLVED_IN_SOURCE",
+      "evidence": "timing_rows uses one category union over all runs, then emits each recorded category for every arm; existing recorded-mass absent-key zero scope retained."
+    },
+    {
+      "id": "ACTUAL_TERMINAL_RECEIPT_FIELDS",
+      "status": "RESOLVED_IN_SOURCE",
+      "evidence": "Controller requires a dict receipt with actual_terminal is True, at least one recognized exit field, and type(value) is int with every exit equal to zero."
+    }
+  ],
+  "static_target_sources_read_only": true,
+  "target_sources_modified": false,
+  "active_or_historical_raw_read_or_hashed": false,
+  "collection_or_statistics_entry_executed": false,
+  "scientific_modules_imported": false,
+  "model_API_benchmark_calls": 0,
+  "new_scientific_threshold_or_gate_added": false,
+  "scientific_pass_claimed": false,
+  "scope_limit": "No experiment result, usage completeness, statistical result or actual postrun boundary is asserted. Final execution remains dependent on explicit coordinator terminal confirmation and actual receipts."
+}

@@ -1,0 +1,58 @@
+STATIC PREPARATION ONLY. None of the commands below has been executed.
+This is a format export, not a semantic/measurement/statistical validation.
+
+Preconditions for root before either invocation:
+- Actual main/native_remaining/external stages all terminal exit0 and finished;
+  exact original formal-freeze SHA is enforced by the helper.
+- Root has actually observed no real or retrieval timing processes after formal
+  finish and saved the actual JSON observation inside that study's analysis/.
+  Never manufacture a receipt from scheduled timing or a controller error.
+- Both existing Linux real execution locks are genuinely unoccupied. The helper
+  opens them read-only and holds nonblocking exclusive advisory locks throughout.
+- Root separately binds the reviewed helper source SHA and uses an approved
+  offline Python environment with pyarrow. This helper never installs anything.
+- Original and independently rebuilt trees each retain the exact study basename
+  protocol_repair_20261020_v1, original freeze, frozen plan and source JSONL.
+  Use each tree's own real lock files as applicable to its approved offline
+  reconstruction; do not treat empty scratch locks as a process observation.
+
+Replace angle-bracket metavariables with actual verified paths. These are two
+separate exports after the original study and the independent seven-stage rebuild
+have finished. Do not append this export to or modify the reviewed rebuild stages.
+
+<APPROVED_OFFLINE_PYTHON_WITH_PYARROW> -B /drivers/protocol_repair_v1/postrun_analysis/protocol_format_export.py --study-out /evidence/protocol_repair_20261020_v1 --quiescence-receipt /evidence/protocol_repair_20261020_v1/analysis/<ACTUAL_ROOT_QUIESCENCE_RECEIPT>.json --version protocol_format_v1
+
+<APPROVED_OFFLINE_PYTHON_WITH_PYARROW> -B /drivers/protocol_repair_v1/postrun_analysis/protocol_format_export.py --study-out <INDEPENDENT_REBUILT_PARENT>/protocol_repair_20261020_v1 --quiescence-receipt <INDEPENDENT_REBUILT_PARENT>/protocol_repair_20261020_v1/analysis/<ACTUAL_ROOT_QUIESCENCE_RECEIPT>.json --version protocol_format_v1
+
+Each destination is a new study/exports/protocol_format_vN directory; choose a
+fresh version if a previous complete or incomplete attempt exists. Nothing is
+written under raw/. Source JSONL remains the sole authoritative raw input to the
+seven-stage rebuild. Any exception or INCOMPLETE is retained without claiming
+completion; the overall successful status is FORMAT_ROW_TYPE_PRESENCE_PASS.
+
+Each of the six tables has CSV, Parquet, complete observed Draft2020-12 schema and
+storage metadata. EVERY CSV cell is a JSON value, including string quotes, null,
+and the __source_present_fields JSON array. Recover only the listed source keys:
+an unlisted key is absent even if its rectangular CSV/Parquet cell is null.
+Parquet heterogeneous/nested/out-of-range integer columns use canonical JSON as
+declared in storage metadata. Unknown raw None, missing fields, empty strings,
+explicit zeroes and all failed units remain distinct and unchanged. No VM-load,
+provider-queue or PSS observations or cache values are manufactured.
+
+The unchanged streaming readback restores every actual CSV and Parquet row,
+compares canonical JSON values/types/presence with every original JSONL row and
+records source_decoded_sha256, csv_reconstructed_sha256 and
+parquet_reconstructed_sha256. Batches remain capped at 4000 rows. The helper also
+checks raw byte SHA stability during each export/readback and across the batch.
+
+Root must compare the two actual export_audit.json records for all six table
+names, exact row counts and raw_sha256, and require each table's THREE decoded
+SHA values to agree within and across both trees. This compares decoded values;
+CSV/Parquet file bytes need not agree across paths or dependency versions because
+Parquet metadata includes actual source paths. All observed schema contents and
+unknown/null/missing semantics must still be reviewed. Record the actual results
+and hashes only after execution. These checks cannot supply a scientific metric
+PASS, completeness of semantic measurement, human scoring or statistical claims.
+
+No README, claims, limitations, final package manifest or final checksums are
+asserted by this preparation. Root creates those from the actual later results.

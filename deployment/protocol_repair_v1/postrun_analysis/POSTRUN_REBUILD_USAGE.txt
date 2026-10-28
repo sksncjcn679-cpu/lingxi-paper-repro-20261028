@@ -1,0 +1,178 @@
+Status: SOURCE_PREPARED_ONLY. No container, raw copy/hash, analysis, rendering,
+dependency export, test execution or reconstruction has run in this preparation.
+
+The finite route uses exact original canonical bind paths. It never changes
+d87/kernel AST, seed, freeze, registration, original retrieval binding, recorded
+timestamps or raw bytes. Each stage is a new no-network container. Its writable
+view is an independent archive copy; original inputs are never child mounts.
+The runtime source is mounted ONLY at /opt/lingxi/formal-checkout so the image's
+separate /opt/lingxi/formal-venv remains visible. Scratch lockfiles are new files,
+bound over the original canonical lock names; no immutable lock is opened a+.
+
+Required actual quiet-window preparation by root
+1. Real and retrieval controllers must be terminal. Write an ACTUAL observed
+   quiescence JSON, inside NEWOUT/analysis, after the real terminal timestamp:
+     study_id = protocol_repair_20261020_v1
+     status = ACTUAL_NO_REAL_OR_RETRIEVAL_TIMING_RUNNING
+     verified_utc = actual timezone-aware observation timestamp
+     active_real_timing_processes = []
+     active_retrieval_timing_processes = []
+   This entry never fabricates or repairs that receipt. Frozen real-stage exit
+   codes must be0. Each non-timeout retrieval worker needs returncode0/timed_outFalse.
+   An actual original1200sec timeout must retain returncode=null/timed_out=true,
+   finite wall>=1200 and its exact process SHA. Non-timeout errors remain blocked.
+   The NEW quiet receipt also requires all_container_processes_except_init_sleep_and_probe=[],
+   retrieval_controller_session_id=82436 and actual integer
+   retrieval_controller_exec_observed_terminal_exit_code=0. Its
+   timeout_worker_termination_checks must exactly cover the actual timeouts with
+   size/build/process_receipt_sha256/native_worker_processes_observed_running=[]
+   and verification="actual complete psutil container process enumeration after terminal controller".
+   These must be actual root observations. Empty scratch locks are no evidence
+   that an orphan timed-out native child has exited. An earlier pre-RAG quiet
+   receipt cannot establish the later retrieval window is closed.
+   Retained task/query quality failures are valid and remain in every denominator.
+2. Use the NEW prepared offline manifest v2, SHA
+   280aa195e90e267648829586037c6b7eefa1b4db4b47c2e600f96a3482446b09.
+   Its sole consumer-metadata path correction points at the exact retained cbd12
+   preimage. Original a171 prepared bytes/helper23acc are unchanged. Future host
+   verification command (NOT EXECUTED):
+
+python -B deployment/protocol_repair_v1/postrun_analysis/prepare_offline_asset_manifest.py verify --prepared-manifest deployment/protocol_repair_v1/postrun_analysis/offline_manifest_preparation_v2/prepared_manifest.json --prepared-sha256 280aa195e90e267648829586037c6b7eefa1b4db4b47c2e600f96a3482446b09 --study-out paper_experiments_20261019_pilot/protocol_repair_20261020_v1 --quiescence-receipt paper_experiments_20261019_pilot/protocol_repair_20261020_v1/analysis/<ACTUAL_QUIET>.json --destination deployment/protocol_repair_v1/postrun_analysis/offline_manifest_verification_v2
+
+   Only successful actual verification produces approved_offline_manifest.json.
+   Prepared metadata cannot be supplied as if approved. The host verifier may
+   rehash opaque historical offline raw/proofs; this controller instead archives
+   dedicated approved artifact/proof bytes and never reads/copies old raw.
+3. Supply a reviewed LOCAL dependency image containing the exact local venv,
+   NumPy/SciPy/Matplotlib/PyArrow/fonts and Python. Mounted evidence/drivers/secrets must
+   be excluded; ENV names are checked against a credential-excluding allowlist.
+   Do not pass a runtime venv overlay: this entry fails closed for that unsupported
+   form. Root can prepare the secret-free image only after timing closes. Its
+   attestation has schema_version=sanitized-local-analysis-dependency-v1, exact
+   image_id=sha256:<64hex>, secret_free=true and no_secret_mounts=true. These are
+   review assertions, not a claim that this controller can prove all image layers
+   contain no secrets. Do not run/export an unreviewed paid-run image.
+4. Copy postrun_rebuild_job.example.json to a job JSON, fill only actual runtime
+   source root, quiescence path, dependency image ID and attestation path. Check
+   explicit offline Windows-prefix->canonical POSIX map. Approved manifest/map
+   remain original bytes; every actual asset/proof is checked against original
+   SHA/bytes and the report records both recorded and resolved paths. Source
+   approvals in the example bind the current reviewed versions; changes require
+   a new explicit review/binding, never replacing the expected hash silently.
+
+One actual command from workspace root, only after the above (NOT EXECUTED):
+
+python -B deployment/protocol_repair_v1/postrun_analysis/postrun_rebuild.py run --configuration PATH_TO_ACTUAL_JOB.json --destination F:/codex_rebuilds/corrected_postrun_v1
+
+Destination must not exist and must be outside the original study. The command
+copies all approved/frozen inputs, selected runtime source, new raw and lifecycle
+bytes, exports the local dependency image, then computes a reference and a
+separate fresh independent rebuild. It never calls a model/SDK, query driver,
+old monolithic Report/reproduce, benchmark or Docker paid-run container.
+
+Serial stages, each repeated from a fresh archived view
+  metric: indexed full6504 audit -> analysis/full_metric_audit_v3/{metric_audit.json,
+          findings.json,unit_checks.jsonl,audited_observations.jsonl}
+  primary: frozen d87 formal only -> analysis/stats/formal_primary_v1.json
+           unchanged verified kernel, seed20261020 and sole10-Holm family
+  secondary: current0b3 -> analysis/postrun/secondary_heterogeneity_v1/
+             receipt, per-unit/event projections, marginal/paired descriptions
+  retrieval: exact e73 analyze only, original pre-outcome v1 binding ->
+             analysis/retrieval_postrun_analysis_v1/ audit +240gold/60cell/14400
+             planned projections; original FAIL/findings/all4 actual outputs
+             retained for timeout; no retrieval execution or replacement binding
+  capacity: separately approved retrieval_capacity_analysis_v1.py ->
+            analysis/retrieval_capacity_analysis_v1/ strict timeout-prefix
+            reconciliation plus60/20 fixed-denominator tables. It reuses the
+            exact e73 summarize/finite AST, seed261019/10000draws. Missing quality/
+            cost remains null and projections stay NOT_RECORDED. Non-capacity
+            identity/input/gold/metric/feedback/order errors cannot be reconciled.
+  reference: approved original-method helper -> analysis/postrun/original_reference_descriptives_v1/
+             30 absolute quality+9 same60task/repeat0,1 nativeT0/external rows;
+             original conservative quality method and cluster_mean seed20261019
+  equivalence:approved helper -> analysis/external_reference_equivalence_v1/ audit +240
+             exactpair records, three endpoints; NON_COMPARABLE remains so
+  report: approved capacity-compatible adapter+pure plots -> report_adapter_v1/ new tables1-6, original8figures
+          and comparable-only9th, full appendix and scoped availability; exact
+          approved old5/6/8/table04/fault values stay independent old batches
+  format: reviewed9d6 -> exports/protocol_format_v1/ all6 raw tables as typed CSV,
+          Parquet, complete observed schemas/storage metadata and export_audit;
+          all6504 task identities plus row/value/type/presence readback, including
+          missing/null/empty and failures; no semantic/scientific metric PASS
+
+Capacity follows the original retrieval stage and precedes reference; report
+receives both original --retrieval-dir and explicit --retrieval-capacity-dir.
+Other scientific entry points/parameters and the format gate are unchanged.
+The actual run performs18 child stages; independent archive rebuild performs9.
+Each side requires FORMAT_ROW_TYPE_PRESENCE_PASS, the complete six-table set,
+6504task rows, and equal source/csv/parquet decoded SHA per table. Actual CSV and
+Parquet bytes are rehashed against the executed audit. Raw SHA/row counts/three
+decoded SHA must agree across reference and independent rebuild. Schema/storage/
+audit typed content is compared too; only explicitly listed source/quiet paths
+and format file-encoding byte hashes are omitted from this scientific comparison.
+All actual schema/storage/audit/CSV/Parquet whole-file hashes and sizes remain in
+the numeric manifest. CSV/Parquet encoding differences cannot hide decoded-value,
+type, field-presence, rows or raw-identity differences. Readback is format-only.
+
+Every stage uses --network none, read-only rootfs, no-new-privileges, 2GiB,
+source SHA approval and Python socket/DNS/SDK/process/secret/write denyhook.
+Only fc-list/fc-match are permitted child tools for Matplotlib font discovery.
+No source/global/OUT rewrite occurs. Unknown usage, actual failures, global
+metric INCONCLUSIVE and external NON_COMPARABLE are retained; metric FAIL,
+missing identity/output, nonterminal input, denied operation or stage failure
+prevents a completed rebuild receipt. A container with unknown liveness is
+recorded DO_NOT_RELAUNCH. The controller addresses only its random owned offline
+container; real/paid containers are never addressed.
+
+The frozen retrieval exit1 can only become the provisional operational state
+ORIGINAL_FAIL_RETAINED_PENDING_STRICT_CAPACITY_RECONCILIATION_NOT_PASS, never a
+scientific PASS. Only its exact timeout-related structural code set, actual
+terminated timeout workers and hash-bound original four outputs permit the
+immediately following capacity stage. If that stage does not exit0 with its
+strict source/binding/input/output/projection/60cell/20summary validation, the
+pipeline stops before reference/report. The original audit/findings remain
+unaltered and compared in BOTH reconstructions. Any timeout keeps whole-matrix
+execution incomplete, even if a complete ordered prefix includes all query rows.
+No new experiment or longer deadline is introduced; the original e73 source and
+ef70689318eeaecd7beed4bf6c5c84dc18df206e243fc430f461f07c48c102d3 binding remain fixed.
+The archive also preserves actual host_power_events_v1/v2, the0549 clock
+observation, quota_event_v1 and audit_v1_index_stop_receipt original JSON bytes.
+These disclose real/RAG sleep-resume and hardware-clock discontinuities; guest
+perf_counter, SDK wait, zero query failures or process liveness do not prove
+uninterrupted full user wall latency. No subtraction, row exclusion or correction
+is performed. quota_event_v1 remains a prefix observation, never a final quota total.
+Absent timeout terminal/status/query files stay absent in archive, fresh views
+and original-input stability checks; no synthetic terminal/raw is produced.
+All12 actual process receipts are required. A proven terminated timeout may
+also leave build/query/pool/feedback/status artifacts absent. Their exact absences
+are inventoried. Only the helper's finite structural candidate codes may enter
+reconciliation: prebuild absence must then prove zero native queries, copied
+pool SHA must match whenever present, partial feedback must respect the frozen
+mode boundary, and the complete original finding multiset must equal the exact
+derived capacity structure. No identity/gold/metric/feedback-content anomaly can
+pass that next stage. The provisional entry is not itself a semantic waiver.
+Capacity helper/report receipts explicitly say INCOMPLETE_CAPACITY_RECONCILED_NOT_ORIGINAL_AUDIT_PASS;
+successful reconstruction of retained incomplete data is not complete acquisition.
+
+Independent distribution command using only the resulting archive + the SAME
+approved host controller source (NOT EXECUTED):
+
+python -B deployment/protocol_repair_v1/postrun_analysis/postrun_rebuild.py rebuild --archive F:/codex_rebuilds/corrected_postrun_v1/archive --destination F:/codex_rebuilds/independent_corrected_v1
+
+The archive contains virtual inputs, exact control originals, image.tar, typed
+reference comparison and their hashes. Rebuild uses no original host path;
+archived job host paths are provenance only. Current executing controller SHA
+must equal both approved and archived SHA. PDF/SVG whole hashes are retained;
+numeric/JSON/CSV/projection and PNG image/color encoding identity are compared.
+Only explicit generated UTC and derived-receipt provenance-hash edges are omitted
+from typed comparison, after consumers have checked those actual edges. Raw,
+freeze, source, dependency and all scientific values/nulls/order are exact.
+All original inputs/control files, archive and fresh-view immutable bytes are
+rechecked for stability. Failed outputs/differences remain intact.
+
+Still outstanding: actual terminal/quiescence observation, approved offline
+verification, secret-free dependency snapshot, actual reference/independent
+recomputation, runtime schema/denyhook/font compatibility, exact numeric/PNG
+comparison, PDF/SVG/PNG visual QA, scientific claim review and final archive QA.
+AST syntax checks do not establish any of those actual outcomes. A completed
+offline recomputation status deliberately continues to require actual visual QA.

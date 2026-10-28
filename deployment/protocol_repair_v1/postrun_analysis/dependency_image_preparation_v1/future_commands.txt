@@ -1,0 +1,96 @@
+PREPARATION ONLY. No download, package read, signature verification, install,
+container run, image build or smoke import has been executed by this preparation.
+Use ONLY after root actually verifies all real/retrieval timing has ended and
+saves a genuine quiescence receipt. Do not run alongside RAG timing.
+
+1. Create a NEW empty host staging directory. Copy only rpm_specs.txt,
+download_exact_rpms.sh and Dockerfile into it. Never mount the whole workspace,
+.env, credentials, paid-run data volume or secret file into the downloader.
+
+PowerShell from workspace root (choose fresh names/absolute paths):
+
+$dependencyPrep = Join-Path (Get-Location) 'deployment/protocol_repair_v1/postrun_analysis/dependency_image_preparation_v1'
+$dependencyStage = Join-Path (Get-Location) '.local/dependency_image_stage_v1'
+if (Test-Path -LiteralPath $dependencyStage) { throw 'Retain existing staging and choose a new name.' }
+New-Item -ItemType Directory -Path $dependencyStage -ErrorAction Stop | Out-Null
+foreach ($dependencyFile in @('rpm_specs.txt','download_exact_rpms.sh','Dockerfile')) { Copy-Item -LiteralPath (Join-Path $dependencyPrep $dependencyFile) -Destination $dependencyStage -ErrorAction Stop }
+
+2. In a NEW clean pinned official container, download exact targets and the
+dependency closure needed relative to that SAME official base. Network is used
+only for its public official package repositories in this quiet preparation.
+The script does not install tools or silently substitute latest versions.
+
+docker run --rm --pull never --network bridge --mount "type=bind,src=$dependencyStage,dst=/stage" --entrypoint /bin/sh openeuler/openeuler@sha256:03b3f365bbba13e9f90c70b08bd9aa0002bc69db858c2808cfab8a55d6e184e3 /stage/download_exact_rpms.sh
+
+Actual unsupported --downloadonly or unavailable exact versions stops explicitly.
+Targets already exact in the base get download-only reinstall so their RPMs are
+also present. Retain partial attempts. The known old /var/cache/dnf had ZERO RPMs;
+this preparation does not assert that downloads will succeed.
+
+3. Before building, root reviews enabled_repositories.txt, download logs,
+rpm_nevra.txt (all14 targets plus actual downloaded dependency closure),
+rpm_sha256.txt, rpm_checksig.txt and rpm_checksig_exit_codes.tsv. Check actual
+trusted official key/fingerprint provenance and actual signature results; exit0
+alone does not prove a trusted signature. No key is auto-imported and no signature
+PASS is manufactured. If key trust or a pin cannot be resolved, retain evidence
+and stop. Do not disable checks or substitute packages. The Dockerfile repeats
+checksig before installation, requires local-package GPG checking and has no
+network or enabled package repositories for installation.
+
+4. After quiet, capture ONLY the exact formal-venv as a tar. Preserve Linux
+symlinks INSIDE tar; Windows must never unpack/recreate them. Do NOT use Windows
+PowerShell text redirection for binary docker-cp stdout. Example binary-safe host
+Python snippet; replace ABSOLUTE_FRESH_STAGE with the actual staging path:
+
+from pathlib import Path
+import subprocess
+with Path(r'ABSOLUTE_FRESH_STAGE/formal-venv.tar').open('xb') as output:
+    subprocess.run(['docker','cp','lingxi-openeuler-2403:/opt/lingxi/formal-venv','-'], stdout=output, check=True)
+
+Run that snippet with host Python; it only captures docker-cp archive stdout.
+Before ADD, root reviews the tar member inventory WITHOUT extracting on Windows:
+sole top-level formal-venv, no absolute/traversal member paths, no secrets/config
+credentials, and links appropriate for this Python layout. Expected interpreter
+links reach /usr/bin/python3.11. Retain the exact tar SHA and actual venv package
+metadata. Review executable .pth files. Preserve the editable path
+/opt/lingxi/formal-checkout/src; never copy secret mounts or entire /opt/lingxi.
+
+5. Separately create a NEW host runtime-source staging root. Explicitly copy
+ONLY these four items from the actual frozen business checkout:
+
+docker cp lingxi-openeuler-2403:/opt/lingxi/formal-checkout/pyproject.toml ACTUAL_HOST_RUNTIME_ROOT/pyproject.toml
+docker cp lingxi-openeuler-2403:/opt/lingxi/formal-checkout/src ACTUAL_HOST_RUNTIME_ROOT/src
+docker cp lingxi-openeuler-2403:/opt/lingxi/formal-checkout/scenarios ACTUAL_HOST_RUNTIME_ROOT/scenarios
+docker cp lingxi-openeuler-2403:/opt/lingxi/formal-checkout/scripts ACTUAL_HOST_RUNTIME_ROOT/scripts
+
+Do not copy checkout/evidence, results or the entire volume. The reviewed B8
+controller selects its approved source suffixes and mounts this source leaf at
+/opt/lingxi/formal-checkout; it must not mask /opt/lingxi/formal-venv.
+
+6. After all actual package/tar reviews, build the fresh dependency image:
+
+docker build --network=none --pull=false --tag lingxi-corrected-analysis:dependency-v1 --file "$dependencyStage/Dockerfile" "$dependencyStage"
+docker image inspect --format '{{.Id}}' lingxi-corrected-analysis:dependency-v1
+
+Record the EXACT resulting sha256:<64hex>, build log, actual installed RPMs,
+dependency/tar hashes and reviews. Neither da235's unknown added layer nor docker
+commit of the secret-mounted paid container is used. No fonts/extra tools or old
+source-unpack/pip-editable install are performed. Cache failures remain failures.
+
+7. Only then run the reviewed dependency smoke import on the new immutable ID,
+with no secret mount and --network none. Example (substitute the actual ID):
+
+docker run --rm --pull never --network none --read-only --tmpfs /tmp:rw,nosuid,nodev,size=128m --env HOME=/tmp --env MPLCONFIGDIR=/tmp/matplotlib --entrypoint /opt/lingxi/formal-venv/bin/python sha256:ACTUAL_IMAGE_ID -I -B -c "import numpy, scipy, matplotlib, pyarrow, pyarrow.parquet; assert pyarrow.Codec.is_available('zstd'); print(numpy.__version__, scipy.__version__, matplotlib.__version__, pyarrow.__version__)"
+
+This is prospective dependency/ABI evidence, not a scientific metric PASS. Root
+reviews actual image provenance/layers, secret exclusion, ENV NAMES only, tar
+contents, package/signature results and smoke result before writing the actual
+attestation. Required fields: schema_version=sanitized-local-analysis-dependency-v1,
+image_id=the exact immutable ID, secret_free=true, no_secret_mounts=true. These
+booleans must reflect the actual review; this preparation supplies no attestation.
+
+8. Fill the existing B8 postrun_rebuild job's actual host runtime-source mapping,
+quiescence receipt, dependency image ID and attestation path; retain
+dependency.python=/opt/lingxi/formal-venv/bin/python. No venv overlay. Only after
+those actual checks execute the approved B8 controller. Do not modify its reviewed
+source or approve this preparation as if downloads/build/smoke already passed.

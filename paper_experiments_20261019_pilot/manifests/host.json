@@ -1,0 +1,14 @@
+{
+  "host_platform": "Windows 10 / Docker Desktop WSL2",
+  "prepared_at": "2026-10-19T20:37:34.703436+08:00",
+  "image": "openeuler/openeuler@sha256:03b3f365bbba13e9f90c70b08bd9aa0002bc69db858c2808cfab8a55d6e184e3",
+  "container": "lingxi-openeuler-2403",
+  "constraints": {
+    "cpus": 2,
+    "memory": "2g",
+    "shm": "256m",
+    "pids": 512
+  },
+  "topology": "openEuler user space on WSL2 kernel; not native openEuler kernel",
+  "archive_layout": "source root and test fixtures reassembled; ../tests symlink for protocol command; archived CSV is regression fixture only"
+}

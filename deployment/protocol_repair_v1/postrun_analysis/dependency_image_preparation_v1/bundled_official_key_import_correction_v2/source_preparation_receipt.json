@@ -1,0 +1,21 @@
+{
+  "status": "SOURCE_PREPARATION_ONLY_NO_BUILD_OR_IMPORT_EXECUTION",
+  "parent_host_source_sha256": "5986d673dca0de21997fbc8871fec73a95fb6b848386b94a26e76aba86a230fd",
+  "parent_Dockerfile_sha256": "b5bd98c559ad0b34e201698d966307a5f908ad338bf033b5c49f6c81862e97a1",
+  "new_host_source_sha256": "e60a26966fb9c2537f314c587adc84245eff0bb5a607b6acdae4ede42818a1eb",
+  "new_Dockerfile_sha256": "603d6aef98a8228ad05e60247cfc7e1a325573935aea82387cd5afe8560d1ae9",
+  "host_AST_identical_except_PINNED_Dockerfile_hash": true,
+  "Dockerfile_exact_change": "two lines before existing checksig: full SHA check of pinned-base bundled public key, then local rpm --import; all other bytes unchanged",
+  "bundled_key": {
+    "path": "/etc/pki/rpm-gpg/RPM-GPG-KEY-openEuler",
+    "sha256": "006e79d37c10e74c24df6d07c4efc4176515cec009daa5ed493b06f5b6ef39c1",
+    "fingerprint": "8AA16BF9F2CA5244010DCA963B477C60B675600B"
+  },
+  "review_evidence_sha256": {
+    "finite_review_findings.json": "bd2e66403e00c5b693b29764b59898fbc98e047c1c653753882d8dfc2720b5aa",
+    "fresh_base_key_and_editable_path_risk_note.json": "cf6aa793cea2f908e0f120fa1c731b1ac401a3008b0bcd2ef172902f5b645c1a"
+  },
+  "v2_host_usage": "build against reused stage_v2; collect is not invoked and is not claimed to have run",
+  "runtime_source_design": "unchanged B8 read-only leaf mount at /opt/lingxi/formal-checkout; no runtime COPY added to dependency image",
+  "secret_free_attestation": "NOT_WRITTEN"
+}

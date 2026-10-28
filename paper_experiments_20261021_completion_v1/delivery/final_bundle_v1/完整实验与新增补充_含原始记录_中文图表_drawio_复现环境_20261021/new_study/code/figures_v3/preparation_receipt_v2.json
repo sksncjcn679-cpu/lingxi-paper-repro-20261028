@@ -1,0 +1,51 @@
+{
+  "status": "PREPARED_STATIC_ONLY_NOT_EXECUTED",
+  "created_utc": "2026-10-21T07:16:05.098136+00:00",
+  "supersedes_static_snapshot_sha256": "0e1fc04911af3fd8bf6d96d2421bc879411ac4397cb9902578aea6de24665578",
+  "files": [
+    {
+      "path": "base_renderer_v8.py",
+      "sha256": "6e87b343e50323ac86e36419418440ec2254c1e4cfc4a866ef221b4ca9f050df",
+      "bytes": 31661,
+      "AST_PARSE": "PASS"
+    },
+    {
+      "path": "package_completion_figures.py",
+      "sha256": "c50056a8837af7d484e9634530466eb975c45105394780ac9569e6aa0f539689",
+      "bytes": 8032,
+      "AST_PARSE": "PASS"
+    },
+    {
+      "path": "prepare_figure_data.py",
+      "sha256": "dadb47ae0c4ea1f7c397d9bce4b49a161f90909959cc2a1ca3fc0692bcadfda1",
+      "bytes": 15737,
+      "AST_PARSE": "PASS"
+    },
+    {
+      "path": "README_prepare.md",
+      "sha256": "0e0fabdd5dbda4f3381e750e940c78f3aaa5ebb21c94e698813bdd5bed7fa2dc",
+      "bytes": 4727,
+      "AST_PARSE": "NOT_APPLICABLE"
+    },
+    {
+      "path": "render_completion_figures.py",
+      "sha256": "52dec4a886468d4d80885b4014f350c9ce9f04fb6ca9dbc9648cd843f55d432f",
+      "bytes": 9614,
+      "AST_PARSE": "PASS"
+    }
+  ],
+  "last_delta": "Projection receipt binds all CSV/JSON bytes again before render and package; no execution.",
+  "new_formal_outcomes_read": false,
+  "model_calls": 0,
+  "benchmark_calls": 0,
+  "statistical_runs": 0,
+  "rendering_runs": 0,
+  "package_runs": 0,
+  "numerical_or_visual_PASS_claim": false,
+  "pending": [
+    "actual new-primary JSON and completed container-path binding manifest",
+    "new figure_04-compatible timing CSV",
+    "offline image/guard execution after main collection terminates",
+    "actual single/double visual QA before package"
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "status": "SOURCE_BINDINGS_STATIC_PASS_NOT_EXECUTED",
+  "created_utc": "2026-10-20T17:41:37.563184+00:00",
+  "scope": "Only six downstream binding/default/usage files; approved auditor unchanged; no pipeline, imports, experiment, Docker, raw/outcome reads, or numerical analysis.",
+  "approved_auditor_sha256": "7c4cc24bb84274bf96a4c05a00d489491798a84455bd596702db762c4977295f",
+  "previous_auditor_sha256": "0d9a564522c8e61bf9ed19c143ad7a452415ae721d349fc62aaef79edfbc34cf",
+  "metric_version": "full_metric_audit_v3",
+  "changed_files": {
+    "original_reference_descriptives.py": {
+      "before": {
+        "sha256": "553a25fb1f0599960967e0153fde87ca8bad332c2d6cb9f4a0577cb1e584d79f",
+        "bytes": 26903
+      },
+      "after": {
+        "sha256": "69e46482c02d14cd7a1d3040ea717b012db00ed26d0d65dbde044303bf903e28",
+        "bytes": 26903
+      },
+      "preimage": "original_reference_descriptives.py.preimage",
+      "diff": "original_reference_descriptives.py.diff"
+    },
+    "external_reference_equivalence.py": {
+      "before": {
+        "sha256": "9f73ccbccebacb16230d350ad9c987ad4f1e943ff139e03a17c9b1873afaaf0a",
+        "bytes": 29799
+      },
+      "after": {
+        "sha256": "9b5d189579401519d41c4cd5d94a5b0ea29b0d25c79710bbe607ea2acf5f49db",
+        "bytes": 29799
+      },
+      "preimage": "external_reference_equivalence.py.preimage",
+      "diff": "external_reference_equivalence.py.diff"
+    },
+    "saved_report_adapter.py": {
+      "before": {
+        "sha256": "33b6e50abf5044c78f963ef71d9c304dfc0362cd2715438f3fd8f7ba2692f851",
+        "bytes": 92974
+      },
+      "after": {
+        "sha256": "aba4348e1b87f7a3120cbe0edba1efe6bc8ce23059a180d2168f39525e1b3378",
+        "bytes": 92974
+      },
+      "preimage": "saved_report_adapter.py.preimage",
+      "diff": "saved_report_adapter.py.diff"
+    },
+    "postrun_rebuild.py": {
+      "before": {
+        "sha256": "0da959404ce9eff3c114fe06dfc4cbfae40e7a4db1248bfbf3d7b402b3dccadc",
+        "bytes": 61836
+      },
+      "after": {
+        "sha256": "9350647fd0014662af7518b16561f723b2cbe28021f57ea5da32faed927747bd",
+        "bytes": 61836
+      },
+      "preimage": "postrun_rebuild.py.preimage",
+      "diff": "postrun_rebuild.py.diff"
+    },
+    "postrun_rebuild_job.example.json": {
+      "before": {
+        "sha256": "40e2ca816c3c0aa05e1987149e579b31a33966a18120331943085694d335d339",
+        "bytes": 3421
+      },
+      "after": {
+        "sha256": "d173381edad2c8203d55a308e26ae6815547925d634f61bbb5b464228af1dd28",
+        "bytes": 3421
+      },
+      "preimage": "postrun_rebuild_job.example.json.preimage",
+      "diff": "postrun_rebuild_job.example.json.diff"
+    },
+    "POSTRUN_REBUILD_USAGE.txt": {
+      "before": {
+        "sha256": "556a6e3d139be37a97e1481ada83bf33c80f05fba0cc702aa6b4175f489096f8",
+        "bytes": 13324
+      },
+      "after": {
+        "sha256": "f97607314d3db9f36bf17bdcf04a0f0d510f7ce7d3f30191f956e87a1243518f",
+        "bytes": 13324
+      },
+      "preimage": "POSTRUN_REBUILD_USAGE.txt.preimage",
+      "diff": "POSTRUN_REBUILD_USAGE.txt.diff"
+    }
+  },
+  "new_11_source_hashes": {
+    "full_metric_audit.py": {
+      "sha256": "7c4cc24bb84274bf96a4c05a00d489491798a84455bd596702db762c4977295f",
+      "bytes": 87497
+    },
+    "secondary_heterogeneity.py": {
+      "sha256": "0b3c25faba54d566c105e7faba227f0f1c25807852ea3c550068d023545844e8",
+      "bytes": 32200
+    },
+    "retrieval_postrun_analysis_v1.py": {
+      "sha256": "e73e5633cac1ba3428e0d2b3d145fcff4f94417ea0eb00fb72a29d4a06103524",
+      "bytes": 37400
+    },
+    "original_reference_descriptives.py": {
+      "sha256": "69e46482c02d14cd7a1d3040ea717b012db00ed26d0d65dbde044303bf903e28",
+      "bytes": 26903
+    },
+    "external_reference_equivalence.py": {
+      "sha256": "9b5d189579401519d41c4cd5d94a5b0ea29b0d25c79710bbe607ea2acf5f49db",
+      "bytes": 29799
+    },
+    "saved_report_adapter.py": {
+      "sha256": "aba4348e1b87f7a3120cbe0edba1efe6bc8ce23059a180d2168f39525e1b3378",
+      "bytes": 92974
+    },
+    "pure_report_plots.py": {
+      "sha256": "0ba398731fcebb0f05938891d4b13e502ade68b3608e29208e4b891b42885038",
+      "bytes": 10209
+    },
+    "offline_analysis_runner.py": {
+      "sha256": "05ff9afb5326a36a5535bc2927ce6a350dd8a332357597c135766d33923a7076",
+      "bytes": 8261
+    },
+    "postrun_rebuild.py": {
+      "sha256": "9350647fd0014662af7518b16561f723b2cbe28021f57ea5da32faed927747bd",
+      "bytes": 61836
+    },
+    "protocol_format_export.py": {
+      "sha256": "9d6ccc5ae632bc5a803d18e4a21c6671b7c41bdc754c52882c219f82701ba229",
+      "bytes": 19883
+    },
+    "retrieval_capacity_analysis_v1.py": {
+      "sha256": "e7acca9bd698b55215690e13f5dcf3fcf04777d513397ea090422e94e37299a8",
+      "bytes": 44219
+    }
+  },
+  "unchanged_approved_sources": [
+    "full_metric_audit.py",
+    "secondary_heterogeneity.py",
+    "retrieval_postrun_analysis_v1.py",
+    "pure_report_plots.py",
+    "offline_analysis_runner.py",
+    "protocol_format_export.py",
+    "retrieval_capacity_analysis_v1.py"
+  ],
+  "checks": {
+    "preimages_match_expected_sha256": true,
+    "all_preimages_preserved_byteexact": true,
+    "python_static_AST": {
+      "original_reference_descriptives.py": "EXACT_AST_AFTER_ONLY_AUTHORIZED_LITERAL_INVERSION",
+      "external_reference_equivalence.py": "EXACT_AST_AFTER_ONLY_AUTHORIZED_LITERAL_INVERSION",
+      "saved_report_adapter.py": "EXACT_AST_AFTER_ONLY_AUTHORIZED_LITERAL_INVERSION",
+      "postrun_rebuild.py": "EXACT_AST_AFTER_ONLY_AUTHORIZED_LITERAL_INVERSION"
+    },
+    "job_only_five_source_approvals_and_metric_version_changed": true,
+    "all_11_job_approvals_match_current_sources": true,
+    "auditor_schema_compatibility": "Report/reference/equivalence have no hard-coded analyzer_schema_version; status/output/evidence/projection/full-audit bindings are retained.",
+    "runner_unchanged_dynamic_script_and_approval_binding": true,
+    "other_eight_stages_and_algorithms_unchanged": true,
+    "old_v1_v2_bindings_results_untouched": true,
+    "pipeline_executed": false
+  },
+  "correction_artifacts": {
+    "external_reference_equivalence.py.diff": {
+      "sha256": "f2e55e398d3123f913caeb9508f705ad2061893079959521e2d43aae655f51e7",
+      "bytes": 625
+    },
+    "external_reference_equivalence.py.preimage": {
+      "sha256": "9f73ccbccebacb16230d350ad9c987ad4f1e943ff139e03a17c9b1873afaaf0a",
+      "bytes": 29799
+    },
+    "original_reference_descriptives.py.diff": {
+      "sha256": "db8f1e9462955d013e27c1a81b97c7682b1fc9c5d8565837398bf93a859f3b96",
+      "bytes": 1438
+    },
+    "original_reference_descriptives.py.preimage": {
+      "sha256": "553a25fb1f0599960967e0153fde87ca8bad332c2d6cb9f4a0577cb1e584d79f",
+      "bytes": 26903
+    },
+    "postrun_rebuild.py.diff": {
+      "sha256": "a1c603817475ece6c5ddb2a833f877f3dbcfe260a928ec4a1ad2ba06c2348d8f",
+      "bytes": 822
+    },
+    "postrun_rebuild.py.preimage": {
+      "sha256": "0da959404ce9eff3c114fe06dfc4cbfae40e7a4db1248bfbf3d7b402b3dccadc",
+      "bytes": 61836
+    },
+    "postrun_rebuild_job.example.json.diff": {
+      "sha256": "27f3d0a0a8cfba2c4c65a63a1b82b4d192a1854cf3916991a1a9a02c2c5582a6",
+      "bytes": 2926
+    },
+    "postrun_rebuild_job.example.json.preimage": {
+      "sha256": "40e2ca816c3c0aa05e1987149e579b31a33966a18120331943085694d335d339",
+      "bytes": 3421
+    },
+    "POSTRUN_REBUILD_USAGE.txt.diff": {
+      "sha256": "de01c9842d64af597e3b33a6fcf585c939b649ae2108fb3624cba5bb776e4a6f",
+      "bytes": 632
+    },
+    "POSTRUN_REBUILD_USAGE.txt.preimage": {
+      "sha256": "556a6e3d139be37a97e1481ada83bf33c80f05fba0cc702aa6b4175f489096f8",
+      "bytes": 13324
+    },
+    "saved_report_adapter.py.diff": {
+      "sha256": "f834ac7bb1a3575bb6455ac0e2930f52b841ba4c537c1b4128268be10a050ceb",
+      "bytes": 783
+    },
+    "saved_report_adapter.py.preimage": {
+      "sha256": "33b6e50abf5044c78f963ef71d9c304dfc0362cd2715438f3fd8f7ba2692f851",
+      "bytes": 92974
+    }
+  }
+}

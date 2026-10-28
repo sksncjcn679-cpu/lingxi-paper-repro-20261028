@@ -1,0 +1,98 @@
+{
+  "schema_version": "completion-main-single-handoff-configuration-v1",
+  "created_utc": "2026-10-21T07:47:43.929159+00:00",
+  "python": "D:/miniconda/python.exe",
+  "launcher_receipt": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\logs\\main_v1\\execution_receipt.json",
+  "terminal_witness": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\main_collection_terminal.json",
+  "study": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\main_batch",
+  "native": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\code\\native",
+  "formal_plan": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\main_batch\\manifests\\formal_plan.json",
+  "analysis_out": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\main_batch\\analysis\\main_postrun_v1",
+  "logs": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\logs\\main_postrun_link_v1",
+  "postrun_controller": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\code\\main_postrun_v1\\run_after_main_terminal_v1.py",
+  "wait_limit_seconds": 14400,
+  "poll_interval_seconds": 10,
+  "pinned_files": [
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\code\\main_postrun_link_v1\\wait_terminal_then_analyze_v1.py",
+      "bytes": 11957,
+      "sha256": "301afbbc8d08f9dc7244bb71e69756134de97355d7e97402c4d74e9985622042"
+    },
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\code\\main_postrun_v1\\analyze_completed_main_v1.py",
+      "bytes": 30888,
+      "sha256": "45338e2535194be592a85f62b5edcd7937f2f20fdc80c6f93c386ef7d15ee185"
+    },
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\code\\main_postrun_v1\\identity_binding.json",
+      "bytes": 2189,
+      "sha256": "1d85c318a8b31765a8ab5ebc3d07744ba4187237a239626ebeaa677a34688660"
+    },
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\code\\main_postrun_v1\\offline_analysis_runner.py",
+      "bytes": 9006,
+      "sha256": "7a82d8b4263b127b938958bc6bca74d8db50f0517e2654e94547bd4c67f77e2d"
+    },
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\code\\main_postrun_v1\\preparation_receipt.json",
+      "bytes": 2306,
+      "sha256": "e6c42e4dc9b0d0402d88319c2e2f875f73ded74e8b7920c16c1a1070b06591f9"
+    },
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\code\\main_postrun_v1\\preparation_receipt_v2.json",
+      "bytes": 3194,
+      "sha256": "d71aec7487416d0b2814bae559ab45a3603a3e3a1ccb4fc8c8a54cf9e5128f03"
+    },
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\code\\main_postrun_v1\\README.md",
+      "bytes": 4157,
+      "sha256": "e32ff4c9f92be6b4c22d7fffb16fde8db1eff87402c60ba95eba2f54b2baff88"
+    },
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\code\\main_postrun_v1\\run_after_main_terminal_v1.py",
+      "bytes": 8737,
+      "sha256": "008c49789fc1177f9faae2eb82da291a333b7afa07f207e13832fdc7fc880b54"
+    },
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\code\\main_postrun_v1\\static_peer_review_v1.json",
+      "bytes": 1855,
+      "sha256": "1aaf7e2294640536daa87995f9db2146db92574151de20d440898bcb2108d4b6"
+    },
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\code\\native\\formal_statistics.py",
+      "bytes": 16535,
+      "sha256": "7e201b28e8a85e712cdace33951e900ad47e6c8dcd8f4554763cccd69870e373"
+    },
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\code\\native\\formal_statistics_protocol_aligned_v3.py",
+      "bytes": 9409,
+      "sha256": "43fffd1665f8e0266f1de04b25e22ba336d3c97919796c29ab07beb4d57811bc"
+    },
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\code\\native\\provider_accounting.py",
+      "bytes": 9288,
+      "sha256": "2eb69a893804461dc945cbae4475058233c91620271a8328e5698f036241ed99"
+    },
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\main_batch\\manifests\\formal_plan.json",
+      "bytes": 2198483,
+      "sha256": "47597048d8a34f543c541074b5d21b77d6de758b1548c866840fb43cbcce637a"
+    },
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\main_batch\\manifests\\replication_design.json",
+      "bytes": 886,
+      "sha256": "642a6450bc7b1da2506b7ca8821115ffae39fb89e6d2e24f540647297db9e398"
+    },
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\main_batch\\manifests\\formal-freeze.json",
+      "bytes": 5390,
+      "sha256": "9916ad2f47dfc1473d001a9acdfbd2ae6260ea3989368aa8a118bf9934df3c54"
+    },
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\main_batch\\corpus\\tasks.jsonl",
+      "bytes": 2192491,
+      "sha256": "4cfd1c01b6fbdd639a969b69edef6fcd36fc30ad0aa77ed909c0483987834d4e"
+    }
+  ],
+  "scope": "User-authorized one-shot host wait, no running raw access; only after actual int0 terminal and exact2160 terminal count execute unchanged prepared offline controller once."
+}

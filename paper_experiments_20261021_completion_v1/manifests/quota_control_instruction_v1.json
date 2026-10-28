@@ -1,0 +1,18 @@
+{
+  "schema_version": "quota-control-instruction-v1",
+  "recorded_local_date": "2026-10-21",
+  "user_instruction": "注意还剩pro 5x 的38%额度，尽量额度内完成目标",
+  "remaining_percentage_source": "User-reported 38%, not a new measured tool result",
+  "scope_preserved": true,
+  "execution_policy": [
+    "Continue already-running fixed main, single offline statistics and single figure-render handoffs; do not restart or replay them.",
+    "Avoid repeated full raw reads, old audits, redundant peer reviews, new models or new experimental matrices.",
+    "Use local scripts for waiting, numerical analysis and rendering; reserve assistant usage for actual-result interpretation and required figure/document visual checks.",
+    "Keep all original results and manuscript blocks unchanged; deliver independent additional records and an appended supplement.",
+    "Do not replace genuine unknowns or failed findings with zero or favorable claims to save quota."
+  ],
+  "priorities": ["Actual new batch accounting and frozen-statistics validation", "Four new Chinese figures and visual QA", "Append-only manuscript supplement and full-page QA", "Final evidence records and reproducibility delivery"],
+  "no_model_setting_changed": true,
+  "no_unsupported_percentage_to_work_conversion_claim": true,
+  "goal_not_marked_complete_or_paused": true
+}

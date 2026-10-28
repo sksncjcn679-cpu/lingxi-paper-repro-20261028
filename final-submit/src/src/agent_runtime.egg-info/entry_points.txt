@@ -1,0 +1,2 @@
+[console_scripts]
+agent-runtime = agent_runtime.cli:main

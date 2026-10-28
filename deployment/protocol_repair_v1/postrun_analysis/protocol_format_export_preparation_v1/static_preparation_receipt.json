@@ -1,0 +1,71 @@
+{
+  "status": "STATIC_SOURCE_PREPARATION_ONLY_NOT_EXECUTED",
+  "scope": "stdlib AST parsing and small source-file hashing only; no helper was imported or executed",
+  "parent_source": "deployment\\formal_export.py",
+  "parent_source_sha256": "d60acb82bc0859b86acdb8dc5ae667fd49f4339cfef27d75f4f38d86cd937939",
+  "parent_copy": "deployment\\protocol_repair_v1\\postrun_analysis\\protocol_format_export_preparation_v1\\formal_export.py.parent",
+  "parent_copy_exact_bytes": true,
+  "prepared_source": "deployment\\protocol_repair_v1\\postrun_analysis\\protocol_format_export.py",
+  "prepared_source_sha256": "9d6ccc5ae632bc5a803d18e4a21c6671b7c41bdc754c52882c219f82701ba229",
+  "required_original_formal_freeze_sha256": "2c654ff7b961a8e7d882634d820910d7e77b8729d20a01d875b00ee55c17e42e",
+  "unchanged_pure_function_asts": {
+    "canonical": {
+      "ast_equal": true,
+      "normalized_ast_sha256": "0250781727b441c28db949025e8c89bf36529a1e620406945b99bc170504303d"
+    },
+    "json_type": {
+      "ast_equal": true,
+      "normalized_ast_sha256": "d2ff22a188ccc1d378f203af65e33e00a947c5ea9f8254d6bd434dff55c3f5da"
+    },
+    "merge": {
+      "ast_equal": true,
+      "normalized_ast_sha256": "bfd5423768ac1bea6e15e6ce449495aa326b3d36de64a3c6c342e127b8faf948"
+    },
+    "finalized": {
+      "ast_equal": true,
+      "normalized_ast_sha256": "7071ba2f43b2165f5f94898ed2a80ed0f4c60b609f4f0b775c1ff90d268360f0"
+    },
+    "read_rows": {
+      "ast_equal": true,
+      "normalized_ast_sha256": "5fce1c191ea8bbda0db72d10d854e9cebea82497d23c13a4f446cd9d49ff8aee"
+    },
+    "hash_file": {
+      "ast_equal": true,
+      "normalized_ast_sha256": "bcbb70569d20bfed8ab54130db28228ff3c1a5462b6b6c972a9be464bf497790"
+    },
+    "verify_readback": {
+      "ast_equal": true,
+      "normalized_ast_sha256": "14dbe026766e0093de35711a712a95800fc9a7c7126763848f225ca6199738dc"
+    }
+  },
+  "export_table_ast_review": {
+    "unchanged_body_statement_count": 28,
+    "changed_body_statement_indices_zero_based": [
+      2,
+      25,
+      26,
+      31
+    ],
+    "only_executable_change": "explicit study_out argument replaces OUT only in source-path assignment",
+    "metadata_only_changes": [
+      "corrected-study schema URN/comment",
+      "storage study_id, verbatim cache unknowns and unobserved-resource authority notes",
+      "schema scope label"
+    ],
+    "batch_limit_4000_and_full_actual_csv_parquet_readback_unchanged": true
+  },
+  "main_ast_gate_order_before_output_creation": [
+    "lifecycle_gate",
+    "acquire_readonly_execution_locks",
+    "frozen_plan_terminal_gate",
+    "destination.mkdir",
+    "six streaming exports"
+  ],
+  "preparation_executed_helper": false,
+  "preparation_imported_helper": false,
+  "preparation_read_raw_or_outcomes": false,
+  "preparation_ran_docker_tests_models_or_large_hashes": false,
+  "scientific_sources_freezes_statistics_or_postrun_rebuild_modified": false,
+  "format_export_semantic_or_scientific_metric_pass": "NOT_CLAIMED",
+  "runtime_schema_csv_parquet_dependency_and_full_readback_validation": "NOT_RUN; root must execute only after actual quiescence"
+}

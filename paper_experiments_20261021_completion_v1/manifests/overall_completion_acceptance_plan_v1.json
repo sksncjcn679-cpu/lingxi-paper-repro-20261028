@@ -1,0 +1,298 @@
+{
+  "schema_version": "overall-completion-acceptance-plan-v1",
+  "created_utc": "2026-10-21T07:43:35.406497+00:00",
+  "status": "PROSPECTIVE_FINITE_CLOSEOUT_PLAN_NOT_FINAL_ACCEPTANCE",
+  "read_scope": "Saved requirement index and small receipts/manifests only; no live main raw read/hash, model calls, analysis, benchmarks or scientific reruns.",
+  "source_bindings": [
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261019_pilot\\protocol_repair_20261020_v1\\analysis\\completion_audit_v3\\requirement_evidence.csv",
+      "sha256": "3421b7e9d81f24fc4dfd3893610ca4b2b4adb2cf3e708263b5ace6cddc955f76"
+    },
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261019_pilot\\protocol_repair_20261020_v1\\analysis\\completion_audit_v3\\audit_receipt.json",
+      "sha256": "d6e9ee104c3585d178c45f5c946f46255072064d7a79849da2f83ffc7b8ddc06"
+    },
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261019_pilot\\protocol_repair_20261020_v1\\analysis\\completion_audit_v3\\remaining_actions.json",
+      "sha256": "702e02900692b01dac02e5fc72964fbc1fd3ed67dc136d5b381cc569274a96e0"
+    },
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261019_pilot\\protocol_repair_20261020_v1\\analysis\\completion_audit_v3\\finite_hard_gaps.json",
+      "sha256": "8324bfe4f10d47eb02c819d32f651444b098d409b419c733306502c1477dae52"
+    },
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\manifests\\overall_progress_baseline.json",
+      "sha256": "c28ad5bc108ba995d3e72de9eb3b0116bbb43643aa9ae7a1c48e97877677a77c"
+    }
+  ],
+  "old_status_counts": {
+    "COMPLETE_SCOPED": 109,
+    "SCOPED_LIMITATION": 40,
+    "UNVERIFIED": 2,
+    "NOT_APPLICABLE_NO_CLAIM": 1,
+    "INCOMPLETE": 3
+  },
+  "interpretation_of_109_over_155": {
+    "numerator": 109,
+    "denominator": 155,
+    "fraction": 0.7032258064516129,
+    "means": "旧锁定索引中状态为 COMPLETE_SCOPED 的条目占比；各条目权重不同，且 SCOPED_LIMITATION 不等于尚未执行。",
+    "does_not_mean": [
+      "全部目标的精确完成百分比",
+      "剩余46条都要继续补实验",
+      "科学假设通过率",
+      "剩余工作量或时间比例"
+    ],
+    "original_audit_explicitly_declines_overall_percentage": true,
+    "baseline_70_3_is_conservative_evidence_status_ratio_not_authoritative_total_progress": true,
+    "old_index_remains_immutable": true
+  },
+  "authorized_finite_scope": "本轮固定三项：先 usage 记账预检，再独立2160主实验复现、720真实初始化写入计时、30压力单元采后区间；随后新统计、论文和中文图表、完整记录与独立交付。不得衍生新模型、扩样或新增实验。",
+  "finite_work_packages": [
+    {
+      "id": "WP1",
+      "name": "usage预检与新主批采集",
+      "acceptance": [
+        "实际预检回执与单次请求到账单ID/usage对应已验证",
+        "独立2160主单元真实终态和固定六组/120任务/20链/3次身份一致",
+        "逐尝试HTTP/SDK usage完整且关联可追踪；未知不补0；旧账不重写"
+      ],
+      "current_state": "主批采集中；本计划不读取运行raw或认定未来终态"
+    },
+    {
+      "id": "WP2",
+      "name": "真实初始化写入计时",
+      "acceptance": [
+        "720次真实本地MemoryStore写入与原run映射、内容身份及父/子span边界记录齐全",
+        "实际进程退出与守卫回执确认",
+        "报告仅为新增本地计时，不回填历史1440缺失finding"
+      ],
+      "current_state": "root已报告实际完成；最终引用实际回执"
+    },
+    {
+      "id": "WP3",
+      "name": "压力p95/通信区间",
+      "acceptance": [
+        "30单元既有点值逐值不变",
+        "披露采后整batch重采样方法、10000次/固定seed、逐点CI及同进程batch边界",
+        "不新增运行，不把点斜率包装为已得到斜率系数CI"
+      ],
+      "current_state": "root已报告实际完成；最终引用实际回执"
+    },
+    {
+      "id": "WP4",
+      "name": "新主批冻结统计与证据核验",
+      "acceptance": [
+        "只在真实终态后执行",
+        "保持原五pair及唯一10项Holm检验家族、120/108适用人群、整链配对结构和既定seed",
+        "失败保留质量分母；同一批完整计量，不混合历史新旧批次",
+        "实际统计结果、衍生记录和原始证据索引及执行回执存入新目录"
+      ],
+      "current_state": "等待WP1真实终态"
+    },
+    {
+      "id": "WP5",
+      "name": "论文与中文图表",
+      "acceptance": [
+        "新命名DOCX保留原稿；摘要/正文/表格引用实际新结果并明确三批身份",
+        "相关工作/创新定位逐段核对，不以实验数量或IPC/检索原语宣称新算法；未经证明的创新主张撤回或收窄",
+        "四幅新增中文图及数据/来源齐全，旧九图保持；新图实际单双栏视觉核验",
+        "DOCX逐页渲染并实际检查全部页面，公式图片及引用保持完整",
+        "负结果、NI放弃分支、平台和测量边界写入正文而不称需要无限补齐"
+      ],
+      "current_state": "程序准备完成，等待WP4实际结果"
+    },
+    {
+      "id": "WP6",
+      "name": "最终记录和交付验收",
+      "acceptance": [
+        "实际生成并解码核验新交付包、来源清单和checksum；不含密钥/账户原始账单",
+        "追加最终验收记录，逐项标注工作已做、科学结论支持/不支持/未知，原索引不改",
+        "原D006已有后续完成回执只做引用核对，不重建整套旧审计",
+        "用户需要时给出固定本轮工作已完成/未完成的清单，而非用科学限制项充当永久待办"
+      ],
+      "current_state": "等待WP4与WP5"
+    }
+  ],
+  "new_evidence_can_close_current_work_but_not_rewrite_history": {
+    "affected_original_ids": [
+      "G002",
+      "M004",
+      "T002",
+      "S006",
+      "M011",
+      "T009",
+      "F002",
+      "F004",
+      "F008",
+      "F013",
+      "D009"
+    ],
+    "usage": "新2160批可提供独立完整五token终点；旧107任务/旧五token端点仍按原保存数据INCOMPLETE，不能称旧usage被恢复。",
+    "seed": "新720写入计时是本地测量补充；旧1440finding仍NOT_OBSERVED，且不与模型调用或旧主批wall合并。",
+    "stress": "新p95/通信CI弥补有限采后分析交付；方法和batch依赖边界必须披露，斜率只保留描述点。",
+    "figures_abstract": "使用真正完整的新批指标并注明新旧批次；不能据新图完成宣称所有原始测量齐全。"
+  },
+  "legacy_boundary_rows_not_infinite_work_queue": [
+    "E004",
+    "E008",
+    "E009",
+    "E010",
+    "P005",
+    "P010",
+    "C016",
+    "R014",
+    "R015",
+    "O002",
+    "O004",
+    "O008",
+    "O009",
+    "O011",
+    "O015",
+    "O017",
+    "O018",
+    "O019",
+    "O020",
+    "A012",
+    "M006",
+    "M015",
+    "S002",
+    "S003",
+    "S004",
+    "S005",
+    "S007",
+    "S009",
+    "F007",
+    "F011",
+    "F015",
+    "F017",
+    "D005"
+  ],
+  "limitations_to_retain_without_new_experiments": [
+    {
+      "ids": [
+        "E004",
+        "E008",
+        "E009",
+        "E010"
+      ],
+      "boundary": "宿主负载、CPU频率/绑定、RTT/抢占/时钟和SDK等待拆分未充分独立观测；声明本环境边界。"
+    },
+    {
+      "ids": [
+        "P005",
+        "P010",
+        "M015",
+        "S007"
+      ],
+      "boundary": "平台失败/skip、namespace/Landlock支持差异、历史I/O null及采样RSS边界保留，不把不支持强改成功。"
+    },
+    {
+      "ids": [
+        "C016",
+        "O008",
+        "O009"
+      ],
+      "boundary": "检索54/14400缺失源于已登记容量停止；原FAIL与null保留，原方案允许此停止。"
+    },
+    {
+      "ids": [
+        "T005"
+      ],
+      "boundary": "NI WITHHELD_PROSPECTIVELY是原方案允许的已完成分支；无需扩240或事后恢复NI措辞。"
+    },
+    {
+      "ids": [
+        "C010",
+        "C015",
+        "M003",
+        "D003"
+      ],
+      "boundary": "用户已批准自动替代人工；没有人工agreement不派生补人工评分。"
+    },
+    {
+      "ids": [
+        "O020"
+      ],
+      "boundary": "3/6/8 agent为可选非主门禁，不声称agent数扩展，也无需增加此实验。"
+    },
+    {
+      "ids": [
+        "O015",
+        "O017",
+        "O018",
+        "O019",
+        "A012"
+      ],
+      "boundary": "故障fixture、redelivery、错误记忆及工作量边界不能外推普遍鲁棒或同工作量；实测负结果可完成报告。"
+    },
+    {
+      "ids": [
+        "O002",
+        "O004",
+        "M006",
+        "S002",
+        "S003",
+        "S004",
+        "S005"
+      ],
+      "boundary": "SDK对象与原始wire、代理token与provider、inclusive/fused子span等语义边界不因展示完成消失。"
+    },
+    {
+      "ids": [
+        "R014",
+        "R015",
+        "S009",
+        "D005"
+      ],
+      "boundary": "未知货币预算/幂等支持、文件属性或全磁盘安全未普查，不编造PASS、不重发已计费请求。"
+    },
+    {
+      "ids": [
+        "D009"
+      ],
+      "boundary": "质量下降、wall CI跨0、wrong-memory负结果和未证明创新，均不等于尚未执行，应按结果写论文。"
+    }
+  ],
+  "final_reporting_rule": {
+    "work_completion_and_scientific_success_separate": true,
+    "can_claim_after_all_acceptance_met": "已完成用户批准的本轮固定补充、实际统计及论文/中文图表交付，附明确研究限制。",
+    "cannot_claim": "原方案155项全部观测齐全或全部科学PASS；也不能以旧109/155将已如实交付的限制继续计为永远未完成。",
+    "no_new_required_experiment_cells_found_outside_original_allowed_stop_branches": true,
+    "no_future_terminal_or_scientific_outcome_assumed": true,
+    "must_not_force_equal_weights_or_arbitrary_weights_to_supply_a_percentage": true,
+    "approved_scope_has_finite_end": "本轮所有验收项实际完成即关闭当前已授权工作；研究限制保留在论文中，不自动派生继续实验。任何今后新实验须来自新的明确研究目标。"
+  },
+  "whole_delivery_stage_status": [
+    {
+      "stage": "既有项目部署、原正式矩阵与历史分析交付",
+      "state": "已完成既有执行并保留限制",
+      "basis": "原索引实际回执及后续独立补充；不得泛称所有科学字段齐全"
+    },
+    {
+      "stage": "本轮usage预检",
+      "state": "已完成",
+      "basis": "root已报告实际请求到账单ID/usage验证；最终交付绑定具体回执"
+    },
+    {
+      "stage": "本轮真实初始化计时与压力采后区间",
+      "state": "已完成",
+      "basis": "root已报告720写入/30压力单元实际结果；最终交付绑定具体回执"
+    },
+    {
+      "stage": "本轮2160独立主批真实采集",
+      "state": "进行中",
+      "basis": "不读取运行中raw；以root当前运行监控为准，不按预计终态算完成"
+    },
+    {
+      "stage": "新主批冻结统计与新证据验收",
+      "state": "待完成",
+      "basis": "采集实际终态后执行"
+    },
+    {
+      "stage": "新论文、中文图表、视觉核验与最终记录交付",
+      "state": "待完成",
+      "basis": "实际新统计结果后制作并核验；准备好程序不算已交付"
+    }
+  ]
+}

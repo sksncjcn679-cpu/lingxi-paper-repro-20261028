@@ -1,0 +1,57 @@
+{
+  "schema_version": "offline-prepared-metadata-path-correction-v1",
+  "status": "PREPARED_METADATA_REFERENCE_PATH_CORRECTED_NOT_REHASHED",
+  "created_utc": "2026-10-20T05:47:37.181609+00:00",
+  "parent": {
+    "path": "F:\\codex\\多agent系统架构-软件学报\\deployment\\protocol_repair_v1\\postrun_analysis\\offline_manifest_preparation_v1\\prepared_manifest.json",
+    "sha256": "a17192b7d5e0215bf8d45391f918474e79e764bc6c1ef2bf75d4d8ff4841e678",
+    "bytes": 233966
+  },
+  "child": {
+    "path": "F:\\codex\\多agent系统架构-软件学报\\deployment\\protocol_repair_v1\\postrun_analysis\\offline_manifest_preparation_v2\\prepared_manifest.json",
+    "sha256": "280aa195e90e267648829586037c6b7eefa1b4db4b47c2e600f96a3482446b09",
+    "bytes": 234031
+  },
+  "verifier": {
+    "path": "F:\\codex\\多agent系统架构-软件学报\\deployment\\protocol_repair_v1\\postrun_analysis\\prepare_offline_asset_manifest.py",
+    "sha256": "23acc866bdf6bf26b121b9037ea0907d16e662653b716258dcb4c5226ad890f6",
+    "unchanged": true
+  },
+  "correction": {
+    "operation": "rename_one_metadata_references_dictionary_key",
+    "old_recorded_path": "F:\\codex\\多agent系统架构-软件学报\\deployment\\protocol_repair_v1\\postrun_analysis\\saved_report_adapter.py",
+    "new_recorded_path": "F:\\codex\\多agent系统架构-软件学报\\deployment\\protocol_repair_v1\\postrun_analysis\\report_table_coverage_preexecution_correction_v2\\saved_report_adapter_cbd12_preimage.py",
+    "bound_sha256": "cbd12f31afe4360e2427136ee07a35e73579ffec5ef6b90c4395f971ee30fbf0",
+    "bound_bytes": 53413,
+    "entry_value_unchanged": true,
+    "reason": "Preserve the historical prepared consumer identity using its retained byte-exact preimage; the live consumer has since changed.",
+    "current_adapter_substituted_for_historical_version": false,
+    "serialization_policy": "Exact parent bytes retained except the one encoded JSON dictionary-key path literal; original object key order/newlines preserved."
+  },
+  "deep_equality_checks": {
+    "reversing_only_key_rename_recovers_entire_parent": true,
+    "all_other_top_level_fields_equal": true,
+    "all_assets_raw_proofs_source_roots_equal": true,
+    "all_states_and_recorded_times_equal": true,
+    "all_metadata_reference_values_equal": true,
+    "removed_metadata_keys": [
+      "F:\\codex\\多agent系统架构-软件学报\\deployment\\protocol_repair_v1\\postrun_analysis\\saved_report_adapter.py"
+    ],
+    "added_metadata_keys": [
+      "F:\\codex\\多agent系统架构-软件学报\\deployment\\protocol_repair_v1\\postrun_analysis\\report_table_coverage_preexecution_correction_v2\\saved_report_adapter_cbd12_preimage.py"
+    ],
+    "exact_parent_bytes_recovered_by_reversing_one_json_key_literal": true
+  },
+  "actual_checks": {
+    "small_preimage_sha256_verified": true,
+    "small_preimage_bytes_verified": true,
+    "parent_a171_unchanged": true,
+    "verifier_23acc_unchanged": true
+  },
+  "raw_bodies_or_large_hashes_read": false,
+  "verify_executed": false,
+  "docker_or_statistics_executed": false,
+  "new_formal_results_read": false,
+  "prepared_status_retained": "PREPARED_NOT_REHASHED",
+  "future_rule": "Root must obtain actual timing closure/quiescence, then use original23acc verify with this child manifest and SHA in a fresh destination."
+}

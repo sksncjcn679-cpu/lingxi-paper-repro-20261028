@@ -1,0 +1,32 @@
+{
+  "created_utc": "2026-10-20T17:31:02.998283+00:00",
+  "status": "PASS",
+  "tests_run": 9,
+  "failures": 0,
+  "errors": 0,
+  "fixture_cases": 23,
+  "legacy_nine_AST_identical": {
+    "digest": true,
+    "integer": true,
+    "number": true,
+    "sha256_string": true,
+    "Audit": true,
+    "groups": true,
+    "audit_usage": true,
+    "audit_spans": true,
+    "audit_state": true
+  },
+  "main_auditor_unchanged": true,
+  "parent_preimage_sha256": "0d9a564522c8e61bf9ed19c143ad7a452415ae721d349fc62aaef79edfbc34cf",
+  "proposal_sha256": "a3771a3c964c4d94abb953391fa203ff85ac9f0cf57b92aa024654bd0be64c62",
+  "validation_source_sha256": "b442fb9ae0918a3c12a1155acf5be94ea8198cf5dc7f0ae93bd2e544efbd1da5",
+  "active_main_state_entry": "legacy audit_state remains active; integration NOT applied",
+  "proposal_state_entry": "audit_state_lifecycles is new generation-aware code, not AST-identical legacy reuse",
+  "data_scope": "pure in-memory fixture dictionaries only; no real raw files, outcomes, model, runtime, Docker, network or credentials",
+  "existing_full_audit_v2_FAIL_retained": true,
+  "files": {
+    "fixture_cases.json": "4d37d6e08b00b707b05a5e84103df01d7b932cbb84dbd97824c34e24db01dc92",
+    "integration_proposal.diff": "a53243308281bb029aa94e31069f3279839c2859271a378558a13e30f3926b9a",
+    "unittest_transcript.txt": "c4cb89dc2d9694c490d5dc2d9ad8826def4159444cee08f91184ed312941d821"
+  }
+}

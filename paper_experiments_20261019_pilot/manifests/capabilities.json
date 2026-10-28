@@ -1,0 +1,166 @@
+{
+  "suite": "os_probe",
+  "generated_at_utc": "2026-10-19T12:41:33.875589+00:00",
+  "env": {
+    "python": "3.11.6",
+    "python_executable": "/opt/lingxi/venv/bin/python",
+    "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.38",
+    "platform_class": "wsl",
+    "machine": "x86_64",
+    "host_identity": "7f0fe8539c37abc2d7a492d8a937c9cfcf5cba282accd853f38c6fcd1ec29c16",
+    "packages": {
+      "pydantic": "2.14.1",
+      "numpy": "2.4.6",
+      "psutil": "7.2.2",
+      "PyYAML": "6.0.3"
+    },
+    "capabilities": {
+      "rlimit": true,
+      "cgroup_v2": true,
+      "namespaces": true,
+      "shared_memory": true,
+      "unix_socket": true,
+      "podman": false,
+      "bubblewrap": false,
+      "unshare": true,
+      "namespace_isolation": false
+    },
+    "communication_tokenizer": "heuristic",
+    "tokenizer_backend_requested": "heuristic",
+    "source_tree_sha256": "a040080a8c1011bc1281439b6398d177b7517a2b6a65c7bcfda9e90a1937b562",
+    "git_commit": null
+  },
+  "kernel": "6.18.54.1-microsoft-standard-WSL2",
+  "python": "3.11.6",
+  "checks": {
+    "rlimit": {
+      "ok": true
+    },
+    "cgroup_v2": {
+      "ok": true
+    },
+    "pidfd_open": {
+      "ok": true
+    },
+    "af_unix": {
+      "ok": true
+    },
+    "posix_shm": {
+      "ok": true
+    },
+    "fork_server": {
+      "ok": true
+    }
+  },
+  "namespace": {
+    "available": false,
+    "unshare": true,
+    "network": false,
+    "mount": false,
+    "pid": false,
+    "error": "unshare syscall returned EPERM/unsupported",
+    "exit_code": 2
+  },
+  "memfd": {
+    "api_present": true,
+    "kernel": "6.18.54.1-microsoft-standard-WSL2",
+    "seal": true,
+    "mmap_shared_ro": true,
+    "mmap_private_ro": true,
+    "pread": true,
+    "scm_rights": true,
+    "errors": {},
+    "consumer_read_mode": "mmap_private_ro",
+    "supported": true
+  },
+  "fd_calibration": {
+    "supported": true,
+    "version": 2,
+    "reps": 9,
+    "kernel": "6.18.54.1-microsoft-standard-WSL2",
+    "machine": "x86_64",
+    "buckets": {
+      "1048576": {
+        "size": 1048576,
+        "copy_ms": 0.31701299997166643,
+        "fd_handoff_ms": 0.16620700000657962,
+        "materialise_copy_in_ms": 0.8462350000399965,
+        "materialise_in_place_ms": 0.7592309999608915,
+        "k_copy_in": 6,
+        "k_in_place": 6,
+        "samples": 9,
+        "mad_ratio": {
+          "copy": 0.1129,
+          "handoff": 0.1703,
+          "create": 0.0069,
+          "inplace": 0.0161
+        },
+        "stable": true,
+        "copy_mb_per_s": 3154.4447706856713
+      },
+      "4194304": {
+        "size": 4194304,
+        "copy_ms": 2.911718999939694,
+        "fd_handoff_ms": 0.304812000081256,
+        "materialise_copy_in_ms": 3.7216529999568593,
+        "materialise_in_place_ms": 3.1219280000414074,
+        "k_copy_in": 2,
+        "k_in_place": 2,
+        "samples": 9,
+        "mad_ratio": {
+          "copy": 0.3835,
+          "handoff": 0.1696,
+          "create": 0.0335,
+          "inplace": 0.0475
+        },
+        "stable": true,
+        "copy_mb_per_s": 1373.7589376182405
+      },
+      "16777216": {
+        "size": 16777216,
+        "copy_ms": 10.193517000061547,
+        "fd_handoff_ms": 0.3287129999307581,
+        "materialise_copy_in_ms": 15.11841900003219,
+        "materialise_in_place_ms": 13.401549000036539,
+        "k_copy_in": 2,
+        "k_in_place": 2,
+        "samples": 9,
+        "mad_ratio": {
+          "copy": 0.179,
+          "handoff": 0.091,
+          "create": 0.0072,
+          "inplace": 0.0085
+        },
+        "stable": true,
+        "copy_mb_per_s": 1569.6250862095383
+      }
+    },
+    "consistency": {
+      "consistent": true,
+      "per_mib_copy_ms_spread": 2.3
+    },
+    "copy_ms": 10.193517000061547,
+    "fd_handoff_ms": 0.3287129999307581,
+    "materialise_copy_in_ms": 15.11841900003219,
+    "materialise_in_place_ms": 13.401549000036539,
+    "k_copy_in": 2,
+    "k_in_place": 2,
+    "size": 16777216,
+    "measured_at": "2026-10-19T12:41:33.875108+00:00",
+    "path": "/root/.cache/agent-runtime/fd_policy.json"
+  },
+  "fd_policy": {
+    "k_copy_in": 2,
+    "k_in_place": 2,
+    "source": "calibration",
+    "bucket_bytes": 16777216,
+    "kernel": "6.18.54.1-microsoft-standard-WSL2"
+  },
+  "selection": {
+    "sandbox": "subprocess+forkserver",
+    "sandbox_isolation": "rlimit+setsid (namespace unavailable: degraded)",
+    "control_plane": "AF_UNIX verified router",
+    "numeric_state_plane": "POSIX shared memory",
+    "large_state_handoff": "sealed memfd + SCM_RIGHTS via mmap_private_ro for >= 1,048,576 B and fan-out >= 2 (copy-in) / 2 (in-place), thresholds from calibration"
+  }
+}

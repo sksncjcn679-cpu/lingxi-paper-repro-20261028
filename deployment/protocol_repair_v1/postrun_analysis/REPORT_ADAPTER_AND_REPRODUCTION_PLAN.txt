@@ -1,0 +1,161 @@
+Prepared source; no actual report/statistics/render/reproduction has run.
+
+Interfaces and compatibility
+1. Sole main inference authority: saved d87 statistical_gates.py formal output.
+   Read top-level strata only: five prescribed comparisons,10 saved endpoint
+   effects/CI/p_raw/p_holm, state108 and other120 populations. Never call old
+   Report.statistics(), never use all120 archive p_holm, never rerun another seed.
+   Saved five quality bounds and14 cross-phase matched effects remain authoritative.
+2. secondary_heterogeneity receipt + heterogeneity/paired/measurement files:
+   take saved task means,CI,p50/p95/p99/status/denominators directly. Full marginal
+   appendices stay intact. Sparse/constant quality CI remains null. No new tests.
+   Main absolute-quality Figure3/Table3 instead requires the separate saved
+   original_reference_descriptives receipt and30 absolute rows (overall plus
+   four domains×six arms). It reuses the original conservative quality_interval
+   pure function, including nondegenerate all-pass/all-fail uncertainty. Paired
+   safety/NI bounds and descriptive bootstrap nulls are not absolute-rate CIs.
+3. full_metric_audit metric_audit.json controls global use. Global FAIL blocks
+   the report even if a projection row has0 local failures. UNKNOWN limits scope.
+   audited_observations.jsonl must match its output SHA and all6504 identities.
+   The adapter performs only deterministic error/adoption counts and exclusive
+   partition mean mass, saves them as saved_descriptive_facts.json, and never
+   derives new CI,significance,quality labels or missing values from observations.
+   Absent categories in a complete exclusive partition mean0 allocated category
+   mass; this is explicitly not unsupported state/index/path latency0.
+   Table5 has one narrow post-audit raw exception: memory_events.jsonl must match
+   the completed audit SHA and byte length, then only retrieve-event run/source
+   IDs, actual bool related labels and policy versions are projected with line
+   hashes. Query/record/score/arguments/RPC/Authorization bodies are not emitted.
+   Candidate hit rates use observed retrieve-event denominators; absent retrieve
+   units are explicit, not counted as false retrieval/adoption. Adoption remains
+   terminal memory_adopted_id; causal/negative-transfer effects stay saved d87.
+4. New retrieval: saved postrun audit plus20 pooled and60 build cells only.
+   Failed-query/refusal/cost nulls retained, planned denominators unchanged.
+   No old retrieval import or method selection. Previously bound e73e56 analyzer
+   and its binding remain byte-for-byte immutable.
+5. Old Report constructor/phase/main_tables/matched_effects/spot_check/finish
+   are incompatible: old corpus names,domain names,audit selectors,source guards,
+   old statistics seed and preselected30 claims. No inheritance or import.
+   New pure_report_plots.py reuses visual conventions/export sizes only.
+
+Original figures and tables
+Figure1: conceptual paths only; no measured speed/quality claims.
+Figure2: saved sole-family paired input-token/observable-IPC effects and CI;
+         local materialized bytes retain the original exploratory third panel.
+Figure3: saved per-domain original conservative exact chain-event absolute
+         quality intervals plus explicit error-type counts; unknown types remain
+         unknown, failures are not rescored. This requires actual small upstream
+         original_reference_descriptives execution; no outcome has been read now.
+Figure4: recorded-exclusive partition, saved SDK-wait share and task quantiles
+         in separate panels. No nested/inclusive state/index sum added to wall.
+Figures5/6/8: exact original dedicated offline figure bytes and CSV, separate
+              historical batch identifiers/source hashes/captions/limits.
+Figure7: new retrieval only, including null/incomplete cells explicitly.
+Figure9: optional, only actual COMPARABLE_SYSTEM_LEVEL_REFERENCE plus saved same60
+         tasks/two-repeat native/external reference summary. No new estimate or
+         mechanism attribution. Missing matched summary leaves an explicit gate.
+         The independent equivalence audit binds fullmetric receipt/analyzer,
+         evidence manifest/outputs,freeze/plan/corpus, and240 exact external→main
+         T0 task/repeat pairs. It has no reverse dependency on a statistical
+         summary. Three endpoints must all actually be comparable; a genuine
+         NON_COMPARABLE retains reasons and9 descriptions separately,not MISSING
+         or fabricated PASS. Summary needs study/freeze/raw identities,
+         source_primary_sha256 and actual secondary receipt SHA, exact frozen
+         external task_ids/repeat_ids=[0,1], native
+         phase=main/arm=T0 and9 saved system-by-metric rows. No all120 or main
+         three-repeat estimate can stand in for this same60/two-repeat reference.
+         The report does not generate that missing upstream saved summary or CI.
+Tables1-6: new environment,6-arm fixed contract,main saved descriptions,
+           separate offline/state/index boundaries,new retrieval+memory effects,
+           separate external references+dedicated offline fault table.
+Appendices: saved5quality bounds/all10 endpoints/all14 matched effects; every
+            phase/model/domain/difficulty/input/state/chain-position marginal;
+            state/index events;6504 automatic projection; failure types;
+            new60retrieval cells/14400 planned observations; old offline protocol,
+            reuse,stress growth,continuous,fault and corrected-state stage separate.
+Automatic6504 verification is the actual human-review replacement. No human
+scores,raters,agreement,preselected30 or115-indicator certification is invented.
+
+Offline byte-asset mapping
+O=paper_experiments_20261019_pilot/formal_20261019
+R=O/analysis/postrun_verification_v1/report_v3
+P=paper_experiments_20261019_pilot/source_package_formal_20261019_v2/bundle
+Allowed: R/figures/figure_{05,06,08}.csv and same stem single/double PDF/SVG/PNG;
+R/tables/table_04.csv; O/tables/stress_fault_recovery.csv plus semantic audit.
+Do NOT copy mixed old table06,old real figures,old retrieval or old abstract.
+Use offline_batch_manifest_template.json as an incomplete schema only; actual
+approved manifest needs exact18 export hashes and all audit/source references.
+State/quant table4 also depends on three state raw and quant raw hashes.
+Stress throughput CI also depends on30 *_batches streams omitted from old
+stress audit.sources; bind them from P/metadata/original_raw_inventory.json.files.
+Historical raw bodies are not read by report adapter; retain exact opaque hashes.
+Protocol v3 only,not historical v2. Reuse3 loop batches are not3 process batches.
+Continuous100 rounds do not prove unbounded stability; keep FD log-open boundary.
+Fault corrupt_state/wrong_memory limitations follow tables,never replaced by
+fixture success claims. Old source a040 equality does not prove corrected task
+contract or workload/performance equivalence.
+Corrected state_measurement_correction_v3 is an independent stage supplement,
+not replacement for figure5 or a way to split old RTT. Keep registered/executed
+analyzer identities and correction receipt; nested inclusive phases stay nested.
+
+Future execution only after all real and retrieval timing genuinely closes
+1. Run frozen primary,full metric,secondary,new retrieval analysis under their
+   existing gates. This adapter does not trigger them or any provider call.
+   Separately save original-method30 absolute-quality rows and9 matched external
+   rows with original_reference_descriptives; root arranges the actual new
+   external semantic-equivalence audit before the optional9th figure is usable.
+2. Validate their completed receipts/source/input/output identities and original
+   public evidence. Review and bind new adapter,plot source,approved offline
+   manifest before report generation. The template is intentionally not approved.
+3. Run saved_report_adapter.py --study-out NEWOUT with explicit actual primary,
+   secondary,metric-audit,retrieval,original-reference directories and approved
+   offline manifest. A source-only original-reference helper is not its receipt.
+   First stage without --render,review all CSV/source pointers/nulls/scopes.
+4. New report version with --render creates PDF/SVG/600dpi PNG at3.35in and7in.
+   Do actual numerical checks and render/inspect every exported PDF/PNG. Only
+   actual QA may close availability; source compilation is not visual QA.
+5. Compare all graph/table numbers with saved authority paths/JSON pointers.
+   Check rendered missing cells,CI endpoints,mixed populations,labels,legends,
+   font embedding/line wraps and grayscale. Never choose an alternate p_holm
+   or archive estimate to improve a claim. Abstract gets all planned effects
+   with sample/chain counts and canonical-fixture scope,noninferiority withheld.
+
+Minimal no-provider reproduction plan
+A. Create a fresh destination,verify free space and copy immutable new inputs,
+   source/dependency/environment manifests and opaque raw evidence only after
+   timing closure. Preserve exact frozen paths/identity via a relocated view;
+   never rewrite the frozen statistical source or point its fixed OUT at the
+   live original. Do not invoke model/collection drivers.
+B. In an isolated no-network/no-secret environment,mount that new evidence view
+   at the same virtual /evidence/protocol_repair_20261020_v1 root; mount frozen
+   numerical sources at recorded paths. Re-run only frozen d87 formal analysis
+   with its seed20261020 and original single10-family policy,plus reviewed
+   postrun full/secondary/retrieval analyzers against retained data. No queries,
+   benchmarks,provider traffic or offline timing reruns belong in reproduction.
+   Rebuild the new equivalence audit and original_reference_descriptives too;
+   latter uses original quality_interval exact chain events and cluster_mean
+   seed20261019/10000draw only for the independent external descriptive rows,
+   never to rerun the primary seed20261020/10-Holm family.
+C. Rebuild a new report from those saved results. Copy approved historical
+   offline assets exact bytes under their own batch directory; do not rerun old
+   monolithic Report/reproduce/package entry points or import old real/retrieval.
+D. Compare canonical typed primary/quality/secondary numbers,all table/figure
+   CSV values,planned identities/nulls/denominators and exact copied offline
+   bytes. Timestamp/path-only metadata differences are explicitly classified;
+   never silently turn a failed exact-byte check green. Keep failed executions.
+E. Generate source/dependency/output checksums,raw archive index,commands and
+   claims-to-evidence/protocol requirement checklist. Verify archive safety and
+   rebuild artifacts in a new directory. Actual independent rebuild+visual QA
+   remain outstanding until executed; preparation is never protocol completion.
+
+Current status
+New adapter/plot sources are statically prepared only. They have not read new
+formal outcomes or executed figures/statistics. Dynamic schema/numeric/visual
+verification and actual original-reference/equivalence receipts remain postrun work.
+
+Future command example from the workspace root (NOT EXECUTED):
+python -B deployment/protocol_repair_v1/postrun_analysis/saved_report_adapter.py --study-out paper_experiments_20261019_pilot/protocol_repair_20261020_v1 --primary analysis/stats/formal_primary_v1.json --secondary-dir analysis/postrun/secondary_heterogeneity_v1 --metric-audit-dir analysis/full_metric_audit_v1 --retrieval-dir analysis/retrieval_postrun_analysis_v1 --reference-dir analysis/postrun/original_reference_descriptives_v1 --external-equivalence analysis/external_reference_equivalence_v1/audit.json --offline-manifest PATH_TO_ACTUAL_APPROVED_OFFLINE_MANIFEST --version report_adapter_v1
+Use the actual retained analysis versions,not an assumed PASS directory. This
+first command saves only numeric/copy/index artifacts at STUDY/report_adapter_v1.
+After reviewing them,repeat with a NEW --version report_adapter_v2 and --render.
+The incomplete offline template cannot substitute for an approved manifest.

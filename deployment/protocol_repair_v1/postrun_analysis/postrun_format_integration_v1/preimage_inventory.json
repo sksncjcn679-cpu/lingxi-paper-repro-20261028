@@ -1,0 +1,25 @@
+{
+  "status": "EXACT_UNEXECUTED_PREIMAGES_PRESERVED",
+  "files": {
+    "postrun_rebuild.py": {
+      "sha256": "cbf017688b1dd5b3be149f8a832b1f98c24b65a736b0016d1b1b677d80801672",
+      "bytes": 40713,
+      "preimage": "postrun_rebuild.py.preimage"
+    },
+    "postrun_rebuild_job.example.json": {
+      "sha256": "422e7a273ccaa507a0730120638825eefd0302be2247867cf2ec52b9b0aca275",
+      "bytes": 2983,
+      "preimage": "postrun_rebuild_job.example.json.preimage"
+    },
+    "postrun_rebuild_static_preparation_receipt.json": {
+      "sha256": "e267acba21ee84769f4b103fde6dff735375be19fcf82538a1db7790defb1f37",
+      "bytes": 4240,
+      "preimage": "postrun_rebuild_static_preparation_receipt.json.preimage"
+    },
+    "POSTRUN_REBUILD_USAGE.txt": {
+      "sha256": "ba55b10fe99e3257fe556c48896a0db1f877c74f43e2dee083efbb16b18ffb13",
+      "bytes": 8145,
+      "preimage": "POSTRUN_REBUILD_USAGE.txt.preimage"
+    }
+  }
+}

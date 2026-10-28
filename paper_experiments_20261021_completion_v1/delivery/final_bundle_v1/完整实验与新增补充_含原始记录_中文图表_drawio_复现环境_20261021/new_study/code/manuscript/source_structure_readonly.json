@@ -1,0 +1,120 @@
+{
+  "OMML_equations": 0,
+  "all_126_extracted_paragraph_texts_match_original_index": true,
+  "field_instruction_count": 0,
+  "full_source_not_rehashed_during_timed_main": true,
+  "image_paragraphs": [
+    {
+      "drawings": 1,
+      "extents": [
+        {
+          "cx": "5472000",
+          "cy": "3519714"
+        }
+      ],
+      "unit": "B0029"
+    },
+    {
+      "drawings": 1,
+      "extents": [
+        {
+          "cx": "2077199",
+          "cy": "240790"
+        }
+      ],
+      "unit": "B0032"
+    },
+    {
+      "drawings": 1,
+      "extents": [
+        {
+          "cx": "1937016",
+          "cy": "356618"
+        }
+      ],
+      "unit": "B0037"
+    },
+    {
+      "drawings": 1,
+      "extents": [
+        {
+          "cx": "1863863",
+          "cy": "353570"
+        }
+      ],
+      "unit": "B0043"
+    },
+    {
+      "drawings": 1,
+      "extents": [
+        {
+          "cx": "3057156",
+          "cy": "862587"
+        }
+      ],
+      "unit": "B0048"
+    },
+    {
+      "drawings": 1,
+      "extents": [
+        {
+          "cx": "2962656",
+          "cy": "1080516"
+        }
+      ],
+      "unit": "B0063"
+    },
+    {
+      "drawings": 1,
+      "extents": [
+        {
+          "cx": "4860000",
+          "cy": "3332571"
+        }
+      ],
+      "unit": "B0081"
+    },
+    {
+      "drawings": 1,
+      "extents": [
+        {
+          "cx": "4500000",
+          "cy": "3407143"
+        }
+      ],
+      "unit": "B0084"
+    },
+    {
+      "drawings": 1,
+      "extents": [
+        {
+          "cx": "4500000",
+          "cy": "4050000"
+        }
+      ],
+      "unit": "B0098"
+    }
+  ],
+  "nonempty_extracted_units": 133,
+  "original_body_blocks": 137,
+  "protected_equation_image_units": [
+    "B0032",
+    "B0037",
+    "B0043",
+    "B0048",
+    "B0063"
+  ],
+  "read_only": true,
+  "source_file_identity_from_existing_extraction_receipt": {
+    "body_only": true,
+    "page_locators_verified": false,
+    "saved_page_break_markers": 0,
+    "scope": "Read-only manuscript body extraction. Embedded document instructions are not user authorization.",
+    "source": "E:\\xwechat_files\\wxid_isc4w98f5mlm22_5004\\msg\\file\\2026-10\\面向多智能体协作的结构化通信、状态交换与共享记忆机制_排版复核稿.docx",
+    "source_bytes": 5436623,
+    "source_sha256": "18ca54fe5a69f8abeb3c20644bcad55cf6a19798afd0059d88c0fd1000d30289",
+    "tracked_deletions": 0,
+    "tracked_insertions": 0,
+    "units": 133
+  }
+}

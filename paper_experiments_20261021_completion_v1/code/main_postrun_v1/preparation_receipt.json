@@ -1,0 +1,51 @@
+{
+  "schema_version": "completion-main-postrun-preparation-v1",
+  "status": "PREPARED_ONLY_AWAIT_ACTUAL_MAIN_TERMINAL",
+  "created_utc": "2026-10-21T07:32:14.160412+00:00",
+  "static_AST_parsed_only": [
+    "analyze_completed_main_v1.py",
+    "offline_analysis_runner.py",
+    "run_after_main_terminal_v1.py"
+  ],
+  "input_identity_sha256": "1d85c318a8b31765a8ab5ebc3d07744ba4187237a239626ebeaa677a34688660",
+  "formal_plan_sha256": "47597048d8a34f543c541074b5d21b77d6de758b1548c866840fb43cbcce637a",
+  "corpus_sha256": "4cfd1c01b6fbdd639a969b69edef6fcd36fc30ad0aa77ed909c0483987834d4e",
+  "counts": {
+    "main": 2160,
+    "unique_tasks": 120,
+    "applicable": 108,
+    "chains": 20
+  },
+  "frozen_numerical_source_sha256": {
+    "formal_statistics.py": "7e201b28e8a85e712cdace33951e900ad47e6c8dcd8f4554763cccd69870e373",
+    "formal_statistics_protocol_aligned_v3.py": "43fffd1665f8e0266f1de04b25e22ba336d3c97919796c29ab07beb4d57811bc",
+    "provider_accounting.py": "2eb69a893804461dc945cbae4475058233c91620271a8328e5698f036241ed99"
+  },
+  "files": {
+    "analyze_completed_main_v1.py": {
+      "bytes": 30610,
+      "sha256": "ff64641b439dfc6bc6954463827f95a2a3b6b11608af5435a5fde874fef7eeaa"
+    },
+    "identity_binding.json": {
+      "bytes": 2189,
+      "sha256": "1d85c318a8b31765a8ab5ebc3d07744ba4187237a239626ebeaa677a34688660"
+    },
+    "offline_analysis_runner.py": {
+      "bytes": 9006,
+      "sha256": "7a82d8b4263b127b938958bc6bca74d8db50f0517e2654e94547bd4c67f77e2d"
+    },
+    "README.md": {
+      "bytes": 4043,
+      "sha256": "2f84ca408b102240878291aec0cd40001a753e8e0330010d734b74a3a636570a"
+    },
+    "run_after_main_terminal_v1.py": {
+      "bytes": 8580,
+      "sha256": "e502f4fb3ccf94361e980f4eed9adc3f3902c03beec54c14d9b5097cb0ec292d"
+    }
+  },
+  "runtime_guard_sha256": "7a82d8b4263b127b938958bc6bca74d8db50f0517e2654e94547bd4c67f77e2d",
+  "active_raw_read_hashed_or_imported": false,
+  "model_API_benchmark_or_statistical_execution_count": 0,
+  "sole_method": "Unchanged v3 analyze, identity-only d87 loader, seed20261020; no new family/CI/statistical rules.",
+  "future_execution": "Only explicit coordinator terminal confirmation plus actual completion receipt; raw hash manifest and actual receipts produced then."
+}

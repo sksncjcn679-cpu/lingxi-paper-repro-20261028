@@ -1,0 +1,30 @@
+{
+  "status": "PREBIND_STATIC_AUDIT_COMPLETENESS_CORRECTION_NOT_EXECUTED",
+  "old_analyzer_sha256": "ceb2d11803272e2c02a651fe3f8d752a74281ec4ce90fd00fe087902ea9bc99a",
+  "new_analyzer_sha256": "e73e5633cac1ba3428e0d2b3d145fcff4f94417ea0eb00fb72a29d4a06103524",
+  "driver_sha256_unchanged": "ec5fef7c508232d7c34671b8150c6a829ca26713eb5e2df92969a4b658c14921",
+  "checks_added": [
+    "hash and parse all12 authored feedback files",
+    "exact stale/wrong_conflict memory ID set and unique coverage",
+    "effective=false,observations2,fixed basis and exact allowed field set excluding current-query labels",
+    "native twice-negative reliability/quarantine rule from prepared initial counters; actual quarantined must be bool",
+    "pool100 feedback must exist as empty zero-byte file",
+    "worker status feedback_events=2*authored feedback records",
+    "aggregate process size/build set exact12 and unique",
+    "aggregate/per-worker process content canonical typed JSON equality, all fields retained"
+  ],
+  "unchanged": [
+    "planned identities and failure handling",
+    "require worker returncode0 and timeout=false",
+    "no relaxation for failed query metrics or incomplete matrix",
+    "corrected collection driver and prepared inputs"
+  ],
+  "validation": "AST syntax only; helper not imported/executed; no query/measurement/statistics/model/Docker run",
+  "native_feedback_rule_reference": {
+    "source": "final-submit/src/src/agent_runtime/memory/store.py",
+    "record_feedback_lines": "424-444",
+    "reliability_score_lines": "446-455",
+    "source_sha256": "bb765f2be4583b70b542253d884b6b7f6f6fedea3210d6b29dac75dea78407bc"
+  },
+  "patch_sha256": "25f6a229a81186346b4701c0e4ebd0224463e6d1ce33cc9f8e7d617f762ebdcd"
+}

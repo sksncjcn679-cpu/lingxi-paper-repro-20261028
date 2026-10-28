@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>灵犀栈 · 本地控制台</title>
+<style>
+body{font:16px/1.7 system-ui,sans-serif;background:#f4f6f8;color:#183153;max-width:960px;margin:48px auto;padding:0 24px}h1{font-size:32px;margin-bottom:4px}small{color:#6b7280}.card{background:white;padding:26px;border-radius:14px;margin:22px 0;border:1px solid #e1e6eb}label{display:block;margin-top:12px}select,button{font:inherit;padding:10px;border-radius:7px;border:1px solid #ccd4dd;max-width:100%}button{background:#087f8c;color:white;margin-top:22px;cursor:pointer}button:disabled{opacity:.5}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px;background:#f4f6f8;padding:18px;border-radius:8px}a{color:#087f8c}.note{font-size:14px;color:#6b7280}
+</style>
+<h1>灵犀栈 <small>本地运行控制台</small></h1>
+<p>Planner → Retriever → Executor → Reviewer</p>
+<div class="card"><b>运行环境</b><pre id="health">正在检查…</pre><a href="/docs">接口说明</a> · <a href="/archive/">历史实测看板（2026-10-07）</a></div>
+<div class="card"><b>真实模型任务验证</b><p class="note">选择内置故障案例，真实模型的诊断与动作将进入执行器并由确定性验证器检查。每次点击会调用付费接口，记录保存在本机 .local/runs。检查使用案例中的只读证据。</p>
+<label>模型 <select id="model"><option value="M1">M1 · doubao-seed-2-0-mini-260215</option><option value="M2">M2 · qwen3.7-flash</option></select></label>
+<label>案例 <select id="task"></select></label>
+<label>模式 <select id="arm"><option value="SS0">结构化＋状态 · SS0</option><option value="S0">结构化 · S0</option><option value="T0">精简文本 · T0</option><option value="SS1">结构化＋状态＋记忆 · SS1</option><option value="S1">结构化＋记忆 · S1</option><option value="T1">精简文本＋记忆 · T1</option></select></label>
+<button id="run">执行一次真实验证</button><p id="status" role="status"></p><pre id="output" hidden></pre>
+<p class="note">本页用于部署冒烟验证。每次运行使用独立记忆库，无法据此评价跨任务记忆复用。Windows 使用进程内路径；Linux 的 UDS、memfd、namespace 和 cgroup 需在目标环境验证。本页结果不计入论文正式矩阵。</p></div>
+<script>
+const $=id=>document.getElementById(id);
+async function init(){try{const [h,t]=await Promise.all([fetch('/api/health').then(r=>r.json()),fetch('/api/tasks').then(r=>r.json())]);$('health').textContent=JSON.stringify(h,null,2);t.forEach(v=>{let o=document.createElement('option');o.value=v.index;o.textContent=v.task_id+' · '+v.symptom;$('task').append(o)})}catch(e){$('health').textContent='服务连接失败：'+e.message}}
+$('run').onclick=async()=>{$('run').disabled=true;$('status').textContent='正在执行真实模型任务…';$('output').hidden=true;try{const r=await fetch('/api/run',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({model:$('model').value,arm:$('arm').value,task_index:Number($('task').value)})});const v=await r.json();$('status').textContent=r.ok?(v.success?'验证通过':'验证失败，请查看记录'):'请求失败';$('output').textContent=JSON.stringify(v,null,2);$('output').hidden=false}catch(e){$('status').textContent='请求失败：'+e.message}finally{$('run').disabled=false}};init();
+</script></html>

@@ -1,0 +1,20 @@
+{
+  "status": "STATIC_EXPLICIT_OFFLINE_PATH_MAP_CORRECTION_NOT_EXECUTED",
+  "created_utc": "2026-10-20T03:56:46.962286+00:00",
+  "preimage_sha256": "19d1406c8dc3743931416df008534fa8af8ef8dd06572cdb84edd0cf4f0dc31b",
+  "new_adapter_sha256": "bb15f52fc2f727b72e46e4e2a01c19a2fdac4864f80a4ff95f4f7e41a6a05d21",
+  "diff_sha256": "5269ccd15eaa2321859f2b6abc67a1e89a7c682dcac1fd4a3947e388825f1150",
+  "mapping_example_sha256": "4a38c43572adc318b9a75e5c6435e8851305c5f3dee14b3e3bd23e7fe43bf883",
+  "source_only_AST_JSON_syntax": "PASS",
+  "formal_raw_or_results_read": false,
+  "offline_assets_or_proof_bodies_read": false,
+  "approved_prepared_manifest_bytes_changed": false,
+  "scientific_values_or_sources_changed": false,
+  "scope": [
+    "Explicit recorded_prefix to actual_prefix mapping only for approved offline artifacts/proofs",
+    "Require original approved SHA and byte length for every resolved file",
+    "Opaque mixed proof metadata hash only,never values imported as new metrics",
+    "Report receipt records mapping SHA/original paths/actual paths/verified SHA+bytes",
+    "Map and verified artifact content checked stable before report completion"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "status": "PREPARED_STATIC_ONLY_NOT_EXECUTED",
+  "created_utc": "2026-10-21T07:15:02.459742+00:00",
+  "files": [
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\code\\figures\\base_renderer_v8.py",
+      "sha256": "6e87b343e50323ac86e36419418440ec2254c1e4cfc4a866ef221b4ca9f050df",
+      "bytes": 31661,
+      "AST_PARSE": "PASS"
+    },
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\code\\figures\\package_completion_figures.py",
+      "sha256": "539d816016200d04d7c8b2ad48c23e8ea566fe48461081fb52355a6399485758",
+      "bytes": 7980,
+      "AST_PARSE": "PASS"
+    },
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\code\\figures\\prepare_figure_data.py",
+      "sha256": "0c1471bc5d3469ebb3e486229ba4b8ef1e2d8b17d4ca515f2078734097c65513",
+      "bytes": 14878,
+      "AST_PARSE": "PASS"
+    },
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\code\\figures\\README_prepare.md",
+      "sha256": "0e0fabdd5dbda4f3381e750e940c78f3aaa5ebb21c94e698813bdd5bed7fa2dc",
+      "bytes": 4727,
+      "AST_PARSE": "NOT_APPLICABLE"
+    },
+    {
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\code\\figures\\render_completion_figures.py",
+      "sha256": "b6bd02566572b02889bc5e0609097346efa9307b41af9af2e89a747601dae75d",
+      "bytes": 9562,
+      "AST_PARSE": "PASS"
+    }
+  ],
+  "schema_sources_read": [
+    "old formal_primary_v1 root/pair/metric keys",
+    "old figure_04.csv 6-arm timing and exclusive rows",
+    "seed run_v3 result and first measurement schema",
+    "stress point_identity root status and 30-cell CSV header",
+    "old final_v6 delivery manifest/renderer/font binding"
+  ],
+  "new_formal_outcomes_read": false,
+  "model_calls": 0,
+  "benchmark_calls": 0,
+  "statistical_runs": 0,
+  "rendering_runs": 0,
+  "package_runs": 0,
+  "numerical_or_visual_PASS_claim": false,
+  "pending": [
+    "actual new-primary JSON and completed binding manifest",
+    "new figure_04-compatible timing CSV",
+    "offline image/guard execution after main collection terminates",
+    "actual single/double visual QA before package"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "DOCX_authoring_executed": false,
+  "actual_read_only_133_units_to_137_original_body_blocks_checked": true,
+  "actual_source_AST_syntax_check": "PASS",
+  "artifact_operation_marker_executed": false,
+  "available_support_evidence": {
+    "pressure_postcollectionCI": {
+      "cells": 30,
+      "identity": {
+        "bytes": 41048,
+        "path": "E:\\codex_rebuilds\\completion_20261021_v1\\stress_ci\\output\\analysis\\results.json",
+        "sha256": "75d7ccd470fd981aa19274799d171be59953903352d1862f423f1c037f4d9a55"
+      },
+      "scope": "Original points retained; postcollection cell-wise batch-resampling CIs; no new benchmark/model call or slope-coefficient intervals",
+      "status": "COMPLETE_POSTCOLLECTION_CI_ORIGINAL_POINTS_UNCHANGED"
+    },
+    "seed_initialization": {
+      "identity": {
+        "bytes": 4622,
+        "path": "E:\\codex_rebuilds\\completion_20261021_v1\\seed_write\\run_v3\\results\\result.json",
+        "sha256": "8286516b1e9d87b36012f9b1b29f29ecde3cd5351e723266d50fb9be864fb84e"
+      },
+      "model_API_network_calls": 0,
+      "scope": "720 new real local initialization writes only; no historical backfill/Agent/model task/CI",
+      "status": "COMPLETE_720_REAL_LOCAL_SEED_WRITES_WITH_TIMING"
+    }
+  },
+  "files": {
+    "PREPARED.md": {
+      "bytes": 2743,
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\code\\manuscript\\PREPARED.md",
+      "sha256": "cbb2133b6d5081c36cf70ca6d7828bc87438ec867bbf4119d96989b4438c80dd"
+    },
+    "replacement_positions.json": {
+      "bytes": 19685,
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\code\\manuscript\\replacement_positions.json",
+      "sha256": "19cb6e76032f8e56400c3dea8d709c08f46bc7d83387b8600a889f186bae86b0"
+    },
+    "source_structure_readonly.json": {
+      "bytes": 2457,
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\code\\manuscript\\source_structure_readonly.json",
+      "sha256": "47e5cd163e242ba998d78f25f962bafa73582c340b6b87caf51e71895d106017"
+    },
+    "update_manuscript_v1.py": {
+      "bytes": 12312,
+      "path": "F:\\codex\\多agent系统架构-软件学报\\paper_experiments_20261021_completion_v1\\code\\manuscript\\update_manuscript_v1.py",
+      "sha256": "7ce1df032687bfef5bda244b548fdecbae22bdfd6e58b20d318bd9d2732e7cf5"
+    }
+  },
+  "original_author_metadata": "Preserved exactly, including existing unfilled fields; no fabricated metadata and no approval request.",
+  "remaining_work": [
+    "Wait for actual timed main completion and audited new independent replication JSON.",
+    "Bind final Chinese figure10/11/12/13 and reviewed prose/table values in final patch; never pool batches or promise token/NI/speed gains.",
+    "Immediately before authoring run documents edit marker once, author to fresh file, render via managed runtime and view every page, iterate and bind final QA."
+  ],
+  "render_executed": false,
+  "runtime": {
+    "Pillow_version": "12.3.0",
+    "lxml_version": "6.1.1",
+    "managed_LibreOffice": "C:/Users/暴瘦/.codex/runtime/libreoffice/app/program/soffice.exe",
+    "node": "C:/Users/暴瘦/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+    "python": "C:/Users/暴瘦/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe"
+  },
+  "schema_version": "manuscript-update-prepared-receipt-v1",
+  "source_DOCX_preserved": true,
+  "source_identity_from_original_extraction": {
+    "bytes": 5436623,
+    "path": "E:\\xwechat_files\\wxid_isc4w98f5mlm22_5004\\msg\\file\\2026-10\\面向多智能体协作的结构化通信、状态交换与共享记忆机制_排版复核稿.docx",
+    "sha256": "18ca54fe5a69f8abeb3c20644bcad55cf6a19798afd0059d88c0fd1000d30289"
+  },
+  "status": "PREPARED_SOURCE_ONLY_NOT_AUTHORED_OR_RENDERED"
+}

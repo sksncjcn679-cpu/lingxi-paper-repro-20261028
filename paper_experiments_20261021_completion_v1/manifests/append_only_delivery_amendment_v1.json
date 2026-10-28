@@ -1,0 +1,24 @@
+{
+  "schema_version": "append-only-delivery-amendment-v1",
+  "user_instruction": "不要替换，原有的不动，直接新增，防止和以前的地方对不上",
+  "recorded_local_date": "2026-10-21",
+  "status": "AUTHORIZED_DELIVERY_STEERING_NOT_FUTURE_COMPLETION",
+  "supersedes": "Previous prepared manuscript replacement/reordering plan only; frozen experiment collection and statistical methods remain unchanged.",
+  "manuscript": {
+    "source_file_unchanged": true,
+    "existing_paragraphs_tables_images_equations_references_and_numbering_unchanged": true,
+    "new_output": "Separate copy containing original manuscript plus a newly appended supplement after the original references",
+    "new_supplement": ["Supplemental Chinese and English abstracts based on actual new results", "Actual independent replication methods, results and accounting provenance", "720 independent initialization write measurements", "30-cell postcollection stress intervals", "Historical/current batch identity and original-section correspondence", "Explicit retained limitations and reproducibility links"],
+    "new_numbering": "Supplemental tables S1 onward and figures S1 onward; record source-library figure10-13 mapping explicitly",
+    "acceptance": "Verify every original body block remains identical and in the same order; original historical text is preserved as a snapshot, not silently corrected or migrated."
+  },
+  "figures_and_results": {
+    "original_nine_figures_and_original_raw_results_unchanged": true,
+    "new_library_figures": [10,11,12,13],
+    "new_results_independent": true,
+    "no_historical_usage_or_timing_backfill": true,
+    "live_main_or_statistics_or_figure_controller_restarted": false
+  },
+  "prepared_replacement_code": "Retain as historical preparation; do not execute replacement authoring or shift original content.",
+  "work_still_required": "Actual collection/statistics, figure visual QA, append-only document authoring and full page render QA, final independent supplement package."
+}

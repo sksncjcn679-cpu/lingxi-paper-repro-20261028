@@ -1,0 +1,86 @@
+{
+  "status": "POSTHOC_TEN_UNIT_STATE_SCHEMA_PROBE_NOT_FULL_REAUDIT",
+  "proposal_sha256": "a3771a3c964c4d94abb953391fa203ff85ac9f0cf57b92aa024654bd0be64c62",
+  "results": [
+    {
+      "phase": "multiprocess",
+      "run_id": "003e35f1844c583b9da95b63d369a6a3",
+      "fail_codes": [],
+      "unknown_codes": [],
+      "generations": 1,
+      "dedup_aliases": 0
+    },
+    {
+      "phase": "main",
+      "run_id": "006c81713f02520380aa43361408cbe0",
+      "fail_codes": [],
+      "unknown_codes": [],
+      "generations": 1,
+      "dedup_aliases": 0
+    },
+    {
+      "phase": "ablation_reference_first_off",
+      "run_id": "00ce307b4c745b1ab373fbe9614d5ef5",
+      "fail_codes": [],
+      "unknown_codes": [],
+      "generations": 1,
+      "dedup_aliases": 1
+    },
+    {
+      "phase": "main",
+      "run_id": "01176b7ae59c5c6fb86806dc8630a68a",
+      "fail_codes": [],
+      "unknown_codes": [],
+      "generations": 1,
+      "dedup_aliases": 0
+    },
+    {
+      "phase": "main",
+      "run_id": "0139910f09ff564a8de7e90953731f67",
+      "fail_codes": [],
+      "unknown_codes": [],
+      "generations": 1,
+      "dedup_aliases": 0
+    },
+    {
+      "phase": "memory_condition_wrong",
+      "run_id": "019629d76ee55cb099158e7558e5077a",
+      "fail_codes": [],
+      "unknown_codes": [],
+      "generations": 1,
+      "dedup_aliases": 0
+    },
+    {
+      "phase": "ablation_reference_first_off",
+      "run_id": "02816340f2fb54bab8e5e3d7b02280ff",
+      "fail_codes": [],
+      "unknown_codes": [],
+      "generations": 1,
+      "dedup_aliases": 1
+    },
+    {
+      "phase": "ablation_reference_first_off",
+      "run_id": "0290c0d1d0b659f4ba88328592c9aff0",
+      "fail_codes": [],
+      "unknown_codes": [],
+      "generations": 1,
+      "dedup_aliases": 1
+    },
+    {
+      "phase": "ablation_quantization_off",
+      "run_id": "02f899dcb47f5a7e954b6dc3900f3884",
+      "fail_codes": [],
+      "unknown_codes": [],
+      "generations": 1,
+      "dedup_aliases": 0
+    },
+    {
+      "phase": "ablation_state_dedup_off",
+      "run_id": "0302677c74605810b58974592becef3a",
+      "fail_codes": [],
+      "unknown_codes": [],
+      "generations": 1,
+      "dedup_aliases": 0
+    }
+  ]
+}

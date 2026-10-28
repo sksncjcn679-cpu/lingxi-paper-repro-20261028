@@ -1,0 +1,55 @@
+新批次检索离线分析 helper（尚未执行）
+
+范围
+只处理 protocol_repair_20261020_v1 的12份准备池、240条query与将来的14400条检索记录。
+不读取正式task/provider结果，不导入任何runtime/driver，不执行查询、建库、模型或网络操作。
+脚本位于postrun_analysis子目录，不改正式源快照、已校准源、池、query、gold或原input_registration。
+分析执行仍需独立登记本helper版本；草稿的存在不代表统计结果或实验完成。
+
+执行顺序（由root实际执行，当前未执行）
+1. 在第一条检索/建库结果之前运行bind，为本helper建立新版本不可覆盖的独立分析绑定。
+   python deployment/protocol_repair_v1/postrun_analysis/retrieval_postrun_analysis_v1.py bind --study-out "F:\codex\多agent系统架构-软件学报\paper_experiments_20261019_pilot\protocol_repair_20261020_v1"
+2. 按正式冻结计划，在所有real timing结束后的独立窗口运行检索矩阵。此helper不启动矩阵。
+3. 全部检索worker结束并写出retrieval_matrix_process_status.json之后，再运行：
+   python deployment/protocol_repair_v1/postrun_analysis/retrieval_postrun_analysis_v1.py analyze --study-out "F:\codex\多agent系统架构-软件学报\paper_experiments_20261019_pilot\protocol_repair_20261020_v1"
+   输出 analysis/retrieval_postrun_analysis_v1/，既存目录或绑定均不覆盖。
+   Linux执行时使用同一脚本及容器内/evidence/protocol_repair_20261020_v1路径；仍由root控制独立时窗。
+
+审计
+60个(size,build,mode) cell，每cell240 query；4档×3建库×5方法×240=14400计划单元。
+2880个(size,build,query)配对身份bundle各包含5方法；审核匹配键，不新增配对假设检验。
+从全部120个新formal输入的链、检查点与CAPABILITIES，独立重建240个gold集合；不以已保存gold ID生成gold。
+再与query标注、gold_memory_sets及每个原样准备池的可信先前检查点/能力兼容性逐一相互核对。
+12池共78300条准备记录与执行池副本按SHA/计数/ID/构成核对；只在实际离线分析时读取大池。
+每池feedback原文件纳入SHA；精确匹配预先作者构造的stale/wrong_conflict集合，每条只允许6个固定字段，
+effective=false、observations=2、basis固定，quarantined须为bool并符合原生两次负反馈/可靠性阈值规则。
+100池feedback必须为0字节空文件；worker_status.feedback_events必须等于对应作者记录数的2倍。
+聚合process回执须包含12个唯一size/build，且全部字段的typed JSON内容与12份per-process回执精确相等。
+逐条检查实际输入、ID、顺序、top10排名、重算指标、错误/计时边界、缓存未观测标记、worker容量/超时回执。
+每项使用的输入都记录SHA/bytes并在分析结束前复验；不读取RPC/Authorization/密钥。
+
+统计方法
+沿用旧检索分析formal_retrieval_analyze.py的domain分层整链cluster bootstrap，10000次、seed261019。
+所有同任务派生query及3次建库重复保留在原链中，不将14400当独立样本数。
+输出60行每建库cell（240计划query）及原20行跨3建库规模cell（720计划query）。
+P@1/Recall@3/Recall@10/MRR@10/nDCG@10仅在已独立重建的有答案计划集合计算；误检/拒答仅在无答案计划集合。
+使用相同ratio-of-sums与quantile cluster重抽算法及95%百分位区间。
+原检索分析未定义检索方法间p检验；本helper不新增p值、不新增Holm家族、不将离线结果并入正式主确认族。
+60行分建库汇总是同方法的描述性重复展开；原规模曲线继续使用20行跨建库汇总。
+
+失败与缺失
+每cell计划分母永远240（pooled为720）；质量类别分母由gold预先确定。
+失败记录原样保留；无答案失败的refusal/false_retrieval必须null，不可算正确拒答。
+任一指标的计划对象失败/缺失，使该主指标点估计及CI为null；不以成功子集代替，不把未知当零。
+成本主汇总遇失败/缺失即保留null，失败尝试实际测得native latency仍在观测表中，不能解释成效率优势。
+前置RSS软检查失败时native latency/cpu必须null；RSS预检单独记录，不做估计开销扣除。
+审计发现身份、gold、原样输入、边界或完整性问题时，只输出失败审计/覆盖表/计划观测表，不生成推断性汇总。
+query_observations.jsonl是分析表，NOT_RECORDED明确表示缺失；绝不回填raw。
+
+限制
+tag只有4种原生输入，240个标签不等于240个不同tag请求。
+size100三次建库共用相同100条source，不能当新增独立案例。
+RSS为query时点快照，1400MiB是prequery软检查；容器2GiB/worker1200秒是外围边界。
+first_query_of_mode仅表示顺序；postings_cache_state保持NOT_OBSERVED。
+自动因果/能力gold不是人工标注；命中不代表采用，更不代表实际任务因果收益。
+不拼池历史检索或新旧真实模型结果，不美化失败或推断未测容量边界。

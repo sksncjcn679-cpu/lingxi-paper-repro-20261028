@@ -1,0 +1,17 @@
+{
+  "status": "STATIC_TABLE_COVERAGE_CORRECTION_NOT_EXECUTED",
+  "created_utc": "2026-10-20T03:53:17.086212+00:00",
+  "preimage_sha256": "cbd12f31afe4360e2427136ee07a35e73579ffec5ef6b90c4395f971ee30fbf0",
+  "new_adapter_sha256": "19d1406c8dc3743931416df008534fa8af8ef8dd06572cdb84edd0cf4f0dc31b",
+  "diff_sha256": "c760f463c2d2a3aa122fb7e4049abc80647ef48a60abd03e7390f5e4d1b8bf59",
+  "source_only_ast_parse": "PASS",
+  "formal_raw_or_outcomes_read": false,
+  "table_numeric_data_parsed_or_generated": false,
+  "frozen_sources_modified": false,
+  "changes": [
+    "Table1 adds frozen plan/protocol/native configuration and limit metadata via credential-excluding allowlist",
+    "Table4 projects all212 original dedicated historical CSV rows after SHA validation and keeps batch/scope/provenance columns",
+    "Table6 projects all6 original dedicated fault CSV rows; old mixed table06 remains forbidden",
+    "Approved offline manifest required; original CSV bytes retained separately; no estimates pooled/recomputed"
+  ]
+}

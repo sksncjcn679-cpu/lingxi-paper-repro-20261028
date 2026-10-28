@@ -1,0 +1,34 @@
+{
+  "status": "STATIC_INTERFACE_SOURCE_REVIEW_ONLY_NOT_EXECUTED",
+  "created_utc": "2026-10-20T03:45:22.215563+00:00",
+  "sources": {
+    "saved_report_adapter.py": "cbd12f31afe4360e2427136ee07a35e73579ffec5ef6b90c4395f971ee30fbf0",
+    "pure_report_plots.py": "0ba398731fcebb0f05938891d4b13e502ade68b3608e29208e4b891b42885038",
+    "original_reference_descriptives.py": "ac37cbe5e4374620a272ec0e92d28a20861677e9b9fdd759341eb46331281a3e",
+    "ORIGINAL_REFERENCE_DESCRIPTIVES_INTERFACE.md": "ac6470579131f7468ed4a6dbf8a610a0afeec9c1ea354b35511ac0545ffe16ef"
+  },
+  "static_syntax": "PASS",
+  "original_method_ast_exact_match": {
+    "quality_interval": "8764cb93f579df98f993e8e341e6c570f2515f6f6cee797c61ef1d4c268458f9",
+    "cluster_mean": "fe72a21fddecc1fb20fc38c62794605e81e2594066eac64141798b7d0816d13f",
+    "finite": "64d32c09eceb9803dbc861eb2a5e9dd2fefc3895842ae6c2f099ce6a62f8b846"
+  },
+  "manual_source_interface_review": {
+    "receipt_status": "COMPLETE_SAVED_ORIGINAL_METHOD_DESCRIPTIVES",
+    "absolute_quality_json_rows": 30,
+    "matched_external_summary_json_rows": 9,
+    "native_reference": "main/T0",
+    "repeat_ids": [
+      0,
+      1
+    ],
+    "unique_matched_tasks": 60,
+    "producer_source_row_order": "restore original task_runs raw_line before original seeded external bootstrap",
+    "actual_values_or_intervals_computed": false
+  },
+  "external_equivalence_interface": "Separate producer; actual240 matched IDs,3 endpoints,COMPARABLE_SYSTEM_LEVEL_REFERENCE/NON_COMPARABLE; exact evidence canonical serialization agreed,not an executed audit.",
+  "new_formal_outcomes_read": false,
+  "helpers_imported_or_executed": false,
+  "numeric_statistics_tests_plots_docker_model_network_run": false,
+  "scope": "AST and source/schema comparison only. Runtime fullaudit/primary/secondary/retrieval/reference/equivalence reports, numeric verification and visual QA remain required."
+}

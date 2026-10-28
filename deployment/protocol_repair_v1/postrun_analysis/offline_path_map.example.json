@@ -1,0 +1,13 @@
+{
+  "schema_version": "explicit-offline-path-map-v1",
+  "mappings": [
+    {
+      "recorded_prefix": "F:/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot",
+      "actual_prefix": "/evidence"
+    },
+    {
+      "recorded_prefix": "F:/codex/多agent系统架构-软件学报/deployment",
+      "actual_prefix": "/drivers"
+    }
+  ]
+}

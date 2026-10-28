@@ -1,0 +1,8 @@
+{
+  "fixed_runtime_source_tree_sha256": "a040080a8c1011bc1281439b6398d177b7517a2b6a65c7bcfda9e90a1937b562",
+  "source_files": 161,
+  "new_native_sha256": "d2e90ff92513d2b43cd228edab834a4f67fe24145b3fb193deb0896fc95fecdd",
+  "prelaunch_failure": "SDK smoke first import lacked runtime mount; no models/write work reached; failed process retained",
+  "fix": "readonly immutable runtime mount; accounting history checked once at BudgetLedger startup; mounted VLM credential precedence explicit",
+  "old_source_changed": false
+}

@@ -1,0 +1,61 @@
+{
+  "status": "STATIC_SOURCE_PREPARED_NOT_BOUND_NOT_EXECUTED",
+  "created_utc": "2026-10-20T03:43:36.266368+00:00",
+  "preimage": {
+    "file": "saved_report_adapter_f8a70_preimage.py",
+    "sha256": "f8a70ae5bae9de79682f3c9fbc8a01d029035092f024b313331ae03b381710e9",
+    "capture": "Exact historical bytes reconstructed from recorded deltas and verified against the independently recorded earlier source SHA256."
+  },
+  "sources": {
+    "saved_report_adapter.py": {
+      "sha256": "cbd12f31afe4360e2427136ee07a35e73579ffec5ef6b90c4395f971ee30fbf0",
+      "bytes": 53413
+    },
+    "pure_report_plots.py": {
+      "sha256": "0ba398731fcebb0f05938891d4b13e502ade68b3608e29208e4b891b42885038",
+      "bytes": 10209
+    },
+    "REPORT_ADAPTER_AND_REPRODUCTION_PLAN.txt": {
+      "sha256": "1ade8a8ae7d6a26c77966b87b93d7722872a778f6370124e6229e1f55ed80f81",
+      "bytes": 12194
+    },
+    "offline_batch_manifest_template.json": {
+      "sha256": "07f0fd75b05580c69014a0f921511d09b5af250279057837b021efaa781771b8",
+      "bytes": 4271
+    }
+  },
+  "diff_sha256": "5f58822e7315f1a3125223eadab837a728f387dbe57cc868783b364f65ec33c8",
+  "static_checks": [
+    "AST_PARSE_NEW_ADAPTER_AND_PLOT_SOURCE",
+    "JSON_PARSE_INCOMPLETE_OFFLINE_TEMPLATE",
+    "ORIGINAL_METHOD_AST_IDENTITIES_FROM_SOURCE_ONLY",
+    "REGISTERED_SOURCE_HASHES_UNCHANGED"
+  ],
+  "registered_source_hashes_verified": {
+    "deployment/protocol_repair_v1/statistical_gates.py": "d87bb161630560f4fe7c62e061a167e36ba5d6c93a9c7a5dbd2e4d12c5240251",
+    "deployment/protocol_repair_v1/postrun_analysis/retrieval_postrun_analysis_v1.py": "e73e5633cac1ba3428e0d2b3d145fcff4f94417ea0eb00fb72a29d4a06103524"
+  },
+  "new_formal_outcomes_read_by_this_preparation": false,
+  "helpers_imported_or_executed": false,
+  "docker_model_network_calls_by_this_preparation": 0,
+  "changes": [
+    "Exact60-task/repeat0,1 main T0/external identities and fullmetric/freeze/raw bindings before optional figure9",
+    "Separate actual external-equivalence endpoint gate; retain NON_COMPARABLE and reasons without drawing figure9",
+    "Require30 saved original conservative absolute-quality rows,distinct from paired safety or secondary bootstrap CI",
+    "Hash-bound streaming memory candidate metadata separated from terminal adoption and saved paired causal effects",
+    "Original10 saved endpoint family retained; local-materialized-byte panel remains saved exploratory",
+    "Historical dedicated offline assets exact byte batch copies and incomplete-asset reporting"
+  ],
+  "actual_postrun_work_outstanding": [
+    "Complete real/retrieval termination and actual full/primary/secondary/retrieval analyses",
+    "Run separately reviewed original-reference descriptive helper and actual external semantic-equivalence audit",
+    "Approve and bind complete offline asset/provenance manifest",
+    "Bind final report adapter/plot versions",
+    "Actual saved-schema/numeric verification/rendering/all-image visual QA/offline reproduction"
+  ],
+  "limitations": [
+    "This is source-preparation evidence only,not metric/statistical/equivalence/quality/render PASS.",
+    "No human ratings,agreement,retrospective preselected30 or universal115-indicator certification.",
+    "Fullmetric global FAIL remains blocking; UNKNOWN claim_scope/limits remain visible."
+  ]
+}

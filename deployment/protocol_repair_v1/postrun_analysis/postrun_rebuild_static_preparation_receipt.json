@@ -1,0 +1,132 @@
+{
+  "status": "STATIC_SOURCE_PREPARED_NOT_EXECUTED",
+  "created_utc": "2026-10-20T08:04:58.778972+00:00",
+  "parent_controller_sha256": "cbf017688b1dd5b3be149f8a832b1f98c24b65a736b0016d1b1b677d80801672",
+  "files": {
+    "postrun_rebuild.py": {
+      "sha256": "d1fd3ee66e1c76e7175b9a8e6c373c07d20f810cc4c9b9c7f65d8eb01e9a375b",
+      "bytes": 46974,
+      "AST_syntax": "PASS",
+      "example_approval_matches": true
+    },
+    "offline_analysis_runner.py": {
+      "sha256": "05ff9afb5326a36a5535bc2927ce6a350dd8a332357597c135766d33923a7076",
+      "bytes": 8261,
+      "AST_syntax": "PASS",
+      "example_approval_matches": true
+    },
+    "full_metric_audit.py": {
+      "sha256": "c6a09166d2eede459b907681a02950c3ff8cc683635554b257336b130ef18158",
+      "bytes": 72485,
+      "AST_syntax": "PASS",
+      "example_approval_matches": true
+    },
+    "secondary_heterogeneity.py": {
+      "sha256": "0b3c25faba54d566c105e7faba227f0f1c25807852ea3c550068d023545844e8",
+      "bytes": 32200,
+      "AST_syntax": "PASS",
+      "example_approval_matches": true
+    },
+    "retrieval_postrun_analysis_v1.py": {
+      "sha256": "e73e5633cac1ba3428e0d2b3d145fcff4f94417ea0eb00fb72a29d4a06103524",
+      "bytes": 37400,
+      "AST_syntax": "PASS",
+      "example_approval_matches": true
+    },
+    "original_reference_descriptives.py": {
+      "sha256": "ac37cbe5e4374620a272ec0e92d28a20861677e9b9fdd759341eb46331281a3e",
+      "bytes": 26903,
+      "AST_syntax": "PASS",
+      "example_approval_matches": true
+    },
+    "external_reference_equivalence.py": {
+      "sha256": "78977bf9f560c63ececa63a5f6cec4a9ee58beff6132d395a825f188dfc3a1b5",
+      "bytes": 29799,
+      "AST_syntax": "PASS",
+      "example_approval_matches": true
+    },
+    "saved_report_adapter.py": {
+      "sha256": "bb15f52fc2f727b72e46e4e2a01c19a2fdac4864f80a4ff95f4f7e41a6a05d21",
+      "bytes": 65066,
+      "AST_syntax": "PASS",
+      "example_approval_matches": true
+    },
+    "pure_report_plots.py": {
+      "sha256": "0ba398731fcebb0f05938891d4b13e502ade68b3608e29208e4b891b42885038",
+      "bytes": 10209,
+      "AST_syntax": "PASS",
+      "example_approval_matches": true
+    },
+    "protocol_format_export.py": {
+      "sha256": "9d6ccc5ae632bc5a803d18e4a21c6671b7c41bdc754c52882c219f82701ba229",
+      "bytes": 19883,
+      "AST_syntax": "PASS",
+      "example_approval_matches": true
+    },
+    "postrun_rebuild_job.example.json": {
+      "sha256": "27aecbf4f7fca2e9bc2437aa8465e6a2534d0fd6ac70788b18124628d048de1b",
+      "bytes": 3215,
+      "JSON_syntax": "PASS"
+    },
+    "offline_path_map.example.json": {
+      "sha256": "4a38c43572adc318b9a75e5c6435e8851305c5f3dee14b3e3bd23e7fe43bf883",
+      "bytes": 356,
+      "JSON_syntax": "PASS"
+    },
+    "POSTRUN_REBUILD_USAGE.txt": {
+      "sha256": "22d174da07319bcb8717a3e0cade8cdcab11664cdcf6e473544953e737621bb5",
+      "bytes": 9365
+    }
+  },
+  "diffs": {
+    "postrun_rebuild.py": {
+      "path": "postrun_rebuild.py.diff",
+      "sha256": "e988a117fec53c4b7923681b4674f21f85f4c16c5861f36fffeabc2cfdc1fb04",
+      "bytes": 12679
+    },
+    "postrun_rebuild_job.example.json": {
+      "path": "postrun_rebuild_job.example.json.diff",
+      "sha256": "1efb5f81d61999f7134224d6bb7c0a7ba4f10b342d20480e7d96ae16dc486519",
+      "bytes": 2285
+    },
+    "POSTRUN_REBUILD_USAGE.txt": {
+      "path": "POSTRUN_REBUILD_USAGE.txt.diff",
+      "sha256": "4208b07c478189609e9e31a6617c67b111d0560c8d80e9edb95de27242870c7c",
+      "bytes": 2443
+    }
+  },
+  "limited_static_checks": {
+    "ten_source_AST_syntax": "PASS",
+    "source_approval_hashes": "PASS",
+    "example_JSON_syntax": "PASS",
+    "original_seven_stage_AST_unchanged": "PASS",
+    "original_seven_semantic_gate_branches_AST_unchanged": "PASS",
+    "source_path_mapping_liveness_mount_and_controller_SHA_functions_AST_unchanged": "PASS",
+    "eighth_stage_FORMAT_ROW_TYPE_PRESENCE_PASS_six_unique_tables_6504_rows_and_three_SHA": "SOURCE_CHECKED_NOT_EXECUTED",
+    "format_actual_bytes_match_audit_and_all_bytes_hashes_retained": "SOURCE_CHECKED_NOT_EXECUTED",
+    "format_cross_reference_rebuild_rows_raw_and_three_decoded_SHA": "SOURCE_CHECKED_NOT_EXECUTED",
+    "actual_stage_counts_16_or_8": "PASS"
+  },
+  "scope": [
+    "append reviewed format exporter after unchanged seven stages",
+    "no scientific source/kernel/seed/freeze/raw changes",
+    "format comparison retains value/type/presence and raw/row identity; explicit encoding/path exclusions only",
+    "preserve cbf/example/receipt/usage exact preimages"
+  ],
+  "actual_execution": {
+    "helper_imports_or_runs": 0,
+    "tests": 0,
+    "docker_calls": 0,
+    "model_or_query_calls": 0,
+    "formal_outcome_files_read": 0,
+    "raw_files_read_hashed_or_copied": 0,
+    "statistics_or_rendering_runs": 0,
+    "large_hashes_or_copies": 0
+  },
+  "outstanding": [
+    "actual real/retrieval terminal and process observation",
+    "actual format export and PyArrow dependency compatibility",
+    "actual within-side decoded readback and across-side comparison",
+    "actual numeric and visual QA"
+  ]
+}

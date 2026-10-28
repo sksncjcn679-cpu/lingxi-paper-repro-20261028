@@ -1,0 +1,282 @@
+[
+  {
+    "Id": "785d9823abe99e47716d581339f112ffe11d9da1ae2c843d03b513964499903d",
+    "Created": "2026-10-19T12:37:34.777526569Z",
+    "Path": "sleep",
+    "Args": [
+      "infinity"
+    ],
+    "State": {
+      "Status": "paused",
+      "Running": true,
+      "Paused": true,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 551,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-10-19T12:37:34.909389342Z",
+      "FinishedAt": "0001-01-01T00:00:00Z"
+    },
+    "Image": "sha256:03b3f365bbba13e9f90c70b08bd9aa0002bc69db858c2808cfab8a55d6e184e3",
+    "ResolvConfPath": "/var/lib/docker/containers/785d9823abe99e47716d581339f112ffe11d9da1ae2c843d03b513964499903d/resolv.conf",
+    "HostnamePath": "/var/lib/docker/containers/785d9823abe99e47716d581339f112ffe11d9da1ae2c843d03b513964499903d/hostname",
+    "HostsPath": "/var/lib/docker/containers/785d9823abe99e47716d581339f112ffe11d9da1ae2c843d03b513964499903d/hosts",
+    "LogPath": "/var/lib/docker/containers/785d9823abe99e47716d581339f112ffe11d9da1ae2c843d03b513964499903d/785d9823abe99e47716d581339f112ffe11d9da1ae2c843d03b513964499903d-json.log",
+    "Name": "/lingxi-openeuler-2403",
+    "RestartCount": 0,
+    "Driver": "overlayfs",
+    "Platform": "linux",
+    "MountLabel": "",
+    "ProcessLabel": "",
+    "AppArmorProfile": "",
+    "ExecIDs": null,
+    "HostConfig": {
+      "Binds": null,
+      "ContainerIDFile": "",
+      "LogConfig": {
+        "Type": "json-file",
+        "Config": {}
+      },
+      "NetworkMode": "bridge",
+      "PortBindings": {},
+      "RestartPolicy": {
+        "Name": "no",
+        "MaximumRetryCount": 0
+      },
+      "AutoRemove": false,
+      "VolumeDriver": "",
+      "VolumesFrom": null,
+      "ConsoleSize": [
+        0,
+        0
+      ],
+      "CapAdd": null,
+      "CapDrop": null,
+      "CgroupnsMode": "private",
+      "Dns": [],
+      "DnsOptions": [],
+      "DnsSearch": [],
+      "ExtraHosts": null,
+      "GroupAdd": null,
+      "IpcMode": "private",
+      "Cgroup": "",
+      "Links": null,
+      "OomScoreAdj": 0,
+      "PidMode": "",
+      "Privileged": false,
+      "PublishAllPorts": false,
+      "ReadonlyRootfs": false,
+      "SecurityOpt": null,
+      "UTSMode": "",
+      "UsernsMode": "",
+      "ShmSize": 268435456,
+      "Runtime": "runc",
+      "Isolation": "",
+      "CpuShares": 0,
+      "Memory": 2147483648,
+      "NanoCpus": 2000000000,
+      "CgroupParent": "",
+      "BlkioWeight": 0,
+      "BlkioWeightDevice": [],
+      "BlkioDeviceReadBps": [],
+      "BlkioDeviceWriteBps": [],
+      "BlkioDeviceReadIOps": [],
+      "BlkioDeviceWriteIOps": [],
+      "CpuPeriod": 0,
+      "CpuQuota": 0,
+      "CpuRealtimePeriod": 0,
+      "CpuRealtimeRuntime": 0,
+      "CpusetCpus": "",
+      "CpusetMems": "",
+      "Devices": [],
+      "DeviceCgroupRules": null,
+      "DeviceRequests": null,
+      "MemoryReservation": 0,
+      "MemorySwap": 3221225472,
+      "MemorySwappiness": null,
+      "OomKillDisable": null,
+      "PidsLimit": 512,
+      "Ulimits": [],
+      "CpuCount": 0,
+      "CpuPercent": 0,
+      "IOMaximumIOps": 0,
+      "IOMaximumBandwidth": 0,
+      "Mounts": [
+        {
+          "Type": "volume",
+          "Source": "lingxi-openeuler-data",
+          "Target": "/opt/lingxi"
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/f/codex/多agent系统架构-软件学报/.local/openeuler-bootstrap",
+          "Target": "/bootstrap",
+          "ReadOnly": true
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/f/codex/多agent系统架构-软件学报/deployment",
+          "Target": "/drivers",
+          "ReadOnly": true
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/f/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot",
+          "Target": "/evidence"
+        },
+        {
+          "Type": "bind",
+          "Source": "/run/desktop/mnt/host/f/codex/多agent系统架构-软件学报/.env",
+          "Target": "/run/secrets/model.env",
+          "ReadOnly": true
+        }
+      ],
+      "MaskedPaths": [
+        "/proc/asound",
+        "/proc/acpi",
+        "/proc/interrupts",
+        "/proc/kcore",
+        "/proc/keys",
+        "/proc/latency_stats",
+        "/proc/timer_list",
+        "/proc/timer_stats",
+        "/proc/sched_debug",
+        "/proc/scsi",
+        "/sys/firmware",
+        "/sys/devices/virtual/powercap"
+      ],
+      "ReadonlyPaths": [
+        "/proc/bus",
+        "/proc/fs",
+        "/proc/irq",
+        "/proc/sys",
+        "/proc/sysrq-trigger"
+      ],
+      "Init": true
+    },
+    "GraphDriver": {
+      "Data": null,
+      "Name": "overlayfs"
+    },
+    "Mounts": [
+      {
+        "Type": "bind",
+        "Source": "/run/desktop/mnt/host/f/codex/多agent系统架构-软件学报/deployment",
+        "Destination": "/drivers",
+        "Mode": "",
+        "RW": false,
+        "Propagation": "rprivate"
+      },
+      {
+        "Type": "bind",
+        "Source": "/run/desktop/mnt/host/f/codex/多agent系统架构-软件学报/paper_experiments_20261019_pilot",
+        "Destination": "/evidence",
+        "Mode": "",
+        "RW": true,
+        "Propagation": "rprivate"
+      },
+      {
+        "Type": "bind",
+        "Source": "/run/desktop/mnt/host/f/codex/多agent系统架构-软件学报/.env",
+        "Destination": "/run/secrets/model.env",
+        "Mode": "",
+        "RW": false,
+        "Propagation": "rprivate"
+      },
+      {
+        "Type": "volume",
+        "Name": "lingxi-openeuler-data",
+        "Source": "/var/lib/docker/volumes/lingxi-openeuler-data/_data",
+        "Destination": "/opt/lingxi",
+        "Driver": "local",
+        "Mode": "z",
+        "RW": true,
+        "Propagation": ""
+      },
+      {
+        "Type": "bind",
+        "Source": "/run/desktop/mnt/host/f/codex/多agent系统架构-软件学报/.local/openeuler-bootstrap",
+        "Destination": "/bootstrap",
+        "Mode": "",
+        "RW": false,
+        "Propagation": "rprivate"
+      }
+    ],
+    "Config": {
+      "Hostname": "785d9823abe9",
+      "Domainname": "",
+      "User": "",
+      "AttachStdin": false,
+      "AttachStdout": true,
+      "AttachStderr": true,
+      "Tty": false,
+      "OpenStdin": false,
+      "StdinOnce": false,
+      "Env": [
+        "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+      ],
+      "Cmd": [
+        "sleep",
+        "infinity"
+      ],
+      "Image": "openeuler/openeuler@sha256:03b3f365bbba13e9f90c70b08bd9aa0002bc69db858c2808cfab8a55d6e184e3",
+      "Volumes": null,
+      "WorkingDir": "/opt/lingxi/checkout",
+      "Entrypoint": null,
+      "OnBuild": null,
+      "Labels": {
+        "lingxi.workspace": "F:\\codex\\多agent系统架构-软件学报"
+      },
+      "StopTimeout": 1
+    },
+    "NetworkSettings": {
+      "Bridge": "",
+      "SandboxID": "6a38faac5412c2a87320b23e5d12e71fcc5c5ce015fe6e8730c6e54de8ae95dc",
+      "SandboxKey": "/var/run/docker/netns/6a38faac5412",
+      "Ports": {},
+      "HairpinMode": false,
+      "LinkLocalIPv6Address": "",
+      "LinkLocalIPv6PrefixLen": 0,
+      "SecondaryIPAddresses": null,
+      "SecondaryIPv6Addresses": null,
+      "EndpointID": "9b034ef97fd68d1c21a5b56472e601218d5e305df855836524b9ed2e6bddd238",
+      "Gateway": "172.17.0.1",
+      "GlobalIPv6Address": "",
+      "GlobalIPv6PrefixLen": 0,
+      "IPAddress": "172.17.0.2",
+      "IPPrefixLen": 16,
+      "IPv6Gateway": "",
+      "MacAddress": "92:9c:7c:01:0e:9c",
+      "Networks": {
+        "bridge": {
+          "IPAMConfig": null,
+          "Links": null,
+          "Aliases": null,
+          "MacAddress": "92:9c:7c:01:0e:9c",
+          "DriverOpts": null,
+          "GwPriority": 0,
+          "NetworkID": "5226c6c8cc1522eca1070704cd714d59480f2db0bb1d2e705e2d0093fad16b02",
+          "EndpointID": "9b034ef97fd68d1c21a5b56472e601218d5e305df855836524b9ed2e6bddd238",
+          "Gateway": "172.17.0.1",
+          "IPAddress": "172.17.0.2",
+          "IPPrefixLen": 16,
+          "IPv6Gateway": "",
+          "GlobalIPv6Address": "",
+          "GlobalIPv6PrefixLen": 0,
+          "DNSNames": null
+        }
+      }
+    },
+    "ImageManifestDescriptor": {
+      "mediaType": "application/vnd.oci.image.manifest.v1+json",
+      "digest": "sha256:fd7ab12b06f9f7dca69e78f41d41177fcd34e4535891a59a490347f1d399e040",
+      "size": 671,
+      "platform": {
+        "architecture": "amd64",
+        "os": "linux"
+      }
+    }
+  }
+]

@@ -1,0 +1,336 @@
+{
+  "equation_format": "Five original equations are drawing-backed images, not OMML; preserve original paragraphs/relationships/media without recomposition.",
+  "operation_order": [
+    "Copy immutable old historical blocks to appendix before replacing their original slots.",
+    "Replace reviewed prose/tables, then insert actual Chinese figures and captions.",
+    "Keep all author/affiliation/email/classification fields, original equations and references unchanged.",
+    "Create a fresh DOCX only after actual main terminal; marker then author, render every page, inspect every page and iterate."
+  ],
+  "original_author_metadata_placeholders": "Preserve exactly per root instruction; disclose unfilled original author metadata at delivery, do not fabricate or block. Only new experimental prose/numbers must be final, not placeholders.",
+  "pending_inputs": [
+    "actual new-main audited primary analysis JSON and immutable SHA",
+    "actual terminal/completeness and accounting/billing evidence",
+    "actual final Chinese figure10/11/12/13 PNG paths and SHA",
+    "reviewed complete final-patch-v1 JSON prose/table rows; no unfinished experimental numbers"
+  ],
+  "positions": [
+    {
+      "rule": "Replace historical headline numbers with the new independent replication only after actual audited analysis; state quality/IPC/token/wall without assumed direction.",
+      "section": "abstracts",
+      "source_slots": [
+        {
+          "kind": "paragraph",
+          "source_text_prefix": "摘  要：多智能体协作通过角色分工处理复杂任务，但上下文传递、非文本状态交接与跨任务记忆复用会增加系统开销。现有研究常分别优化消息、状态或检索，难以识别各机制对任务质量与成本的独立作用。本文提出结构化控制消息、引用式状态",
+          "source_text_sha256": "9247de62cdabe14d2da55e3f8fe1199d93c6beb9c70ea7db0743ea9b95e66939",
+          "style": "摘要",
+          "unit": "B0006"
+        },
+        {
+          "kind": "paragraph",
+          "source_text_prefix": "Abstract:  Role-based multi-agent collaboration incurs costs in context transfer, non-text state handoff, and ",
+          "source_text_sha256": "3bf3ad116101aa6e3a82010c58d82218c9a8d234c29df1fd64a8ddbe2351f6bf",
+          "style": "Abstract",
+          "unit": "B0012"
+        }
+      ]
+    },
+    {
+      "rule": "Separate historical formal_20261019, corrected protocol_repair_20261020_v1, and new completion_20261021 replication. New main 2160 and six calibration units are distinct; do not pool or enter calibration into inference.",
+      "section": "4.1 population environment and evidence identity",
+      "source_slots": [
+        {
+          "kind": "paragraph",
+          "source_text_prefix": "实验任务以服务、迁移、资源、网络权限四域的受控诊断与动作选择为范围。纠错后的语料共有144项任务、24条链，其中公开试运行24项/4链，正式估计120项/20链；输出由24类预先固定的诊断—动作契约及只读检查器判定。生成",
+          "source_text_sha256": "28c4d4483005bdddae745b0e1a7933cedddbdc5391cef86c0af11a37ef03ccb5",
+          "style": "样式1",
+          "unit": "B0056"
+        },
+        {
+          "kind": "table",
+          "source_text_prefix": "项目 | 冻结或记录值 | 解释边界\n新任务语料 | 144任务/24链；正式120/20；4域 | 受控诊断—动作契约，不代表真实生产故障\n主模型 | qwen3.7-plus；temperature=0，max_to",
+          "source_text_sha256": "00aec29cce8e62d5d00ec760c370f1b35a6d6f9a5df3f593f55856221f746934",
+          "style": null,
+          "unit": "B0058"
+        },
+        {
+          "kind": "paragraph",
+          "source_text_prefix": "模型请求经同一端点与超时策略，最多3次尝试。所有计划单元，包括模型失败和业务验证失败，都进入任务质量分母。API尝试次数、已知token、未知usage和重试时延分别保留，不能把未知账单设为零。对外部AutoGen、La",
+          "source_text_sha256": "d181aaf6ad104b0a7714f30bf89acf57563e1c7a5d86871d3a34f9cbce944b5d",
+          "style": "样式1",
+          "unit": "B0059"
+        }
+      ]
+    },
+    {
+      "rule": "Keep equation B0063. Bind the actual frozen new-main method/family and completeness; old five token endpoints stay INCOMPLETE. State automatic scoring and NI limits. Costs for both-success subsets remain auxiliary selection-biased results.",
+      "section": "4.2 endpoints and methods",
+      "source_slots": [
+        {
+          "kind": "paragraph",
+          "source_text_prefix": "任务质量以验证器成功率及失败类型为主，另报告按整条任务链重采样的区间。成本终点包括provider输入/输出token、Agent通信token、可观测IPC字节、本地状态新增物化字节、逻辑状态字节、调用次数、端到端wa",
+          "source_text_sha256": "f5867827980bdce7f3dbf02febe958e725868f158a9b6a1f1784cd4d7efd965c",
+          "style": "样式1",
+          "unit": "B0061"
+        },
+        {
+          "kind": "paragraph",
+          "source_text_prefix": "主分析先在同一任务内平均重复，再在四域内按整链做10,000次bootstrap，以保留链内相关性[27]。对组别a、b，先求每个任务在m次重复上的均值，再按式(5)估计配对绝对差及相对变化。X表示某一观测终点，N为该比",
+          "source_text_sha256": "4a9aa44b7e3d37632ab1ae9339f7d67c8c96c0e2ee0565c73dfa1398576e14b6",
+          "style": "样式1",
+          "unit": "B0062"
+        },
+        {
+          "kind": "paragraph",
+          "source_text_prefix": "五个配对比较对应输入token和可观测IPC两个主要成本终点，预先指定10项主要成本假设，并采用Holm方法控制多重比较[28]。其中涉及SS0输入token的2项因usage缺失未估计，本文不报告该两项的显著性结论。任",
+          "source_text_sha256": "12f27ce2d596875b531d776a56c3233a2daeb7e151694ef6b859a18c99298a94",
+          "style": "样式1",
+          "unit": "B0064"
+        }
+      ]
+    },
+    {
+      "rule": "Replace stale pending snapshot with actually completed replication status, planned denominators/repeats/state108 and observed completeness; no success claim before actual audit.",
+      "section": "5.1 new independent main",
+      "source_slots": [
+        {
+          "kind": "paragraph",
+          "source_text_prefix": "5.1新批次采集状态与主效应边界",
+          "source_text_sha256": "7f24c070006981dc36af8db0728361f128592a6452d61e1b92b3300f68f972d0",
+          "style": "heading 2",
+          "unit": "B0068"
+        },
+        {
+          "kind": "paragraph",
+          "source_text_prefix": "截至2026年10月20日19:34的阶段快照，新纠错批次已有6,360个正式真实模型单元终态，公开试运行144个单元终态；合计6,504个终态和6,578次provider尝试。公开试运行成功109/144，但该集合不",
+          "source_text_sha256": "f21a52f12babd7648dad4ac17824d1da703c4c69ab89076a917c7e676175d449",
+          "style": "样式1",
+          "unit": "B0069"
+        }
+      ]
+    },
+    {
+      "rule": "Copy original historical table3/table4 and explanatory text to Appendix A before replacing main slots. Original corrected-batch findings remain separate robustness context; IPC is observable runtime IPC, main runtime_uds/processes=false, multiprocess counterexample retained.",
+      "section": "5.2 main pairs and observed groups",
+      "source_slots": [
+        {
+          "kind": "paragraph",
+          "source_text_prefix": "5.2历史真实模型观察：表示、状态与端到端代价",
+          "source_text_sha256": "b7c24ab1943572d1553afbd621857b70350930a04fc9e26978c9084941b2e3ed",
+          "style": "heading 2",
+          "unit": "B0070"
+        },
+        {
+          "kind": "paragraph",
+          "source_text_prefix": "表3报告历史旧语料的五个配对比较。每组包含120项任务的3次重复，共360个终态；状态增量比较按预定108项状态适用任务计算，共324个配对单元。各区间由整链分层bootstrap得到，为探索性描述区间。结构化表示的控制",
+          "source_text_sha256": "f480bb5b5a78805372b709cc5826191ce3747b7f0031256650c9192cea2fe663",
+          "style": "样式1",
+          "unit": "B0071"
+        },
+        {
+          "kind": "paragraph",
+          "source_text_prefix": "表3　历史旧语料探索性配对结果；非纠错后主效应，方括号为95%置信区间",
+          "source_text_sha256": "4397b97450646a23bf9bfbd041a28334172fa0e84041af1733f34828742d9ce3",
+          "style": "Body Text",
+          "unit": "B0072"
+        },
+        {
+          "kind": "table",
+          "source_text_prefix": "配对 | 成功率差/百分点 | 输入token变化/% | 可观测IPC变化/% | 新增物化差/B | wall time变化/%\nT0→S0 | +0.833\n[0,+2.500] | −12.482\n[−12.52",
+          "source_text_sha256": "33defc85e42251f4d9d23f14d8985615fdf5da2ec62dcc232641226f6930e300",
+          "style": null,
+          "unit": "B0073"
+        },
+        {
+          "kind": "paragraph",
+          "source_text_prefix": "表3中的成本百分比以各配对基线组的任务均值为分母；物化差为每任务新增物化字节的绝对差。SS0存在未知provider输入用量，两个涉及SS0的token终点均保持不可估计。成功率区间是描述性区间，未据此作质量不劣断言。状",
+          "source_text_sha256": "af3a5a5359d454c4c5765df02d974d9d3ce03827fc17cbc15623742dc14b8ff7",
+          "style": "样式1",
+          "unit": "B0074"
+        },
+        {
+          "kind": "paragraph",
+          "source_text_prefix": "表4汇总旧语料上每组六个配置各360个终态单元的观察均值。T0→S0的输入token从783.525降至685.728，相对变化为−12.48%；T0→SS1的可观测IPC从13,510.033 B降至1,658.197",
+          "source_text_sha256": "35ac33d98273979ae9c2419f44f3f7bfff5cdf8461d59aa73562101cb34297e0",
+          "style": "样式1",
+          "unit": "B0075"
+        },
+        {
+          "kind": "paragraph",
+          "source_text_prefix": "表4　旧批次真实模型六组观察；formal_20261019，每组360单元，非新批次主结论",
+          "source_text_sha256": "67ab0341c31aeed44c02f97d7fc35e5876e0d599178ec0bd05713a7ff83a5f1f",
+          "style": "Body Text",
+          "unit": "B0076"
+        },
+        {
+          "kind": "table",
+          "source_text_prefix": "组别 | 成功率/% | 输入token/任务 | 可观测IPC B/任务 | 平均wall s/任务 | 输入token完整性\nT0 | 99.17 | 783.525 | 13,510.033 | 1.705 | 已",
+          "source_text_sha256": "ad47385b0e1141dfa680e85a333c01910bca777e22821fbca20e3c1c831c9bde",
+          "style": null,
+          "unit": "B0077"
+        },
+        {
+          "kind": "paragraph",
+          "source_text_prefix": "这些值仅说明固定旧任务上的系统行为。旧链中91/360对祖先任务的标准答案重复，不能据此证明非重复知识的跨任务迁移；旧批次发生的414次失败尝试存在usage缺口。更重要的是，同进程条件下的状态引用字节优势并未在多进程R",
+          "source_text_sha256": "954435e570ded2c64d0d17c13116e449299bfc821e5f696e7b79c12fc0d818f4",
+          "style": "样式1",
+          "unit": "B0078"
+        }
+      ]
+    },
+    {
+      "rule": "Replace stale retrieval pending claim using 14346 recorded /14400 planned with54 capacity-stopped missing; never zero-fill. Keep wrong-memory negative findings and candidate/store/adoption denominators. Add initialization-only720 seed measurements without model/Agent task or historical backfill claims.",
+      "section": "5.4 retrieval memory seed",
+      "source_slots": [
+        {
+          "kind": "paragraph",
+          "source_text_prefix": "历史纠正版离线检索使用240条不同文本查询，其中160条有答案、80条无答案；四档候选池、五种模式、三次独立建库合计14,400次查询执行。在20,000规模候选池，hybrid的Recall@10只有0.0681，带预",
+          "source_text_sha256": "5a21c8abe12f5979e27b27d882f2098304ab57edefe75db8a56a8aa25846987d",
+          "style": "样式1",
+          "unit": "B0089"
+        },
+        {
+          "kind": "paragraph",
+          "source_text_prefix": "表6　历史离线检索在20,000候选池上的结果；每模式720查询执行",
+          "source_text_sha256": "036d43e7cbb43feb93f5d2e62c9a55c04e86cece0d641a98ebf40de011716b8b",
+          "style": "Body Text",
+          "unit": "B0090"
+        },
+        {
+          "kind": "table",
+          "source_text_prefix": "模式 | 有答案查询Recall@10 | 无答案误检率 | 拒用率 | 查询p95/ms | 解释限制\nsemantic | 0.0438 | 1.000 | 0 | 72.3 | 稠密召回，旧合成语料\nkeyword",
+          "source_text_sha256": "5dc28c5eaf70cc672cfa465caca794dddc3cceba9ff0a37354a273eb93a148e2",
+          "style": null,
+          "unit": "B0091"
+        },
+        {
+          "kind": "paragraph",
+          "source_text_prefix": "旧真实模型记忆条件实验同样呈现明显负面边界：错误程序性记忆条件成功0/180，而空记忆条件为176/180。该结果不应反写为“记忆总体有益”；相关、过时和无关记忆的差异需要按同任务配对并结合实际采用轨迹解释。旧主实验中“",
+          "source_text_sha256": "9a0778d8586a2853e71f4965526845860551c0a3dd82a6cd0d4e17f942c71872",
+          "style": "样式1",
+          "unit": "B0092"
+        }
+      ]
+    },
+    {
+      "rule": "Retain original point values/30 cells/58590 fixture tasks and original throughput CIs; label newly added p95 and byte/proxy-token CIs as postcollection batch-resampling, not initially frozen primary analysis or coefficient CIs.",
+      "section": "5.5 postcollection pressure intervals",
+      "source_slots": [
+        {
+          "kind": "paragraph",
+          "source_text_prefix": "图4来自固定SS1四角色、无真实模型调用的离线压力实验。链长取1、2、4、8、16、32，并发取1、2、4、8、16，每因子单元30个批次，共记录58,590次fixture任务执行。吞吐区间按独立批次重采样；任务p95",
+          "source_text_sha256": "49338817e545b3df0f8f89a7c2f1f3cca07bf5d66fa9cb7cb7fd355c5a247633",
+          "style": "样式1",
+          "unit": "B0097"
+        },
+        {
+          "kind": "paragraph",
+          "source_text_prefix": "图4　历史独立离线链长与并发压力。固定四角色与本地确定性fixture；通信只计原生frame/ACK，不含真实模型token；来源为formal_20261019。",
+          "source_text_sha256": "a27917bb96839d472b61aa67acfe741af42a02826dadfb8720ecd50d048df749",
+          "style": "Body Text",
+          "unit": "B0099"
+        }
+      ]
+    },
+    {
+      "rule": "Remove stale audit-awaiting statements and unsupported historical effect headline; distinguish independent batches, automatic contract scope, token completeness, topology and resource boundaries, NI withheld/quality loss and no assumed acceleration. Bind actual delivery status only.",
+      "section": "6 limitations and7 conclusion",
+      "source_slots": [
+        {
+          "kind": "paragraph",
+          "source_text_prefix": "从现有证据看，结构化控制消息能够改变控制面开销，状态引用是否有收益则受载荷大小、冷热状态和进程拓扑影响；检索返回、实际采用与净任务收益之间仍存在断层。因而论文主张应限定为“提供可分解的机制及其测量框架，并识别条件边界”。",
+          "source_text_sha256": "05e922ce8b2942f1479fd4215f3f602baa14e3ecc15e27b12fbe923e410da711",
+          "style": "样式1",
+          "unit": "B0101"
+        },
+        {
+          "kind": "paragraph",
+          "source_text_prefix": "内部有效性的首要风险是任务语义与对照工作量是否一致。旧语料的祖先答案重复已促使重新构造事实、动作契约与记忆池；这意味着旧T0与新SS1绝不可拼接成配对。自动验证虽可稳定执行，但只覆盖固定诊断—动作集合和只读检查，不评价人",
+          "source_text_sha256": "14163f85b00ccd25a82b21a70a992c352c860ea189d77f28f72b647525cbc3b3",
+          "style": "样式1",
+          "unit": "B0102"
+        },
+        {
+          "kind": "paragraph",
+          "source_text_prefix": "测量有效性方面，provider失败尝试的usage和真实费用可能不可得；本地SDK等待包含客户端编解码与插桩，不能解释成纯推理或排队时延。可观测IPC、本地物化和逻辑载荷不得相加冒称“物理网络流量”；进程组RSS可能重",
+          "source_text_sha256": "4b2a9b0c804335ae9dffad6d05c32de30e0174eaf1cf0aa37f60d1a6a93f02fa",
+          "style": "样式1",
+          "unit": "B0103"
+        },
+        {
+          "kind": "paragraph",
+          "source_text_prefix": "本文围绕多智能体协作中的三类成本提出统一的结构化消息、非文本状态引用和共享记忆溯源反馈机制，并以3×2对照设计分解表示、状态和记忆的增量影响。历史独立机制实验显示，状态传输存在明显的载荷与冷热条件阈值，精度压缩需检查接收",
+          "source_text_sha256": "6dab6492622633c9452afeec6fd7fc3a49140ef4071a31b75a1b59a8054a112b",
+          "style": "样式1",
+          "unit": "B0105"
+        }
+      ]
+    }
+  ],
+  "proposed_minimal_figure_placement": [
+    {
+      "article_figure": 1,
+      "location": "existing B0029/B0030",
+      "source": "retained Chinese method figure01"
+    },
+    {
+      "article_figure": 2,
+      "location": "5.2 after main pair result table",
+      "source": "new Chinese figure10 main effects"
+    },
+    {
+      "article_figure": 3,
+      "location": "5.2 after new group means",
+      "source": "new Chinese figure11 timing decomposition"
+    },
+    {
+      "article_figure": 4,
+      "location": "B0081/B0082; B0080 cross-reference becomes图4",
+      "source": "retained Chinese figure05 state paths"
+    },
+    {
+      "article_figure": 5,
+      "location": "B0084/B0085; B0083 cross-reference becomes图5",
+      "source": "retained Chinese figure06 quantization"
+    },
+    {
+      "article_figure": 6,
+      "location": "5.4 after B0092; no Agent/model task quality implication",
+      "source": "new Chinese figure12 seed initialization-only measurements"
+    },
+    {
+      "article_figure": 7,
+      "location": "B0098/B0099; B0097 cross-reference becomes图7",
+      "source": "new Chinese figure13 original pressure points plus postcollectionCI"
+    }
+  ],
+  "protected_equation_unit": "B0063",
+  "protected_equation_units": [
+    "B0032",
+    "B0037",
+    "B0043",
+    "B0048",
+    "B0063"
+  ],
+  "protected_references_from_unit": "B0106",
+  "protected_source_metadata_units": [
+    "B0000",
+    "B0001",
+    "B0003",
+    "B0004",
+    "B0005",
+    "B0008",
+    "B0010",
+    "B0011"
+  ],
+  "schema_version": "manuscript-update-preparation-v1",
+  "source_docx": {
+    "bytes": 5436623,
+    "path": "E:\\xwechat_files\\wxid_isc4w98f5mlm22_5004\\msg\\file\\2026-10\\面向多智能体协作的结构化通信、状态交换与共享记忆机制_排版复核稿.docx",
+    "sha256": "18ca54fe5a69f8abeb3c20644bcad55cf6a19798afd0059d88c0fd1000d30289"
+  },
+  "status": "PREPARED_SOURCE_ONLY_NOT_AUTHORED",
+  "units_input": {
+    "path": "F:\\codex\\多agent系统架构-软件学报\\.local\\manuscript_gap_review_20261021_v1\\manuscript_units.json",
+    "sha256": "82db0ad2636b6da1a7b6bedfc3e4db2bdedb03f56aa307376307fd5eb6993ed6"
+  }
+}

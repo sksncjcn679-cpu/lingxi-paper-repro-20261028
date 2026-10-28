@@ -1,0 +1,77 @@
+{
+  "schema_version": "full-audit-index-correction-v2",
+  "created_utc": "2026-10-20T10:28:45.970096+00:00",
+  "status": "NARROW_SQL_INDEX_FIX_REVIEWED_NOT_FULL_STUDY_AUDIT",
+  "observed_problem": "actual Linux SQLite chose file primary key for per-run ordered lookup",
+  "actual_stopped_run": "analysis/full_metric_audit_v1",
+  "actual_stopped_exit_code": 1,
+  "stopped_finding": "AUDITOR_EXCEPTION_RETAINED / KeyboardInterrupt",
+  "new_run_version": "full_metric_audit_v2",
+  "audit_only_byte_replacement_reversible": true,
+  "science_and_frozen_inputs_changed": false,
+  "memory_sqlite_result_equivalence_cases": 4,
+  "query_plans": {
+    "legacy": [
+      [
+        4,
+        0,
+        0,
+        "SEARCH metadata USING INDEX sqlite_autoindex_metadata_1 (file=?)"
+      ]
+    ],
+    "indexed": [
+      [
+        4,
+        0,
+        0,
+        "SEARCH metadata USING INDEX by_unit (run_id=? AND file=?)"
+      ],
+      [
+        18,
+        0,
+        0,
+        "USE TEMP B-TREE FOR ORDER BY"
+      ]
+    ]
+  },
+  "independent_reviewer": "/root/pilot_gate_review",
+  "files": {
+    "full_metric_audit.py": {
+      "parent_sha256": "c6a09166d2eede459b907681a02950c3ff8cc683635554b257336b130ef18158",
+      "new_sha256": "0d9a564522c8e61bf9ed19c143ad7a452415ae721d349fc62aaef79edfbc34cf",
+      "new_bytes": 72541
+    },
+    "original_reference_descriptives.py": {
+      "parent_sha256": "ac37cbe5e4374620a272ec0e92d28a20861677e9b9fdd759341eb46331281a3e",
+      "new_sha256": "553a25fb1f0599960967e0153fde87ca8bad332c2d6cb9f4a0577cb1e584d79f",
+      "new_bytes": 26903
+    },
+    "external_reference_equivalence.py": {
+      "parent_sha256": "78977bf9f560c63ececa63a5f6cec4a9ee58beff6132d395a825f188dfc3a1b5",
+      "new_sha256": "9f73ccbccebacb16230d350ad9c987ad4f1e943ff139e03a17c9b1873afaaf0a",
+      "new_bytes": 29799
+    },
+    "postrun_rebuild.py": {
+      "parent_sha256": "d1fd3ee66e1c76e7175b9a8e6c373c07d20f810cc4c9b9c7f65d8eb01e9a375b",
+      "new_sha256": "90b5d5312e695ed11e19b39d6031669aac068fa271526a6af63e1e70756762dc",
+      "new_bytes": 46974
+    },
+    "postrun_rebuild_job.example.json": {
+      "parent_sha256": "27aecbf4f7fca2e9bc2437aa8465e6a2534d0fd6ac70788b18124628d048de1b",
+      "new_sha256": "badfaefff3563f39281bfd1a7fb43f41f2edc204b26afeb3a6fedd142d613dee",
+      "new_bytes": 3215
+    },
+    "POSTRUN_REBUILD_USAGE.txt": {
+      "parent_sha256": "22d174da07319bcb8717a3e0cade8cdcab11664cdcf6e473544953e737621bb5",
+      "new_sha256": "229201a17f49dc00ca3ddf5c95a6c11467dc739e90312db9c0fd73d87825c36a",
+      "new_bytes": 9370
+    }
+  },
+  "original_c6_schema_fixture_29_cases_remain_valid_scope": "all audited pure-rule functions byte-identical; SQL selection optimization only, not a new full audit result",
+  "not_claimed": [
+    "new full audit completion",
+    "all115semanticindicators",
+    "statistical outputs",
+    "retrieval execution"
+  ]
+}
